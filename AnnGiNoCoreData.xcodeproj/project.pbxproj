@@ -7,6 +7,14 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		631739C31BA9374100242094 /* InitialInformationViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 631739C21BA9374100242094 /* InitialInformationViewController.swift */; };
+		631739C51BA937CA00242094 /* HintOnceViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 631739C41BA937CA00242094 /* HintOnceViewController.swift */; };
+		631739C71BA938EF00242094 /* FirstPartStartViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 631739C61BA938EF00242094 /* FirstPartStartViewController.swift */; };
+		631739C91BA93A1500242094 /* SexPickerViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 631739C81BA93A1500242094 /* SexPickerViewController.swift */; };
+		631739CB1BA93EEF00242094 /* AgeViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 631739CA1BA93EEF00242094 /* AgeViewController.swift */; };
+		631739CD1BA94F8600242094 /* EducationalBackgroundPickerViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 631739CC1BA94F8600242094 /* EducationalBackgroundPickerViewController.swift */; };
+		631739CF1BA9526C00242094 /* CompanyLevelViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 631739CE1BA9526C00242094 /* CompanyLevelViewController.swift */; };
+		631739D11BA9546E00242094 /* DepartmentPickerViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 631739D01BA9546E00242094 /* DepartmentPickerViewController.swift */; };
 		63E61E871BA685CA009F50DA /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 63E61E861BA685CA009F50DA /* AppDelegate.swift */; };
 		63E61E891BA685CA009F50DA /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 63E61E881BA685CA009F50DA /* ViewController.swift */; };
 		63E61E8C1BA685CA009F50DA /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 63E61E8A1BA685CA009F50DA /* Main.storyboard */; };
@@ -45,6 +53,14 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		631739C21BA9374100242094 /* InitialInformationViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = InitialInformationViewController.swift; sourceTree = "<group>"; };
+		631739C41BA937CA00242094 /* HintOnceViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = HintOnceViewController.swift; sourceTree = "<group>"; };
+		631739C61BA938EF00242094 /* FirstPartStartViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = FirstPartStartViewController.swift; sourceTree = "<group>"; };
+		631739C81BA93A1500242094 /* SexPickerViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SexPickerViewController.swift; sourceTree = "<group>"; };
+		631739CA1BA93EEF00242094 /* AgeViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = AgeViewController.swift; sourceTree = "<group>"; };
+		631739CC1BA94F8600242094 /* EducationalBackgroundPickerViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = EducationalBackgroundPickerViewController.swift; sourceTree = "<group>"; };
+		631739CE1BA9526C00242094 /* CompanyLevelViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CompanyLevelViewController.swift; sourceTree = "<group>"; };
+		631739D01BA9546E00242094 /* DepartmentPickerViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = DepartmentPickerViewController.swift; sourceTree = "<group>"; };
 		63E61E811BA685CA009F50DA /* AnnGiNoCoreData.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = AnnGiNoCoreData.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		63E61E851BA685CA009F50DA /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		63E61E861BA685CA009F50DA /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
@@ -148,6 +164,14 @@
 				63FFC86D1BA6888F0029FC56 /* TestObject.swift */,
 				63E61E881BA685CA009F50DA /* ViewController.swift */,
 				63E61E8A1BA685CA009F50DA /* Main.storyboard */,
+				631739D01BA9546E00242094 /* DepartmentPickerViewController.swift */,
+				631739CE1BA9526C00242094 /* CompanyLevelViewController.swift */,
+				631739CC1BA94F8600242094 /* EducationalBackgroundPickerViewController.swift */,
+				631739CA1BA93EEF00242094 /* AgeViewController.swift */,
+				631739C41BA937CA00242094 /* HintOnceViewController.swift */,
+				631739C61BA938EF00242094 /* FirstPartStartViewController.swift */,
+				631739C81BA93A1500242094 /* SexPickerViewController.swift */,
+				631739C21BA9374100242094 /* InitialInformationViewController.swift */,
 				63E61E8D1BA685CA009F50DA /* Images.xcassets */,
 				63E61E8F1BA685CA009F50DA /* LaunchScreen.xib */,
 				63E61EA61BA685E4009F50DA /* Bolts.framework */,
@@ -288,9 +312,17 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				631739C31BA9374100242094 /* InitialInformationViewController.swift in Sources */,
+				631739D11BA9546E00242094 /* DepartmentPickerViewController.swift in Sources */,
 				63FFC86E1BA6888F0029FC56 /* TestObject.swift in Sources */,
 				63E61E891BA685CA009F50DA /* ViewController.swift in Sources */,
+				631739C71BA938EF00242094 /* FirstPartStartViewController.swift in Sources */,
 				63E61E871BA685CA009F50DA /* AppDelegate.swift in Sources */,
+				631739CD1BA94F8600242094 /* EducationalBackgroundPickerViewController.swift in Sources */,
+				631739CF1BA9526C00242094 /* CompanyLevelViewController.swift in Sources */,
+				631739C91BA93A1500242094 /* SexPickerViewController.swift in Sources */,
+				631739CB1BA93EEF00242094 /* AgeViewController.swift in Sources */,
+				631739C51BA937CA00242094 /* HintOnceViewController.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
