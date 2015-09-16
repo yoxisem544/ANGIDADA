@@ -7,6 +7,8 @@
 //
 
 import UIKit
+import Parse
+import Bolts
 
 @UIApplicationMain
 class AppDelegate: UIResponder, UIApplicationDelegate {
@@ -16,6 +18,20 @@ class AppDelegate: UIResponder, UIApplicationDelegate {
 
     func application(application: UIApplication, didFinishLaunchingWithOptions launchOptions: [NSObject: AnyObject]?) -> Bool {
         // Override point for customization after application launch.
+        
+        TestObject.initialize()
+        
+        Parse.setApplicationId("LgTpOBlioAGaP88D1WTxn5P4L2GWkBDVSEDBTgLu", clientKey: "2lGpw0C6m6HmJaq8imPuGrH1N28gXI3jKqyr9M4X")
+
+        
+        var test = TestObject()
+        test.foo = "bar!中文字"
+        test.saveInBackgroundWithBlock { (success, error) -> Void in
+            if success {
+                println("BAR!中文字")
+            }
+        }
+        
         return true
     }
 
