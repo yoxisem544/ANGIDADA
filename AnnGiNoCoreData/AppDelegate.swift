@@ -20,15 +20,22 @@ class AppDelegate: UIResponder, UIApplicationDelegate {
         // Override point for customization after application launch.
         
         TestObject.initialize()
+        PersonalInformation.initialize()
         
         Parse.setApplicationId("LgTpOBlioAGaP88D1WTxn5P4L2GWkBDVSEDBTgLu", clientKey: "2lGpw0C6m6HmJaq8imPuGrH1N28gXI3jKqyr9M4X")
 
         
-        var test = TestObject()
-        test.foo = "bar!中文字"
+//        var test = TestObject()
+//        test.foo = "bar!中文字"
+//        test.saveInBackgroundWithBlock { (success, error) -> Void in
+//            if success {
+//                println("BAR!中文字")
+//            }
+//        }
+        var test = PersonalInformation()
         test.saveInBackgroundWithBlock { (success, error) -> Void in
             if success {
-                println("BAR!中文字")
+                println("OK save")
             }
         }
         

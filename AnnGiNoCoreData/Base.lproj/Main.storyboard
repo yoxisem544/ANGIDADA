@@ -1053,10 +1053,10 @@
             </objects>
             <point key="canvasLocation" x="-56" y="2177"/>
         </scene>
-        <!--Third Part Fear Boss View Controller-->
+        <!--Authoritarian1 View Controller-->
         <scene sceneID="uz8-rN-g7X">
             <objects>
-                <viewController id="Hc3-Zt-deo" customClass="ThirdPartFearBossViewController" customModule="AnnGiNoCoreData" customModuleProvider="target" sceneMemberID="viewController">
+                <viewController id="Hc3-Zt-deo" customClass="Authoritarian1ViewController" customModule="AnnGiNoCoreData" customModuleProvider="target" sceneMemberID="viewController">
                     <layoutGuides>
                         <viewControllerLayoutGuide type="top" id="gH6-RA-QPX"/>
                         <viewControllerLayoutGuide type="bottom" id="kcA-FR-he9"/>
@@ -1086,6 +1086,9 @@
                                 <state key="normal" title="下一題">
                                     <color key="titleShadowColor" white="0.5" alpha="1" colorSpace="calibratedWhite"/>
                                 </state>
+                                <connections>
+                                    <segue destination="KzY-7h-jQZ" kind="show" id="hFY-dT-hrL"/>
+                                </connections>
                             </button>
                         </subviews>
                         <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
@@ -1107,10 +1110,10 @@
             </objects>
             <point key="canvasLocation" x="1444" y="2177"/>
         </scene>
-        <!--View Controller-->
+        <!--Authoritarian2 View Controller-->
         <scene sceneID="ax6-YQ-mZn">
             <objects>
-                <viewController id="KzY-7h-jQZ" sceneMemberID="viewController">
+                <viewController id="KzY-7h-jQZ" customClass="Authoritarian2ViewController" customModule="AnnGiNoCoreData" customModuleProvider="target" sceneMemberID="viewController">
                     <layoutGuides>
                         <viewControllerLayoutGuide type="top" id="Hjl-bD-LiV"/>
                         <viewControllerLayoutGuide type="bottom" id="VZF-Z6-PKs"/>
@@ -1140,6 +1143,9 @@
                                 <state key="normal" title="下一題">
                                     <color key="titleShadowColor" white="0.5" alpha="1" colorSpace="calibratedWhite"/>
                                 </state>
+                                <connections>
+                                    <segue destination="VwS-nc-RaA" kind="show" id="hJO-qy-7DP"/>
+                                </connections>
                             </button>
                         </subviews>
                         <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
@@ -1153,6 +1159,9 @@
                             <constraint firstAttribute="centerY" secondItem="YVa-1O-5vp" secondAttribute="centerY" multiplier="1.5" id="xta-d5-QkF"/>
                         </constraints>
                     </view>
+                    <connections>
+                        <outlet property="fearLevelPickerView" destination="7R8-8o-6Wc" id="zur-cB-pTo"/>
+                    </connections>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="olb-wZ-i3A" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>
@@ -1208,6 +1217,60 @@
                 <placeholder placeholderIdentifier="IBFirstResponder" id="N0u-FO-V37" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>
             <point key="canvasLocation" x="2124" y="2863"/>
+        </scene>
+        <!--Authoritarian3 View Controller-->
+        <scene sceneID="6hr-nj-H9D">
+            <objects>
+                <viewController id="VwS-nc-RaA" customClass="Authoritarian3ViewController" customModule="AnnGiNoCoreData" customModuleProvider="target" sceneMemberID="viewController">
+                    <layoutGuides>
+                        <viewControllerLayoutGuide type="top" id="URv-Ra-Pdj"/>
+                        <viewControllerLayoutGuide type="bottom" id="o8x-k3-hwG"/>
+                    </layoutGuides>
+                    <view key="view" contentMode="scaleToFill" id="GUA-dQ-TfI">
+                        <rect key="frame" x="0.0" y="0.0" width="600" height="600"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="我的直屬主管會嚴厲責備未能達成任務的部屬。" lineBreakMode="tailTruncation" numberOfLines="0" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="2JV-Fi-0Ej">
+                                <rect key="frame" x="150" y="179" width="300" height="41"/>
+                                <constraints>
+                                    <constraint firstAttribute="width" constant="300" id="2M8-kv-8bl"/>
+                                </constraints>
+                                <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                                <color key="textColor" cocoaTouchSystemColor="darkTextColor"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                            <pickerView contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="7c5-W4-OWA">
+                                <rect key="frame" x="0.0" y="228" width="600" height="162"/>
+                                <connections>
+                                    <outlet property="dataSource" destination="VwS-nc-RaA" id="dEg-kd-z2T"/>
+                                    <outlet property="delegate" destination="VwS-nc-RaA" id="5qm-IN-F7f"/>
+                                </connections>
+                            </pickerView>
+                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="dGN-hq-Qbl">
+                                <rect key="frame" x="278" y="550" width="45" height="30"/>
+                                <state key="normal" title="下一題">
+                                    <color key="titleShadowColor" white="0.5" alpha="1" colorSpace="calibratedWhite"/>
+                                </state>
+                            </button>
+                        </subviews>
+                        <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                        <constraints>
+                            <constraint firstAttribute="trailingMargin" secondItem="7c5-W4-OWA" secondAttribute="trailing" constant="-16" id="7nO-ys-mwJ"/>
+                            <constraint firstItem="7c5-W4-OWA" firstAttribute="top" secondItem="2JV-Fi-0Ej" secondAttribute="bottom" constant="8" id="LwR-Nz-N9p"/>
+                            <constraint firstItem="o8x-k3-hwG" firstAttribute="top" secondItem="dGN-hq-Qbl" secondAttribute="bottom" constant="20" id="UVB-pK-I1X"/>
+                            <constraint firstAttribute="centerX" secondItem="2JV-Fi-0Ej" secondAttribute="centerX" id="du1-O5-1gm"/>
+                            <constraint firstItem="7c5-W4-OWA" firstAttribute="leading" secondItem="GUA-dQ-TfI" secondAttribute="leadingMargin" constant="-16" id="mpX-B7-L1d"/>
+                            <constraint firstAttribute="centerX" secondItem="dGN-hq-Qbl" secondAttribute="centerX" id="n7B-gc-Pcz"/>
+                            <constraint firstAttribute="centerY" secondItem="2JV-Fi-0Ej" secondAttribute="centerY" multiplier="1.5" id="uua-6W-r5Z"/>
+                        </constraints>
+                    </view>
+                    <connections>
+                        <outlet property="fearLevelPickerView" destination="7c5-W4-OWA" id="nmN-vu-X6N"/>
+                    </connections>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="bdZ-hh-qFK" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="2832" y="2177"/>
         </scene>
     </scenes>
 </document>

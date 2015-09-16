@@ -18,7 +18,10 @@
 		631739D31BA956EC00242094 /* CompanyKindViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 631739D21BA956EC00242094 /* CompanyKindViewController.swift */; };
 		631739D51BA95D3600242094 /* SecondPartBossSexPickerViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 631739D41BA95D3600242094 /* SecondPartBossSexPickerViewController.swift */; };
 		631739D71BA95E2700242094 /* SecondPartBossPeopleViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 631739D61BA95E2700242094 /* SecondPartBossPeopleViewController.swift */; };
-		631739D91BA9635B00242094 /* ThirdPartFearBossViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 631739D81BA9635B00242094 /* ThirdPartFearBossViewController.swift */; };
+		631739D91BA9635B00242094 /* Authoritarian1ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 631739D81BA9635B00242094 /* Authoritarian1ViewController.swift */; };
+		631739DB1BA9661E00242094 /* Authoritarian2ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 631739DA1BA9661E00242094 /* Authoritarian2ViewController.swift */; };
+		631739DD1BA966CA00242094 /* Authoritarian3ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 631739DC1BA966CA00242094 /* Authoritarian3ViewController.swift */; };
+		631739DF1BA97DE700242094 /* PersonalInformation.swift in Sources */ = {isa = PBXBuildFile; fileRef = 631739DE1BA97DE700242094 /* PersonalInformation.swift */; };
 		63E61E871BA685CA009F50DA /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 63E61E861BA685CA009F50DA /* AppDelegate.swift */; };
 		63E61E891BA685CA009F50DA /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 63E61E881BA685CA009F50DA /* ViewController.swift */; };
 		63E61E8C1BA685CA009F50DA /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 63E61E8A1BA685CA009F50DA /* Main.storyboard */; };
@@ -68,7 +71,10 @@
 		631739D21BA956EC00242094 /* CompanyKindViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CompanyKindViewController.swift; sourceTree = "<group>"; };
 		631739D41BA95D3600242094 /* SecondPartBossSexPickerViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SecondPartBossSexPickerViewController.swift; sourceTree = "<group>"; };
 		631739D61BA95E2700242094 /* SecondPartBossPeopleViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SecondPartBossPeopleViewController.swift; sourceTree = "<group>"; };
-		631739D81BA9635B00242094 /* ThirdPartFearBossViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ThirdPartFearBossViewController.swift; sourceTree = "<group>"; };
+		631739D81BA9635B00242094 /* Authoritarian1ViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Authoritarian1ViewController.swift; sourceTree = "<group>"; };
+		631739DA1BA9661E00242094 /* Authoritarian2ViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Authoritarian2ViewController.swift; sourceTree = "<group>"; };
+		631739DC1BA966CA00242094 /* Authoritarian3ViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Authoritarian3ViewController.swift; sourceTree = "<group>"; };
+		631739DE1BA97DE700242094 /* PersonalInformation.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = PersonalInformation.swift; sourceTree = "<group>"; };
 		63E61E811BA685CA009F50DA /* AnnGiNoCoreData.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = AnnGiNoCoreData.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		63E61E851BA685CA009F50DA /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		63E61E861BA685CA009F50DA /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
@@ -139,7 +145,9 @@
 		63E61E781BA685CA009F50DA = {
 			isa = PBXGroup;
 			children = (
-				631739D81BA9635B00242094 /* ThirdPartFearBossViewController.swift */,
+				631739D81BA9635B00242094 /* Authoritarian1ViewController.swift */,
+				631739DA1BA9661E00242094 /* Authoritarian2ViewController.swift */,
+				631739DC1BA966CA00242094 /* Authoritarian3ViewController.swift */,
 				631739D21BA956EC00242094 /* CompanyKindViewController.swift */,
 				63E61EC81BA6862A009F50DA /* libsqlite3.dylib */,
 				63E61EC61BA68621009F50DA /* libz.dylib */,
@@ -174,6 +182,7 @@
 				63FFC86D1BA6888F0029FC56 /* TestObject.swift */,
 				63E61E881BA685CA009F50DA /* ViewController.swift */,
 				63E61E8A1BA685CA009F50DA /* Main.storyboard */,
+				631739DE1BA97DE700242094 /* PersonalInformation.swift */,
 				631739D41BA95D3600242094 /* SecondPartBossSexPickerViewController.swift */,
 				631739D61BA95E2700242094 /* SecondPartBossPeopleViewController.swift */,
 				631739D01BA9546E00242094 /* DepartmentPickerViewController.swift */,
@@ -334,11 +343,14 @@
 				631739D51BA95D3600242094 /* SecondPartBossSexPickerViewController.swift in Sources */,
 				63E61E871BA685CA009F50DA /* AppDelegate.swift in Sources */,
 				631739CD1BA94F8600242094 /* EducationalBackgroundPickerViewController.swift in Sources */,
+				631739DF1BA97DE700242094 /* PersonalInformation.swift in Sources */,
 				631739CF1BA9526C00242094 /* CompanyLevelViewController.swift in Sources */,
 				631739C91BA93A1500242094 /* SexPickerViewController.swift in Sources */,
 				631739CB1BA93EEF00242094 /* AgeViewController.swift in Sources */,
+				631739DB1BA9661E00242094 /* Authoritarian2ViewController.swift in Sources */,
+				631739DD1BA966CA00242094 /* Authoritarian3ViewController.swift in Sources */,
 				631739C51BA937CA00242094 /* HintOnceViewController.swift in Sources */,
-				631739D91BA9635B00242094 /* ThirdPartFearBossViewController.swift in Sources */,
+				631739D91BA9635B00242094 /* Authoritarian1ViewController.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

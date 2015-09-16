@@ -1,5 +1,5 @@
 //
-//  ThirdPartFearBossViewController.swift
+//  Authoritarian2ViewController.swift
 //  AnnGiNoCoreData
 //
 //  Created by David on 2015/9/16.
@@ -8,8 +8,9 @@
 
 import UIKit
 
-class ThirdPartFearBossViewController: UIViewController {
-
+class Authoritarian3ViewController: UIViewController {
+    
+    
     let fearLevel = ["非常不同意", "不同意", "有點不同意", "有點同意", "同意", "非常同意"]
     
     override func viewDidLoad() {
@@ -38,11 +39,11 @@ class ThirdPartFearBossViewController: UIViewController {
     */
     
     @IBAction func nextClicked(sender: AnyObject) {
-
+        
     }
 }
 
-extension ThirdPartFearBossViewController : UIPickerViewDataSource, UIPickerViewDelegate {
+extension Authoritarian3ViewController : UIPickerViewDataSource, UIPickerViewDelegate {
     
     func pickerView(pickerView: UIPickerView, titleForRow row: Int, forComponent component: Int) -> String! {
         return fearLevel[row]
