@@ -15,6 +15,9 @@
 		631739CD1BA94F8600242094 /* EducationalBackgroundPickerViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 631739CC1BA94F8600242094 /* EducationalBackgroundPickerViewController.swift */; };
 		631739CF1BA9526C00242094 /* CompanyLevelViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 631739CE1BA9526C00242094 /* CompanyLevelViewController.swift */; };
 		631739D11BA9546E00242094 /* DepartmentPickerViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 631739D01BA9546E00242094 /* DepartmentPickerViewController.swift */; };
+		631739D31BA956EC00242094 /* CompanyKindViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 631739D21BA956EC00242094 /* CompanyKindViewController.swift */; };
+		631739D51BA95D3600242094 /* SecondPartBossSexPickerViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 631739D41BA95D3600242094 /* SecondPartBossSexPickerViewController.swift */; };
+		631739D71BA95E2700242094 /* SecondPartBossPeopleViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 631739D61BA95E2700242094 /* SecondPartBossPeopleViewController.swift */; };
 		63E61E871BA685CA009F50DA /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 63E61E861BA685CA009F50DA /* AppDelegate.swift */; };
 		63E61E891BA685CA009F50DA /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 63E61E881BA685CA009F50DA /* ViewController.swift */; };
 		63E61E8C1BA685CA009F50DA /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 63E61E8A1BA685CA009F50DA /* Main.storyboard */; };
@@ -61,6 +64,9 @@
 		631739CC1BA94F8600242094 /* EducationalBackgroundPickerViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = EducationalBackgroundPickerViewController.swift; sourceTree = "<group>"; };
 		631739CE1BA9526C00242094 /* CompanyLevelViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CompanyLevelViewController.swift; sourceTree = "<group>"; };
 		631739D01BA9546E00242094 /* DepartmentPickerViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = DepartmentPickerViewController.swift; sourceTree = "<group>"; };
+		631739D21BA956EC00242094 /* CompanyKindViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CompanyKindViewController.swift; sourceTree = "<group>"; };
+		631739D41BA95D3600242094 /* SecondPartBossSexPickerViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SecondPartBossSexPickerViewController.swift; sourceTree = "<group>"; };
+		631739D61BA95E2700242094 /* SecondPartBossPeopleViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SecondPartBossPeopleViewController.swift; sourceTree = "<group>"; };
 		63E61E811BA685CA009F50DA /* AnnGiNoCoreData.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = AnnGiNoCoreData.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		63E61E851BA685CA009F50DA /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		63E61E861BA685CA009F50DA /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
@@ -131,6 +137,7 @@
 		63E61E781BA685CA009F50DA = {
 			isa = PBXGroup;
 			children = (
+				631739D21BA956EC00242094 /* CompanyKindViewController.swift */,
 				63E61EC81BA6862A009F50DA /* libsqlite3.dylib */,
 				63E61EC61BA68621009F50DA /* libz.dylib */,
 				63E61EC41BA68619009F50DA /* SystemConfiguration.framework */,
@@ -164,6 +171,8 @@
 				63FFC86D1BA6888F0029FC56 /* TestObject.swift */,
 				63E61E881BA685CA009F50DA /* ViewController.swift */,
 				63E61E8A1BA685CA009F50DA /* Main.storyboard */,
+				631739D41BA95D3600242094 /* SecondPartBossSexPickerViewController.swift */,
+				631739D61BA95E2700242094 /* SecondPartBossPeopleViewController.swift */,
 				631739D01BA9546E00242094 /* DepartmentPickerViewController.swift */,
 				631739CE1BA9526C00242094 /* CompanyLevelViewController.swift */,
 				631739CC1BA94F8600242094 /* EducationalBackgroundPickerViewController.swift */,
@@ -313,10 +322,13 @@
 			buildActionMask = 2147483647;
 			files = (
 				631739C31BA9374100242094 /* InitialInformationViewController.swift in Sources */,
+				631739D71BA95E2700242094 /* SecondPartBossPeopleViewController.swift in Sources */,
 				631739D11BA9546E00242094 /* DepartmentPickerViewController.swift in Sources */,
+				631739D31BA956EC00242094 /* CompanyKindViewController.swift in Sources */,
 				63FFC86E1BA6888F0029FC56 /* TestObject.swift in Sources */,
 				63E61E891BA685CA009F50DA /* ViewController.swift in Sources */,
 				631739C71BA938EF00242094 /* FirstPartStartViewController.swift in Sources */,
+				631739D51BA95D3600242094 /* SecondPartBossSexPickerViewController.swift in Sources */,
 				63E61E871BA685CA009F50DA /* AppDelegate.swift in Sources */,
 				631739CD1BA94F8600242094 /* EducationalBackgroundPickerViewController.swift in Sources */,
 				631739CF1BA9526C00242094 /* CompanyLevelViewController.swift in Sources */,
