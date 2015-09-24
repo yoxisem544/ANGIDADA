@@ -7,17 +7,22 @@
 //
 
 import UIKit
+import Parse
 
 class Authoritarian1ViewController: UIViewController {
 
     let fearLevel = ["非常不同意", "不同意", "有點不同意", "有點同意", "同意", "非常同意"]
+    var user: PersonalInformation!
     
     override func viewDidLoad() {
         super.viewDidLoad()
         
-        title = "問題一"
+        title = "初始問卷 (11/72)"
+        var backbutton = UIBarButtonItem(title: "11/72", style: UIBarButtonItemStyle.Done, target: nil, action: nil)
+        self.navigationItem.backBarButtonItem = backbutton
         // Do any additional setup after loading the view.
         fearLevelPickerView.selectRow(0, inComponent: 0, animated: true)
+        user.authoritarianLeadershipQuestion1 = fearLevel[0]
     }
     
     override func didReceiveMemoryWarning() {
@@ -27,18 +32,22 @@ class Authoritarian1ViewController: UIViewController {
     
     @IBOutlet weak var fearLevelPickerView: UIPickerView!
     
-    /*
+
     // MARK: - Navigation
     
     // In a storyboard-based application, you will often want to do a little preparation before navigation
     override func prepareForSegue(segue: UIStoryboardSegue, sender: AnyObject?) {
     // Get the new view controller using segue.destinationViewController.
     // Pass the selected object to the new view controller.
+        if segue.identifier == "11 to 12" {
+            let vc = segue.destinationViewController as! Authoritarian2ViewController
+            vc.user = user
+        }
     }
-    */
+
     
     @IBAction func nextClicked(sender: AnyObject) {
-
+        performSegueWithIdentifier("11 to 12", sender: user)
     }
 }
 
@@ -55,5 +64,6 @@ extension Authoritarian1ViewController : UIPickerViewDataSource, UIPickerViewDel
     }
     func pickerView(pickerView: UIPickerView, didSelectRow row: Int, inComponent component: Int) {
         println(fearLevel[row])
+        user.authoritarianLeadershipQuestion1 = fearLevel[row]
     }
 }

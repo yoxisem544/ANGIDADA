@@ -7,14 +7,19 @@
 //
 
 import UIKit
+import Parse
 
 class FirstPartStartViewController: UIViewController {
+    
+    var user: PersonalInformation!
 
     override func viewDidLoad() {
         super.viewDidLoad()
 
         // Do any additional setup after loading the view.
         title = "第一部份"
+        
+        
     }
 
     override func didReceiveMemoryWarning() {

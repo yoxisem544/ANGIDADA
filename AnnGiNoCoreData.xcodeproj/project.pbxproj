@@ -22,6 +22,71 @@
 		631739DB1BA9661E00242094 /* Authoritarian2ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 631739DA1BA9661E00242094 /* Authoritarian2ViewController.swift */; };
 		631739DD1BA966CA00242094 /* Authoritarian3ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 631739DC1BA966CA00242094 /* Authoritarian3ViewController.swift */; };
 		631739DF1BA97DE700242094 /* PersonalInformation.swift in Sources */ = {isa = PBXBuildFile; fileRef = 631739DE1BA97DE700242094 /* PersonalInformation.swift */; };
+		631739E11BA9ABC200242094 /* Authoritarian4ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 631739E01BA9ABC200242094 /* Authoritarian4ViewController.swift */; };
+		631739E31BA9ABEC00242094 /* Authoritarian5ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 631739E21BA9ABEC00242094 /* Authoritarian5ViewController.swift */; };
+		63A8705A1BB1A75B00313716 /* StatusKeys.swift in Sources */ = {isa = PBXBuildFile; fileRef = 63A870591BB1A75B00313716 /* StatusKeys.swift */; };
+		63A8705C1BB2926000313716 /* HowLongStayingInCompanyViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 63A8705B1BB2926000313716 /* HowLongStayingInCompanyViewController.swift */; };
+		63A8705E1BB29B6500313716 /* FirstPartConfirmViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 63A8705D1BB29B6500313716 /* FirstPartConfirmViewController.swift */; };
+		63A870611BB2DA8300313716 /* SecondPartStartViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 63A870601BB2DA8300313716 /* SecondPartStartViewController.swift */; };
+		63A870631BB2EF5300313716 /* SecondPartWorkTogetherTimeViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 63A870621BB2EF5300313716 /* SecondPartWorkTogetherTimeViewController.swift */; };
+		63A870651BB2FD5800313716 /* MiddleOfSecondPartViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 63A870641BB2FD5800313716 /* MiddleOfSecondPartViewController.swift */; };
+		63A8711C1BB3FCE700313716 /* BenevolentLeadership1ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 63A870DF1BB3FCE700313716 /* BenevolentLeadership1ViewController.swift */; };
+		63A8711D1BB3FCE700313716 /* BenevolentLeadership2ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 63A870E01BB3FCE700313716 /* BenevolentLeadership2ViewController.swift */; };
+		63A8711E1BB3FCE700313716 /* BenevolentLeadership3ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 63A870E11BB3FCE700313716 /* BenevolentLeadership3ViewController.swift */; };
+		63A8711F1BB3FCE700313716 /* BenevolentLeadership4ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 63A870E21BB3FCE700313716 /* BenevolentLeadership4ViewController.swift */; };
+		63A871201BB3FCE700313716 /* BenevolentLeadership5ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 63A870E31BB3FCE700313716 /* BenevolentLeadership5ViewController.swift */; };
+		63A871211BB3FCE700313716 /* DeferenceToSupervisor1ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 63A870E41BB3FCE700313716 /* DeferenceToSupervisor1ViewController.swift */; };
+		63A871221BB3FCE700313716 /* DeferenceToSupervisor2ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 63A870E51BB3FCE700313716 /* DeferenceToSupervisor2ViewController.swift */; };
+		63A871231BB3FCE700313716 /* DeferenceToSupervisor3ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 63A870E61BB3FCE700313716 /* DeferenceToSupervisor3ViewController.swift */; };
+		63A871241BB3FCE700313716 /* DeferenceToSupervisor4ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 63A870E71BB3FCE700313716 /* DeferenceToSupervisor4ViewController.swift */; };
+		63A871251BB3FCE700313716 /* GeneralSupervisorDirectedOCB1ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 63A870E81BB3FCE700313716 /* GeneralSupervisorDirectedOCB1ViewController.swift */; };
+		63A871261BB3FCE700313716 /* GeneralSupervisorDirectedOCB2ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 63A870E91BB3FCE700313716 /* GeneralSupervisorDirectedOCB2ViewController.swift */; };
+		63A871271BB3FCE700313716 /* GeneralSupervisorDirectedOCB3ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 63A870EA1BB3FCE700313716 /* GeneralSupervisorDirectedOCB3ViewController.swift */; };
+		63A871281BB3FCE700313716 /* GeneralSupervisorDirectedOCB4ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 63A870EB1BB3FCE700313716 /* GeneralSupervisorDirectedOCB4ViewController.swift */; };
+		63A871291BB3FCE700313716 /* PerceivedSupervisorEffectiveness1ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 63A870EC1BB3FCE700313716 /* PerceivedSupervisorEffectiveness1ViewController.swift */; };
+		63A8712A1BB3FCE700313716 /* PerceivedSupervisorEffectiveness2ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 63A870ED1BB3FCE700313716 /* PerceivedSupervisorEffectiveness2ViewController.swift */; };
+		63A8712B1BB3FCE700313716 /* PerceivedSupervisorEffectiveness3ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 63A870EE1BB3FCE700313716 /* PerceivedSupervisorEffectiveness3ViewController.swift */; };
+		63A8712C1BB3FCE700313716 /* PerceivedSupervisorEffectiveness4ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 63A870EF1BB3FCE700313716 /* PerceivedSupervisorEffectiveness4ViewController.swift */; };
+		63A8712D1BB3FCE700313716 /* PersonLifeInclusion1ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 63A870F01BB3FCE700313716 /* PersonLifeInclusion1ViewController.swift */; };
+		63A8712E1BB3FCE700313716 /* PersonLifeInclusion2ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 63A870F11BB3FCE700313716 /* PersonLifeInclusion2ViewController.swift */; };
+		63A8712F1BB3FCE700313716 /* PersonLifeInclusion3ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 63A870F21BB3FCE700313716 /* PersonLifeInclusion3ViewController.swift */; };
+		63A871301BB3FCE700313716 /* PersonLifeInclusion4ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 63A870F31BB3FCE700313716 /* PersonLifeInclusion4ViewController.swift */; };
+		63A871311BB3FCE700313716 /* IntensityOfSupervisorSubordinateInteraction1ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 63A870F51BB3FCE700313716 /* IntensityOfSupervisorSubordinateInteraction1ViewController.swift */; };
+		63A871321BB3FCE700313716 /* IntensityOfSupervisorSubordinateInteraction2ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 63A870F61BB3FCE700313716 /* IntensityOfSupervisorSubordinateInteraction2ViewController.swift */; };
+		63A871331BB3FCE700313716 /* IntensityOfSupervisorSubordinateInteraction3ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 63A870F71BB3FCE700313716 /* IntensityOfSupervisorSubordinateInteraction3ViewController.swift */; };
+		63A871341BB3FCE700313716 /* IntensityOfSupervisorSubordinateInteraction4ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 63A870F81BB3FCE700313716 /* IntensityOfSupervisorSubordinateInteraction4ViewController.swift */; };
+		63A871351BB3FCE700313716 /* IntensityOfSupervisorSubordinateInteraction5ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 63A870F91BB3FCE700313716 /* IntensityOfSupervisorSubordinateInteraction5ViewController.swift */; };
+		63A871361BB3FCE700313716 /* Competence1ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 63A870FB1BB3FCE700313716 /* Competence1ViewController.swift */; };
+		63A871371BB3FCE700313716 /* Competence2ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 63A870FC1BB3FCE700313716 /* Competence2ViewController.swift */; };
+		63A871381BB3FCE700313716 /* Competence3ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 63A870FD1BB3FCE700313716 /* Competence3ViewController.swift */; };
+		63A871391BB3FCE700313716 /* TraitJobSatisfaction1ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 63A870FE1BB3FCE700313716 /* TraitJobSatisfaction1ViewController.swift */; };
+		63A8713A1BB3FCE700313716 /* TraitJobSatisfaction2ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 63A870FF1BB3FCE700313716 /* TraitJobSatisfaction2ViewController.swift */; };
+		63A8713B1BB3FCE700313716 /* TraitJobSatisfaction3ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 63A871001BB3FCE700313716 /* TraitJobSatisfaction3ViewController.swift */; };
+		63A8713C1BB3FCE700313716 /* TraitJobSatisfaction4ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 63A871011BB3FCE700313716 /* TraitJobSatisfaction4ViewController.swift */; };
+		63A8713D1BB3FCE700313716 /* TraitJobSatisfaction5ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 63A871021BB3FCE700313716 /* TraitJobSatisfaction5ViewController.swift */; };
+		63A8713E1BB3FCE700313716 /* EmotionalJobDemand1ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 63A871041BB3FCE700313716 /* EmotionalJobDemand1ViewController.swift */; };
+		63A8713F1BB3FCE700313716 /* EmotionalJobDemand2ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 63A871051BB3FCE700313716 /* EmotionalJobDemand2ViewController.swift */; };
+		63A871401BB3FCE700313716 /* EmotionalJobDemand3ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 63A871061BB3FCE700313716 /* EmotionalJobDemand3ViewController.swift */; };
+		63A871411BB3FCE700313716 /* EmotionalJobDemand4ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 63A871071BB3FCE700313716 /* EmotionalJobDemand4ViewController.swift */; };
+		63A871421BB3FCE700313716 /* EmotionalJobDemand5ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 63A871081BB3FCE700313716 /* EmotionalJobDemand5ViewController.swift */; };
+		63A871431BB3FCE700313716 /* QuantitativeJobDemand1ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 63A871091BB3FCE700313716 /* QuantitativeJobDemand1ViewController.swift */; };
+		63A871441BB3FCE700313716 /* QuantitativeJobDemand2ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 63A8710A1BB3FCE700313716 /* QuantitativeJobDemand2ViewController.swift */; };
+		63A871451BB3FCE700313716 /* QuantitativeJobDemand3ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 63A8710B1BB3FCE700313716 /* QuantitativeJobDemand3ViewController.swift */; };
+		63A871461BB3FCE700313716 /* QuantitativeJobDemand4ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 63A8710C1BB3FCE700313716 /* QuantitativeJobDemand4ViewController.swift */; };
+		63A871471BB3FCE700313716 /* QuantitativeJobDemand5ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 63A8710D1BB3FCE700313716 /* QuantitativeJobDemand5ViewController.swift */; };
+		63A871481BB3FCE700313716 /* ChasteningNormOrientation1ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 63A8710F1BB3FCE700313716 /* ChasteningNormOrientation1ViewController.swift */; };
+		63A871491BB3FCE700313716 /* ChasteningNormOrientation2ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 63A871101BB3FCE700313716 /* ChasteningNormOrientation2ViewController.swift */; };
+		63A8714A1BB3FCE700313716 /* ChasteningNormOrientation3ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 63A871111BB3FCE700313716 /* ChasteningNormOrientation3ViewController.swift */; };
+		63A8714B1BB3FCE700313716 /* ChasteningNormOrientation4ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 63A871121BB3FCE700313716 /* ChasteningNormOrientation4ViewController.swift */; };
+		63A8714C1BB3FCE700313716 /* ChasteningNormOrientation5ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 63A871131BB3FCE700313716 /* ChasteningNormOrientation5ViewController.swift */; };
+		63A8714D1BB3FCE700313716 /* ChasteningNormOrientation6ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 63A871141BB3FCE700313716 /* ChasteningNormOrientation6ViewController.swift */; };
+		63A8714E1BB3FCE700313716 /* ChasteningNormOrientation7ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 63A871151BB3FCE700313716 /* ChasteningNormOrientation7ViewController.swift */; };
+		63A8714F1BB3FCE700313716 /* PowerDistanceOrientation1ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 63A871161BB3FCE700313716 /* PowerDistanceOrientation1ViewController.swift */; };
+		63A871501BB3FCE700313716 /* PowerDistanceOrientation2ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 63A871171BB3FCE700313716 /* PowerDistanceOrientation2ViewController.swift */; };
+		63A871511BB3FCE700313716 /* PowerDistanceOrientation3ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 63A871181BB3FCE700313716 /* PowerDistanceOrientation3ViewController.swift */; };
+		63A871521BB3FCE700313716 /* PowerDistanceOrientation4ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 63A871191BB3FCE700313716 /* PowerDistanceOrientation4ViewController.swift */; };
+		63A871531BB3FCE700313716 /* PowerDistanceOrientation5ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 63A8711A1BB3FCE700313716 /* PowerDistanceOrientation5ViewController.swift */; };
+		63A871541BB3FCE700313716 /* PowerDistanceOrientation6ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 63A8711B1BB3FCE700313716 /* PowerDistanceOrientation6ViewController.swift */; };
 		63E61E871BA685CA009F50DA /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 63E61E861BA685CA009F50DA /* AppDelegate.swift */; };
 		63E61E891BA685CA009F50DA /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 63E61E881BA685CA009F50DA /* ViewController.swift */; };
 		63E61E8C1BA685CA009F50DA /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 63E61E8A1BA685CA009F50DA /* Main.storyboard */; };
@@ -68,13 +133,78 @@
 		631739CC1BA94F8600242094 /* EducationalBackgroundPickerViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = EducationalBackgroundPickerViewController.swift; sourceTree = "<group>"; };
 		631739CE1BA9526C00242094 /* CompanyLevelViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CompanyLevelViewController.swift; sourceTree = "<group>"; };
 		631739D01BA9546E00242094 /* DepartmentPickerViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = DepartmentPickerViewController.swift; sourceTree = "<group>"; };
-		631739D21BA956EC00242094 /* CompanyKindViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CompanyKindViewController.swift; sourceTree = "<group>"; };
+		631739D21BA956EC00242094 /* CompanyKindViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = CompanyKindViewController.swift; path = ../CompanyKindViewController.swift; sourceTree = "<group>"; };
 		631739D41BA95D3600242094 /* SecondPartBossSexPickerViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SecondPartBossSexPickerViewController.swift; sourceTree = "<group>"; };
 		631739D61BA95E2700242094 /* SecondPartBossPeopleViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SecondPartBossPeopleViewController.swift; sourceTree = "<group>"; };
 		631739D81BA9635B00242094 /* Authoritarian1ViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Authoritarian1ViewController.swift; sourceTree = "<group>"; };
 		631739DA1BA9661E00242094 /* Authoritarian2ViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Authoritarian2ViewController.swift; sourceTree = "<group>"; };
 		631739DC1BA966CA00242094 /* Authoritarian3ViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Authoritarian3ViewController.swift; sourceTree = "<group>"; };
 		631739DE1BA97DE700242094 /* PersonalInformation.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = PersonalInformation.swift; sourceTree = "<group>"; };
+		631739E01BA9ABC200242094 /* Authoritarian4ViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Authoritarian4ViewController.swift; sourceTree = "<group>"; };
+		631739E21BA9ABEC00242094 /* Authoritarian5ViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Authoritarian5ViewController.swift; sourceTree = "<group>"; };
+		63A870591BB1A75B00313716 /* StatusKeys.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = StatusKeys.swift; sourceTree = "<group>"; };
+		63A8705B1BB2926000313716 /* HowLongStayingInCompanyViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = HowLongStayingInCompanyViewController.swift; sourceTree = "<group>"; };
+		63A8705D1BB29B6500313716 /* FirstPartConfirmViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = FirstPartConfirmViewController.swift; sourceTree = "<group>"; };
+		63A870601BB2DA8300313716 /* SecondPartStartViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SecondPartStartViewController.swift; sourceTree = "<group>"; };
+		63A870621BB2EF5300313716 /* SecondPartWorkTogetherTimeViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SecondPartWorkTogetherTimeViewController.swift; sourceTree = "<group>"; };
+		63A870641BB2FD5800313716 /* MiddleOfSecondPartViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = MiddleOfSecondPartViewController.swift; sourceTree = "<group>"; };
+		63A870DF1BB3FCE700313716 /* BenevolentLeadership1ViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = BenevolentLeadership1ViewController.swift; sourceTree = "<group>"; };
+		63A870E01BB3FCE700313716 /* BenevolentLeadership2ViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = BenevolentLeadership2ViewController.swift; sourceTree = "<group>"; };
+		63A870E11BB3FCE700313716 /* BenevolentLeadership3ViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = BenevolentLeadership3ViewController.swift; sourceTree = "<group>"; };
+		63A870E21BB3FCE700313716 /* BenevolentLeadership4ViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = BenevolentLeadership4ViewController.swift; sourceTree = "<group>"; };
+		63A870E31BB3FCE700313716 /* BenevolentLeadership5ViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = BenevolentLeadership5ViewController.swift; sourceTree = "<group>"; };
+		63A870E41BB3FCE700313716 /* DeferenceToSupervisor1ViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = DeferenceToSupervisor1ViewController.swift; sourceTree = "<group>"; };
+		63A870E51BB3FCE700313716 /* DeferenceToSupervisor2ViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = DeferenceToSupervisor2ViewController.swift; sourceTree = "<group>"; };
+		63A870E61BB3FCE700313716 /* DeferenceToSupervisor3ViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = DeferenceToSupervisor3ViewController.swift; sourceTree = "<group>"; };
+		63A870E71BB3FCE700313716 /* DeferenceToSupervisor4ViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = DeferenceToSupervisor4ViewController.swift; sourceTree = "<group>"; };
+		63A870E81BB3FCE700313716 /* GeneralSupervisorDirectedOCB1ViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = GeneralSupervisorDirectedOCB1ViewController.swift; sourceTree = "<group>"; };
+		63A870E91BB3FCE700313716 /* GeneralSupervisorDirectedOCB2ViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = GeneralSupervisorDirectedOCB2ViewController.swift; sourceTree = "<group>"; };
+		63A870EA1BB3FCE700313716 /* GeneralSupervisorDirectedOCB3ViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = GeneralSupervisorDirectedOCB3ViewController.swift; sourceTree = "<group>"; };
+		63A870EB1BB3FCE700313716 /* GeneralSupervisorDirectedOCB4ViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = GeneralSupervisorDirectedOCB4ViewController.swift; sourceTree = "<group>"; };
+		63A870EC1BB3FCE700313716 /* PerceivedSupervisorEffectiveness1ViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = PerceivedSupervisorEffectiveness1ViewController.swift; sourceTree = "<group>"; };
+		63A870ED1BB3FCE700313716 /* PerceivedSupervisorEffectiveness2ViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = PerceivedSupervisorEffectiveness2ViewController.swift; sourceTree = "<group>"; };
+		63A870EE1BB3FCE700313716 /* PerceivedSupervisorEffectiveness3ViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = PerceivedSupervisorEffectiveness3ViewController.swift; sourceTree = "<group>"; };
+		63A870EF1BB3FCE700313716 /* PerceivedSupervisorEffectiveness4ViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = PerceivedSupervisorEffectiveness4ViewController.swift; sourceTree = "<group>"; };
+		63A870F01BB3FCE700313716 /* PersonLifeInclusion1ViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = PersonLifeInclusion1ViewController.swift; sourceTree = "<group>"; };
+		63A870F11BB3FCE700313716 /* PersonLifeInclusion2ViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = PersonLifeInclusion2ViewController.swift; sourceTree = "<group>"; };
+		63A870F21BB3FCE700313716 /* PersonLifeInclusion3ViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = PersonLifeInclusion3ViewController.swift; sourceTree = "<group>"; };
+		63A870F31BB3FCE700313716 /* PersonLifeInclusion4ViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = PersonLifeInclusion4ViewController.swift; sourceTree = "<group>"; };
+		63A870F51BB3FCE700313716 /* IntensityOfSupervisorSubordinateInteraction1ViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = IntensityOfSupervisorSubordinateInteraction1ViewController.swift; sourceTree = "<group>"; };
+		63A870F61BB3FCE700313716 /* IntensityOfSupervisorSubordinateInteraction2ViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = IntensityOfSupervisorSubordinateInteraction2ViewController.swift; sourceTree = "<group>"; };
+		63A870F71BB3FCE700313716 /* IntensityOfSupervisorSubordinateInteraction3ViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = IntensityOfSupervisorSubordinateInteraction3ViewController.swift; sourceTree = "<group>"; };
+		63A870F81BB3FCE700313716 /* IntensityOfSupervisorSubordinateInteraction4ViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = IntensityOfSupervisorSubordinateInteraction4ViewController.swift; sourceTree = "<group>"; };
+		63A870F91BB3FCE700313716 /* IntensityOfSupervisorSubordinateInteraction5ViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = IntensityOfSupervisorSubordinateInteraction5ViewController.swift; sourceTree = "<group>"; };
+		63A870FB1BB3FCE700313716 /* Competence1ViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Competence1ViewController.swift; sourceTree = "<group>"; };
+		63A870FC1BB3FCE700313716 /* Competence2ViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Competence2ViewController.swift; sourceTree = "<group>"; };
+		63A870FD1BB3FCE700313716 /* Competence3ViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Competence3ViewController.swift; sourceTree = "<group>"; };
+		63A870FE1BB3FCE700313716 /* TraitJobSatisfaction1ViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = TraitJobSatisfaction1ViewController.swift; sourceTree = "<group>"; };
+		63A870FF1BB3FCE700313716 /* TraitJobSatisfaction2ViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = TraitJobSatisfaction2ViewController.swift; sourceTree = "<group>"; };
+		63A871001BB3FCE700313716 /* TraitJobSatisfaction3ViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = TraitJobSatisfaction3ViewController.swift; sourceTree = "<group>"; };
+		63A871011BB3FCE700313716 /* TraitJobSatisfaction4ViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = TraitJobSatisfaction4ViewController.swift; sourceTree = "<group>"; };
+		63A871021BB3FCE700313716 /* TraitJobSatisfaction5ViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = TraitJobSatisfaction5ViewController.swift; sourceTree = "<group>"; };
+		63A871041BB3FCE700313716 /* EmotionalJobDemand1ViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = EmotionalJobDemand1ViewController.swift; sourceTree = "<group>"; };
+		63A871051BB3FCE700313716 /* EmotionalJobDemand2ViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = EmotionalJobDemand2ViewController.swift; sourceTree = "<group>"; };
+		63A871061BB3FCE700313716 /* EmotionalJobDemand3ViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = EmotionalJobDemand3ViewController.swift; sourceTree = "<group>"; };
+		63A871071BB3FCE700313716 /* EmotionalJobDemand4ViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = EmotionalJobDemand4ViewController.swift; sourceTree = "<group>"; };
+		63A871081BB3FCE700313716 /* EmotionalJobDemand5ViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = EmotionalJobDemand5ViewController.swift; sourceTree = "<group>"; };
+		63A871091BB3FCE700313716 /* QuantitativeJobDemand1ViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = QuantitativeJobDemand1ViewController.swift; sourceTree = "<group>"; };
+		63A8710A1BB3FCE700313716 /* QuantitativeJobDemand2ViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = QuantitativeJobDemand2ViewController.swift; sourceTree = "<group>"; };
+		63A8710B1BB3FCE700313716 /* QuantitativeJobDemand3ViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = QuantitativeJobDemand3ViewController.swift; sourceTree = "<group>"; };
+		63A8710C1BB3FCE700313716 /* QuantitativeJobDemand4ViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = QuantitativeJobDemand4ViewController.swift; sourceTree = "<group>"; };
+		63A8710D1BB3FCE700313716 /* QuantitativeJobDemand5ViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = QuantitativeJobDemand5ViewController.swift; sourceTree = "<group>"; };
+		63A8710F1BB3FCE700313716 /* ChasteningNormOrientation1ViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ChasteningNormOrientation1ViewController.swift; sourceTree = "<group>"; };
+		63A871101BB3FCE700313716 /* ChasteningNormOrientation2ViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ChasteningNormOrientation2ViewController.swift; sourceTree = "<group>"; };
+		63A871111BB3FCE700313716 /* ChasteningNormOrientation3ViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ChasteningNormOrientation3ViewController.swift; sourceTree = "<group>"; };
+		63A871121BB3FCE700313716 /* ChasteningNormOrientation4ViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ChasteningNormOrientation4ViewController.swift; sourceTree = "<group>"; };
+		63A871131BB3FCE700313716 /* ChasteningNormOrientation5ViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ChasteningNormOrientation5ViewController.swift; sourceTree = "<group>"; };
+		63A871141BB3FCE700313716 /* ChasteningNormOrientation6ViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ChasteningNormOrientation6ViewController.swift; sourceTree = "<group>"; };
+		63A871151BB3FCE700313716 /* ChasteningNormOrientation7ViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ChasteningNormOrientation7ViewController.swift; sourceTree = "<group>"; };
+		63A871161BB3FCE700313716 /* PowerDistanceOrientation1ViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = PowerDistanceOrientation1ViewController.swift; sourceTree = "<group>"; };
+		63A871171BB3FCE700313716 /* PowerDistanceOrientation2ViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = PowerDistanceOrientation2ViewController.swift; sourceTree = "<group>"; };
+		63A871181BB3FCE700313716 /* PowerDistanceOrientation3ViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = PowerDistanceOrientation3ViewController.swift; sourceTree = "<group>"; };
+		63A871191BB3FCE700313716 /* PowerDistanceOrientation4ViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = PowerDistanceOrientation4ViewController.swift; sourceTree = "<group>"; };
+		63A8711A1BB3FCE700313716 /* PowerDistanceOrientation5ViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = PowerDistanceOrientation5ViewController.swift; sourceTree = "<group>"; };
+		63A8711B1BB3FCE700313716 /* PowerDistanceOrientation6ViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = PowerDistanceOrientation6ViewController.swift; sourceTree = "<group>"; };
 		63E61E811BA685CA009F50DA /* AnnGiNoCoreData.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = AnnGiNoCoreData.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		63E61E851BA685CA009F50DA /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		63E61E861BA685CA009F50DA /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
@@ -142,13 +272,149 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
-		63E61E781BA685CA009F50DA = {
+		631739E41BA9AC0F00242094 /* AuthoritarianViewController */ = {
 			isa = PBXGroup;
 			children = (
 				631739D81BA9635B00242094 /* Authoritarian1ViewController.swift */,
 				631739DA1BA9661E00242094 /* Authoritarian2ViewController.swift */,
 				631739DC1BA966CA00242094 /* Authoritarian3ViewController.swift */,
+				631739E01BA9ABC200242094 /* Authoritarian4ViewController.swift */,
+				631739E21BA9ABEC00242094 /* Authoritarian5ViewController.swift */,
+			);
+			name = AuthoritarianViewController;
+			path = ..;
+			sourceTree = "<group>";
+		};
+		63A870581BB1A73C00313716 /* model */ = {
+			isa = PBXGroup;
+			children = (
+				631739DE1BA97DE700242094 /* PersonalInformation.swift */,
+				63A870591BB1A75B00313716 /* StatusKeys.swift */,
+			);
+			name = model;
+			sourceTree = "<group>";
+		};
+		63A8705F1BB2D43F00313716 /* First Part View Controllers */ = {
+			isa = PBXGroup;
+			children = (
 				631739D21BA956EC00242094 /* CompanyKindViewController.swift */,
+				63A8705D1BB29B6500313716 /* FirstPartConfirmViewController.swift */,
+				631739D01BA9546E00242094 /* DepartmentPickerViewController.swift */,
+				631739CE1BA9526C00242094 /* CompanyLevelViewController.swift */,
+				631739CC1BA94F8600242094 /* EducationalBackgroundPickerViewController.swift */,
+				631739CA1BA93EEF00242094 /* AgeViewController.swift */,
+				631739C81BA93A1500242094 /* SexPickerViewController.swift */,
+				63A8705B1BB2926000313716 /* HowLongStayingInCompanyViewController.swift */,
+			);
+			name = "First Part View Controllers";
+			sourceTree = "<group>";
+		};
+		63A870661BB2FF4700313716 /* second part1 */ = {
+			isa = PBXGroup;
+			children = (
+				63A870621BB2EF5300313716 /* SecondPartWorkTogetherTimeViewController.swift */,
+				63A870601BB2DA8300313716 /* SecondPartStartViewController.swift */,
+				631739D41BA95D3600242094 /* SecondPartBossSexPickerViewController.swift */,
+				631739D61BA95E2700242094 /* SecondPartBossPeopleViewController.swift */,
+			);
+			name = "second part1";
+			sourceTree = "<group>";
+		};
+		63A870DE1BB3FCE700313716 /* 2. second part */ = {
+			isa = PBXGroup;
+			children = (
+				63A870DF1BB3FCE700313716 /* BenevolentLeadership1ViewController.swift */,
+				63A870E01BB3FCE700313716 /* BenevolentLeadership2ViewController.swift */,
+				63A870E11BB3FCE700313716 /* BenevolentLeadership3ViewController.swift */,
+				63A870E21BB3FCE700313716 /* BenevolentLeadership4ViewController.swift */,
+				63A870E31BB3FCE700313716 /* BenevolentLeadership5ViewController.swift */,
+				63A870E41BB3FCE700313716 /* DeferenceToSupervisor1ViewController.swift */,
+				63A870E51BB3FCE700313716 /* DeferenceToSupervisor2ViewController.swift */,
+				63A870E61BB3FCE700313716 /* DeferenceToSupervisor3ViewController.swift */,
+				63A870E71BB3FCE700313716 /* DeferenceToSupervisor4ViewController.swift */,
+				63A870E81BB3FCE700313716 /* GeneralSupervisorDirectedOCB1ViewController.swift */,
+				63A870E91BB3FCE700313716 /* GeneralSupervisorDirectedOCB2ViewController.swift */,
+				63A870EA1BB3FCE700313716 /* GeneralSupervisorDirectedOCB3ViewController.swift */,
+				63A870EB1BB3FCE700313716 /* GeneralSupervisorDirectedOCB4ViewController.swift */,
+				63A870EC1BB3FCE700313716 /* PerceivedSupervisorEffectiveness1ViewController.swift */,
+				63A870ED1BB3FCE700313716 /* PerceivedSupervisorEffectiveness2ViewController.swift */,
+				63A870EE1BB3FCE700313716 /* PerceivedSupervisorEffectiveness3ViewController.swift */,
+				63A870EF1BB3FCE700313716 /* PerceivedSupervisorEffectiveness4ViewController.swift */,
+				63A870F01BB3FCE700313716 /* PersonLifeInclusion1ViewController.swift */,
+				63A870F11BB3FCE700313716 /* PersonLifeInclusion2ViewController.swift */,
+				63A870F21BB3FCE700313716 /* PersonLifeInclusion3ViewController.swift */,
+				63A870F31BB3FCE700313716 /* PersonLifeInclusion4ViewController.swift */,
+			);
+			path = "2. second part";
+			sourceTree = "<group>";
+		};
+		63A870F41BB3FCE700313716 /* 3. third part */ = {
+			isa = PBXGroup;
+			children = (
+				63A870F51BB3FCE700313716 /* IntensityOfSupervisorSubordinateInteraction1ViewController.swift */,
+				63A870F61BB3FCE700313716 /* IntensityOfSupervisorSubordinateInteraction2ViewController.swift */,
+				63A870F71BB3FCE700313716 /* IntensityOfSupervisorSubordinateInteraction3ViewController.swift */,
+				63A870F81BB3FCE700313716 /* IntensityOfSupervisorSubordinateInteraction4ViewController.swift */,
+				63A870F91BB3FCE700313716 /* IntensityOfSupervisorSubordinateInteraction5ViewController.swift */,
+			);
+			path = "3. third part";
+			sourceTree = "<group>";
+		};
+		63A870FA1BB3FCE700313716 /* 4. fourth part */ = {
+			isa = PBXGroup;
+			children = (
+				63A870FB1BB3FCE700313716 /* Competence1ViewController.swift */,
+				63A870FC1BB3FCE700313716 /* Competence2ViewController.swift */,
+				63A870FD1BB3FCE700313716 /* Competence3ViewController.swift */,
+				63A870FE1BB3FCE700313716 /* TraitJobSatisfaction1ViewController.swift */,
+				63A870FF1BB3FCE700313716 /* TraitJobSatisfaction2ViewController.swift */,
+				63A871001BB3FCE700313716 /* TraitJobSatisfaction3ViewController.swift */,
+				63A871011BB3FCE700313716 /* TraitJobSatisfaction4ViewController.swift */,
+				63A871021BB3FCE700313716 /* TraitJobSatisfaction5ViewController.swift */,
+			);
+			path = "4. fourth part";
+			sourceTree = "<group>";
+		};
+		63A871031BB3FCE700313716 /* 5. fifth part */ = {
+			isa = PBXGroup;
+			children = (
+				63A871041BB3FCE700313716 /* EmotionalJobDemand1ViewController.swift */,
+				63A871051BB3FCE700313716 /* EmotionalJobDemand2ViewController.swift */,
+				63A871061BB3FCE700313716 /* EmotionalJobDemand3ViewController.swift */,
+				63A871071BB3FCE700313716 /* EmotionalJobDemand4ViewController.swift */,
+				63A871081BB3FCE700313716 /* EmotionalJobDemand5ViewController.swift */,
+				63A871091BB3FCE700313716 /* QuantitativeJobDemand1ViewController.swift */,
+				63A8710A1BB3FCE700313716 /* QuantitativeJobDemand2ViewController.swift */,
+				63A8710B1BB3FCE700313716 /* QuantitativeJobDemand3ViewController.swift */,
+				63A8710C1BB3FCE700313716 /* QuantitativeJobDemand4ViewController.swift */,
+				63A8710D1BB3FCE700313716 /* QuantitativeJobDemand5ViewController.swift */,
+			);
+			path = "5. fifth part";
+			sourceTree = "<group>";
+		};
+		63A8710E1BB3FCE700313716 /* 6. sixth part */ = {
+			isa = PBXGroup;
+			children = (
+				63A8710F1BB3FCE700313716 /* ChasteningNormOrientation1ViewController.swift */,
+				63A871101BB3FCE700313716 /* ChasteningNormOrientation2ViewController.swift */,
+				63A871111BB3FCE700313716 /* ChasteningNormOrientation3ViewController.swift */,
+				63A871121BB3FCE700313716 /* ChasteningNormOrientation4ViewController.swift */,
+				63A871131BB3FCE700313716 /* ChasteningNormOrientation5ViewController.swift */,
+				63A871141BB3FCE700313716 /* ChasteningNormOrientation6ViewController.swift */,
+				63A871151BB3FCE700313716 /* ChasteningNormOrientation7ViewController.swift */,
+				63A871161BB3FCE700313716 /* PowerDistanceOrientation1ViewController.swift */,
+				63A871171BB3FCE700313716 /* PowerDistanceOrientation2ViewController.swift */,
+				63A871181BB3FCE700313716 /* PowerDistanceOrientation3ViewController.swift */,
+				63A871191BB3FCE700313716 /* PowerDistanceOrientation4ViewController.swift */,
+				63A8711A1BB3FCE700313716 /* PowerDistanceOrientation5ViewController.swift */,
+				63A8711B1BB3FCE700313716 /* PowerDistanceOrientation6ViewController.swift */,
+			);
+			path = "6. sixth part";
+			sourceTree = "<group>";
+		};
+		63E61E781BA685CA009F50DA = {
+			isa = PBXGroup;
+			children = (
 				63E61EC81BA6862A009F50DA /* libsqlite3.dylib */,
 				63E61EC61BA68621009F50DA /* libz.dylib */,
 				63E61EC41BA68619009F50DA /* SystemConfiguration.framework */,
@@ -178,20 +444,22 @@
 		63E61E831BA685CA009F50DA /* AnnGiNoCoreData */ = {
 			isa = PBXGroup;
 			children = (
+				63A870DE1BB3FCE700313716 /* 2. second part */,
+				63A870F41BB3FCE700313716 /* 3. third part */,
+				63A870FA1BB3FCE700313716 /* 4. fourth part */,
+				63A871031BB3FCE700313716 /* 5. fifth part */,
+				63A8710E1BB3FCE700313716 /* 6. sixth part */,
+				631739E41BA9AC0F00242094 /* AuthoritarianViewController */,
+				63A8705F1BB2D43F00313716 /* First Part View Controllers */,
+				63A870661BB2FF4700313716 /* second part1 */,
+				63A870641BB2FD5800313716 /* MiddleOfSecondPartViewController.swift */,
 				63E61E861BA685CA009F50DA /* AppDelegate.swift */,
 				63FFC86D1BA6888F0029FC56 /* TestObject.swift */,
 				63E61E881BA685CA009F50DA /* ViewController.swift */,
 				63E61E8A1BA685CA009F50DA /* Main.storyboard */,
-				631739DE1BA97DE700242094 /* PersonalInformation.swift */,
-				631739D41BA95D3600242094 /* SecondPartBossSexPickerViewController.swift */,
-				631739D61BA95E2700242094 /* SecondPartBossPeopleViewController.swift */,
-				631739D01BA9546E00242094 /* DepartmentPickerViewController.swift */,
-				631739CE1BA9526C00242094 /* CompanyLevelViewController.swift */,
-				631739CC1BA94F8600242094 /* EducationalBackgroundPickerViewController.swift */,
-				631739CA1BA93EEF00242094 /* AgeViewController.swift */,
+				63A870581BB1A73C00313716 /* model */,
 				631739C41BA937CA00242094 /* HintOnceViewController.swift */,
 				631739C61BA938EF00242094 /* FirstPartStartViewController.swift */,
-				631739C81BA93A1500242094 /* SexPickerViewController.swift */,
 				631739C21BA9374100242094 /* InitialInformationViewController.swift */,
 				63E61E8D1BA685CA009F50DA /* Images.xcassets */,
 				63E61E8F1BA685CA009F50DA /* LaunchScreen.xib */,
@@ -333,24 +601,89 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				63A8712E1BB3FCE700313716 /* PersonLifeInclusion2ViewController.swift in Sources */,
+				63A871411BB3FCE700313716 /* EmotionalJobDemand4ViewController.swift in Sources */,
 				631739C31BA9374100242094 /* InitialInformationViewController.swift in Sources */,
+				63A871331BB3FCE700313716 /* IntensityOfSupervisorSubordinateInteraction3ViewController.swift in Sources */,
+				63A8713F1BB3FCE700313716 /* EmotionalJobDemand2ViewController.swift in Sources */,
+				63A871391BB3FCE700313716 /* TraitJobSatisfaction1ViewController.swift in Sources */,
+				63A8714E1BB3FCE700313716 /* ChasteningNormOrientation7ViewController.swift in Sources */,
+				63A871491BB3FCE700313716 /* ChasteningNormOrientation2ViewController.swift in Sources */,
 				631739D71BA95E2700242094 /* SecondPartBossPeopleViewController.swift in Sources */,
+				63A8712A1BB3FCE700313716 /* PerceivedSupervisorEffectiveness2ViewController.swift in Sources */,
+				63A871271BB3FCE700313716 /* GeneralSupervisorDirectedOCB3ViewController.swift in Sources */,
+				63A871401BB3FCE700313716 /* EmotionalJobDemand3ViewController.swift in Sources */,
+				63A871291BB3FCE700313716 /* PerceivedSupervisorEffectiveness1ViewController.swift in Sources */,
+				63A8714B1BB3FCE700313716 /* ChasteningNormOrientation4ViewController.swift in Sources */,
 				631739D11BA9546E00242094 /* DepartmentPickerViewController.swift in Sources */,
+				63A871281BB3FCE700313716 /* GeneralSupervisorDirectedOCB4ViewController.swift in Sources */,
+				63A871301BB3FCE700313716 /* PersonLifeInclusion4ViewController.swift in Sources */,
+				63A870631BB2EF5300313716 /* SecondPartWorkTogetherTimeViewController.swift in Sources */,
+				63A871261BB3FCE700313716 /* GeneralSupervisorDirectedOCB2ViewController.swift in Sources */,
+				63A8713E1BB3FCE700313716 /* EmotionalJobDemand1ViewController.swift in Sources */,
 				631739D31BA956EC00242094 /* CompanyKindViewController.swift in Sources */,
 				63FFC86E1BA6888F0029FC56 /* TestObject.swift in Sources */,
+				63A8705E1BB29B6500313716 /* FirstPartConfirmViewController.swift in Sources */,
+				631739E31BA9ABEC00242094 /* Authoritarian5ViewController.swift in Sources */,
+				63A871341BB3FCE700313716 /* IntensityOfSupervisorSubordinateInteraction4ViewController.swift in Sources */,
+				63A871451BB3FCE700313716 /* QuantitativeJobDemand3ViewController.swift in Sources */,
+				63A871461BB3FCE700313716 /* QuantitativeJobDemand4ViewController.swift in Sources */,
 				63E61E891BA685CA009F50DA /* ViewController.swift in Sources */,
+				63A8713D1BB3FCE700313716 /* TraitJobSatisfaction5ViewController.swift in Sources */,
+				63A871381BB3FCE700313716 /* Competence3ViewController.swift in Sources */,
+				63A871511BB3FCE700313716 /* PowerDistanceOrientation3ViewController.swift in Sources */,
 				631739C71BA938EF00242094 /* FirstPartStartViewController.swift in Sources */,
+				63A8714D1BB3FCE700313716 /* ChasteningNormOrientation6ViewController.swift in Sources */,
+				63A8714C1BB3FCE700313716 /* ChasteningNormOrientation5ViewController.swift in Sources */,
+				63A8711F1BB3FCE700313716 /* BenevolentLeadership4ViewController.swift in Sources */,
+				63A871501BB3FCE700313716 /* PowerDistanceOrientation2ViewController.swift in Sources */,
+				63A871531BB3FCE700313716 /* PowerDistanceOrientation5ViewController.swift in Sources */,
+				63A871371BB3FCE700313716 /* Competence2ViewController.swift in Sources */,
+				63A871481BB3FCE700313716 /* ChasteningNormOrientation1ViewController.swift in Sources */,
 				631739D51BA95D3600242094 /* SecondPartBossSexPickerViewController.swift in Sources */,
+				63A871251BB3FCE700313716 /* GeneralSupervisorDirectedOCB1ViewController.swift in Sources */,
+				63A8711E1BB3FCE700313716 /* BenevolentLeadership3ViewController.swift in Sources */,
 				63E61E871BA685CA009F50DA /* AppDelegate.swift in Sources */,
+				63A871241BB3FCE700313716 /* DeferenceToSupervisor4ViewController.swift in Sources */,
+				63A8705A1BB1A75B00313716 /* StatusKeys.swift in Sources */,
+				63A8714F1BB3FCE700313716 /* PowerDistanceOrientation1ViewController.swift in Sources */,
+				63A8714A1BB3FCE700313716 /* ChasteningNormOrientation3ViewController.swift in Sources */,
+				63A870651BB2FD5800313716 /* MiddleOfSecondPartViewController.swift in Sources */,
+				63A8711C1BB3FCE700313716 /* BenevolentLeadership1ViewController.swift in Sources */,
 				631739CD1BA94F8600242094 /* EducationalBackgroundPickerViewController.swift in Sources */,
+				63A871201BB3FCE700313716 /* BenevolentLeadership5ViewController.swift in Sources */,
+				63A871361BB3FCE700313716 /* Competence1ViewController.swift in Sources */,
+				63A871351BB3FCE700313716 /* IntensityOfSupervisorSubordinateInteraction5ViewController.swift in Sources */,
+				63A871431BB3FCE700313716 /* QuantitativeJobDemand1ViewController.swift in Sources */,
+				63A8711D1BB3FCE700313716 /* BenevolentLeadership2ViewController.swift in Sources */,
+				63A8705C1BB2926000313716 /* HowLongStayingInCompanyViewController.swift in Sources */,
+				63A8713A1BB3FCE700313716 /* TraitJobSatisfaction2ViewController.swift in Sources */,
+				63A870611BB2DA8300313716 /* SecondPartStartViewController.swift in Sources */,
+				63A8712F1BB3FCE700313716 /* PersonLifeInclusion3ViewController.swift in Sources */,
 				631739DF1BA97DE700242094 /* PersonalInformation.swift in Sources */,
 				631739CF1BA9526C00242094 /* CompanyLevelViewController.swift in Sources */,
+				63A871311BB3FCE700313716 /* IntensityOfSupervisorSubordinateInteraction1ViewController.swift in Sources */,
+				63A871421BB3FCE700313716 /* EmotionalJobDemand5ViewController.swift in Sources */,
+				63A8713B1BB3FCE700313716 /* TraitJobSatisfaction3ViewController.swift in Sources */,
 				631739C91BA93A1500242094 /* SexPickerViewController.swift in Sources */,
 				631739CB1BA93EEF00242094 /* AgeViewController.swift in Sources */,
+				63A871521BB3FCE700313716 /* PowerDistanceOrientation4ViewController.swift in Sources */,
+				63A871221BB3FCE700313716 /* DeferenceToSupervisor2ViewController.swift in Sources */,
 				631739DB1BA9661E00242094 /* Authoritarian2ViewController.swift in Sources */,
+				63A8713C1BB3FCE700313716 /* TraitJobSatisfaction4ViewController.swift in Sources */,
+				63A871441BB3FCE700313716 /* QuantitativeJobDemand2ViewController.swift in Sources */,
+				63A871211BB3FCE700313716 /* DeferenceToSupervisor1ViewController.swift in Sources */,
+				63A871541BB3FCE700313716 /* PowerDistanceOrientation6ViewController.swift in Sources */,
+				63A871471BB3FCE700313716 /* QuantitativeJobDemand5ViewController.swift in Sources */,
 				631739DD1BA966CA00242094 /* Authoritarian3ViewController.swift in Sources */,
+				63A8712C1BB3FCE700313716 /* PerceivedSupervisorEffectiveness4ViewController.swift in Sources */,
 				631739C51BA937CA00242094 /* HintOnceViewController.swift in Sources */,
+				631739E11BA9ABC200242094 /* Authoritarian4ViewController.swift in Sources */,
+				63A871321BB3FCE700313716 /* IntensityOfSupervisorSubordinateInteraction2ViewController.swift in Sources */,
 				631739D91BA9635B00242094 /* Authoritarian1ViewController.swift in Sources */,
+				63A871231BB3FCE700313716 /* DeferenceToSupervisor3ViewController.swift in Sources */,
+				63A8712D1BB3FCE700313716 /* PersonLifeInclusion1ViewController.swift in Sources */,
+				63A8712B1BB3FCE700313716 /* PerceivedSupervisorEffectiveness3ViewController.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

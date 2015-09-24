@@ -7,13 +7,31 @@
 //
 
 import UIKit
+import Parse
 
 class AgeViewController: UIViewController {
 
+    var user: PersonalInformation!
+    
     override func viewDidLoad() {
         super.viewDidLoad()
-
+        
+        title = "初始問卷 (2/72)"
+        var backbutton = UIBarButtonItem(title: "2/72", style: UIBarButtonItemStyle.Done, target: nil, action: nil)
+        self.navigationItem.backBarButtonItem = backbutton
+        
         // Do any additional setup after loading the view.
+        var tap = UITapGestureRecognizer(target: self, action: "tap")
+        self.view.addGestureRecognizer(tap)
+        
+        ageTextField.becomeFirstResponder()
+        
+        user.age = 0
+        println(user.age)
+    }
+    
+    func tap() {
+        self.view.endEditing(true)
     }
 
     override func didReceiveMemoryWarning() {
@@ -33,6 +51,32 @@ class AgeViewController: UIViewController {
     }
     */
 
+    @IBAction func clickNext(sender: AnyObject) {
+        if let age = ageTextField.text.toInt() {
+            user.age = age
+            performSegueWithIdentifier("2 to 3", sender: user)
+        } else {
+            self.ageTextField.text = ""
+            alertError()
+        }
+    }
+    
+    override func prepareForSegue(segue: UIStoryboardSegue, sender: AnyObject?) {
+        if segue.identifier == "2 to 3" {
+            var vc = segue.destinationViewController as! EducationalBackgroundPickerViewController
+            vc.user = user
+        }
+    }
+    @IBOutlet weak var clickNext: UIButton!
+    
+    func alertError() {
+        var alert = UIAlertController(title: "輸入有誤", message: "", preferredStyle: UIAlertControllerStyle.Alert)
+        var ok = UIAlertAction(title: "ok", style: UIAlertActionStyle.Cancel, handler: nil)
+        alert.addAction(ok)
+        self.presentViewController(alert, animated: true) { () -> Void in
+            
+        }
+    }
 }
 
 extension AgeViewController : UITextFieldDelegate {
@@ -42,4 +86,5 @@ extension AgeViewController : UITextFieldDelegate {
         }
         return true
     }
+    
 }

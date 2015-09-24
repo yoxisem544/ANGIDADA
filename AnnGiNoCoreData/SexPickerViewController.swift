@@ -7,17 +7,27 @@
 //
 
 import UIKit
+import Parse
 
 class SexPickerViewController: UIViewController {
 
     let sex = ["男性", "女性"]
-    
+    var user: PersonalInformation!
     override func viewDidLoad() {
         super.viewDidLoad()
 
-        title = "問題一"
+        title = "初始問卷 (1/72)"
+        var backbutton = UIBarButtonItem(title: "1/72", style: UIBarButtonItemStyle.Done, target: nil, action: nil)
+        self.navigationItem.backBarButtonItem = backbutton
         // Do any additional setup after loading the view.
         sexPickerView.selectRow(0, inComponent: 0, animated: true)
+        user = PersonalInformation()
+        user.sex = "男性"
+    }
+    
+    override func viewDidAppear(animated: Bool) {
+        super.viewDidAppear(animated)
+//        self.navigationItem.backBarButtonItem?.title = "yo"
     }
 
     override func didReceiveMemoryWarning() {
@@ -39,6 +49,14 @@ class SexPickerViewController: UIViewController {
 
     @IBAction func nextClicked(sender: AnyObject) {
         println(sexPickerView)
+        self.performSegueWithIdentifier("1 to 2", sender: user)
+    }
+    
+    override func prepareForSegue(segue: UIStoryboardSegue, sender: AnyObject?) {
+        if segue.identifier == "1 to 2" {
+            let vc = segue.destinationViewController as! AgeViewController
+            vc.user = user
+        }
     }
 }
 
@@ -55,5 +73,6 @@ extension SexPickerViewController : UIPickerViewDataSource, UIPickerViewDelegate
     }
     func pickerView(pickerView: UIPickerView, didSelectRow row: Int, inComponent component: Int) {
         println(sex[row])
+        user.sex = sex[row]
     }
 }

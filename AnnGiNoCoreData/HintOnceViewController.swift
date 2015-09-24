@@ -14,7 +14,7 @@ class HintOnceViewController: UIViewController {
         super.viewDidLoad()
 
         // Do any additional setup after loading the view.
-        title = "第一部份"
+        title = "前言"
     }
 
     override func didReceiveMemoryWarning() {

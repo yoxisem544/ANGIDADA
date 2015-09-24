@@ -11,13 +11,17 @@ import UIKit
 class EducationalBackgroundPickerViewController: UIViewController {
 
     let educationBackground = ["高中職以下", "專科", "大學", "碩士", "博士"]
+    var user: PersonalInformation!
     
     override func viewDidLoad() {
         super.viewDidLoad()
         
-        title = "問題一"
+        title = "初始問卷 (3/72)"
+        var backbutton = UIBarButtonItem(title: "3/72", style: UIBarButtonItemStyle.Done, target: nil, action: nil)
+        self.navigationItem.backBarButtonItem = backbutton
         // Do any additional setup after loading the view.
         educationBackgroundPickerView.selectRow(0, inComponent: 0, animated: true)
+        user.educationalBackground = educationBackground[0]
     }
     
     override func didReceiveMemoryWarning() {
@@ -36,9 +40,15 @@ class EducationalBackgroundPickerViewController: UIViewController {
     // Pass the selected object to the new view controller.
     }
     */
+    @IBAction func clickNext(sender: AnyObject) {
+        performSegueWithIdentifier("3 to 4", sender: user)
+    }
     
-    @IBAction func nextClicked(sender: AnyObject) {
-        println(educationBackgroundPickerView)
+    override func prepareForSegue(segue: UIStoryboardSegue, sender: AnyObject?) {
+        if segue.identifier == "3 to 4" {
+            var vc = segue.destinationViewController as! HowLongStayingInCompanyViewController
+            vc.user = user
+        }
     }
 }
 
@@ -55,5 +65,6 @@ extension EducationalBackgroundPickerViewController : UIPickerViewDataSource, UI
     }
     func pickerView(pickerView: UIPickerView, didSelectRow row: Int, inComponent component: Int) {
         println(educationBackground[row])
+        user.educationalBackground = educationBackground[row]
     }
 }

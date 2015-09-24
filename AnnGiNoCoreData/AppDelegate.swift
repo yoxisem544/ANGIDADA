@@ -32,12 +32,12 @@ class AppDelegate: UIResponder, UIApplicationDelegate {
 //                println("BAR!中文字")
 //            }
 //        }
-        var test = PersonalInformation()
-        test.saveInBackgroundWithBlock { (success, error) -> Void in
-            if success {
-                println("OK save")
-            }
-        }
+//        var test = PersonalInformation()
+//        test.saveInBackgroundWithBlock { (success, error) -> Void in
+//            if success {
+//                println("OK save")
+//            }
+//        }
         
         return true
     }
