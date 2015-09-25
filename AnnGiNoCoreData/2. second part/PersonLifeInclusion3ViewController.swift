@@ -23,6 +23,7 @@ class PersonLifeInclusion3ViewController: UIViewController {
         self.navigationItem.backBarButtonItem = backbutton
         // Do any additional setup after loading the view.
         fearLevelPickerView.selectRow(0, inComponent: 0, animated: true)
+        user.personLifeInclusionQuestion3 = fearLevel[0]
     }
     
     override func didReceiveMemoryWarning() {
@@ -60,5 +61,6 @@ extension PersonLifeInclusion3ViewController : UIPickerViewDataSource, UIPickerV
     }
     func pickerView(pickerView: UIPickerView, didSelectRow row: Int, inComponent component: Int) {
         println(fearLevel[row])
+        user.personLifeInclusionQuestion3 = fearLevel[row]
     }
 }

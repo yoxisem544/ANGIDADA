@@ -23,7 +23,7 @@ class Intensity2ViewController: UIViewController {
         self.navigationItem.backBarButtonItem = backbutton
         // Do any additional setup after loading the view.
         fearLevelPickerView.selectRow(0, inComponent: 0, animated: true)
-        user.authoritarianLeadershipQuestion1 = fearLevel[0]
+        user.intensityOfSupervisorSubordinateInteractionQuestion2 = fearLevel[0]
     }
     
     override func didReceiveMemoryWarning() {
@@ -64,5 +64,6 @@ extension Intensity2ViewController : UIPickerViewDataSource, UIPickerViewDelegat
     }
     func pickerView(pickerView: UIPickerView, didSelectRow row: Int, inComponent component: Int) {
         println(fearLevel[row])
+        user.intensityOfSupervisorSubordinateInteractionQuestion2 = fearLevel[row]
     }
 }

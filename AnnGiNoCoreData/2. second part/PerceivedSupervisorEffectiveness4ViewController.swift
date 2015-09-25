@@ -23,6 +23,7 @@ class PerceivedSupervisorEffectiveness4ViewController: UIViewController {
         self.navigationItem.backBarButtonItem = backbutton
         // Do any additional setup after loading the view.
         fearLevelPickerView.selectRow(0, inComponent: 0, animated: true)
+        user.perceivedSupervisorEffectivenessQuestion4 = fearLevel[0]
     }
     
     override func didReceiveMemoryWarning() {
@@ -60,5 +61,6 @@ extension PerceivedSupervisorEffectiveness4ViewController : UIPickerViewDataSour
     }
     func pickerView(pickerView: UIPickerView, didSelectRow row: Int, inComponent component: Int) {
         println(fearLevel[row])
+        user.perceivedSupervisorEffectivenessQuestion4 = fearLevel[row]
     }
 }

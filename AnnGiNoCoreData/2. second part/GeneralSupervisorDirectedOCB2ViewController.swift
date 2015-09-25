@@ -23,6 +23,7 @@ class GeneralSupervisorDirectedOCB2ViewController: UIViewController {
         self.navigationItem.backBarButtonItem = backbutton
         // Do any additional setup after loading the view.
         fearLevelPickerView.selectRow(0, inComponent: 0, animated: true)
+        user.generalSupervisorDirectedOCBQuestion2 = fearLevel[0]
     }
     
     override func didReceiveMemoryWarning() {
@@ -60,5 +61,6 @@ extension GeneralSupervisorDirectedOCB2ViewController : UIPickerViewDataSource, 
     }
     func pickerView(pickerView: UIPickerView, didSelectRow row: Int, inComponent component: Int) {
         println(fearLevel[row])
+        user.generalSupervisorDirectedOCBQuestion2 = fearLevel[row]
     }
 }

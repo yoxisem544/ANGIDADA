@@ -23,7 +23,7 @@ class PowerDistanceOrientation2ViewController: UIViewController {
         self.navigationItem.backBarButtonItem = backbutton
         // Do any additional setup after loading the view.
         fearLevelPickerView.selectRow(0, inComponent: 0, animated: true)
-        user.authoritarianLeadershipQuestion1 = fearLevel[0]
+        user.powerDistanceOrientationQuestion2 = fearLevel[0]
     }
     
     override func didReceiveMemoryWarning() {
@@ -64,5 +64,6 @@ extension PowerDistanceOrientation2ViewController : UIPickerViewDataSource, UIPi
     }
     func pickerView(pickerView: UIPickerView, didSelectRow row: Int, inComponent component: Int) {
         println(fearLevel[row])
+        user.powerDistanceOrientationQuestion2 = fearLevel[row]
     }
 }

@@ -23,7 +23,7 @@ class ChasteningNormOrientation5ViewController: UIViewController {
         self.navigationItem.backBarButtonItem = backbutton
         // Do any additional setup after loading the view.
         fearLevelPickerView.selectRow(0, inComponent: 0, animated: true)
-        user.authoritarianLeadershipQuestion1 = fearLevel[0]
+        user.chasteningNormOrientationQuestion5 = fearLevel[0]
     }
     
     override func didReceiveMemoryWarning() {
@@ -64,5 +64,6 @@ extension ChasteningNormOrientation5ViewController : UIPickerViewDataSource, UIP
     }
     func pickerView(pickerView: UIPickerView, didSelectRow row: Int, inComponent component: Int) {
         println(fearLevel[row])
+        user.chasteningNormOrientationQuestion5 = fearLevel[row]
     }
 }
