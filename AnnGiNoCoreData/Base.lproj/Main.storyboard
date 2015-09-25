@@ -2434,6 +2434,7 @@
                     </view>
                     <connections>
                         <outlet property="fearLevelPickerView" destination="B60-ay-jVB" id="FXg-mx-Mi7"/>
+                        <segue destination="W87-0R-Sc5" kind="show" identifier="next" id="vn1-ZU-Z59"/>
                     </connections>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="92w-ZS-vGY" userLabel="First Responder" sceneMemberID="firstResponder"/>
@@ -2491,6 +2492,7 @@
                     </view>
                     <connections>
                         <outlet property="fearLevelPickerView" destination="Koo-kH-uNo" id="NtQ-7M-NB0"/>
+                        <segue destination="PSf-dA-CeO" kind="show" identifier="next" id="bfO-4S-5qJ"/>
                     </connections>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="sgW-jC-KYb" userLabel="First Responder" sceneMemberID="firstResponder"/>
@@ -2548,6 +2550,7 @@
                     </view>
                     <connections>
                         <outlet property="fearLevelPickerView" destination="4jG-np-i1M" id="XKM-9w-BzD"/>
+                        <segue destination="7d5-18-QYY" kind="show" identifier="next" id="Xhp-YH-xT5"/>
                     </connections>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="ayy-xA-pY6" userLabel="First Responder" sceneMemberID="firstResponder"/>
@@ -2605,6 +2608,7 @@
                     </view>
                     <connections>
                         <outlet property="fearLevelPickerView" destination="bCg-it-NpA" id="n7C-Hz-MCh"/>
+                        <segue destination="71U-WY-mY3" kind="show" identifier="next" id="jfe-W6-4Ve"/>
                     </connections>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="qbQ-L7-0py" userLabel="First Responder" sceneMemberID="firstResponder"/>
@@ -2662,6 +2666,7 @@
                     </view>
                     <connections>
                         <outlet property="fearLevelPickerView" destination="Lj7-Ca-qpn" id="jIv-XI-gNl"/>
+                        <segue destination="TzJ-Sd-HQs" kind="show" identifier="next" id="6sd-Nk-73Q"/>
                     </connections>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="CDR-f7-e5w" userLabel="First Responder" sceneMemberID="firstResponder"/>
@@ -2719,6 +2724,7 @@
                     </view>
                     <connections>
                         <outlet property="fearLevelPickerView" destination="mHE-cJ-pXt" id="BZ2-QF-niI"/>
+                        <segue destination="f0k-xy-U5c" kind="show" identifier="next" id="Tc9-np-Z04"/>
                     </connections>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="M7G-Pw-11l" userLabel="First Responder" sceneMemberID="firstResponder"/>
@@ -2776,6 +2782,7 @@
                     </view>
                     <connections>
                         <outlet property="fearLevelPickerView" destination="334-Ye-P7a" id="rq6-RU-2da"/>
+                        <segue destination="uwm-sr-YCk" kind="show" identifier="next" id="7yx-DO-PBP"/>
                     </connections>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="eP7-lN-v6r" userLabel="First Responder" sceneMemberID="firstResponder"/>
@@ -2833,6 +2840,7 @@
                     </view>
                     <connections>
                         <outlet property="fearLevelPickerView" destination="Een-PE-Knw" id="3sF-3v-ua4"/>
+                        <segue destination="lMz-eG-z4d" kind="show" identifier="next" id="ZZg-Km-l4p"/>
                     </connections>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="ZeG-JW-N2v" userLabel="First Responder" sceneMemberID="firstResponder"/>
@@ -2890,11 +2898,60 @@
                     </view>
                     <connections>
                         <outlet property="fearLevelPickerView" destination="769-1Q-1qn" id="wOZ-h2-SAG"/>
+                        <segue destination="KBn-JN-Tm3" kind="show" identifier="next" id="HDt-jr-EPd"/>
                     </connections>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="ug1-n9-Qx9" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>
             <point key="canvasLocation" x="3696" y="6811"/>
+        </scene>
+        <!--Second Part Confirm View Controller-->
+        <scene sceneID="kHW-jp-ecv">
+            <objects>
+                <viewController id="71U-WY-mY3" customClass="SecondPartConfirmViewController" customModule="AnnGiNoCoreData" customModuleProvider="target" sceneMemberID="viewController">
+                    <layoutGuides>
+                        <viewControllerLayoutGuide type="top" id="rfR-HU-afz"/>
+                        <viewControllerLayoutGuide type="bottom" id="3fV-R3-X8h"/>
+                    </layoutGuides>
+                    <view key="view" contentMode="scaleToFill" id="hdv-Pl-Lay">
+                        <rect key="frame" x="0.0" y="0.0" width="600" height="600"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="z5F-dL-dGI">
+                                <rect key="frame" x="202" y="550" width="195" height="30"/>
+                                <state key="normal" title="確認資料無誤，進行第三部份">
+                                    <color key="titleShadowColor" white="0.5" alpha="1" colorSpace="calibratedWhite"/>
+                                </state>
+                                <connections>
+                                    <action selector="nextClicked" destination="71U-WY-mY3" eventType="touchUpInside" id="cwq-zd-f2O"/>
+                                </connections>
+                            </button>
+                            <textView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="xoz-VJ-Kye">
+                                <rect key="frame" x="16" y="72" width="568" height="470"/>
+                                <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                                <string key="text">Lorem ipsum dolor sit er elit lamet, consectetaur cillium adipisicing pecu, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum. Nam liber te conscient to factor tum poen legum odioque civiuda.</string>
+                                <fontDescription key="fontDescription" type="system" pointSize="14"/>
+                                <textInputTraits key="textInputTraits" autocapitalizationType="sentences"/>
+                            </textView>
+                        </subviews>
+                        <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                        <constraints>
+                            <constraint firstItem="xoz-VJ-Kye" firstAttribute="leading" secondItem="hdv-Pl-Lay" secondAttribute="leading" constant="16" id="2IE-f3-D98"/>
+                            <constraint firstItem="z5F-dL-dGI" firstAttribute="top" secondItem="xoz-VJ-Kye" secondAttribute="bottom" constant="8" id="40D-xA-a9x"/>
+                            <constraint firstItem="3fV-R3-X8h" firstAttribute="top" secondItem="z5F-dL-dGI" secondAttribute="bottom" constant="20" id="EsX-O2-9zG"/>
+                            <constraint firstAttribute="trailing" secondItem="xoz-VJ-Kye" secondAttribute="trailing" constant="16" id="ptn-hD-4pd"/>
+                            <constraint firstItem="xoz-VJ-Kye" firstAttribute="top" secondItem="rfR-HU-afz" secondAttribute="bottom" constant="8" id="rbw-i7-9Sr"/>
+                            <constraint firstAttribute="centerX" secondItem="z5F-dL-dGI" secondAttribute="centerX" id="u8a-n3-w3B"/>
+                        </constraints>
+                    </view>
+                    <connections>
+                        <outlet property="resultTextView" destination="xoz-VJ-Kye" id="rQR-Ur-Pmf"/>
+                        <segue destination="h26-Ge-plI" kind="show" identifier="next" id="4y2-9X-fA9"/>
+                    </connections>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="0eq-lO-3AE" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="6376" y="6019"/>
         </scene>
         <!--Trait Job Satisfaction1 View Controller-->
         <scene sceneID="c2e-GU-NDF">
@@ -2947,6 +3004,7 @@
                     </view>
                     <connections>
                         <outlet property="fearLevelPickerView" destination="26Z-Zu-GhX" id="KnF-MO-gcK"/>
+                        <segue destination="yD2-GU-hkX" kind="show" identifier="next" id="Rc7-YX-67v"/>
                     </connections>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="dzo-kK-2id" userLabel="First Responder" sceneMemberID="firstResponder"/>
@@ -3004,6 +3062,7 @@
                     </view>
                     <connections>
                         <outlet property="fearLevelPickerView" destination="4aa-pJ-zaw" id="I7g-3w-APq"/>
+                        <segue destination="ePA-Jc-m0o" kind="show" identifier="next" id="ZVw-Yp-qiI"/>
                     </connections>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="WLb-nQ-ARj" userLabel="First Responder" sceneMemberID="firstResponder"/>
@@ -3061,6 +3120,7 @@
                     </view>
                     <connections>
                         <outlet property="fearLevelPickerView" destination="DLs-KQ-d5x" id="btu-qo-5HB"/>
+                        <segue destination="blP-lW-eUl" kind="show" identifier="next" id="dqr-V0-hcv"/>
                     </connections>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="2vX-U5-MFj" userLabel="First Responder" sceneMemberID="firstResponder"/>
@@ -3118,6 +3178,7 @@
                     </view>
                     <connections>
                         <outlet property="fearLevelPickerView" destination="fn7-be-Ieb" id="n9N-Gh-Yha"/>
+                        <segue destination="dGi-H1-QO0" kind="show" identifier="next" id="Qgh-c4-Roc"/>
                     </connections>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="Hes-ZF-Cto" userLabel="First Responder" sceneMemberID="firstResponder"/>
@@ -3175,6 +3236,7 @@
                     </view>
                     <connections>
                         <outlet property="fearLevelPickerView" destination="OmY-7i-EM9" id="bA7-Xw-gNN"/>
+                        <segue destination="WRP-Ka-2nc" kind="show" identifier="next" id="qmc-yj-5fr"/>
                     </connections>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="thg-6d-5Jl" userLabel="First Responder" sceneMemberID="firstResponder"/>
@@ -3232,6 +3294,7 @@
                     </view>
                     <connections>
                         <outlet property="fearLevelPickerView" destination="WGQ-Gw-sVO" id="Dk9-uH-Sv4"/>
+                        <segue destination="Yzh-K9-KRJ" kind="show" identifier="next" id="d1l-Mq-k7C"/>
                     </connections>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="Pkl-vw-O6m" userLabel="First Responder" sceneMemberID="firstResponder"/>
@@ -3289,6 +3352,7 @@
                     </view>
                     <connections>
                         <outlet property="fearLevelPickerView" destination="nLd-Lq-A5l" id="yBl-5P-Lj8"/>
+                        <segue destination="iaV-vJ-VpI" kind="show" identifier="next" id="jC8-wa-MC0"/>
                     </connections>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="Q8Y-ip-qe2" userLabel="First Responder" sceneMemberID="firstResponder"/>
@@ -3346,6 +3410,7 @@
                     </view>
                     <connections>
                         <outlet property="fearLevelPickerView" destination="gtB-QI-kfT" id="5Ux-YB-4ed"/>
+                        <segue destination="X54-hQ-WCV" kind="show" identifier="next" id="hzu-PN-0sM"/>
                     </connections>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="V57-MD-YXC" userLabel="First Responder" sceneMemberID="firstResponder"/>
@@ -3403,6 +3468,7 @@
                     </view>
                     <connections>
                         <outlet property="fearLevelPickerView" destination="Mlj-JE-haJ" id="2K7-Bb-zxT"/>
+                        <segue destination="ayL-Nk-G8L" kind="show" identifier="next" id="1pk-Jn-7f6"/>
                     </connections>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="bwQ-t9-BaR" userLabel="First Responder" sceneMemberID="firstResponder"/>
@@ -3460,6 +3526,7 @@
                     </view>
                     <connections>
                         <outlet property="fearLevelPickerView" destination="lkn-4b-Ie0" id="XcU-c5-BNt"/>
+                        <segue destination="5Ui-qw-yum" kind="show" identifier="next" id="dEd-dC-zC8"/>
                     </connections>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="ZI3-vY-JkO" userLabel="First Responder" sceneMemberID="firstResponder"/>
@@ -3517,6 +3584,7 @@
                     </view>
                     <connections>
                         <outlet property="fearLevelPickerView" destination="dep-yl-gE5" id="N09-1K-a6k"/>
+                        <segue destination="NbD-h6-XoP" kind="show" identifier="next" id="DCV-7b-LI6"/>
                     </connections>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="nf6-cw-nJT" userLabel="First Responder" sceneMemberID="firstResponder"/>
@@ -3574,6 +3642,7 @@
                     </view>
                     <connections>
                         <outlet property="fearLevelPickerView" destination="ae4-co-n8Z" id="Wb0-SB-BjL"/>
+                        <segue destination="7cs-j0-dZZ" kind="show" identifier="next" id="qyF-Qw-JxG"/>
                     </connections>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="EeW-wV-ysn" userLabel="First Responder" sceneMemberID="firstResponder"/>
@@ -3631,6 +3700,7 @@
                     </view>
                     <connections>
                         <outlet property="fearLevelPickerView" destination="4P7-pu-oP1" id="3kX-AO-Na3"/>
+                        <segue destination="RYu-2C-llv" kind="show" identifier="next" id="MgH-nm-vF3"/>
                     </connections>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="EAI-tQ-VXO" userLabel="First Responder" sceneMemberID="firstResponder"/>
@@ -3688,6 +3758,7 @@
                     </view>
                     <connections>
                         <outlet property="fearLevelPickerView" destination="dh9-U3-44H" id="Wd1-fm-11z"/>
+                        <segue destination="uYH-yU-WDZ" kind="show" identifier="next" id="b5v-ha-6hk"/>
                     </connections>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="ty1-TX-MAX" userLabel="First Responder" sceneMemberID="firstResponder"/>
@@ -3745,6 +3816,7 @@
                     </view>
                     <connections>
                         <outlet property="fearLevelPickerView" destination="Qda-f5-Car" id="uoW-6X-1Jg"/>
+                        <segue destination="czy-zZ-2ky" kind="show" identifier="next" id="F5Z-3Q-2Eg"/>
                     </connections>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="Ybt-n9-Cdn" userLabel="First Responder" sceneMemberID="firstResponder"/>
@@ -3802,6 +3874,7 @@
                     </view>
                     <connections>
                         <outlet property="fearLevelPickerView" destination="G99-ig-QoK" id="wc2-RY-K8x"/>
+                        <segue destination="9kZ-I3-6It" kind="show" identifier="next" id="eo1-yK-lxU"/>
                     </connections>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="Rak-7U-sAf" userLabel="First Responder" sceneMemberID="firstResponder"/>
@@ -3859,6 +3932,7 @@
                     </view>
                     <connections>
                         <outlet property="fearLevelPickerView" destination="Hkx-S7-YkO" id="2M6-I9-1Da"/>
+                        <segue destination="Efv-lD-xaw" kind="show" identifier="next" id="zGQ-BO-Zdj"/>
                     </connections>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="tBn-Bt-Gqb" userLabel="First Responder" sceneMemberID="firstResponder"/>
@@ -3916,6 +3990,7 @@
                     </view>
                     <connections>
                         <outlet property="fearLevelPickerView" destination="Keh-dw-ewm" id="e5V-9Q-lRU"/>
+                        <segue destination="M0J-nS-emK" kind="show" identifier="next" id="gow-XU-iQf"/>
                     </connections>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="lFO-Uq-dmj" userLabel="First Responder" sceneMemberID="firstResponder"/>
@@ -3973,6 +4048,7 @@
                     </view>
                     <connections>
                         <outlet property="fearLevelPickerView" destination="jnR-wR-thV" id="7vF-2m-GJ3"/>
+                        <segue destination="lkG-56-95L" kind="show" identifier="next" id="qvC-lc-8Dg"/>
                     </connections>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="WnZ-Hg-HHE" userLabel="First Responder" sceneMemberID="firstResponder"/>
@@ -4030,6 +4106,7 @@
                     </view>
                     <connections>
                         <outlet property="fearLevelPickerView" destination="31e-f4-KqR" id="gDA-rH-gx2"/>
+                        <segue destination="ab9-wS-u0T" kind="show" identifier="next" id="PTH-qs-3hE"/>
                     </connections>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="6W0-hr-7qp" userLabel="First Responder" sceneMemberID="firstResponder"/>
@@ -4087,6 +4164,7 @@
                     </view>
                     <connections>
                         <outlet property="fearLevelPickerView" destination="e8Z-W6-z3f" id="2WW-SE-xFm"/>
+                        <segue destination="aT3-r3-iau" kind="show" identifier="next" id="rOo-7F-4jU"/>
                     </connections>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="dkD-l5-wLg" userLabel="First Responder" sceneMemberID="firstResponder"/>
@@ -4144,6 +4222,7 @@
                     </view>
                     <connections>
                         <outlet property="fearLevelPickerView" destination="Jzb-mG-COg" id="C8N-Tq-xdG"/>
+                        <segue destination="ijs-DE-Fxm" kind="show" identifier="next" id="Gcn-Cm-Vee"/>
                     </connections>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="i4T-CJ-Gmt" userLabel="First Responder" sceneMemberID="firstResponder"/>
@@ -4201,6 +4280,7 @@
                     </view>
                     <connections>
                         <outlet property="fearLevelPickerView" destination="aMW-yC-Shd" id="K9c-ba-ri9"/>
+                        <segue destination="Cus-gR-taS" kind="show" identifier="next" id="BpZ-wS-9aV"/>
                     </connections>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="TwX-XR-PgD" userLabel="First Responder" sceneMemberID="firstResponder"/>
@@ -4258,6 +4338,7 @@
                     </view>
                     <connections>
                         <outlet property="fearLevelPickerView" destination="d31-0d-GNw" id="6F2-Rc-N9b"/>
+                        <segue destination="fBD-2c-by3" kind="show" identifier="next" id="HJq-le-N5i"/>
                     </connections>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="gGl-kA-obj" userLabel="First Responder" sceneMemberID="firstResponder"/>
@@ -4315,6 +4396,7 @@
                     </view>
                     <connections>
                         <outlet property="fearLevelPickerView" destination="z1s-xX-3cq" id="zBI-VS-SdI"/>
+                        <segue destination="n0g-9a-ftN" kind="show" identifier="next" id="r8i-R5-KrE"/>
                     </connections>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="EgF-Px-rCR" userLabel="First Responder" sceneMemberID="firstResponder"/>
@@ -4372,6 +4454,7 @@
                     </view>
                     <connections>
                         <outlet property="fearLevelPickerView" destination="b0I-Q9-DW1" id="fYH-cc-GJu"/>
+                        <segue destination="Teh-Xf-G9c" kind="show" identifier="next" id="BRX-BP-fhy"/>
                     </connections>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="qy1-d0-snf" userLabel="First Responder" sceneMemberID="firstResponder"/>
@@ -4429,6 +4512,7 @@
                     </view>
                     <connections>
                         <outlet property="fearLevelPickerView" destination="a01-if-cz0" id="WRS-km-vZb"/>
+                        <segue destination="oDY-7f-8rJ" kind="show" identifier="next" id="fEy-wZ-pgO"/>
                     </connections>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="yFu-5w-FxH" userLabel="First Responder" sceneMemberID="firstResponder"/>
@@ -4486,6 +4570,7 @@
                     </view>
                     <connections>
                         <outlet property="fearLevelPickerView" destination="jfU-dk-2tS" id="SxI-LF-ZH1"/>
+                        <segue destination="ueY-ta-lsv" kind="show" identifier="next" id="gTt-h1-Igq"/>
                     </connections>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="Tqx-N8-Ec2" userLabel="First Responder" sceneMemberID="firstResponder"/>
@@ -4543,6 +4628,7 @@
                     </view>
                     <connections>
                         <outlet property="fearLevelPickerView" destination="AMr-1W-BN2" id="AEm-Ck-CXG"/>
+                        <segue destination="Mbl-Zs-DSe" kind="show" identifier="next" id="1rv-JQ-EBP"/>
                     </connections>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="SiG-c3-6wj" userLabel="First Responder" sceneMemberID="firstResponder"/>
@@ -4600,6 +4686,7 @@
                     </view>
                     <connections>
                         <outlet property="fearLevelPickerView" destination="TXP-KI-w05" id="XMZ-K2-hCT"/>
+                        <segue destination="FVR-Cf-Vil" kind="show" identifier="next" id="ARc-aE-XtM"/>
                     </connections>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="wiL-EO-tfF" userLabel="First Responder" sceneMemberID="firstResponder"/>
@@ -4657,11 +4744,203 @@
                     </view>
                     <connections>
                         <outlet property="fearLevelPickerView" destination="Vnh-zy-aPh" id="syp-Tq-UMi"/>
+                        <segue destination="qX2-Zc-sMb" kind="show" identifier="next" id="NOG-75-uA8"/>
                     </connections>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="TZV-02-QaJ" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>
             <point key="canvasLocation" x="5196" y="11323"/>
+        </scene>
+        <!--Third Par Confirm View Controller-->
+        <scene sceneID="dUm-pz-aP4">
+            <objects>
+                <viewController id="KBn-JN-Tm3" customClass="ThirdParConfirmViewController" customModule="AnnGiNoCoreData" customModuleProvider="target" sceneMemberID="viewController">
+                    <layoutGuides>
+                        <viewControllerLayoutGuide type="top" id="C0B-ar-Pdb"/>
+                        <viewControllerLayoutGuide type="bottom" id="3FT-tA-jgp"/>
+                    </layoutGuides>
+                    <view key="view" contentMode="scaleToFill" id="YEo-Eq-ASe">
+                        <rect key="frame" x="0.0" y="0.0" width="600" height="600"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="zQW-M2-3bi">
+                                <rect key="frame" x="202" y="550" width="195" height="30"/>
+                                <state key="normal" title="確認資料無誤，進行第四部份">
+                                    <color key="titleShadowColor" white="0.5" alpha="1" colorSpace="calibratedWhite"/>
+                                </state>
+                                <connections>
+                                    <action selector="nextClicked" destination="KBn-JN-Tm3" eventType="touchUpInside" id="mjx-gN-sHt"/>
+                                </connections>
+                            </button>
+                            <textView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" misplaced="YES" translatesAutoresizingMaskIntoConstraints="NO" id="3hq-B9-Rcm">
+                                <rect key="frame" x="16" y="72" width="568" height="470"/>
+                                <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                                <string key="text">Lorem ipsum dolor sit er elit lamet, consectetaur cillium adipisicing pecu, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum. Nam liber te conscient to factor tum poen legum odioque civiuda.</string>
+                                <fontDescription key="fontDescription" type="system" pointSize="14"/>
+                                <textInputTraits key="textInputTraits" autocapitalizationType="sentences"/>
+                            </textView>
+                        </subviews>
+                        <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                        <constraints>
+                            <constraint firstItem="zQW-M2-3bi" firstAttribute="top" secondItem="3hq-B9-Rcm" secondAttribute="bottom" constant="8" id="66l-f4-nmD"/>
+                            <constraint firstItem="3hq-B9-Rcm" firstAttribute="leading" secondItem="YEo-Eq-ASe" secondAttribute="leading" constant="16" id="6pn-ot-hJl"/>
+                            <constraint firstItem="3FT-tA-jgp" firstAttribute="top" secondItem="zQW-M2-3bi" secondAttribute="bottom" constant="20" id="95a-4Q-olc"/>
+                            <constraint firstAttribute="trailing" secondItem="3hq-B9-Rcm" secondAttribute="trailing" constant="16" id="Bqw-2r-dYm"/>
+                            <constraint firstItem="3hq-B9-Rcm" firstAttribute="top" secondItem="C0B-ar-Pdb" secondAttribute="bottom" constant="8" id="gfM-6C-wls"/>
+                            <constraint firstAttribute="centerX" secondItem="zQW-M2-3bi" secondAttribute="centerX" id="pfc-6r-BFS"/>
+                        </constraints>
+                    </view>
+                    <connections>
+                        <outlet property="resultTextView" destination="3hq-B9-Rcm" id="s3U-pk-IYq"/>
+                        <segue destination="q6U-ny-5Ej" kind="show" identifier="next" id="d2R-al-Gj9"/>
+                    </connections>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="JaC-Y7-foe" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="6376" y="6811"/>
+        </scene>
+        <!--Fourth Part Confirm View Controller-->
+        <scene sceneID="Zt7-OG-Cxm">
+            <objects>
+                <viewController id="X54-hQ-WCV" customClass="FourthPartConfirmViewController" customModule="AnnGiNoCoreData" customModuleProvider="target" sceneMemberID="viewController">
+                    <layoutGuides>
+                        <viewControllerLayoutGuide type="top" id="zdr-j1-A2Z"/>
+                        <viewControllerLayoutGuide type="bottom" id="dfl-SH-8td"/>
+                    </layoutGuides>
+                    <view key="view" contentMode="scaleToFill" id="7Wg-gr-rwH">
+                        <rect key="frame" x="0.0" y="0.0" width="600" height="600"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="Scm-hQ-dpu">
+                                <rect key="frame" x="202" y="550" width="195" height="30"/>
+                                <state key="normal" title="確認資料無誤，進行第五部份">
+                                    <color key="titleShadowColor" white="0.5" alpha="1" colorSpace="calibratedWhite"/>
+                                </state>
+                                <connections>
+                                    <action selector="nextClicked" destination="X54-hQ-WCV" eventType="touchUpInside" id="jxk-aP-REn"/>
+                                </connections>
+                            </button>
+                            <textView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" misplaced="YES" translatesAutoresizingMaskIntoConstraints="NO" id="lzp-uQ-Hd1">
+                                <rect key="frame" x="16" y="72" width="568" height="470"/>
+                                <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                                <string key="text">Lorem ipsum dolor sit er elit lamet, consectetaur cillium adipisicing pecu, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum. Nam liber te conscient to factor tum poen legum odioque civiuda.</string>
+                                <fontDescription key="fontDescription" type="system" pointSize="14"/>
+                                <textInputTraits key="textInputTraits" autocapitalizationType="sentences"/>
+                            </textView>
+                        </subviews>
+                        <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                        <constraints>
+                            <constraint firstAttribute="centerX" secondItem="Scm-hQ-dpu" secondAttribute="centerX" id="Ck5-ue-Ym5"/>
+                            <constraint firstAttribute="trailing" secondItem="lzp-uQ-Hd1" secondAttribute="trailing" constant="16" id="E1E-eo-ZqC"/>
+                            <constraint firstItem="dfl-SH-8td" firstAttribute="top" secondItem="Scm-hQ-dpu" secondAttribute="bottom" constant="20" id="GRd-qP-0JP"/>
+                            <constraint firstItem="Scm-hQ-dpu" firstAttribute="top" secondItem="lzp-uQ-Hd1" secondAttribute="bottom" constant="8" id="UaL-nf-Zvj"/>
+                            <constraint firstItem="lzp-uQ-Hd1" firstAttribute="leading" secondItem="7Wg-gr-rwH" secondAttribute="leading" constant="16" id="bZz-v2-RLz"/>
+                            <constraint firstItem="lzp-uQ-Hd1" firstAttribute="top" secondItem="zdr-j1-A2Z" secondAttribute="bottom" constant="8" id="lfS-pX-PBw"/>
+                        </constraints>
+                    </view>
+                    <connections>
+                        <outlet property="resultTextView" destination="lzp-uQ-Hd1" id="pY2-c0-nPw"/>
+                        <segue destination="fQ2-90-LjW" kind="show" identifier="next" id="Zwq-SD-sYM"/>
+                    </connections>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="oRJ-es-lkK" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="6376" y="8271"/>
+        </scene>
+        <!--Fifth Part Confirm View Controller-->
+        <scene sceneID="fEP-OF-AMt">
+            <objects>
+                <viewController id="M0J-nS-emK" customClass="FifthPartConfirmViewController" customModule="AnnGiNoCoreData" customModuleProvider="target" sceneMemberID="viewController">
+                    <layoutGuides>
+                        <viewControllerLayoutGuide type="top" id="prA-hN-vjG"/>
+                        <viewControllerLayoutGuide type="bottom" id="6Ad-bC-sXX"/>
+                    </layoutGuides>
+                    <view key="view" contentMode="scaleToFill" id="HHx-Ms-UYv">
+                        <rect key="frame" x="0.0" y="0.0" width="600" height="600"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="Vtq-gD-hk6">
+                                <rect key="frame" x="202" y="550" width="195" height="30"/>
+                                <state key="normal" title="確認資料無誤，進行第六部份">
+                                    <color key="titleShadowColor" white="0.5" alpha="1" colorSpace="calibratedWhite"/>
+                                </state>
+                                <connections>
+                                    <action selector="nextClicked" destination="M0J-nS-emK" eventType="touchUpInside" id="IT5-H4-sxI"/>
+                                </connections>
+                            </button>
+                            <textView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="qNy-9Z-5rN">
+                                <rect key="frame" x="16" y="72" width="568" height="470"/>
+                                <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                                <string key="text">Lorem ipsum dolor sit er elit lamet, consectetaur cillium adipisicing pecu, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum. Nam liber te conscient to factor tum poen legum odioque civiuda.</string>
+                                <fontDescription key="fontDescription" type="system" pointSize="14"/>
+                                <textInputTraits key="textInputTraits" autocapitalizationType="sentences"/>
+                            </textView>
+                        </subviews>
+                        <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                        <constraints>
+                            <constraint firstItem="qNy-9Z-5rN" firstAttribute="leading" secondItem="HHx-Ms-UYv" secondAttribute="leading" constant="16" id="XBe-VR-4VY"/>
+                            <constraint firstAttribute="centerX" secondItem="Vtq-gD-hk6" secondAttribute="centerX" id="ahg-ch-Dqi"/>
+                            <constraint firstItem="qNy-9Z-5rN" firstAttribute="top" secondItem="prA-hN-vjG" secondAttribute="bottom" constant="8" id="cvw-oT-wGK"/>
+                            <constraint firstItem="Vtq-gD-hk6" firstAttribute="top" secondItem="qNy-9Z-5rN" secondAttribute="bottom" constant="8" id="jLQ-dc-gje"/>
+                            <constraint firstItem="6Ad-bC-sXX" firstAttribute="top" secondItem="Vtq-gD-hk6" secondAttribute="bottom" constant="20" id="uvE-qs-DKP"/>
+                            <constraint firstAttribute="trailing" secondItem="qNy-9Z-5rN" secondAttribute="trailing" constant="16" id="yQ9-d9-Tmf"/>
+                        </constraints>
+                    </view>
+                    <connections>
+                        <outlet property="resultTextView" destination="qNy-9Z-5rN" id="GOJ-Ly-Wmw"/>
+                        <segue destination="yiE-il-gOd" kind="show" identifier="next" id="3iN-c5-f2d"/>
+                    </connections>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="GlO-b4-TUt" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="6376" y="9759"/>
+        </scene>
+        <!--Sixth Part Confirm View Controller-->
+        <scene sceneID="Y0Z-ea-NWp">
+            <objects>
+                <viewController id="qX2-Zc-sMb" customClass="SixthPartConfirmViewController" customModule="AnnGiNoCoreData" customModuleProvider="target" sceneMemberID="viewController">
+                    <layoutGuides>
+                        <viewControllerLayoutGuide type="top" id="2lS-EA-Eu1"/>
+                        <viewControllerLayoutGuide type="bottom" id="dTB-ss-fzU"/>
+                    </layoutGuides>
+                    <view key="view" contentMode="scaleToFill" id="pu5-HY-lma">
+                        <rect key="frame" x="0.0" y="0.0" width="600" height="600"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="SGL-W6-OJO">
+                                <rect key="frame" x="217" y="550" width="165" height="30"/>
+                                <state key="normal" title="確認資料正確，並且上傳">
+                                    <color key="titleShadowColor" white="0.5" alpha="1" colorSpace="calibratedWhite"/>
+                                </state>
+                                <connections>
+                                    <action selector="nextClicked" destination="qX2-Zc-sMb" eventType="touchUpInside" id="wms-ge-0g3"/>
+                                </connections>
+                            </button>
+                            <textView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" misplaced="YES" translatesAutoresizingMaskIntoConstraints="NO" id="p2V-2I-K7m">
+                                <rect key="frame" x="16" y="72" width="568" height="470"/>
+                                <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                                <string key="text">Lorem ipsum dolor sit er elit lamet, consectetaur cillium adipisicing pecu, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum. Nam liber te conscient to factor tum poen legum odioque civiuda.</string>
+                                <fontDescription key="fontDescription" type="system" pointSize="14"/>
+                                <textInputTraits key="textInputTraits" autocapitalizationType="sentences"/>
+                            </textView>
+                        </subviews>
+                        <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                        <constraints>
+                            <constraint firstItem="SGL-W6-OJO" firstAttribute="top" secondItem="p2V-2I-K7m" secondAttribute="bottom" constant="8" id="3X7-XP-3I9"/>
+                            <constraint firstAttribute="trailing" secondItem="p2V-2I-K7m" secondAttribute="trailing" constant="16" id="6md-rR-KzO"/>
+                            <constraint firstAttribute="centerX" secondItem="SGL-W6-OJO" secondAttribute="centerX" id="9r5-wl-pkq"/>
+                            <constraint firstItem="dTB-ss-fzU" firstAttribute="top" secondItem="SGL-W6-OJO" secondAttribute="bottom" constant="20" id="ara-DF-H4Y"/>
+                            <constraint firstItem="p2V-2I-K7m" firstAttribute="top" secondItem="2lS-EA-Eu1" secondAttribute="bottom" constant="8" id="gVs-hu-TI9"/>
+                            <constraint firstItem="p2V-2I-K7m" firstAttribute="leading" secondItem="pu5-HY-lma" secondAttribute="leading" constant="16" id="wkG-hl-nQf"/>
+                        </constraints>
+                    </view>
+                    <connections>
+                        <outlet property="resultTextView" destination="p2V-2I-K7m" id="Oio-gm-abh"/>
+                    </connections>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="RZy-bp-w7k" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="6260" y="11323"/>
         </scene>
     </scenes>
 </document>

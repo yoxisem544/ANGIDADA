@@ -93,6 +93,7 @@ public class PersonalInformation: PFObject, PFSubclassing {
     
     // MARK: - Third part
     //    第三部分：本部分是想瞭解您與您直屬主管之間的溝通模式。針對每一個問題，請您評估該種溝通模式的發生頻率，並選擇最適當的程度選項。
+    // （1從未如此，2很少如此，3偶爾如此，4有時如此，5經常如此，6總是如此）
     //  7. Intensity of supervisor-subordinate interaction (與主管互動形式的頻率高低) 37提
     //   1. 面對面進行互動。
     @NSManaged var intensityOfSupervisorSubordinateInteractionQuestion1: String!

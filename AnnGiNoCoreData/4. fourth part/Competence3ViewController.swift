@@ -40,7 +40,7 @@ class Competence3ViewController: UIViewController {
         // Get the new view controller using segue.destinationViewController.
         // Pass the selected object to the new view controller.
         if segue.identifier == "next" {
-            let vc = segue.destinationViewController as! QuantitativeJobDemand1ViewController
+            let vc = segue.destinationViewController as! FourthPartConfirmViewController
             vc.user = user
         }
     }

@@ -12,7 +12,7 @@ import Parse
 class Intensity1ViewController: UIViewController {
     
     
-    let fearLevel = ["非常不同意", "不同意", "有點不同意", "有點同意", "同意", "非常同意"]
+    let fearLevel = ["從未如此", "很少如此", "偶爾如此", "有時如此", "經常如此", "總是如此"]
     
     var user: PersonalInformation!
     

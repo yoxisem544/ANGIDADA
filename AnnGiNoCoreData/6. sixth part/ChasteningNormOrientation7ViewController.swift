@@ -40,7 +40,7 @@ class ChasteningNormOrientation7ViewController: UIViewController {
         // Get the new view controller using segue.destinationViewController.
         // Pass the selected object to the new view controller.
         if segue.identifier == "next" {
-            let vc = segue.destinationViewController as! ChasteningNormOrientation7ViewController
+            let vc = segue.destinationViewController as! SixthPartConfirmViewController
             vc.user = user
         }
     }

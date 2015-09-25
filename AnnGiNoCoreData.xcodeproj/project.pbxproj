@@ -111,6 +111,11 @@
 		63E61EC51BA68619009F50DA /* SystemConfiguration.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 63E61EC41BA68619009F50DA /* SystemConfiguration.framework */; };
 		63E61EC71BA68621009F50DA /* libz.dylib in Frameworks */ = {isa = PBXBuildFile; fileRef = 63E61EC61BA68621009F50DA /* libz.dylib */; };
 		63E61EC91BA6862A009F50DA /* libsqlite3.dylib in Frameworks */ = {isa = PBXBuildFile; fileRef = 63E61EC81BA6862A009F50DA /* libsqlite3.dylib */; };
+		63EB28471BB4EDAE007B5BAC /* SecondPartConfirmViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 63EB28461BB4EDAE007B5BAC /* SecondPartConfirmViewController.swift */; };
+		63EB28491BB4EF8C007B5BAC /* ThirdParConfirmViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 63EB28481BB4EF8C007B5BAC /* ThirdParConfirmViewController.swift */; };
+		63EB284B1BB4EFF7007B5BAC /* FourthPartConfirmViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 63EB284A1BB4EFF7007B5BAC /* FourthPartConfirmViewController.swift */; };
+		63EB284D1BB4F04E007B5BAC /* FifthPartConfirmViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 63EB284C1BB4F04E007B5BAC /* FifthPartConfirmViewController.swift */; };
+		63EB284F1BB4F05B007B5BAC /* SixthPartConfirmViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 63EB284E1BB4F05B007B5BAC /* SixthPartConfirmViewController.swift */; };
 		63FFC86E1BA6888F0029FC56 /* TestObject.swift in Sources */ = {isa = PBXBuildFile; fileRef = 63FFC86D1BA6888F0029FC56 /* TestObject.swift */; };
 /* End PBXBuildFile section */
 
@@ -233,6 +238,11 @@
 		63E61EC41BA68619009F50DA /* SystemConfiguration.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = SystemConfiguration.framework; path = System/Library/Frameworks/SystemConfiguration.framework; sourceTree = SDKROOT; };
 		63E61EC61BA68621009F50DA /* libz.dylib */ = {isa = PBXFileReference; lastKnownFileType = "compiled.mach-o.dylib"; name = libz.dylib; path = usr/lib/libz.dylib; sourceTree = SDKROOT; };
 		63E61EC81BA6862A009F50DA /* libsqlite3.dylib */ = {isa = PBXFileReference; lastKnownFileType = "compiled.mach-o.dylib"; name = libsqlite3.dylib; path = usr/lib/libsqlite3.dylib; sourceTree = SDKROOT; };
+		63EB28461BB4EDAE007B5BAC /* SecondPartConfirmViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SecondPartConfirmViewController.swift; sourceTree = "<group>"; };
+		63EB28481BB4EF8C007B5BAC /* ThirdParConfirmViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = ThirdParConfirmViewController.swift; path = "3. third part/ThirdParConfirmViewController.swift"; sourceTree = "<group>"; };
+		63EB284A1BB4EFF7007B5BAC /* FourthPartConfirmViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = FourthPartConfirmViewController.swift; sourceTree = "<group>"; };
+		63EB284C1BB4F04E007B5BAC /* FifthPartConfirmViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = FifthPartConfirmViewController.swift; sourceTree = "<group>"; };
+		63EB284E1BB4F05B007B5BAC /* SixthPartConfirmViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SixthPartConfirmViewController.swift; sourceTree = "<group>"; };
 		63FFC86D1BA6888F0029FC56 /* TestObject.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = TestObject.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
@@ -457,6 +467,11 @@
 				63FFC86D1BA6888F0029FC56 /* TestObject.swift */,
 				63E61E881BA685CA009F50DA /* ViewController.swift */,
 				63E61E8A1BA685CA009F50DA /* Main.storyboard */,
+				63EB28481BB4EF8C007B5BAC /* ThirdParConfirmViewController.swift */,
+				63EB284A1BB4EFF7007B5BAC /* FourthPartConfirmViewController.swift */,
+				63EB284E1BB4F05B007B5BAC /* SixthPartConfirmViewController.swift */,
+				63EB284C1BB4F04E007B5BAC /* FifthPartConfirmViewController.swift */,
+				63EB28461BB4EDAE007B5BAC /* SecondPartConfirmViewController.swift */,
 				63A870581BB1A73C00313716 /* model */,
 				631739C41BA937CA00242094 /* HintOnceViewController.swift */,
 				631739C61BA938EF00242094 /* FirstPartStartViewController.swift */,
@@ -607,9 +622,12 @@
 				63A871331BB3FCE700313716 /* IntensityOfSupervisorSubordinateInteraction3ViewController.swift in Sources */,
 				63A8713F1BB3FCE700313716 /* EmotionalJobDemand2ViewController.swift in Sources */,
 				63A871391BB3FCE700313716 /* TraitJobSatisfaction1ViewController.swift in Sources */,
+				63EB284D1BB4F04E007B5BAC /* FifthPartConfirmViewController.swift in Sources */,
 				63A8714E1BB3FCE700313716 /* ChasteningNormOrientation7ViewController.swift in Sources */,
 				63A871491BB3FCE700313716 /* ChasteningNormOrientation2ViewController.swift in Sources */,
 				631739D71BA95E2700242094 /* SecondPartBossPeopleViewController.swift in Sources */,
+				63EB28491BB4EF8C007B5BAC /* ThirdParConfirmViewController.swift in Sources */,
+				63EB284F1BB4F05B007B5BAC /* SixthPartConfirmViewController.swift in Sources */,
 				63A8712A1BB3FCE700313716 /* PerceivedSupervisorEffectiveness2ViewController.swift in Sources */,
 				63A871271BB3FCE700313716 /* GeneralSupervisorDirectedOCB3ViewController.swift in Sources */,
 				63A871401BB3FCE700313716 /* EmotionalJobDemand3ViewController.swift in Sources */,
@@ -617,6 +635,7 @@
 				63A8714B1BB3FCE700313716 /* ChasteningNormOrientation4ViewController.swift in Sources */,
 				631739D11BA9546E00242094 /* DepartmentPickerViewController.swift in Sources */,
 				63A871281BB3FCE700313716 /* GeneralSupervisorDirectedOCB4ViewController.swift in Sources */,
+				63EB28471BB4EDAE007B5BAC /* SecondPartConfirmViewController.swift in Sources */,
 				63A871301BB3FCE700313716 /* PersonLifeInclusion4ViewController.swift in Sources */,
 				63A870631BB2EF5300313716 /* SecondPartWorkTogetherTimeViewController.swift in Sources */,
 				63A871261BB3FCE700313716 /* GeneralSupervisorDirectedOCB2ViewController.swift in Sources */,
@@ -625,6 +644,7 @@
 				63FFC86E1BA6888F0029FC56 /* TestObject.swift in Sources */,
 				63A8705E1BB29B6500313716 /* FirstPartConfirmViewController.swift in Sources */,
 				631739E31BA9ABEC00242094 /* Authoritarian5ViewController.swift in Sources */,
+				63EB284B1BB4EFF7007B5BAC /* FourthPartConfirmViewController.swift in Sources */,
 				63A871341BB3FCE700313716 /* IntensityOfSupervisorSubordinateInteraction4ViewController.swift in Sources */,
 				63A871451BB3FCE700313716 /* QuantitativeJobDemand3ViewController.swift in Sources */,
 				63A871461BB3FCE700313716 /* QuantitativeJobDemand4ViewController.swift in Sources */,
