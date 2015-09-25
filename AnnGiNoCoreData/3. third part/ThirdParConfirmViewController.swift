@@ -20,6 +20,7 @@ class ThirdParConfirmViewController: UIViewController {
         title = "第三部份確認"
         var backbutton = UIBarButtonItem(title: "第三部份確認", style: UIBarButtonItemStyle.Done, target: nil, action: nil)
         self.navigationItem.backBarButtonItem = backbutton
+        resultTextView.text = "面對面進行互動。\n\(user.intensityOfSupervisorSubordinateInteractionQuestion1)\n\n使用電子郵件進行互動。\n\(user.intensityOfSupervisorSubordinateInteractionQuestion2)\n\n在電話中進行互動。\n\(user.intensityOfSupervisorSubordinateInteractionQuestion3)\n\n使用即時通訊軟體進行互動。\n\(user.intensityOfSupervisorSubordinateInteractionQuestion4)\n\n使用內部簽核系統進行互動。\n\(user.intensityOfSupervisorSubordinateInteractionQuestion5)"
     }
     
     override func didReceiveMemoryWarning() {

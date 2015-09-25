@@ -24,13 +24,6 @@ class Authoritarian5ViewController: UIViewController {
         // Do any additional setup after loading the view.
         fearLevelPickerView.selectRow(0, inComponent: 0, animated: true)
         user.authoritarianLeadershipQuestion5 = fearLevel[0]
-        
-        // test saving
-        user.saveInBackgroundWithBlock { (success, error) -> Void in
-            if success {
-                println("ok")
-            }
-        }
     }
     
     override func didReceiveMemoryWarning() {

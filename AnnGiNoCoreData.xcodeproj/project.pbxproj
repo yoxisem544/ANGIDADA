@@ -308,7 +308,6 @@
 			isa = PBXGroup;
 			children = (
 				631739D21BA956EC00242094 /* CompanyKindViewController.swift */,
-				63A8705D1BB29B6500313716 /* FirstPartConfirmViewController.swift */,
 				631739D01BA9546E00242094 /* DepartmentPickerViewController.swift */,
 				631739CE1BA9526C00242094 /* CompanyLevelViewController.swift */,
 				631739CC1BA94F8600242094 /* EducationalBackgroundPickerViewController.swift */,
@@ -467,11 +466,12 @@
 				63FFC86D1BA6888F0029FC56 /* TestObject.swift */,
 				63E61E881BA685CA009F50DA /* ViewController.swift */,
 				63E61E8A1BA685CA009F50DA /* Main.storyboard */,
+				63A8705D1BB29B6500313716 /* FirstPartConfirmViewController.swift */,
+				63EB28461BB4EDAE007B5BAC /* SecondPartConfirmViewController.swift */,
 				63EB28481BB4EF8C007B5BAC /* ThirdParConfirmViewController.swift */,
 				63EB284A1BB4EFF7007B5BAC /* FourthPartConfirmViewController.swift */,
-				63EB284E1BB4F05B007B5BAC /* SixthPartConfirmViewController.swift */,
 				63EB284C1BB4F04E007B5BAC /* FifthPartConfirmViewController.swift */,
-				63EB28461BB4EDAE007B5BAC /* SecondPartConfirmViewController.swift */,
+				63EB284E1BB4F05B007B5BAC /* SixthPartConfirmViewController.swift */,
 				63A870581BB1A73C00313716 /* model */,
 				631739C41BA937CA00242094 /* HintOnceViewController.swift */,
 				631739C61BA938EF00242094 /* FirstPartStartViewController.swift */,
