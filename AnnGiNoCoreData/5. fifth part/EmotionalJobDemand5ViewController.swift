@@ -63,7 +63,7 @@ extension EmotionalJobDemand5ViewController : UIPickerViewDataSource, UIPickerVi
         return 1
     }
     func pickerView(pickerView: UIPickerView, didSelectRow row: Int, inComponent component: Int) {
-        println(fearLevel[row])
+        print(fearLevel[row])
         user.emotionalJobDemandQuestion5 = fearLevel[row]
     }
 }

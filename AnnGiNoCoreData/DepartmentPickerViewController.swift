@@ -27,8 +27,9 @@ class DepartmentPickerViewController: UIViewController {
         other.delegate = self
         other.enabled = false
     }
-    
-    override func touchesBegan(touches: Set<NSObject>, withEvent event: UIEvent) {
+
+    override func touchesBegan(touches: Set<UITouch>, withEvent event: UIEvent?) {
+        super.touchesBegan(touches, withEvent: event)
         self.view.endEditing(true)
     }
     
@@ -56,7 +57,7 @@ class DepartmentPickerViewController: UIViewController {
 
     
     @IBAction func nextClicked(sender: AnyObject) {
-        println(departmentPickerView)
+        print(departmentPickerView)
         if other.enabled {
             user.currentDepartmentProperty = other.text
         }
@@ -85,7 +86,7 @@ extension DepartmentPickerViewController : UIPickerViewDataSource, UIPickerViewD
         return 1
     }
     func pickerView(pickerView: UIPickerView, didSelectRow row: Int, inComponent component: Int) {
-        println(department[row])
+        print(department[row])
         if row == department.count - 1 {
             other.enabled = true
         } else {

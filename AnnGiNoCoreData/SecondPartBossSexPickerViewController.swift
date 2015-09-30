@@ -47,7 +47,7 @@ class SecondPartBossSexPickerViewController: UIViewController {
     
     
     @IBAction func nextClicked(sender: AnyObject) {
-        println(sexPickerView)
+        print(sexPickerView)
         performSegueWithIdentifier("8 to 9", sender: user)
     }
 }
@@ -64,7 +64,7 @@ extension SecondPartBossSexPickerViewController : UIPickerViewDataSource, UIPick
         return 1
     }
     func pickerView(pickerView: UIPickerView, didSelectRow row: Int, inComponent component: Int) {
-        println(sex[row])
+        print(sex[row])
         user.directManagerSex = sex[row]
     }
 }

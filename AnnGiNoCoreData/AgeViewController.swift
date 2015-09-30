@@ -27,7 +27,7 @@ class AgeViewController: UIViewController {
         ageTextField.becomeFirstResponder()
         
         user.age = 0
-        println(user.age)
+        print(user.age)
     }
     
     func tap() {
@@ -52,7 +52,7 @@ class AgeViewController: UIViewController {
     */
 
     @IBAction func clickNext(sender: AnyObject) {
-        if let age = ageTextField.text.toInt() {
+        if let age = Int(ageTextField.text!) {
             user.age = age
             performSegueWithIdentifier("2 to 3", sender: user)
         } else {

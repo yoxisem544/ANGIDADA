@@ -60,7 +60,7 @@ extension DeferenceToSupervisor1ViewController : UIPickerViewDataSource, UIPicke
         return 1
     }
     func pickerView(pickerView: UIPickerView, didSelectRow row: Int, inComponent component: Int) {
-        println(fearLevel[row])
+        print(fearLevel[row])
         user.deferenceToSupervisorQuestion1 = fearLevel[row]
     }
 }

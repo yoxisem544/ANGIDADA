@@ -63,7 +63,7 @@ extension TraitJobSatisfaction4ViewController : UIPickerViewDataSource, UIPicker
         return 1
     }
     func pickerView(pickerView: UIPickerView, didSelectRow row: Int, inComponent component: Int) {
-        println(fearLevel[row])
+        print(fearLevel[row])
         user.traitJobSatisfactionQuestion4 = fearLevel[row]
     }
 }

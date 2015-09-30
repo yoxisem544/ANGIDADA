@@ -60,7 +60,7 @@ extension GeneralSupervisorDirectedOCB4ViewController : UIPickerViewDataSource, 
         return 1
     }
     func pickerView(pickerView: UIPickerView, didSelectRow row: Int, inComponent component: Int) {
-        println(fearLevel[row])
+        print(fearLevel[row])
         user.generalSupervisorDirectedOCBQuestion4 = fearLevel[row]
     }
 }

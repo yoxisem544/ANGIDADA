@@ -48,7 +48,7 @@ class SexPickerViewController: UIViewController {
     */
 
     @IBAction func nextClicked(sender: AnyObject) {
-        println(sexPickerView)
+        print(sexPickerView)
         self.performSegueWithIdentifier("1 to 2", sender: user)
     }
     
@@ -72,7 +72,7 @@ extension SexPickerViewController : UIPickerViewDataSource, UIPickerViewDelegate
         return 1
     }
     func pickerView(pickerView: UIPickerView, didSelectRow row: Int, inComponent component: Int) {
-        println(sex[row])
+        print(sex[row])
         user.sex = sex[row]
     }
 }

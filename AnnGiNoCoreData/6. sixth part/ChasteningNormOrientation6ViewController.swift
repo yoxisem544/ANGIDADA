@@ -63,7 +63,7 @@ extension ChasteningNormOrientation6ViewController : UIPickerViewDataSource, UIP
         return 1
     }
     func pickerView(pickerView: UIPickerView, didSelectRow row: Int, inComponent component: Int) {
-        println(fearLevel[row])
+        print(fearLevel[row])
         user.chasteningNormOrientationQuestion6 = fearLevel[row]
     }
 }

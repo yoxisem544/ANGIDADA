@@ -32,13 +32,13 @@ class SecondPartWorkTogetherTimeViewController: UIViewController {
     }
     
     @IBAction func nextClicked(sender: AnyObject) {
-        if let month = monthTextField.text.toInt() {
+        if let month = Int(monthTextField.text!) {
             // get month first
             // then check year
             var year = "0"
             if yearTextField.text != "" {
                 // something in it
-                if let y = yearTextField.text.toInt() {
+                if let y = Int(yearTextField.text!) {
                     // check if year is a number
                     year = "\(y)"
                 }

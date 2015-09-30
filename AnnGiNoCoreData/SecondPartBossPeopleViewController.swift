@@ -59,7 +59,7 @@ class SecondPartBossPeopleViewController: UIViewController {
 
 
     @IBAction func nextClicked() {
-        if let people = peopleTextField.text.toInt() {
+        if let people = Int(peopleTextField.text!) {
             user.peopleThatDirectManagerManaged = people
             performSegueWithIdentifier("9 to 10", sender: user)
         } else {

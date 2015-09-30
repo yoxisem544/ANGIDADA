@@ -64,7 +64,7 @@ extension EducationalBackgroundPickerViewController : UIPickerViewDataSource, UI
         return 1
     }
     func pickerView(pickerView: UIPickerView, didSelectRow row: Int, inComponent component: Int) {
-        println(educationBackground[row])
+        print(educationBackground[row])
         user.educationalBackground = educationBackground[row]
     }
 }

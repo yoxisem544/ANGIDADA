@@ -63,7 +63,7 @@ extension Competence3ViewController : UIPickerViewDataSource, UIPickerViewDelega
         return 1
     }
     func pickerView(pickerView: UIPickerView, didSelectRow row: Int, inComponent component: Int) {
-        println(fearLevel[row])
+        print(fearLevel[row])
         user.competenceQuestion3 = fearLevel[row]
     }
 }

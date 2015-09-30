@@ -63,7 +63,7 @@ extension PowerDistanceOrientation3ViewController : UIPickerViewDataSource, UIPi
         return 1
     }
     func pickerView(pickerView: UIPickerView, didSelectRow row: Int, inComponent component: Int) {
-        println(fearLevel[row])
+        print(fearLevel[row])
         user.powerDistanceOrientationQuestion3 = fearLevel[row]
     }
 }

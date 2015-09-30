@@ -63,7 +63,7 @@ extension Intensity2ViewController : UIPickerViewDataSource, UIPickerViewDelegat
         return 1
     }
     func pickerView(pickerView: UIPickerView, didSelectRow row: Int, inComponent component: Int) {
-        println(fearLevel[row])
+        print(fearLevel[row])
         user.intensityOfSupervisorSubordinateInteractionQuestion2 = fearLevel[row]
     }
 }

@@ -56,7 +56,8 @@ class CompanyKindViewController: UIViewController {
         self.performSegueWithIdentifier("7 to confirm first part", sender: user)
     }
     
-    override func touchesBegan(touches: Set<NSObject>, withEvent event: UIEvent) {
+    override func touchesBegan(touches: Set<UITouch>, withEvent event: UIEvent?) {
+        super.touchesBegan(touches, withEvent: event)
         self.view.endEditing(true)
     }
 }
@@ -82,7 +83,7 @@ extension CompanyKindViewController : UIPickerViewDataSource, UIPickerViewDelega
         return 1
     }
     func pickerView(pickerView: UIPickerView, didSelectRow row: Int, inComponent component: Int) {
-        println(companyKind[row])
+        print(companyKind[row])
         if row == companyKind.count - 1 {
             other.enabled = true
         } else {

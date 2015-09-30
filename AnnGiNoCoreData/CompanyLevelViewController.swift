@@ -63,7 +63,7 @@ extension CompanyLevelViewController : UIPickerViewDataSource, UIPickerViewDeleg
         return 1
     }
     func pickerView(pickerView: UIPickerView, didSelectRow row: Int, inComponent component: Int) {
-        println(companyLevel[row])
+        print(companyLevel[row])
         user.currentRank = companyLevel[row]
     }
 }

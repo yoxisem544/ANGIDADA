@@ -63,7 +63,7 @@ extension Authoritarian2ViewController : UIPickerViewDataSource, UIPickerViewDel
         return 1
     }
     func pickerView(pickerView: UIPickerView, didSelectRow row: Int, inComponent component: Int) {
-        println(fearLevel[row])
+        print(fearLevel[row])
         user.authoritarianLeadershipQuestion2 = fearLevel[row]
     }
 }
