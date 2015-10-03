@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8" standalone="no"?>
-<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="8191" systemVersion="14F27" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" initialViewController="mVq-iw-HCo">
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="8191" systemVersion="14F27" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" initialViewController="S5K-HP-Wkg">
     <dependencies>
         <deployment identifier="iOS"/>
         <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="8154"/>
@@ -14,7 +14,7 @@
                     <navigationBar key="navigationBar" contentMode="scaleToFill" id="BNt-cU-5ra">
                         <rect key="frame" x="0.0" y="0.0" width="320" height="44"/>
                         <autoresizingMask key="autoresizingMask"/>
-                        <color key="tintColor" red="0.15216385690000001" green="0.96862745100000003" blue="0.96078431369999995" alpha="1" colorSpace="calibratedRGB"/>
+                        <color key="tintColor" red="0.40000000000000002" green="0.80000000000000004" blue="0.80000000000000004" alpha="1" colorSpace="calibratedRGB"/>
                     </navigationBar>
                     <connections>
                         <segue destination="hgS-tp-jHi" kind="relationship" relationship="rootViewController" id="cKv-Op-WeD"/>
@@ -828,7 +828,7 @@
                                     <constraint firstAttribute="height" constant="30" id="MGc-74-7n9"/>
                                 </constraints>
                                 <state key="normal" title="確認資料正確，進行第二部份">
-                                    <color key="titleColor" red="0.15216385690000001" green="0.96862745100000003" blue="0.96078431369999995" alpha="1" colorSpace="calibratedRGB"/>
+                                    <color key="titleColor" red="0.40000000000000002" green="0.80000000000000004" blue="0.80000000000000004" alpha="1" colorSpace="calibratedRGB"/>
                                     <color key="titleShadowColor" white="0.5" alpha="1" colorSpace="calibratedWhite"/>
                                 </state>
                                 <connections>
@@ -3159,7 +3159,7 @@
                             <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="z5F-dL-dGI">
                                 <rect key="frame" x="202" y="550" width="195" height="30"/>
                                 <state key="normal" title="確認資料無誤，進行第三部份">
-                                    <color key="titleColor" red="0.15216385690000001" green="0.96862745100000003" blue="0.96078431369999995" alpha="1" colorSpace="calibratedRGB"/>
+                                    <color key="titleColor" red="0.40000000000000002" green="0.80000000000000004" blue="0.80000000000000004" alpha="1" colorSpace="calibratedRGB"/>
                                     <color key="titleShadowColor" white="0.5" alpha="1" colorSpace="calibratedWhite"/>
                                 </state>
                                 <connections>
@@ -4741,6 +4741,127 @@
             </objects>
             <point key="canvasLocation" x="700" y="11307"/>
         </scene>
+        <!--View Controller-->
+        <scene sceneID="Gqo-9X-owC">
+            <objects>
+                <viewController id="S5K-HP-Wkg" sceneMemberID="viewController">
+                    <layoutGuides>
+                        <viewControllerLayoutGuide type="top" id="dQo-Ae-ePf"/>
+                        <viewControllerLayoutGuide type="bottom" id="Fmq-JO-JpT"/>
+                    </layoutGuides>
+                    <view key="view" contentMode="scaleToFill" id="NqC-Vf-dyB">
+                        <rect key="frame" x="0.0" y="0.0" width="600" height="600"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" textAlignment="center" lineBreakMode="tailTruncation" numberOfLines="0" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="Dl5-yP-DL5">
+                                <rect key="frame" x="20" y="28" width="560" height="122"/>
+                                <string key="text">感謝您的耐心填寫，初始問卷部份已經結束
+
+接下來，請在往後十個上班日的早上、下午、晚上進行每日工作經驗的取樣調查，每次填答僅需2~3分鐘。
+
+請設定下次上班日期</string>
+                                <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                                <color key="textColor" red="0.40000000000000002" green="0.80000000000000004" blue="0.80000000000000004" alpha="1" colorSpace="calibratedRGB"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="注意：若一天當中有期中一個時段未填答，當天便視為無效並且自動往後延長一天" textAlignment="natural" lineBreakMode="tailTruncation" numberOfLines="0" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="mcE-GT-wEf">
+                                <rect key="frame" x="20" y="158" width="560" height="41"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                                <color key="textColor" red="1" green="0.0" blue="0.0" alpha="1" colorSpace="calibratedRGB"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="KLy-Gx-RHY">
+                                <rect key="frame" x="240" y="460" width="120" height="120"/>
+                                <constraints>
+                                    <constraint firstAttribute="height" constant="120" id="jtf-TK-GD0"/>
+                                    <constraint firstAttribute="width" constant="120" id="le0-EK-s9n"/>
+                                </constraints>
+                                <state key="normal" title="設定上班時間" backgroundImage="Button">
+                                    <color key="titleColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                                </state>
+                            </button>
+                        </subviews>
+                        <constraints>
+                            <constraint firstAttribute="trailingMargin" secondItem="mcE-GT-wEf" secondAttribute="trailing" id="BYJ-SJ-iPt"/>
+                            <constraint firstItem="KLy-Gx-RHY" firstAttribute="centerX" secondItem="NqC-Vf-dyB" secondAttribute="centerX" id="Gay-iB-8uY"/>
+                            <constraint firstAttribute="leadingMargin" secondItem="Dl5-yP-DL5" secondAttribute="leading" id="Lam-zu-2AT"/>
+                            <constraint firstAttribute="leadingMargin" secondItem="mcE-GT-wEf" secondAttribute="leading" id="Ltv-v8-o82"/>
+                            <constraint firstItem="Fmq-JO-JpT" firstAttribute="top" secondItem="KLy-Gx-RHY" secondAttribute="bottom" constant="20" id="ZQ4-Kz-yOh"/>
+                            <constraint firstItem="mcE-GT-wEf" firstAttribute="top" secondItem="Dl5-yP-DL5" secondAttribute="bottom" constant="8" id="hy6-Ld-eyC"/>
+                            <constraint firstAttribute="trailingMargin" secondItem="Dl5-yP-DL5" secondAttribute="trailing" id="sNI-lE-Crn"/>
+                            <constraint firstItem="Dl5-yP-DL5" firstAttribute="top" secondItem="dQo-Ae-ePf" secondAttribute="bottom" constant="8" id="y1R-jP-qsa"/>
+                        </constraints>
+                    </view>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="eeA-kW-zmF" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="694" y="12293"/>
+        </scene>
+        <!--View Controller-->
+        <scene sceneID="UKE-if-tfY">
+            <objects>
+                <viewController id="e3W-eF-bkm" sceneMemberID="viewController">
+                    <layoutGuides>
+                        <viewControllerLayoutGuide type="top" id="Mqg-Xo-mGZ"/>
+                        <viewControllerLayoutGuide type="bottom" id="EUo-jy-NEE"/>
+                    </layoutGuides>
+                    <view key="view" contentMode="scaleToFill" id="mMD-Zn-jH6">
+                        <rect key="frame" x="0.0" y="0.0" width="600" height="600"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="請設定您下次上班的日子，以方便我們做提醒" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="7US-1I-pn0">
+                                <rect key="frame" x="20" y="28" width="560" height="21"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                                <color key="textColor" red="0.40000000000000002" green="0.80000000000000004" blue="0.80000000000000004" alpha="1" colorSpace="calibratedRGB"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                            <textField opaque="NO" clipsSubviews="YES" contentMode="scaleToFill" contentHorizontalAlignment="left" contentVerticalAlignment="center" borderStyle="roundedRect" textAlignment="natural" minimumFontSize="17" translatesAutoresizingMaskIntoConstraints="NO" id="2Ls-f1-6pP">
+                                <rect key="frame" x="252" y="57" width="97" height="30"/>
+                                <constraints>
+                                    <constraint firstAttribute="width" constant="97" id="TkK-YT-6gB"/>
+                                </constraints>
+                                <fontDescription key="fontDescription" type="system" pointSize="14"/>
+                                <textInputTraits key="textInputTraits"/>
+                            </textField>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="下次上班為" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="YDA-jY-pVt">
+                                <rect key="frame" x="159" y="61" width="85" height="21"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="天後" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="Ddr-eg-N60">
+                                <rect key="frame" x="357" y="61" width="42" height="21"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="Dmt-9O-msu">
+                                <rect key="frame" x="263" y="505" width="75" height="75"/>
+                                <constraints>
+                                    <constraint firstAttribute="height" constant="75" id="2yq-Sw-fKU"/>
+                                    <constraint firstAttribute="width" constant="75" id="Sa7-cv-L76"/>
+                                </constraints>
+                                <state key="normal" title="確認送出" backgroundImage="Button">
+                                    <color key="titleColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                                </state>
+                            </button>
+                        </subviews>
+                        <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                        <constraints>
+                            <constraint firstItem="7US-1I-pn0" firstAttribute="top" secondItem="Mqg-Xo-mGZ" secondAttribute="bottom" constant="8" id="0EU-3B-PxB"/>
+                            <constraint firstItem="2Ls-f1-6pP" firstAttribute="leading" secondItem="YDA-jY-pVt" secondAttribute="trailing" constant="8" id="9yV-hG-qmO"/>
+                            <constraint firstItem="2Ls-f1-6pP" firstAttribute="top" secondItem="7US-1I-pn0" secondAttribute="bottom" constant="8" id="FIn-MK-pnr"/>
+                            <constraint firstAttribute="leadingMargin" secondItem="7US-1I-pn0" secondAttribute="leading" id="OQt-iI-meU"/>
+                            <constraint firstAttribute="trailingMargin" secondItem="7US-1I-pn0" secondAttribute="trailing" id="OmN-w1-6ou"/>
+                            <constraint firstItem="2Ls-f1-6pP" firstAttribute="centerX" secondItem="mMD-Zn-jH6" secondAttribute="centerX" id="Ot7-z8-3sM"/>
+                            <constraint firstItem="EUo-jy-NEE" firstAttribute="top" secondItem="Dmt-9O-msu" secondAttribute="bottom" constant="20" id="Tym-AB-9vM"/>
+                            <constraint firstItem="YDA-jY-pVt" firstAttribute="centerY" secondItem="2Ls-f1-6pP" secondAttribute="centerY" id="Y5P-u5-UJ2"/>
+                            <constraint firstItem="Dmt-9O-msu" firstAttribute="centerX" secondItem="mMD-Zn-jH6" secondAttribute="centerX" id="lsv-fl-tfS"/>
+                        </constraints>
+                    </view>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="Ngp-Ze-Bug" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="1428" y="12293"/>
+        </scene>
         <!--Chastening Norm Orientation2 View Controller-->
         <scene sceneID="N6G-mC-R0E">
             <objects>
@@ -5128,7 +5249,7 @@
                             <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="zQW-M2-3bi">
                                 <rect key="frame" x="202" y="550" width="195" height="30"/>
                                 <state key="normal" title="確認資料無誤，進行第四部份">
-                                    <color key="titleColor" red="0.15216385690000001" green="0.96862745100000003" blue="0.96078431369999995" alpha="1" colorSpace="calibratedRGB"/>
+                                    <color key="titleColor" red="0.40000000000000002" green="0.80000000000000004" blue="0.80000000000000004" alpha="1" colorSpace="calibratedRGB"/>
                                     <color key="titleShadowColor" white="0.5" alpha="1" colorSpace="calibratedWhite"/>
                                 </state>
                                 <connections>
@@ -5175,7 +5296,7 @@
                             <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="Scm-hQ-dpu">
                                 <rect key="frame" x="202" y="550" width="195" height="30"/>
                                 <state key="normal" title="確認資料無誤，進行第五部份">
-                                    <color key="titleColor" red="0.15216385690000001" green="0.96862745100000003" blue="0.96078431369999995" alpha="1" colorSpace="calibratedRGB"/>
+                                    <color key="titleColor" red="0.40000000000000002" green="0.80000000000000004" blue="0.80000000000000004" alpha="1" colorSpace="calibratedRGB"/>
                                     <color key="titleShadowColor" white="0.5" alpha="1" colorSpace="calibratedWhite"/>
                                 </state>
                                 <connections>
@@ -5222,7 +5343,7 @@
                             <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="Vtq-gD-hk6">
                                 <rect key="frame" x="202" y="550" width="195" height="30"/>
                                 <state key="normal" title="確認資料無誤，進行第六部份">
-                                    <color key="titleColor" red="0.15216385690000001" green="0.96862745100000003" blue="0.96078431369999995" alpha="1" colorSpace="calibratedRGB"/>
+                                    <color key="titleColor" red="0.40000000000000002" green="0.80000000000000004" blue="0.80000000000000004" alpha="1" colorSpace="calibratedRGB"/>
                                     <color key="titleShadowColor" white="0.5" alpha="1" colorSpace="calibratedWhite"/>
                                 </state>
                                 <connections>
@@ -5269,7 +5390,7 @@
                             <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="SGL-W6-OJO">
                                 <rect key="frame" x="217" y="550" width="165" height="30"/>
                                 <state key="normal" title="確認資料正確，並且上傳">
-                                    <color key="titleColor" red="0.15216385690000001" green="0.96862745100000003" blue="0.96078431369999995" alpha="1" colorSpace="calibratedRGB"/>
+                                    <color key="titleColor" red="0.40000000000000002" green="0.80000000000000004" blue="0.80000000000000004" alpha="1" colorSpace="calibratedRGB"/>
                                     <color key="titleShadowColor" white="0.5" alpha="1" colorSpace="calibratedWhite"/>
                                 </state>
                                 <connections>
