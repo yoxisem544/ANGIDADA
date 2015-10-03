@@ -23,6 +23,12 @@ class AppDelegate: UIResponder, UIApplicationDelegate {
         PersonalInformation.initialize()
         
         Parse.setApplicationId("LgTpOBlioAGaP88D1WTxn5P4L2GWkBDVSEDBTgLu", clientKey: "2lGpw0C6m6HmJaq8imPuGrH1N28gXI3jKqyr9M4X")
+        
+        window?.backgroundColor = UIColor.whiteColor()
+        let v = UIView(frame: window!.frame)
+        v.backgroundColor = UIColor(patternImage: UIImage(named: "bg.png")!)
+        window?.addSubview(v)
+        
 
         
 //        var test = TestObject()

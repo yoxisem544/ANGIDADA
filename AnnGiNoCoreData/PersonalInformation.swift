@@ -11,6 +11,13 @@ import Parse
 
 public class PersonalInformation: PFObject, PFSubclassing {
     
+    // Basic information
+    @NSManaged var userName: String!
+    @NSManaged var userPhone: String!
+    @NSManaged var userEMAIL: String!
+    @NSManaged var userCompany: String!
+    @NSManaged var userDepartment: String!
+    
     // MARK: - First part
     @NSManaged var userUUID: String!
     @NSManaged var sex: String!

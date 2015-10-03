@@ -24,6 +24,12 @@
 		631739DF1BA97DE700242094 /* PersonalInformation.swift in Sources */ = {isa = PBXBuildFile; fileRef = 631739DE1BA97DE700242094 /* PersonalInformation.swift */; };
 		631739E11BA9ABC200242094 /* Authoritarian4ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 631739E01BA9ABC200242094 /* Authoritarian4ViewController.swift */; };
 		631739E31BA9ABEC00242094 /* Authoritarian5ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 631739E21BA9ABEC00242094 /* Authoritarian5ViewController.swift */; };
+		635CD9ED1BBF9F8600CFBE50 /* NameInfoViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 635CD9EC1BBF9F8600CFBE50 /* NameInfoViewController.swift */; settings = {ASSET_TAGS = (); }; };
+		635CD9EF1BBFA04400CFBE50 /* TelInfoViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 635CD9EE1BBFA04400CFBE50 /* TelInfoViewController.swift */; settings = {ASSET_TAGS = (); }; };
+		635CD9F11BBFA05100CFBE50 /* EMAILInfoViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 635CD9F01BBFA05100CFBE50 /* EMAILInfoViewController.swift */; settings = {ASSET_TAGS = (); }; };
+		635CD9F31BBFA05D00CFBE50 /* CompanyInfoViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 635CD9F21BBFA05D00CFBE50 /* CompanyInfoViewController.swift */; settings = {ASSET_TAGS = (); }; };
+		635CD9F51BBFA06700CFBE50 /* DepartmentInfoViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 635CD9F41BBFA06700CFBE50 /* DepartmentInfoViewController.swift */; settings = {ASSET_TAGS = (); }; };
+		635CD9F71BBFB28E00CFBE50 /* bg.png in Resources */ = {isa = PBXBuildFile; fileRef = 635CD9F61BBFB28E00CFBE50 /* bg.png */; settings = {ASSET_TAGS = (); }; };
 		63A8705A1BB1A75B00313716 /* StatusKeys.swift in Sources */ = {isa = PBXBuildFile; fileRef = 63A870591BB1A75B00313716 /* StatusKeys.swift */; };
 		63A8705C1BB2926000313716 /* HowLongStayingInCompanyViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 63A8705B1BB2926000313716 /* HowLongStayingInCompanyViewController.swift */; };
 		63A8705E1BB29B6500313716 /* FirstPartConfirmViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 63A8705D1BB29B6500313716 /* FirstPartConfirmViewController.swift */; };
@@ -147,6 +153,12 @@
 		631739DE1BA97DE700242094 /* PersonalInformation.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = PersonalInformation.swift; sourceTree = "<group>"; };
 		631739E01BA9ABC200242094 /* Authoritarian4ViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Authoritarian4ViewController.swift; sourceTree = "<group>"; };
 		631739E21BA9ABEC00242094 /* Authoritarian5ViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Authoritarian5ViewController.swift; sourceTree = "<group>"; };
+		635CD9EC1BBF9F8600CFBE50 /* NameInfoViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = NameInfoViewController.swift; sourceTree = "<group>"; };
+		635CD9EE1BBFA04400CFBE50 /* TelInfoViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = TelInfoViewController.swift; sourceTree = "<group>"; };
+		635CD9F01BBFA05100CFBE50 /* EMAILInfoViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = EMAILInfoViewController.swift; sourceTree = "<group>"; };
+		635CD9F21BBFA05D00CFBE50 /* CompanyInfoViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CompanyInfoViewController.swift; sourceTree = "<group>"; };
+		635CD9F41BBFA06700CFBE50 /* DepartmentInfoViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = DepartmentInfoViewController.swift; sourceTree = "<group>"; };
+		635CD9F61BBFB28E00CFBE50 /* bg.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = bg.png; sourceTree = "<group>"; };
 		63A870591BB1A75B00313716 /* StatusKeys.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = StatusKeys.swift; sourceTree = "<group>"; };
 		63A8705B1BB2926000313716 /* HowLongStayingInCompanyViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = HowLongStayingInCompanyViewController.swift; sourceTree = "<group>"; };
 		63A8705D1BB29B6500313716 /* FirstPartConfirmViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = FirstPartConfirmViewController.swift; sourceTree = "<group>"; };
@@ -424,6 +436,11 @@
 		63E61E781BA685CA009F50DA = {
 			isa = PBXGroup;
 			children = (
+				635CD9EC1BBF9F8600CFBE50 /* NameInfoViewController.swift */,
+				635CD9EE1BBFA04400CFBE50 /* TelInfoViewController.swift */,
+				635CD9F01BBFA05100CFBE50 /* EMAILInfoViewController.swift */,
+				635CD9F41BBFA06700CFBE50 /* DepartmentInfoViewController.swift */,
+				635CD9F21BBFA05D00CFBE50 /* CompanyInfoViewController.swift */,
 				63E61EC81BA6862A009F50DA /* libsqlite3.dylib */,
 				63E61EC61BA68621009F50DA /* libz.dylib */,
 				63E61EC41BA68619009F50DA /* SystemConfiguration.framework */,
@@ -465,6 +482,7 @@
 				63E61E861BA685CA009F50DA /* AppDelegate.swift */,
 				63FFC86D1BA6888F0029FC56 /* TestObject.swift */,
 				63E61E881BA685CA009F50DA /* ViewController.swift */,
+				635CD9F61BBFB28E00CFBE50 /* bg.png */,
 				63E61E8A1BA685CA009F50DA /* Main.storyboard */,
 				63A8705D1BB29B6500313716 /* FirstPartConfirmViewController.swift */,
 				63EB28461BB4EDAE007B5BAC /* SecondPartConfirmViewController.swift */,
@@ -599,6 +617,7 @@
 			files = (
 				63E61E8C1BA685CA009F50DA /* Main.storyboard in Resources */,
 				63E61E911BA685CA009F50DA /* LaunchScreen.xib in Resources */,
+				635CD9F71BBFB28E00CFBE50 /* bg.png in Resources */,
 				63E61E8E1BA685CA009F50DA /* Images.xcassets in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -617,6 +636,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				635CD9F31BBFA05D00CFBE50 /* CompanyInfoViewController.swift in Sources */,
 				63A8712E1BB3FCE700313716 /* PersonLifeInclusion2ViewController.swift in Sources */,
 				63A871411BB3FCE700313716 /* EmotionalJobDemand4ViewController.swift in Sources */,
 				631739C31BA9374100242094 /* InitialInformationViewController.swift in Sources */,
@@ -627,7 +647,9 @@
 				63A8714E1BB3FCE700313716 /* ChasteningNormOrientation7ViewController.swift in Sources */,
 				63A871491BB3FCE700313716 /* ChasteningNormOrientation2ViewController.swift in Sources */,
 				631739D71BA95E2700242094 /* SecondPartBossPeopleViewController.swift in Sources */,
+				635CD9EF1BBFA04400CFBE50 /* TelInfoViewController.swift in Sources */,
 				63EB28491BB4EF8C007B5BAC /* ThirdParConfirmViewController.swift in Sources */,
+				635CD9F51BBFA06700CFBE50 /* DepartmentInfoViewController.swift in Sources */,
 				63EB284F1BB4F05B007B5BAC /* SixthPartConfirmViewController.swift in Sources */,
 				63A8712A1BB3FCE700313716 /* PerceivedSupervisorEffectiveness2ViewController.swift in Sources */,
 				63A871271BB3FCE700313716 /* GeneralSupervisorDirectedOCB3ViewController.swift in Sources */,
@@ -645,6 +667,7 @@
 				63FFC86E1BA6888F0029FC56 /* TestObject.swift in Sources */,
 				63A8705E1BB29B6500313716 /* FirstPartConfirmViewController.swift in Sources */,
 				631739E31BA9ABEC00242094 /* Authoritarian5ViewController.swift in Sources */,
+				635CD9F11BBFA05100CFBE50 /* EMAILInfoViewController.swift in Sources */,
 				63EB284B1BB4EFF7007B5BAC /* FourthPartConfirmViewController.swift in Sources */,
 				63A871341BB3FCE700313716 /* IntensityOfSupervisorSubordinateInteraction4ViewController.swift in Sources */,
 				63A871451BB3FCE700313716 /* QuantitativeJobDemand3ViewController.swift in Sources */,
@@ -655,6 +678,7 @@
 				63A871511BB3FCE700313716 /* PowerDistanceOrientation3ViewController.swift in Sources */,
 				631739C71BA938EF00242094 /* FirstPartStartViewController.swift in Sources */,
 				63A8714D1BB3FCE700313716 /* ChasteningNormOrientation6ViewController.swift in Sources */,
+				635CD9ED1BBF9F8600CFBE50 /* NameInfoViewController.swift in Sources */,
 				63A8714C1BB3FCE700313716 /* ChasteningNormOrientation5ViewController.swift in Sources */,
 				63A8711F1BB3FCE700313716 /* BenevolentLeadership4ViewController.swift in Sources */,
 				63A871501BB3FCE700313716 /* PowerDistanceOrientation2ViewController.swift in Sources */,
@@ -839,6 +863,7 @@
 					"$(PROJECT_DIR)/AnnGiNoCoreData",
 				);
 				INFOPLIST_FILE = AnnGiNoCoreData/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.1;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				TARGETED_DEVICE_FAMILY = 1;
@@ -855,6 +880,7 @@
 					"$(PROJECT_DIR)/AnnGiNoCoreData",
 				);
 				INFOPLIST_FILE = AnnGiNoCoreData/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.1;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				TARGETED_DEVICE_FAMILY = 1;

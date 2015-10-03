@@ -15,6 +15,7 @@ class HintOnceViewController: UIViewController {
 
         // Do any additional setup after loading the view.
         title = "前言"
+//        self.view.backgroundColor = UIColor(patternImage: UIImage(named: "bg.png")!)
     }
 
     override func didReceiveMemoryWarning() {

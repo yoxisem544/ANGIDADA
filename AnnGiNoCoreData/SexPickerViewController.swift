@@ -21,7 +21,7 @@ class SexPickerViewController: UIViewController {
         self.navigationItem.backBarButtonItem = backbutton
         // Do any additional setup after loading the view.
         sexPickerView.selectRow(0, inComponent: 0, animated: true)
-        user = PersonalInformation()
+//        user = PersonalInformation()
         user.sex = "男性"
     }
     
