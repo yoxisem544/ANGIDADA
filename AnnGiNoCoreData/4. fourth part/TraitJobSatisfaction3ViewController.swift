@@ -16,7 +16,7 @@ class TraitJobSatisfaction3ViewController: UIViewController {
     var user: PersonalInformation!
 
     override func viewDidLoad() {
-        super.viewDidLoad()
+        super.viewDidLoad(); self.view.backgroundColor = UIColor(patternImage: UIImage(named: "bg.jpg")!)
         
         title = "初始問卷 (44/72)"
         var backbutton = UIBarButtonItem(title: "44/72", style: UIBarButtonItemStyle.Done, target: nil, action: nil)

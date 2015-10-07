@@ -16,7 +16,7 @@ class Intensity4ViewController: UIViewController {
     var user: PersonalInformation!
 
     override func viewDidLoad() {
-        super.viewDidLoad()
+        super.viewDidLoad(); self.view.backgroundColor = UIColor(patternImage: UIImage(named: "bg.jpg")!)
         
         title = "初始問卷 (40/72)"
         var backbutton = UIBarButtonItem(title: "40/72", style: UIBarButtonItemStyle.Done, target: nil, action: nil)

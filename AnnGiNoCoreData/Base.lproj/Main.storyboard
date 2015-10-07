@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8" standalone="no"?>
-<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="8191" systemVersion="14F27" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" initialViewController="S5K-HP-Wkg">
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="8191" systemVersion="14F27" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" initialViewController="Eq9-dB-hQg">
     <dependencies>
         <deployment identifier="iOS"/>
         <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="8154"/>
@@ -39,7 +39,7 @@
                             <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="姓名" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="ob7-va-1cr">
                                 <rect key="frame" x="138" y="169" width="34" height="21"/>
                                 <fontDescription key="fontDescription" type="system" pointSize="17"/>
-                                <color key="textColor" cocoaTouchSystemColor="darkTextColor"/>
+                                <color key="textColor" red="0.0" green="0.0" blue="0.0" alpha="1" colorSpace="calibratedRGB"/>
                                 <nil key="highlightedColor"/>
                             </label>
                             <textField opaque="NO" clipsSubviews="YES" contentMode="scaleToFill" contentHorizontalAlignment="left" contentVerticalAlignment="center" borderStyle="roundedRect" textAlignment="natural" minimumFontSize="17" translatesAutoresizingMaskIntoConstraints="NO" id="abx-AH-nJM">
@@ -182,7 +182,7 @@
                             <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" misplaced="YES" text="此份前導問卷只僅會填寫一次，煩請耐心作答，謝謝。" textAlignment="center" lineBreakMode="tailTruncation" numberOfLines="0" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="Vsl-vi-lOQ">
                                 <rect key="frame" x="16" y="258" width="568" height="28"/>
                                 <fontDescription key="fontDescription" type="system" pointSize="23"/>
-                                <color key="textColor" cocoaTouchSystemColor="darkTextColor"/>
+                                <color key="textColor" red="0.0" green="0.0" blue="0.0" alpha="1" colorSpace="calibratedRGB"/>
                                 <nil key="highlightedColor"/>
                             </label>
                             <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="1Ea-OP-IPH">
@@ -232,7 +232,7 @@
                             <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="個人基本資料" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="Zxf-Kx-2oe">
                                 <rect key="frame" x="231" y="286" width="138" height="28"/>
                                 <fontDescription key="fontDescription" type="system" pointSize="23"/>
-                                <color key="textColor" cocoaTouchSystemColor="darkTextColor"/>
+                                <color key="textColor" red="0.0" green="0.0" blue="0.0" alpha="1" colorSpace="calibratedRGB"/>
                                 <nil key="highlightedColor"/>
                             </label>
                             <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="Y2l-wh-W9g">
@@ -277,7 +277,7 @@
                             <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" misplaced="YES" text="你的性別是?" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="0Tf-bU-PRv">
                                 <rect key="frame" x="253" y="189" width="95" height="21"/>
                                 <fontDescription key="fontDescription" type="system" pointSize="17"/>
-                                <color key="textColor" cocoaTouchSystemColor="darkTextColor"/>
+                                <color key="textColor" red="0.0" green="0.0" blue="0.0" alpha="1" colorSpace="calibratedRGB"/>
                                 <nil key="highlightedColor"/>
                             </label>
                             <pickerView contentMode="scaleToFill" misplaced="YES" translatesAutoresizingMaskIntoConstraints="NO" id="nb6-Gs-rro">
@@ -347,7 +347,7 @@
                             <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="歲" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="ECE-nm-U0J">
                                 <rect key="frame" x="373" y="288" width="17" height="21"/>
                                 <fontDescription key="fontDescription" type="system" pointSize="17"/>
-                                <color key="textColor" cocoaTouchSystemColor="darkTextColor"/>
+                                <color key="textColor" red="0.0" green="0.0" blue="0.0" alpha="1" colorSpace="calibratedRGB"/>
                                 <nil key="highlightedColor"/>
                             </label>
                             <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="Tpu-kr-uhf">
@@ -367,7 +367,7 @@
                             <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="你的年齡是？" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="kfk-OX-yBy">
                                 <rect key="frame" x="249" y="190" width="102" height="21"/>
                                 <fontDescription key="fontDescription" type="system" pointSize="17"/>
-                                <color key="textColor" cocoaTouchSystemColor="darkTextColor"/>
+                                <color key="textColor" red="0.0" green="0.0" blue="0.0" alpha="1" colorSpace="calibratedRGB"/>
                                 <nil key="highlightedColor"/>
                             </label>
                         </subviews>
@@ -407,7 +407,7 @@
                             <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" misplaced="YES" text="你的學歷是?" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="GE9-wD-Usc">
                                 <rect key="frame" x="253" y="189" width="95" height="21"/>
                                 <fontDescription key="fontDescription" type="system" pointSize="17"/>
-                                <color key="textColor" cocoaTouchSystemColor="darkTextColor"/>
+                                <color key="textColor" red="0.0" green="0.0" blue="0.0" alpha="1" colorSpace="calibratedRGB"/>
                                 <nil key="highlightedColor"/>
                             </label>
                             <pickerView contentMode="scaleToFill" misplaced="YES" translatesAutoresizingMaskIntoConstraints="NO" id="gRa-1X-Q7E">
@@ -469,7 +469,7 @@
                                     <constraint firstAttribute="width" constant="238" id="IwB-sV-fmc"/>
                                 </constraints>
                                 <fontDescription key="fontDescription" type="system" pointSize="23"/>
-                                <color key="textColor" cocoaTouchSystemColor="darkTextColor"/>
+                                <color key="textColor" red="0.0" green="0.0" blue="0.0" alpha="1" colorSpace="calibratedRGB"/>
                                 <nil key="highlightedColor"/>
                             </label>
                             <textField opaque="NO" clipsSubviews="YES" contentMode="scaleToFill" contentHorizontalAlignment="left" contentVerticalAlignment="center" borderStyle="roundedRect" minimumFontSize="17" translatesAutoresizingMaskIntoConstraints="NO" id="YFQ-rF-IQy">
@@ -491,13 +491,13 @@
                             <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="年" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="we5-Uj-B8c">
                                 <rect key="frame" x="251" y="289" width="17" height="21"/>
                                 <fontDescription key="fontDescription" type="system" pointSize="17"/>
-                                <color key="textColor" cocoaTouchSystemColor="darkTextColor"/>
+                                <color key="textColor" red="0.0" green="0.0" blue="0.0" alpha="1" colorSpace="calibratedRGB"/>
                                 <nil key="highlightedColor"/>
                             </label>
                             <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="個月" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="DAt-1o-nre">
                                 <rect key="frame" x="333" y="289" width="34" height="21"/>
                                 <fontDescription key="fontDescription" type="system" pointSize="17"/>
-                                <color key="textColor" cocoaTouchSystemColor="darkTextColor"/>
+                                <color key="textColor" red="0.0" green="0.0" blue="0.0" alpha="1" colorSpace="calibratedRGB"/>
                                 <nil key="highlightedColor"/>
                             </label>
                             <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="0M6-ov-DYe">
@@ -555,7 +555,7 @@
                             <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" misplaced="YES" text="你的性別是?" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="uN0-uL-HqA">
                                 <rect key="frame" x="253" y="189" width="95" height="21"/>
                                 <fontDescription key="fontDescription" type="system" pointSize="17"/>
-                                <color key="textColor" cocoaTouchSystemColor="darkTextColor"/>
+                                <color key="textColor" red="0.0" green="0.0" blue="0.0" alpha="1" colorSpace="calibratedRGB"/>
                                 <nil key="highlightedColor"/>
                             </label>
                             <pickerView contentMode="scaleToFill" misplaced="YES" translatesAutoresizingMaskIntoConstraints="NO" id="3p8-Fo-6Lu">
@@ -602,7 +602,7 @@
                             <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="您目前在公司的職級是：" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="5uN-Ak-YDI">
                                 <rect key="frame" x="207" y="189" width="187" height="21"/>
                                 <fontDescription key="fontDescription" type="system" pointSize="17"/>
-                                <color key="textColor" cocoaTouchSystemColor="darkTextColor"/>
+                                <color key="textColor" red="0.0" green="0.0" blue="0.0" alpha="1" colorSpace="calibratedRGB"/>
                                 <nil key="highlightedColor"/>
                             </label>
                             <pickerView contentMode="scaleToFill" misplaced="YES" translatesAutoresizingMaskIntoConstraints="NO" id="xAK-Yu-Eax">
@@ -683,13 +683,13 @@
                                     <constraint firstAttribute="width" constant="51" id="D8Y-wI-8Em"/>
                                 </constraints>
                                 <fontDescription key="fontDescription" type="system" pointSize="17"/>
-                                <color key="textColor" cocoaTouchSystemColor="darkTextColor"/>
+                                <color key="textColor" red="0.0" green="0.0" blue="0.0" alpha="1" colorSpace="calibratedRGB"/>
                                 <nil key="highlightedColor"/>
                             </label>
                             <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="您目前所屬單位的性質是：" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="4lz-pc-VYF">
                                 <rect key="frame" x="198" y="140" width="204" height="21"/>
                                 <fontDescription key="fontDescription" type="system" pointSize="17"/>
-                                <color key="textColor" cocoaTouchSystemColor="darkTextColor"/>
+                                <color key="textColor" red="0.0" green="0.0" blue="0.0" alpha="1" colorSpace="calibratedRGB"/>
                                 <nil key="highlightedColor"/>
                             </label>
                             <pickerView contentMode="scaleToFill" misplaced="YES" translatesAutoresizingMaskIntoConstraints="NO" id="XaK-0d-nTM">
@@ -740,7 +740,7 @@
                             <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="您所屬的公司產業性質為：" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="BX4-0W-sbW">
                                 <rect key="frame" x="198" y="140" width="204" height="21"/>
                                 <fontDescription key="fontDescription" type="system" pointSize="17"/>
-                                <color key="textColor" cocoaTouchSystemColor="darkTextColor"/>
+                                <color key="textColor" red="0.0" green="0.0" blue="0.0" alpha="1" colorSpace="calibratedRGB"/>
                                 <nil key="highlightedColor"/>
                             </label>
                             <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="yJn-VL-KJH">
@@ -763,7 +763,7 @@
                                     <constraint firstAttribute="width" constant="51" id="TOc-gA-H3m"/>
                                 </constraints>
                                 <fontDescription key="fontDescription" type="system" pointSize="17"/>
-                                <color key="textColor" cocoaTouchSystemColor="darkTextColor"/>
+                                <color key="textColor" red="0.0" green="0.0" blue="0.0" alpha="1" colorSpace="calibratedRGB"/>
                                 <nil key="highlightedColor"/>
                             </label>
                             <textField opaque="NO" clipsSubviews="YES" contentMode="scaleToFill" misplaced="YES" contentHorizontalAlignment="left" contentVerticalAlignment="center" borderStyle="roundedRect" minimumFontSize="17" translatesAutoresizingMaskIntoConstraints="NO" id="msM-uK-7CK">
@@ -819,7 +819,7 @@
                             <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" misplaced="YES" text="Label" lineBreakMode="tailTruncation" numberOfLines="0" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="EP0-PD-qGL">
                                 <rect key="frame" x="16" y="72" width="568" height="470"/>
                                 <fontDescription key="fontDescription" type="system" pointSize="17"/>
-                                <color key="textColor" cocoaTouchSystemColor="darkTextColor"/>
+                                <color key="textColor" red="0.0" green="0.0" blue="0.0" alpha="1" colorSpace="calibratedRGB"/>
                                 <nil key="highlightedColor"/>
                             </label>
                             <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="sq6-Bc-bTk">
@@ -874,7 +874,7 @@
                                 <string key="text">以下，請根據您與您直屬主管過去的共事經驗，針對下列各敘述句，選擇最適當的程度選項。
 </string>
                                 <fontDescription key="fontDescription" type="system" pointSize="23"/>
-                                <color key="textColor" cocoaTouchSystemColor="darkTextColor"/>
+                                <color key="textColor" red="0.0" green="0.0" blue="0.0" alpha="1" colorSpace="calibratedRGB"/>
                                 <nil key="highlightedColor"/>
                             </label>
                             <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="Wgh-0w-ZJA">
@@ -926,7 +926,7 @@
                                     <constraint firstAttribute="width" constant="300" id="8zz-St-tPR"/>
                                 </constraints>
                                 <fontDescription key="fontDescription" type="system" pointSize="23"/>
-                                <color key="textColor" cocoaTouchSystemColor="darkTextColor"/>
+                                <color key="textColor" red="0.0" green="0.0" blue="0.0" alpha="1" colorSpace="calibratedRGB"/>
                                 <nil key="highlightedColor"/>
                             </label>
                             <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="iES-lg-jJG">
@@ -975,7 +975,7 @@
                             <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="我的直屬主管是：" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="TYs-cW-2fD">
                                 <rect key="frame" x="232" y="189" width="136" height="21"/>
                                 <fontDescription key="fontDescription" type="system" pointSize="17"/>
-                                <color key="textColor" cocoaTouchSystemColor="darkTextColor"/>
+                                <color key="textColor" red="0.0" green="0.0" blue="0.0" alpha="1" colorSpace="calibratedRGB"/>
                                 <nil key="highlightedColor"/>
                             </label>
                             <pickerView contentMode="scaleToFill" misplaced="YES" translatesAutoresizingMaskIntoConstraints="NO" id="fSi-T0-ezv">
@@ -1034,7 +1034,7 @@
                             <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="我的直屬主管在本單位直接管理：" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="bSH-3d-1Xb">
                                 <rect key="frame" x="173" y="190" width="255" height="21"/>
                                 <fontDescription key="fontDescription" type="system" pointSize="17"/>
-                                <color key="textColor" cocoaTouchSystemColor="darkTextColor"/>
+                                <color key="textColor" red="0.0" green="0.0" blue="0.0" alpha="1" colorSpace="calibratedRGB"/>
                                 <nil key="highlightedColor"/>
                             </label>
                             <textField opaque="NO" clipsSubviews="YES" contentMode="scaleToFill" contentHorizontalAlignment="left" contentVerticalAlignment="center" borderStyle="roundedRect" minimumFontSize="17" translatesAutoresizingMaskIntoConstraints="NO" id="2bM-ld-A21">
@@ -1048,7 +1048,7 @@
                             <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="人" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="yiE-Vz-OgX">
                                 <rect key="frame" x="357" y="288" width="17" height="21"/>
                                 <fontDescription key="fontDescription" type="system" pointSize="17"/>
-                                <color key="textColor" cocoaTouchSystemColor="darkTextColor"/>
+                                <color key="textColor" red="0.0" green="0.0" blue="0.0" alpha="1" colorSpace="calibratedRGB"/>
                                 <nil key="highlightedColor"/>
                             </label>
                             <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="lXe-3d-rrS">
@@ -1115,13 +1115,13 @@
                             <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="我與我的直屬主管的共事時間長度為：" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="5RT-Ne-CbE">
                                 <rect key="frame" x="156" y="190" width="289" height="21"/>
                                 <fontDescription key="fontDescription" type="system" pointSize="17"/>
-                                <color key="textColor" cocoaTouchSystemColor="darkTextColor"/>
+                                <color key="textColor" red="0.0" green="0.0" blue="0.0" alpha="1" colorSpace="calibratedRGB"/>
                                 <nil key="highlightedColor"/>
                             </label>
                             <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="年" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="cQJ-3Z-O9J">
                                 <rect key="frame" x="264" y="289" width="17" height="21"/>
                                 <fontDescription key="fontDescription" type="system" pointSize="17"/>
-                                <color key="textColor" cocoaTouchSystemColor="darkTextColor"/>
+                                <color key="textColor" red="0.0" green="0.0" blue="0.0" alpha="1" colorSpace="calibratedRGB"/>
                                 <nil key="highlightedColor"/>
                             </label>
                             <textField opaque="NO" clipsSubviews="YES" contentMode="scaleToFill" contentHorizontalAlignment="left" contentVerticalAlignment="center" borderStyle="roundedRect" minimumFontSize="17" translatesAutoresizingMaskIntoConstraints="NO" id="eHd-9J-9su">
@@ -1143,7 +1143,7 @@
                             <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="個月" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="pTv-TH-SYm">
                                 <rect key="frame" x="349" y="289" width="34" height="21"/>
                                 <fontDescription key="fontDescription" type="system" pointSize="17"/>
-                                <color key="textColor" cocoaTouchSystemColor="darkTextColor"/>
+                                <color key="textColor" red="0.0" green="0.0" blue="0.0" alpha="1" colorSpace="calibratedRGB"/>
                                 <nil key="highlightedColor"/>
                             </label>
                         </subviews>
@@ -1190,7 +1190,7 @@
                                     <constraint firstAttribute="width" constant="300" id="Q9x-SL-u5p"/>
                                 </constraints>
                                 <fontDescription key="fontDescription" type="system" pointSize="17"/>
-                                <color key="textColor" cocoaTouchSystemColor="darkTextColor"/>
+                                <color key="textColor" red="0.0" green="0.0" blue="0.0" alpha="1" colorSpace="calibratedRGB"/>
                                 <nil key="highlightedColor"/>
                             </label>
                             <pickerView contentMode="scaleToFill" misplaced="YES" translatesAutoresizingMaskIntoConstraints="NO" id="JPl-KK-hc2">
@@ -1252,7 +1252,7 @@
                                     <constraint firstAttribute="width" constant="300" id="A0d-WC-xEI"/>
                                 </constraints>
                                 <fontDescription key="fontDescription" type="system" pointSize="17"/>
-                                <color key="textColor" cocoaTouchSystemColor="darkTextColor"/>
+                                <color key="textColor" red="0.0" green="0.0" blue="0.0" alpha="1" colorSpace="calibratedRGB"/>
                                 <nil key="highlightedColor"/>
                             </label>
                             <pickerView contentMode="scaleToFill" misplaced="YES" translatesAutoresizingMaskIntoConstraints="NO" id="7R8-8o-6Wc">
@@ -1314,7 +1314,7 @@
                                     <constraint firstAttribute="width" constant="300" id="InQ-Ad-76S"/>
                                 </constraints>
                                 <fontDescription key="fontDescription" type="system" pointSize="17"/>
-                                <color key="textColor" cocoaTouchSystemColor="darkTextColor"/>
+                                <color key="textColor" red="0.0" green="0.0" blue="0.0" alpha="1" colorSpace="calibratedRGB"/>
                                 <nil key="highlightedColor"/>
                             </label>
                             <pickerView contentMode="scaleToFill" misplaced="YES" translatesAutoresizingMaskIntoConstraints="NO" id="0sL-pi-ily">
@@ -1364,7 +1364,7 @@
                                     <constraint firstAttribute="width" constant="300" id="2M8-kv-8bl"/>
                                 </constraints>
                                 <fontDescription key="fontDescription" type="system" pointSize="17"/>
-                                <color key="textColor" cocoaTouchSystemColor="darkTextColor"/>
+                                <color key="textColor" red="0.0" green="0.0" blue="0.0" alpha="1" colorSpace="calibratedRGB"/>
                                 <nil key="highlightedColor"/>
                             </label>
                             <pickerView contentMode="scaleToFill" misplaced="YES" translatesAutoresizingMaskIntoConstraints="NO" id="7c5-W4-OWA">
@@ -1426,7 +1426,7 @@
                                     <constraint firstAttribute="width" constant="300" id="bR1-Nb-x2n"/>
                                 </constraints>
                                 <fontDescription key="fontDescription" type="system" pointSize="17"/>
-                                <color key="textColor" cocoaTouchSystemColor="darkTextColor"/>
+                                <color key="textColor" red="0.0" green="0.0" blue="0.0" alpha="1" colorSpace="calibratedRGB"/>
                                 <nil key="highlightedColor"/>
                             </label>
                             <pickerView contentMode="scaleToFill" misplaced="YES" translatesAutoresizingMaskIntoConstraints="NO" id="25r-Zd-pPH">
@@ -1488,7 +1488,7 @@
                                     <constraint firstAttribute="width" constant="300" id="BSR-Q0-XQ2"/>
                                 </constraints>
                                 <fontDescription key="fontDescription" type="system" pointSize="17"/>
-                                <color key="textColor" cocoaTouchSystemColor="darkTextColor"/>
+                                <color key="textColor" red="0.0" green="0.0" blue="0.0" alpha="1" colorSpace="calibratedRGB"/>
                                 <nil key="highlightedColor"/>
                             </label>
                             <pickerView contentMode="scaleToFill" misplaced="YES" translatesAutoresizingMaskIntoConstraints="NO" id="gvk-T0-fEy">
@@ -1550,7 +1550,7 @@
                                     <constraint firstAttribute="width" constant="300" id="4NY-Ps-Mcg"/>
                                 </constraints>
                                 <fontDescription key="fontDescription" type="system" pointSize="17"/>
-                                <color key="textColor" cocoaTouchSystemColor="darkTextColor"/>
+                                <color key="textColor" red="0.0" green="0.0" blue="0.0" alpha="1" colorSpace="calibratedRGB"/>
                                 <nil key="highlightedColor"/>
                             </label>
                             <pickerView contentMode="scaleToFill" misplaced="YES" translatesAutoresizingMaskIntoConstraints="NO" id="UbJ-aG-NxQ">
@@ -1612,7 +1612,7 @@
                                     <constraint firstAttribute="width" constant="300" id="sTq-K7-d0N"/>
                                 </constraints>
                                 <fontDescription key="fontDescription" type="system" pointSize="17"/>
-                                <color key="textColor" cocoaTouchSystemColor="darkTextColor"/>
+                                <color key="textColor" red="0.0" green="0.0" blue="0.0" alpha="1" colorSpace="calibratedRGB"/>
                                 <nil key="highlightedColor"/>
                             </label>
                             <pickerView contentMode="scaleToFill" misplaced="YES" translatesAutoresizingMaskIntoConstraints="NO" id="OOZ-Ta-gj8">
@@ -1674,7 +1674,7 @@
                                     <constraint firstAttribute="width" constant="300" id="Faa-kn-5nh"/>
                                 </constraints>
                                 <fontDescription key="fontDescription" type="system" pointSize="17"/>
-                                <color key="textColor" cocoaTouchSystemColor="darkTextColor"/>
+                                <color key="textColor" red="0.0" green="0.0" blue="0.0" alpha="1" colorSpace="calibratedRGB"/>
                                 <nil key="highlightedColor"/>
                             </label>
                             <pickerView contentMode="scaleToFill" misplaced="YES" translatesAutoresizingMaskIntoConstraints="NO" id="Mtc-VM-Cey">
@@ -1736,7 +1736,7 @@
                                     <constraint firstAttribute="width" constant="300" id="WAJ-80-gvZ"/>
                                 </constraints>
                                 <fontDescription key="fontDescription" type="system" pointSize="17"/>
-                                <color key="textColor" cocoaTouchSystemColor="darkTextColor"/>
+                                <color key="textColor" red="0.0" green="0.0" blue="0.0" alpha="1" colorSpace="calibratedRGB"/>
                                 <nil key="highlightedColor"/>
                             </label>
                             <pickerView contentMode="scaleToFill" misplaced="YES" translatesAutoresizingMaskIntoConstraints="NO" id="CA1-9r-TrV">
@@ -1798,7 +1798,7 @@
                                     <constraint firstAttribute="width" constant="300" id="uYe-Vx-7Gc"/>
                                 </constraints>
                                 <fontDescription key="fontDescription" type="system" pointSize="17"/>
-                                <color key="textColor" cocoaTouchSystemColor="darkTextColor"/>
+                                <color key="textColor" red="0.0" green="0.0" blue="0.0" alpha="1" colorSpace="calibratedRGB"/>
                                 <nil key="highlightedColor"/>
                             </label>
                             <pickerView contentMode="scaleToFill" misplaced="YES" translatesAutoresizingMaskIntoConstraints="NO" id="z7b-aR-Ohf">
@@ -1860,7 +1860,7 @@
                                     <constraint firstAttribute="width" constant="300" id="cut-EW-0Jz"/>
                                 </constraints>
                                 <fontDescription key="fontDescription" type="system" pointSize="17"/>
-                                <color key="textColor" cocoaTouchSystemColor="darkTextColor"/>
+                                <color key="textColor" red="0.0" green="0.0" blue="0.0" alpha="1" colorSpace="calibratedRGB"/>
                                 <nil key="highlightedColor"/>
                             </label>
                             <pickerView contentMode="scaleToFill" misplaced="YES" translatesAutoresizingMaskIntoConstraints="NO" id="R4r-JY-0Ah">
@@ -1922,7 +1922,7 @@
                                     <constraint firstAttribute="width" constant="300" id="gQy-yC-N0L"/>
                                 </constraints>
                                 <fontDescription key="fontDescription" type="system" pointSize="17"/>
-                                <color key="textColor" cocoaTouchSystemColor="darkTextColor"/>
+                                <color key="textColor" red="0.0" green="0.0" blue="0.0" alpha="1" colorSpace="calibratedRGB"/>
                                 <nil key="highlightedColor"/>
                             </label>
                             <pickerView contentMode="scaleToFill" misplaced="YES" translatesAutoresizingMaskIntoConstraints="NO" id="EJV-RS-O2U">
@@ -1984,7 +1984,7 @@
                                     <constraint firstAttribute="width" constant="300" id="IE2-UG-c6T"/>
                                 </constraints>
                                 <fontDescription key="fontDescription" type="system" pointSize="17"/>
-                                <color key="textColor" cocoaTouchSystemColor="darkTextColor"/>
+                                <color key="textColor" red="0.0" green="0.0" blue="0.0" alpha="1" colorSpace="calibratedRGB"/>
                                 <nil key="highlightedColor"/>
                             </label>
                             <pickerView contentMode="scaleToFill" misplaced="YES" translatesAutoresizingMaskIntoConstraints="NO" id="ksV-Al-Xgk">
@@ -2046,7 +2046,7 @@
                                     <constraint firstAttribute="width" constant="300" id="fuf-Rw-bF1"/>
                                 </constraints>
                                 <fontDescription key="fontDescription" type="system" pointSize="17"/>
-                                <color key="textColor" cocoaTouchSystemColor="darkTextColor"/>
+                                <color key="textColor" red="0.0" green="0.0" blue="0.0" alpha="1" colorSpace="calibratedRGB"/>
                                 <nil key="highlightedColor"/>
                             </label>
                             <pickerView contentMode="scaleToFill" misplaced="YES" translatesAutoresizingMaskIntoConstraints="NO" id="qtZ-qd-mP9">
@@ -2108,7 +2108,7 @@
                                     <constraint firstAttribute="width" constant="300" id="RAe-YV-LDM"/>
                                 </constraints>
                                 <fontDescription key="fontDescription" type="system" pointSize="17"/>
-                                <color key="textColor" cocoaTouchSystemColor="darkTextColor"/>
+                                <color key="textColor" red="0.0" green="0.0" blue="0.0" alpha="1" colorSpace="calibratedRGB"/>
                                 <nil key="highlightedColor"/>
                             </label>
                             <pickerView contentMode="scaleToFill" misplaced="YES" translatesAutoresizingMaskIntoConstraints="NO" id="nhm-xZ-heq">
@@ -2170,7 +2170,7 @@
                                     <constraint firstAttribute="width" constant="300" id="2n7-jb-887"/>
                                 </constraints>
                                 <fontDescription key="fontDescription" type="system" pointSize="17"/>
-                                <color key="textColor" cocoaTouchSystemColor="darkTextColor"/>
+                                <color key="textColor" red="0.0" green="0.0" blue="0.0" alpha="1" colorSpace="calibratedRGB"/>
                                 <nil key="highlightedColor"/>
                             </label>
                             <pickerView contentMode="scaleToFill" misplaced="YES" translatesAutoresizingMaskIntoConstraints="NO" id="fvq-iK-7xv">
@@ -2232,7 +2232,7 @@
                                     <constraint firstAttribute="width" constant="300" id="jCC-6i-dv2"/>
                                 </constraints>
                                 <fontDescription key="fontDescription" type="system" pointSize="17"/>
-                                <color key="textColor" cocoaTouchSystemColor="darkTextColor"/>
+                                <color key="textColor" red="0.0" green="0.0" blue="0.0" alpha="1" colorSpace="calibratedRGB"/>
                                 <nil key="highlightedColor"/>
                             </label>
                             <pickerView contentMode="scaleToFill" misplaced="YES" translatesAutoresizingMaskIntoConstraints="NO" id="UrJ-c4-ctK">
@@ -2294,7 +2294,7 @@
                                     <constraint firstAttribute="width" constant="300" id="6si-2K-jpZ"/>
                                 </constraints>
                                 <fontDescription key="fontDescription" type="system" pointSize="17"/>
-                                <color key="textColor" cocoaTouchSystemColor="darkTextColor"/>
+                                <color key="textColor" red="0.0" green="0.0" blue="0.0" alpha="1" colorSpace="calibratedRGB"/>
                                 <nil key="highlightedColor"/>
                             </label>
                             <pickerView contentMode="scaleToFill" misplaced="YES" translatesAutoresizingMaskIntoConstraints="NO" id="a1Y-Co-N46">
@@ -2356,7 +2356,7 @@
                                     <constraint firstAttribute="width" constant="300" id="abW-iP-aau"/>
                                 </constraints>
                                 <fontDescription key="fontDescription" type="system" pointSize="17"/>
-                                <color key="textColor" cocoaTouchSystemColor="darkTextColor"/>
+                                <color key="textColor" red="0.0" green="0.0" blue="0.0" alpha="1" colorSpace="calibratedRGB"/>
                                 <nil key="highlightedColor"/>
                             </label>
                             <pickerView contentMode="scaleToFill" misplaced="YES" translatesAutoresizingMaskIntoConstraints="NO" id="Fch-1T-22m">
@@ -2418,7 +2418,7 @@
                                     <constraint firstAttribute="width" constant="300" id="kfh-ND-C6q"/>
                                 </constraints>
                                 <fontDescription key="fontDescription" type="system" pointSize="17"/>
-                                <color key="textColor" cocoaTouchSystemColor="darkTextColor"/>
+                                <color key="textColor" red="0.0" green="0.0" blue="0.0" alpha="1" colorSpace="calibratedRGB"/>
                                 <nil key="highlightedColor"/>
                             </label>
                             <pickerView contentMode="scaleToFill" misplaced="YES" translatesAutoresizingMaskIntoConstraints="NO" id="8bT-50-1dk">
@@ -2480,7 +2480,7 @@
                                     <constraint firstAttribute="width" constant="300" id="spg-09-wfV"/>
                                 </constraints>
                                 <fontDescription key="fontDescription" type="system" pointSize="17"/>
-                                <color key="textColor" cocoaTouchSystemColor="darkTextColor"/>
+                                <color key="textColor" red="0.0" green="0.0" blue="0.0" alpha="1" colorSpace="calibratedRGB"/>
                                 <nil key="highlightedColor"/>
                             </label>
                             <pickerView contentMode="scaleToFill" misplaced="YES" translatesAutoresizingMaskIntoConstraints="NO" id="guN-zL-dhQ">
@@ -2542,7 +2542,7 @@
                                     <constraint firstAttribute="width" constant="300" id="lSB-ec-tdl"/>
                                 </constraints>
                                 <fontDescription key="fontDescription" type="system" pointSize="17"/>
-                                <color key="textColor" cocoaTouchSystemColor="darkTextColor"/>
+                                <color key="textColor" red="0.0" green="0.0" blue="0.0" alpha="1" colorSpace="calibratedRGB"/>
                                 <nil key="highlightedColor"/>
                             </label>
                             <pickerView contentMode="scaleToFill" misplaced="YES" translatesAutoresizingMaskIntoConstraints="NO" id="6AN-2y-PFm">
@@ -2604,7 +2604,7 @@
                                     <constraint firstAttribute="width" constant="300" id="Dh8-G9-RV8"/>
                                 </constraints>
                                 <fontDescription key="fontDescription" type="system" pointSize="17"/>
-                                <color key="textColor" cocoaTouchSystemColor="darkTextColor"/>
+                                <color key="textColor" red="0.0" green="0.0" blue="0.0" alpha="1" colorSpace="calibratedRGB"/>
                                 <nil key="highlightedColor"/>
                             </label>
                             <pickerView contentMode="scaleToFill" misplaced="YES" translatesAutoresizingMaskIntoConstraints="NO" id="B60-ay-jVB">
@@ -2666,7 +2666,7 @@
                                     <constraint firstAttribute="width" constant="300" id="rC4-W5-ZaL"/>
                                 </constraints>
                                 <fontDescription key="fontDescription" type="system" pointSize="17"/>
-                                <color key="textColor" cocoaTouchSystemColor="darkTextColor"/>
+                                <color key="textColor" red="0.0" green="0.0" blue="0.0" alpha="1" colorSpace="calibratedRGB"/>
                                 <nil key="highlightedColor"/>
                             </label>
                             <pickerView contentMode="scaleToFill" misplaced="YES" translatesAutoresizingMaskIntoConstraints="NO" id="Koo-kH-uNo">
@@ -2728,7 +2728,7 @@
                                     <constraint firstAttribute="width" constant="300" id="eq3-6E-tee"/>
                                 </constraints>
                                 <fontDescription key="fontDescription" type="system" pointSize="17"/>
-                                <color key="textColor" cocoaTouchSystemColor="darkTextColor"/>
+                                <color key="textColor" red="0.0" green="0.0" blue="0.0" alpha="1" colorSpace="calibratedRGB"/>
                                 <nil key="highlightedColor"/>
                             </label>
                             <pickerView contentMode="scaleToFill" misplaced="YES" translatesAutoresizingMaskIntoConstraints="NO" id="4jG-np-i1M">
@@ -2790,7 +2790,7 @@
                                     <constraint firstAttribute="width" constant="300" id="9Wp-Dd-bWZ"/>
                                 </constraints>
                                 <fontDescription key="fontDescription" type="system" pointSize="17"/>
-                                <color key="textColor" cocoaTouchSystemColor="darkTextColor"/>
+                                <color key="textColor" red="0.0" green="0.0" blue="0.0" alpha="1" colorSpace="calibratedRGB"/>
                                 <nil key="highlightedColor"/>
                             </label>
                             <pickerView contentMode="scaleToFill" misplaced="YES" translatesAutoresizingMaskIntoConstraints="NO" id="bCg-it-NpA">
@@ -2852,7 +2852,7 @@
                                     <constraint firstAttribute="width" constant="300" id="jrc-ie-2NR"/>
                                 </constraints>
                                 <fontDescription key="fontDescription" type="system" pointSize="17"/>
-                                <color key="textColor" cocoaTouchSystemColor="darkTextColor"/>
+                                <color key="textColor" red="0.0" green="0.0" blue="0.0" alpha="1" colorSpace="calibratedRGB"/>
                                 <nil key="highlightedColor"/>
                             </label>
                             <pickerView contentMode="scaleToFill" misplaced="YES" translatesAutoresizingMaskIntoConstraints="NO" id="Lj7-Ca-qpn">
@@ -2914,7 +2914,7 @@
                                     <constraint firstAttribute="width" constant="300" id="SG8-Da-3ov"/>
                                 </constraints>
                                 <fontDescription key="fontDescription" type="system" pointSize="17"/>
-                                <color key="textColor" cocoaTouchSystemColor="darkTextColor"/>
+                                <color key="textColor" red="0.0" green="0.0" blue="0.0" alpha="1" colorSpace="calibratedRGB"/>
                                 <nil key="highlightedColor"/>
                             </label>
                             <pickerView contentMode="scaleToFill" misplaced="YES" translatesAutoresizingMaskIntoConstraints="NO" id="mHE-cJ-pXt">
@@ -2976,7 +2976,7 @@
                                     <constraint firstAttribute="width" constant="300" id="mNq-g6-EQH"/>
                                 </constraints>
                                 <fontDescription key="fontDescription" type="system" pointSize="17"/>
-                                <color key="textColor" cocoaTouchSystemColor="darkTextColor"/>
+                                <color key="textColor" red="0.0" green="0.0" blue="0.0" alpha="1" colorSpace="calibratedRGB"/>
                                 <nil key="highlightedColor"/>
                             </label>
                             <pickerView contentMode="scaleToFill" misplaced="YES" translatesAutoresizingMaskIntoConstraints="NO" id="334-Ye-P7a">
@@ -3038,7 +3038,7 @@
                                     <constraint firstAttribute="width" constant="300" id="unq-ze-PuY"/>
                                 </constraints>
                                 <fontDescription key="fontDescription" type="system" pointSize="17"/>
-                                <color key="textColor" cocoaTouchSystemColor="darkTextColor"/>
+                                <color key="textColor" red="0.0" green="0.0" blue="0.0" alpha="1" colorSpace="calibratedRGB"/>
                                 <nil key="highlightedColor"/>
                             </label>
                             <pickerView contentMode="scaleToFill" misplaced="YES" translatesAutoresizingMaskIntoConstraints="NO" id="Een-PE-Knw">
@@ -3100,7 +3100,7 @@
                                     <constraint firstAttribute="width" constant="300" id="Nf1-uC-5gh"/>
                                 </constraints>
                                 <fontDescription key="fontDescription" type="system" pointSize="17"/>
-                                <color key="textColor" cocoaTouchSystemColor="darkTextColor"/>
+                                <color key="textColor" red="0.0" green="0.0" blue="0.0" alpha="1" colorSpace="calibratedRGB"/>
                                 <nil key="highlightedColor"/>
                             </label>
                             <pickerView contentMode="scaleToFill" misplaced="YES" translatesAutoresizingMaskIntoConstraints="NO" id="769-1Q-1qn">
@@ -3209,7 +3209,7 @@
                                     <constraint firstAttribute="width" constant="300" id="5AJ-Nq-7fF"/>
                                 </constraints>
                                 <fontDescription key="fontDescription" type="system" pointSize="17"/>
-                                <color key="textColor" cocoaTouchSystemColor="darkTextColor"/>
+                                <color key="textColor" red="0.0" green="0.0" blue="0.0" alpha="1" colorSpace="calibratedRGB"/>
                                 <nil key="highlightedColor"/>
                             </label>
                             <pickerView contentMode="scaleToFill" misplaced="YES" translatesAutoresizingMaskIntoConstraints="NO" id="26Z-Zu-GhX">
@@ -3271,7 +3271,7 @@
                                     <constraint firstAttribute="width" constant="300" id="e8r-IA-Kdc"/>
                                 </constraints>
                                 <fontDescription key="fontDescription" type="system" pointSize="17"/>
-                                <color key="textColor" cocoaTouchSystemColor="darkTextColor"/>
+                                <color key="textColor" red="0.0" green="0.0" blue="0.0" alpha="1" colorSpace="calibratedRGB"/>
                                 <nil key="highlightedColor"/>
                             </label>
                             <pickerView contentMode="scaleToFill" misplaced="YES" translatesAutoresizingMaskIntoConstraints="NO" id="4aa-pJ-zaw">
@@ -3333,7 +3333,7 @@
                                     <constraint firstAttribute="width" constant="300" id="dd5-Jp-V8x"/>
                                 </constraints>
                                 <fontDescription key="fontDescription" type="system" pointSize="17"/>
-                                <color key="textColor" cocoaTouchSystemColor="darkTextColor"/>
+                                <color key="textColor" red="0.0" green="0.0" blue="0.0" alpha="1" colorSpace="calibratedRGB"/>
                                 <nil key="highlightedColor"/>
                             </label>
                             <pickerView contentMode="scaleToFill" misplaced="YES" translatesAutoresizingMaskIntoConstraints="NO" id="DLs-KQ-d5x">
@@ -3395,7 +3395,7 @@
                                     <constraint firstAttribute="width" constant="300" id="cqe-Wo-DJu"/>
                                 </constraints>
                                 <fontDescription key="fontDescription" type="system" pointSize="17"/>
-                                <color key="textColor" cocoaTouchSystemColor="darkTextColor"/>
+                                <color key="textColor" red="0.0" green="0.0" blue="0.0" alpha="1" colorSpace="calibratedRGB"/>
                                 <nil key="highlightedColor"/>
                             </label>
                             <pickerView contentMode="scaleToFill" misplaced="YES" translatesAutoresizingMaskIntoConstraints="NO" id="fn7-be-Ieb">
@@ -3457,7 +3457,7 @@
                                     <constraint firstAttribute="width" constant="300" id="J97-QO-vs7"/>
                                 </constraints>
                                 <fontDescription key="fontDescription" type="system" pointSize="17"/>
-                                <color key="textColor" cocoaTouchSystemColor="darkTextColor"/>
+                                <color key="textColor" red="0.0" green="0.0" blue="0.0" alpha="1" colorSpace="calibratedRGB"/>
                                 <nil key="highlightedColor"/>
                             </label>
                             <pickerView contentMode="scaleToFill" misplaced="YES" translatesAutoresizingMaskIntoConstraints="NO" id="OmY-7i-EM9">
@@ -3519,7 +3519,7 @@
                                     <constraint firstAttribute="width" constant="300" id="LsJ-Ls-Uud"/>
                                 </constraints>
                                 <fontDescription key="fontDescription" type="system" pointSize="17"/>
-                                <color key="textColor" cocoaTouchSystemColor="darkTextColor"/>
+                                <color key="textColor" red="0.0" green="0.0" blue="0.0" alpha="1" colorSpace="calibratedRGB"/>
                                 <nil key="highlightedColor"/>
                             </label>
                             <pickerView contentMode="scaleToFill" misplaced="YES" translatesAutoresizingMaskIntoConstraints="NO" id="WGQ-Gw-sVO">
@@ -3581,7 +3581,7 @@
                                     <constraint firstAttribute="width" constant="300" id="lSb-4c-XRH"/>
                                 </constraints>
                                 <fontDescription key="fontDescription" type="system" pointSize="17"/>
-                                <color key="textColor" cocoaTouchSystemColor="darkTextColor"/>
+                                <color key="textColor" red="0.0" green="0.0" blue="0.0" alpha="1" colorSpace="calibratedRGB"/>
                                 <nil key="highlightedColor"/>
                             </label>
                             <pickerView contentMode="scaleToFill" misplaced="YES" translatesAutoresizingMaskIntoConstraints="NO" id="nLd-Lq-A5l">
@@ -3643,7 +3643,7 @@
                                     <constraint firstAttribute="width" constant="300" id="5o0-S2-EyN"/>
                                 </constraints>
                                 <fontDescription key="fontDescription" type="system" pointSize="17"/>
-                                <color key="textColor" cocoaTouchSystemColor="darkTextColor"/>
+                                <color key="textColor" red="0.0" green="0.0" blue="0.0" alpha="1" colorSpace="calibratedRGB"/>
                                 <nil key="highlightedColor"/>
                             </label>
                             <pickerView contentMode="scaleToFill" misplaced="YES" translatesAutoresizingMaskIntoConstraints="NO" id="gtB-QI-kfT">
@@ -3705,7 +3705,7 @@
                                     <constraint firstAttribute="width" constant="300" id="tqV-Tv-Gsz"/>
                                 </constraints>
                                 <fontDescription key="fontDescription" type="system" pointSize="17"/>
-                                <color key="textColor" cocoaTouchSystemColor="darkTextColor"/>
+                                <color key="textColor" red="0.0" green="0.0" blue="0.0" alpha="1" colorSpace="calibratedRGB"/>
                                 <nil key="highlightedColor"/>
                             </label>
                             <pickerView contentMode="scaleToFill" misplaced="YES" translatesAutoresizingMaskIntoConstraints="NO" id="Mlj-JE-haJ">
@@ -3767,7 +3767,7 @@
                                     <constraint firstAttribute="width" constant="300" id="QXd-yZ-CSM"/>
                                 </constraints>
                                 <fontDescription key="fontDescription" type="system" pointSize="17"/>
-                                <color key="textColor" cocoaTouchSystemColor="darkTextColor"/>
+                                <color key="textColor" red="0.0" green="0.0" blue="0.0" alpha="1" colorSpace="calibratedRGB"/>
                                 <nil key="highlightedColor"/>
                             </label>
                             <pickerView contentMode="scaleToFill" misplaced="YES" translatesAutoresizingMaskIntoConstraints="NO" id="lkn-4b-Ie0">
@@ -3829,7 +3829,7 @@
                                     <constraint firstAttribute="width" constant="300" id="fAx-7j-Da2"/>
                                 </constraints>
                                 <fontDescription key="fontDescription" type="system" pointSize="17"/>
-                                <color key="textColor" cocoaTouchSystemColor="darkTextColor"/>
+                                <color key="textColor" red="0.0" green="0.0" blue="0.0" alpha="1" colorSpace="calibratedRGB"/>
                                 <nil key="highlightedColor"/>
                             </label>
                             <pickerView contentMode="scaleToFill" misplaced="YES" translatesAutoresizingMaskIntoConstraints="NO" id="dep-yl-gE5">
@@ -3891,7 +3891,7 @@
                                     <constraint firstAttribute="width" constant="300" id="puV-B1-s6C"/>
                                 </constraints>
                                 <fontDescription key="fontDescription" type="system" pointSize="17"/>
-                                <color key="textColor" cocoaTouchSystemColor="darkTextColor"/>
+                                <color key="textColor" red="0.0" green="0.0" blue="0.0" alpha="1" colorSpace="calibratedRGB"/>
                                 <nil key="highlightedColor"/>
                             </label>
                             <pickerView contentMode="scaleToFill" misplaced="YES" translatesAutoresizingMaskIntoConstraints="NO" id="ae4-co-n8Z">
@@ -3953,7 +3953,7 @@
                                     <constraint firstAttribute="width" constant="300" id="YoL-7j-4jG"/>
                                 </constraints>
                                 <fontDescription key="fontDescription" type="system" pointSize="17"/>
-                                <color key="textColor" cocoaTouchSystemColor="darkTextColor"/>
+                                <color key="textColor" red="0.0" green="0.0" blue="0.0" alpha="1" colorSpace="calibratedRGB"/>
                                 <nil key="highlightedColor"/>
                             </label>
                             <pickerView contentMode="scaleToFill" misplaced="YES" translatesAutoresizingMaskIntoConstraints="NO" id="4P7-pu-oP1">
@@ -4015,7 +4015,7 @@
                                     <constraint firstAttribute="width" constant="300" id="CrM-an-G87"/>
                                 </constraints>
                                 <fontDescription key="fontDescription" type="system" pointSize="17"/>
-                                <color key="textColor" cocoaTouchSystemColor="darkTextColor"/>
+                                <color key="textColor" red="0.0" green="0.0" blue="0.0" alpha="1" colorSpace="calibratedRGB"/>
                                 <nil key="highlightedColor"/>
                             </label>
                             <pickerView contentMode="scaleToFill" misplaced="YES" translatesAutoresizingMaskIntoConstraints="NO" id="dh9-U3-44H">
@@ -4077,7 +4077,7 @@
                                     <constraint firstAttribute="width" constant="300" id="6h4-SZ-ac9"/>
                                 </constraints>
                                 <fontDescription key="fontDescription" type="system" pointSize="17"/>
-                                <color key="textColor" cocoaTouchSystemColor="darkTextColor"/>
+                                <color key="textColor" red="0.0" green="0.0" blue="0.0" alpha="1" colorSpace="calibratedRGB"/>
                                 <nil key="highlightedColor"/>
                             </label>
                             <pickerView contentMode="scaleToFill" misplaced="YES" translatesAutoresizingMaskIntoConstraints="NO" id="Qda-f5-Car">
@@ -4139,7 +4139,7 @@
                                     <constraint firstAttribute="width" constant="300" id="4C4-Jg-zbh"/>
                                 </constraints>
                                 <fontDescription key="fontDescription" type="system" pointSize="17"/>
-                                <color key="textColor" cocoaTouchSystemColor="darkTextColor"/>
+                                <color key="textColor" red="0.0" green="0.0" blue="0.0" alpha="1" colorSpace="calibratedRGB"/>
                                 <nil key="highlightedColor"/>
                             </label>
                             <pickerView contentMode="scaleToFill" misplaced="YES" translatesAutoresizingMaskIntoConstraints="NO" id="G99-ig-QoK">
@@ -4201,7 +4201,7 @@
                                     <constraint firstAttribute="width" constant="300" id="yfm-Xn-8qR"/>
                                 </constraints>
                                 <fontDescription key="fontDescription" type="system" pointSize="17"/>
-                                <color key="textColor" cocoaTouchSystemColor="darkTextColor"/>
+                                <color key="textColor" red="0.0" green="0.0" blue="0.0" alpha="1" colorSpace="calibratedRGB"/>
                                 <nil key="highlightedColor"/>
                             </label>
                             <pickerView contentMode="scaleToFill" misplaced="YES" translatesAutoresizingMaskIntoConstraints="NO" id="Hkx-S7-YkO">
@@ -4263,7 +4263,7 @@
                                     <constraint firstAttribute="width" constant="300" id="aXs-sb-qAW"/>
                                 </constraints>
                                 <fontDescription key="fontDescription" type="system" pointSize="17"/>
-                                <color key="textColor" cocoaTouchSystemColor="darkTextColor"/>
+                                <color key="textColor" red="0.0" green="0.0" blue="0.0" alpha="1" colorSpace="calibratedRGB"/>
                                 <nil key="highlightedColor"/>
                             </label>
                             <pickerView contentMode="scaleToFill" misplaced="YES" translatesAutoresizingMaskIntoConstraints="NO" id="Keh-dw-ewm">
@@ -4325,7 +4325,7 @@
                                     <constraint firstAttribute="width" constant="300" id="soK-61-Hwc"/>
                                 </constraints>
                                 <fontDescription key="fontDescription" type="system" pointSize="17"/>
-                                <color key="textColor" cocoaTouchSystemColor="darkTextColor"/>
+                                <color key="textColor" red="0.0" green="0.0" blue="0.0" alpha="1" colorSpace="calibratedRGB"/>
                                 <nil key="highlightedColor"/>
                             </label>
                             <pickerView contentMode="scaleToFill" misplaced="YES" translatesAutoresizingMaskIntoConstraints="NO" id="jnR-wR-thV">
@@ -4387,7 +4387,7 @@
                                     <constraint firstAttribute="width" constant="300" id="UfP-TW-gqf"/>
                                 </constraints>
                                 <fontDescription key="fontDescription" type="system" pointSize="17"/>
-                                <color key="textColor" cocoaTouchSystemColor="darkTextColor"/>
+                                <color key="textColor" red="0.0" green="0.0" blue="0.0" alpha="1" colorSpace="calibratedRGB"/>
                                 <nil key="highlightedColor"/>
                             </label>
                             <pickerView contentMode="scaleToFill" misplaced="YES" translatesAutoresizingMaskIntoConstraints="NO" id="31e-f4-KqR">
@@ -4449,7 +4449,7 @@
                                     <constraint firstAttribute="width" constant="300" id="6fE-1Q-xEU"/>
                                 </constraints>
                                 <fontDescription key="fontDescription" type="system" pointSize="17"/>
-                                <color key="textColor" cocoaTouchSystemColor="darkTextColor"/>
+                                <color key="textColor" red="0.0" green="0.0" blue="0.0" alpha="1" colorSpace="calibratedRGB"/>
                                 <nil key="highlightedColor"/>
                             </label>
                             <pickerView contentMode="scaleToFill" misplaced="YES" translatesAutoresizingMaskIntoConstraints="NO" id="e8Z-W6-z3f">
@@ -4511,7 +4511,7 @@
                                     <constraint firstAttribute="width" constant="300" id="MJE-mL-BVR"/>
                                 </constraints>
                                 <fontDescription key="fontDescription" type="system" pointSize="17"/>
-                                <color key="textColor" cocoaTouchSystemColor="darkTextColor"/>
+                                <color key="textColor" red="0.0" green="0.0" blue="0.0" alpha="1" colorSpace="calibratedRGB"/>
                                 <nil key="highlightedColor"/>
                             </label>
                             <pickerView contentMode="scaleToFill" misplaced="YES" translatesAutoresizingMaskIntoConstraints="NO" id="Jzb-mG-COg">
@@ -4573,7 +4573,7 @@
                                     <constraint firstAttribute="width" constant="300" id="gHV-EO-sIy"/>
                                 </constraints>
                                 <fontDescription key="fontDescription" type="system" pointSize="17"/>
-                                <color key="textColor" cocoaTouchSystemColor="darkTextColor"/>
+                                <color key="textColor" red="0.0" green="0.0" blue="0.0" alpha="1" colorSpace="calibratedRGB"/>
                                 <nil key="highlightedColor"/>
                             </label>
                             <pickerView contentMode="scaleToFill" misplaced="YES" translatesAutoresizingMaskIntoConstraints="NO" id="aMW-yC-Shd">
@@ -4635,7 +4635,7 @@
                                     <constraint firstAttribute="width" constant="300" id="7GL-py-SD1"/>
                                 </constraints>
                                 <fontDescription key="fontDescription" type="system" pointSize="17"/>
-                                <color key="textColor" cocoaTouchSystemColor="darkTextColor"/>
+                                <color key="textColor" red="0.0" green="0.0" blue="0.0" alpha="1" colorSpace="calibratedRGB"/>
                                 <nil key="highlightedColor"/>
                             </label>
                             <pickerView contentMode="scaleToFill" misplaced="YES" translatesAutoresizingMaskIntoConstraints="NO" id="d31-0d-GNw">
@@ -4697,7 +4697,7 @@
                                     <constraint firstAttribute="width" constant="300" id="0N2-rA-brf"/>
                                 </constraints>
                                 <fontDescription key="fontDescription" type="system" pointSize="17"/>
-                                <color key="textColor" cocoaTouchSystemColor="darkTextColor"/>
+                                <color key="textColor" red="0.0" green="0.0" blue="0.0" alpha="1" colorSpace="calibratedRGB"/>
                                 <nil key="highlightedColor"/>
                             </label>
                             <pickerView contentMode="scaleToFill" misplaced="YES" translatesAutoresizingMaskIntoConstraints="NO" id="z1s-xX-3cq">
@@ -4862,6 +4862,375 @@
             </objects>
             <point key="canvasLocation" x="1428" y="12293"/>
         </scene>
+        <!--Tab Bar Controller-->
+        <scene sceneID="YG1-Ru-kDM">
+            <objects>
+                <tabBarController id="Eq9-dB-hQg" sceneMemberID="viewController">
+                    <tabBar key="tabBar" contentMode="scaleToFill" id="NRh-Lu-QKw">
+                        <rect key="frame" x="0.0" y="0.0" width="320" height="49"/>
+                        <autoresizingMask key="autoresizingMask"/>
+                        <color key="backgroundColor" white="0.0" alpha="0.0" colorSpace="calibratedWhite"/>
+                    </tabBar>
+                    <connections>
+                        <segue destination="1Br-6F-GmB" kind="relationship" relationship="viewControllers" id="6o7-9d-CoC"/>
+                        <segue destination="q0p-p9-LnC" kind="relationship" relationship="viewControllers" id="hUC-cz-63D"/>
+                        <segue destination="58N-nA-BrT" kind="relationship" relationship="viewControllers" id="1uo-aR-Tyo"/>
+                        <segue destination="btj-JN-0PR" kind="relationship" relationship="viewControllers" id="5ub-pd-7fb"/>
+                        <segue destination="bws-a2-9Y8" kind="relationship" relationship="viewControllers" id="4zP-NQ-2C5"/>
+                    </connections>
+                </tabBarController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="gVG-ks-WUx" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="602" y="13345"/>
+        </scene>
+        <!--Item-->
+        <scene sceneID="sjH-Y1-99o">
+            <objects>
+                <viewController id="1Br-6F-GmB" sceneMemberID="viewController">
+                    <layoutGuides>
+                        <viewControllerLayoutGuide type="top" id="oGp-0a-cKs"/>
+                        <viewControllerLayoutGuide type="bottom" id="ZeY-SJ-dPf"/>
+                    </layoutGuides>
+                    <view key="view" contentMode="scaleToFill" id="wtJ-RW-Exm">
+                        <rect key="frame" x="0.0" y="0.0" width="600" height="600"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <textView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" editable="NO" textAlignment="natural" selectable="NO" translatesAutoresizingMaskIntoConstraints="NO" id="4e8-n6-ovD">
+                                <rect key="frame" x="20" y="57" width="560" height="486"/>
+                                <string key="text">歡迎您參與本研究！本研究的主要目的是希望透過學術性的方式，了解職場員工與其直屬主管的互動經驗，以建立可實際增進單位效能的領導模式。
+
+在本研究中，共有：(1)初始調查、(2)每日經驗取樣、(3)事後調查等三階段。目前所進行的是初始調查階段，所需填答時間約為十分鐘。
+
+自下週起，將進入每日經驗取樣階段，共將持續兩週。每天的上午九點、下午兩點及下午六點共三個時段，本研究專屬應用程式將向您的智慧型裝置傳送問卷填寫提醒，您可直接點選進入問卷填答。三個時段的問卷皆可在約三分鐘內填答完畢。
+
+完成每日經驗取樣後，本研究專屬應用程式將再向您傳送事後調查問卷，所需填答時間約為三至五分鐘。
+
+與研究參與者權益維護相關的資訊請按此。（點選可看以下說明）
+
+我們完全尊重您的參與意願；如您在參與過程中，對任何問題感覺有疑慮，可拒絕回答該問題，或者自由決定終止參與本研究。在任何階段決定終止參與研究，都不會造成您的任何損失。
+
+本研究的所有參與人員將會確保資料的保密性。根據科技部相關規範，資料在本研究結案五年內，將妥善留存於受密碼保護的設備中；屆時除了本研究負責人與學術倫理審查單位之外，將無人能在研究執行完畢後重新取得您的資料。所有資料將在整體層次進行分析，不會針對您的個人資料單獨進行分析。在結案報告中，亦將不會出現任何能識別您身分的個人資料。
+
+在研究進行過程中，您將需要回答所設計問卷中的所有問題。這些問題都沒有所謂的正確答案，請您依照您的直覺、真實感受及當下的印象進行回答即可。您針對每一題所提供的答案，在分析階段都將無法直接與您個人進行連結，我們將會竭盡所能地確保匿名性與保密性。
+
+本研究將不會對您產生任何生理、心理或經濟方面的相關風險。您的參與純屬自願，所有資料都將匿名、保密處理，因此沒有任何對您造成損失的疑慮與風險。本研究的負責人為國立中山大學人力資源管理研究所王安智教授。如您有任何問題，歡迎透過電子郵件進行聯繫（acwang@mail.nsysu.edu.tw）。
+
+完成全部研究程序的參與者，我們將致贈500元的超商禮券做為酬謝。接下來請點選以下按鈕進入問卷，開始填答。
+</string>
+                                <fontDescription key="fontDescription" type="system" pointSize="14"/>
+                                <textInputTraits key="textInputTraits" autocapitalizationType="sentences"/>
+                            </textView>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="主管部屬互動經驗調查  - 問卷說明" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="YWe-PY-tBo">
+                                <rect key="frame" x="20" y="28" width="560" height="21"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                                <color key="textColor" red="0.40000000000000002" green="0.80000000000000004" blue="0.80000000000000004" alpha="1" colorSpace="calibratedRGB"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                        </subviews>
+                        <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                        <constraints>
+                            <constraint firstAttribute="trailing" secondItem="4e8-n6-ovD" secondAttribute="trailing" constant="20" id="0Ty-yx-GNk"/>
+                            <constraint firstItem="YWe-PY-tBo" firstAttribute="top" secondItem="oGp-0a-cKs" secondAttribute="bottom" constant="8" id="Hzb-R1-v8F"/>
+                            <constraint firstItem="ZeY-SJ-dPf" firstAttribute="top" secondItem="4e8-n6-ovD" secondAttribute="bottom" constant="8" id="LBq-ZW-NEi"/>
+                            <constraint firstItem="4e8-n6-ovD" firstAttribute="leading" secondItem="wtJ-RW-Exm" secondAttribute="leading" constant="20" id="QON-tJ-rbD"/>
+                            <constraint firstItem="4e8-n6-ovD" firstAttribute="top" secondItem="YWe-PY-tBo" secondAttribute="bottom" constant="8" id="bg9-HW-8Kb"/>
+                            <constraint firstItem="YWe-PY-tBo" firstAttribute="leading" secondItem="wtJ-RW-Exm" secondAttribute="leading" constant="20" id="l4N-Wm-kp1"/>
+                            <constraint firstAttribute="trailing" secondItem="YWe-PY-tBo" secondAttribute="trailing" constant="20" id="xc2-dN-94C"/>
+                        </constraints>
+                    </view>
+                    <tabBarItem key="tabBarItem" title="Item" image="resetDate" id="Yrf-OM-bgB"/>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="b2M-7B-Wxx" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="1450" y="13217"/>
+        </scene>
+        <!--Item-->
+        <scene sceneID="w6i-dp-5NG">
+            <objects>
+                <viewController id="q0p-p9-LnC" sceneMemberID="viewController">
+                    <layoutGuides>
+                        <viewControllerLayoutGuide type="top" id="b2c-xb-Crp"/>
+                        <viewControllerLayoutGuide type="bottom" id="mzd-c9-MNm"/>
+                    </layoutGuides>
+                    <view key="view" contentMode="scaleToFill" id="Pnj-iG-uDe">
+                        <rect key="frame" x="0.0" y="0.0" width="600" height="600"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="問卷進度" textAlignment="center" lineBreakMode="tailTruncation" numberOfLines="0" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="fhj-2J-NNp">
+                                <rect key="frame" x="246" y="28" width="108" height="32.5"/>
+                                <fontDescription key="fontDescription" style="UICTFontTextStyleTitle1"/>
+                                <color key="textColor" red="0.40000000000000002" green="0.80000000000000004" blue="0.80000000000000004" alpha="1" colorSpace="calibratedRGB"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="初始問卷" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="zEb-ph-U1C">
+                                <rect key="frame" x="20" y="101" width="68" height="20.5"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                                <color key="textColor" cocoaTouchSystemColor="darkTextColor"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="每日經驗取樣" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="l8k-SE-cei">
+                                <rect key="frame" x="20" y="146" width="102" height="20.5"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                                <color key="textColor" cocoaTouchSystemColor="darkTextColor"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="事後調查" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="Vey-fw-eZQ">
+                                <rect key="frame" x="20" y="191" width="68" height="20.5"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                                <color key="textColor" cocoaTouchSystemColor="darkTextColor"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                        </subviews>
+                        <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                        <constraints>
+                            <constraint firstItem="fhj-2J-NNp" firstAttribute="top" secondItem="b2c-xb-Crp" secondAttribute="bottom" constant="8" id="74g-fT-dk7"/>
+                            <constraint firstAttribute="leadingMargin" secondItem="zEb-ph-U1C" secondAttribute="leading" id="XBM-Qu-V3G"/>
+                            <constraint firstItem="zEb-ph-U1C" firstAttribute="top" secondItem="fhj-2J-NNp" secondAttribute="bottom" constant="40.5" id="aRW-Tn-j8I"/>
+                            <constraint firstItem="Vey-fw-eZQ" firstAttribute="top" secondItem="l8k-SE-cei" secondAttribute="bottom" constant="25" id="fQd-e6-D4c"/>
+                            <constraint firstItem="l8k-SE-cei" firstAttribute="top" secondItem="zEb-ph-U1C" secondAttribute="bottom" constant="25" id="gHx-RI-fOl"/>
+                            <constraint firstAttribute="leadingMargin" secondItem="l8k-SE-cei" secondAttribute="leading" id="ia2-Ye-JAR"/>
+                            <constraint firstAttribute="leadingMargin" secondItem="Vey-fw-eZQ" secondAttribute="leading" id="nyF-6W-xWi"/>
+                            <constraint firstItem="fhj-2J-NNp" firstAttribute="centerX" secondItem="Pnj-iG-uDe" secondAttribute="centerX" id="za9-Zo-a4t"/>
+                        </constraints>
+                    </view>
+                    <tabBarItem key="tabBarItem" title="Item" image="progress" id="tKo-Hf-TRF"/>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="box-d1-C02" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="1570" y="14053"/>
+        </scene>
+        <!--Item-->
+        <scene sceneID="FBG-A8-4xs">
+            <objects>
+                <viewController id="58N-nA-BrT" sceneMemberID="viewController">
+                    <layoutGuides>
+                        <viewControllerLayoutGuide type="top" id="eQz-jj-asi"/>
+                        <viewControllerLayoutGuide type="bottom" id="mxR-EU-o7z"/>
+                    </layoutGuides>
+                    <view key="view" contentMode="scaleToFill" id="9tU-zK-MrR">
+                        <rect key="frame" x="0.0" y="0.0" width="600" height="600"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" horizontalCompressionResistancePriority="751" text="聯絡方式：" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="z8H-R3-1uR">
+                                <rect key="frame" x="20" y="108" width="85" height="20.5"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                                <color key="textColor" red="0.0" green="0.0" blue="0.0" alpha="1" colorSpace="calibratedRGB"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" horizontalCompressionResistancePriority="751" text="程式開發者：" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="ScA-6r-gKq">
+                                <rect key="frame" x="20" y="136" width="102" height="20.5"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                                <color key="textColor" red="0.0" green="0.0" blue="0.0" alpha="1" colorSpace="calibratedRGB"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" horizontalCompressionResistancePriority="751" text="聯絡方式：" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="C58-al-d2p">
+                                <rect key="frame" x="20" y="164" width="85" height="20.5"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                                <color key="textColor" red="0.0" green="0.0" blue="0.0" alpha="1" colorSpace="calibratedRGB"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" verticalHuggingPriority="251" textAlignment="natural" lineBreakMode="tailTruncation" numberOfLines="0" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="ElV-CN-hZS">
+                                <rect key="frame" x="130" y="59" width="450" height="41"/>
+                                <string key="text">中山大學人力資源管理所
+王安智教授</string>
+                                <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                                <color key="textColor" red="0.0" green="0.0" blue="0.0" alpha="1" colorSpace="calibratedRGB"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" verticalHuggingPriority="251" text="林立穎" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="UHh-mt-KJD">
+                                <rect key="frame" x="130" y="136" width="450" height="20.5"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                                <color key="textColor" red="0.0" green="0.0" blue="0.0" alpha="1" colorSpace="calibratedRGB"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" verticalHuggingPriority="251" text="yoxisem544@gmail.com" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="XaQ-Rp-IPT">
+                                <rect key="frame" x="113" y="164" width="467" height="20.5"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                                <color key="textColor" red="0.0" green="0.0" blue="0.0" alpha="1" colorSpace="calibratedRGB"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" verticalHuggingPriority="251" text="acwang@mail.nsysu.edu.tw" textAlignment="natural" lineBreakMode="tailTruncation" numberOfLines="0" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="Jep-Pb-xcW">
+                                <rect key="frame" x="113" y="108" width="467" height="20.5"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                                <color key="textColor" red="0.0" green="0.0" blue="0.0" alpha="1" colorSpace="calibratedRGB"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="開發者資訊" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="HR7-Fe-kTT">
+                                <rect key="frame" x="232" y="20" width="135" height="32.5"/>
+                                <fontDescription key="fontDescription" style="UICTFontTextStyleTitle1"/>
+                                <color key="textColor" red="0.40000000000000002" green="0.80000000000000004" blue="0.80000000000000004" alpha="1" colorSpace="calibratedRGB"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" horizontalCompressionResistancePriority="751" text="問卷開發者：" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="vei-kA-0sh">
+                                <rect key="frame" x="20" y="59" width="102" height="20.5"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                                <color key="textColor" red="0.0" green="0.0" blue="0.0" alpha="1" colorSpace="calibratedRGB"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                        </subviews>
+                        <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                        <constraints>
+                            <constraint firstItem="C58-al-d2p" firstAttribute="top" secondItem="XaQ-Rp-IPT" secondAttribute="top" id="1GQ-wJ-SPv"/>
+                            <constraint firstItem="ElV-CN-hZS" firstAttribute="top" secondItem="HR7-Fe-kTT" secondAttribute="bottom" constant="6.5" id="5Y6-3A-RTH"/>
+                            <constraint firstItem="Jep-Pb-xcW" firstAttribute="leading" secondItem="z8H-R3-1uR" secondAttribute="trailing" constant="8" id="8t3-Lp-Djs"/>
+                            <constraint firstAttribute="trailingMargin" secondItem="Jep-Pb-xcW" secondAttribute="trailing" id="F0o-Db-xLs"/>
+                            <constraint firstItem="ScA-6r-gKq" firstAttribute="top" secondItem="UHh-mt-KJD" secondAttribute="top" id="ODj-AV-ulX"/>
+                            <constraint firstItem="HR7-Fe-kTT" firstAttribute="centerX" secondItem="9tU-zK-MrR" secondAttribute="centerX" id="UZu-11-rOl"/>
+                            <constraint firstAttribute="trailingMargin" secondItem="UHh-mt-KJD" secondAttribute="trailing" id="XJp-Fd-Y44"/>
+                            <constraint firstAttribute="trailingMargin" secondItem="XaQ-Rp-IPT" secondAttribute="trailing" id="bkL-RS-61s"/>
+                            <constraint firstItem="XaQ-Rp-IPT" firstAttribute="leading" secondItem="C58-al-d2p" secondAttribute="trailing" constant="8" id="cOo-pe-bPm"/>
+                            <constraint firstItem="ElV-CN-hZS" firstAttribute="leading" secondItem="vei-kA-0sh" secondAttribute="trailing" constant="8" id="ec2-Nx-qPF"/>
+                            <constraint firstItem="C58-al-d2p" firstAttribute="leading" secondItem="9tU-zK-MrR" secondAttribute="leadingMargin" id="fwg-jv-PLL"/>
+                            <constraint firstItem="XaQ-Rp-IPT" firstAttribute="top" secondItem="UHh-mt-KJD" secondAttribute="bottom" constant="8" id="gpE-4O-jcZ"/>
+                            <constraint firstItem="z8H-R3-1uR" firstAttribute="top" secondItem="Jep-Pb-xcW" secondAttribute="top" id="hH6-e1-7Wb"/>
+                            <constraint firstItem="vei-kA-0sh" firstAttribute="leading" secondItem="9tU-zK-MrR" secondAttribute="leadingMargin" id="lvr-wc-mMB"/>
+                            <constraint firstItem="z8H-R3-1uR" firstAttribute="leading" secondItem="9tU-zK-MrR" secondAttribute="leadingMargin" id="mig-jv-dN3"/>
+                            <constraint firstItem="UHh-mt-KJD" firstAttribute="leading" secondItem="ScA-6r-gKq" secondAttribute="trailing" constant="8" id="ovR-c7-fFJ"/>
+                            <constraint firstItem="vei-kA-0sh" firstAttribute="top" secondItem="HR7-Fe-kTT" secondAttribute="bottom" constant="7" id="pNw-Ag-7wf"/>
+                            <constraint firstItem="HR7-Fe-kTT" firstAttribute="top" secondItem="eQz-jj-asi" secondAttribute="bottom" id="qOO-yl-Iod"/>
+                            <constraint firstItem="Jep-Pb-xcW" firstAttribute="top" secondItem="ElV-CN-hZS" secondAttribute="bottom" constant="8" id="qv0-Tg-95R"/>
+                            <constraint firstAttribute="trailingMargin" secondItem="ElV-CN-hZS" secondAttribute="trailing" id="sQR-ir-8mC"/>
+                            <constraint firstItem="ScA-6r-gKq" firstAttribute="leading" secondItem="9tU-zK-MrR" secondAttribute="leadingMargin" id="sgn-2D-gcT"/>
+                            <constraint firstItem="UHh-mt-KJD" firstAttribute="top" secondItem="Jep-Pb-xcW" secondAttribute="bottom" constant="8" id="xVJ-qa-e0B"/>
+                        </constraints>
+                    </view>
+                    <tabBarItem key="tabBarItem" title="Item" image="designer" id="CXk-jY-mCe"/>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="YDU-BS-hrP" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="1226" y="15025"/>
+        </scene>
+        <!--Item-->
+        <scene sceneID="Gy7-uy-C2O">
+            <objects>
+                <viewController id="bws-a2-9Y8" sceneMemberID="viewController">
+                    <layoutGuides>
+                        <viewControllerLayoutGuide type="top" id="IQT-Qn-pSL"/>
+                        <viewControllerLayoutGuide type="bottom" id="cP6-FV-mvi"/>
+                    </layoutGuides>
+                    <view key="view" contentMode="scaleToFill" id="Amj-8n-kPR">
+                        <rect key="frame" x="0.0" y="0.0" width="600" height="600"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="資料檢視及通知設定" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="RaP-Es-VK5">
+                                <rect key="frame" x="178.5" y="28" width="243" height="32.5"/>
+                                <fontDescription key="fontDescription" style="UICTFontTextStyleTitle1"/>
+                                <color key="textColor" red="0.40000000000000002" green="0.80000000000000004" blue="0.80000000000000004" alpha="1" colorSpace="calibratedRGB"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="wordWrap" translatesAutoresizingMaskIntoConstraints="NO" id="eiF-Gd-zcC">
+                                <rect key="frame" x="20" y="453" width="90" height="90"/>
+                                <constraints>
+                                    <constraint firstAttribute="width" constant="90" id="efp-fS-4Wo"/>
+                                    <constraint firstAttribute="height" constant="90" id="mxs-Yj-GqK"/>
+                                </constraints>
+                                <state key="normal" backgroundImage="Button">
+                                    <string key="title"> 設定下 
+次上班日</string>
+                                    <color key="titleColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                                </state>
+                                <connections>
+                                    <segue destination="hrE-r4-hRO" kind="presentation" id="An5-3b-TqV"/>
+                                </connections>
+                            </button>
+                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="wordWrap" translatesAutoresizingMaskIntoConstraints="NO" id="RRw-J8-6TL">
+                                <rect key="frame" x="490" y="453" width="90" height="90"/>
+                                <constraints>
+                                    <constraint firstAttribute="height" constant="90" id="60e-fs-bdo"/>
+                                    <constraint firstAttribute="width" constant="90" id="FE3-Vs-UwB"/>
+                                </constraints>
+                                <state key="normal" backgroundImage="Button">
+                                    <string key="title"> 檢視使 
+用者資訊</string>
+                                    <color key="titleColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                                </state>
+                            </button>
+                        </subviews>
+                        <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                        <constraints>
+                            <constraint firstAttribute="leadingMargin" secondItem="eiF-Gd-zcC" secondAttribute="leading" id="0Jh-bY-xM4"/>
+                            <constraint firstItem="RaP-Es-VK5" firstAttribute="centerX" secondItem="Amj-8n-kPR" secondAttribute="centerX" id="K5b-D7-Sem"/>
+                            <constraint firstItem="cP6-FV-mvi" firstAttribute="top" secondItem="eiF-Gd-zcC" secondAttribute="bottom" constant="8" id="Tj6-EM-OZG"/>
+                            <constraint firstItem="RaP-Es-VK5" firstAttribute="top" secondItem="IQT-Qn-pSL" secondAttribute="bottom" constant="8" id="XpL-QU-cvG"/>
+                            <constraint firstAttribute="trailingMargin" secondItem="RRw-J8-6TL" secondAttribute="trailing" id="opX-z3-B7f"/>
+                            <constraint firstItem="cP6-FV-mvi" firstAttribute="top" secondItem="RRw-J8-6TL" secondAttribute="bottom" constant="8" id="tm9-0O-sNE"/>
+                        </constraints>
+                    </view>
+                    <tabBarItem key="tabBarItem" title="Item" image="explain" id="KIi-9u-N1H"/>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="RKs-wk-Egs" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="-530" y="15297"/>
+        </scene>
+        <!--Item-->
+        <scene sceneID="q0t-Bo-CHK">
+            <objects>
+                <viewController id="btj-JN-0PR" customClass="DayQuestionareViewController" customModule="AnnGiNoCoreData" customModuleProvider="target" sceneMemberID="viewController">
+                    <layoutGuides>
+                        <viewControllerLayoutGuide type="top" id="Iui-fk-nRO"/>
+                        <viewControllerLayoutGuide type="bottom" id="anw-yh-4K9"/>
+                    </layoutGuides>
+                    <view key="view" contentMode="scaleToFill" id="Kku-4e-l3F">
+                        <rect key="frame" x="0.0" y="0.0" width="600" height="600"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="每日經驗調查" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="Snv-rW-QBz">
+                                <rect key="frame" x="219" y="20" width="162" height="32.5"/>
+                                <fontDescription key="fontDescription" style="UICTFontTextStyleTitle1"/>
+                                <color key="textColor" red="0.40000000000000002" green="0.80000000000000004" blue="0.80000000000000004" alpha="1" colorSpace="calibratedRGB"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="uEr-Dh-hYd">
+                                <rect key="frame" x="262" y="468" width="75" height="75"/>
+                                <constraints>
+                                    <constraint firstAttribute="width" constant="75" id="28A-Ei-dNa"/>
+                                    <constraint firstAttribute="height" constant="75" id="WA3-ba-UjW"/>
+                                </constraints>
+                                <state key="normal" title="開始作答" backgroundImage="Button">
+                                    <color key="titleColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                                </state>
+                                <connections>
+                                    <action selector="startButtonClicked:" destination="btj-JN-0PR" eventType="touchUpInside" id="mJx-4N-AzM"/>
+                                </connections>
+                            </button>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" textAlignment="natural" lineBreakMode="tailTruncation" numberOfLines="0" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="9CN-7N-fWX">
+                                <rect key="frame" x="202" y="122" width="194.5" height="61"/>
+                                <string key="text">早晨問卷： 09:00 - 12:30
+午間問卷： 14:00 - 17:30
+晚間問卷： 18:00 - 21:30</string>
+                                <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                                <color key="textColor" cocoaTouchSystemColor="darkTextColor"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="問卷開放時間：" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="4o5-x8-VFF">
+                                <rect key="frame" x="226" y="89" width="147" height="25.5"/>
+                                <fontDescription key="fontDescription" style="UICTFontTextStyleTitle2"/>
+                                <color key="textColor" cocoaTouchSystemColor="darkTextColor"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                        </subviews>
+                        <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                        <constraints>
+                            <constraint firstItem="Snv-rW-QBz" firstAttribute="top" secondItem="Iui-fk-nRO" secondAttribute="bottom" id="2kX-JM-ZgU"/>
+                            <constraint firstItem="uEr-Dh-hYd" firstAttribute="centerX" secondItem="Kku-4e-l3F" secondAttribute="centerX" id="9zs-OV-Dhe"/>
+                            <constraint firstItem="4o5-x8-VFF" firstAttribute="top" secondItem="Snv-rW-QBz" secondAttribute="bottom" constant="36.5" id="F1J-jq-bH4"/>
+                            <constraint firstItem="4o5-x8-VFF" firstAttribute="centerX" secondItem="Snv-rW-QBz" secondAttribute="centerX" id="NRG-ki-E1u"/>
+                            <constraint firstItem="9CN-7N-fWX" firstAttribute="top" secondItem="4o5-x8-VFF" secondAttribute="bottom" constant="8" id="URe-1U-Idc"/>
+                            <constraint firstItem="Snv-rW-QBz" firstAttribute="centerX" secondItem="Kku-4e-l3F" secondAttribute="centerX" id="dQ0-ky-xRh"/>
+                            <constraint firstItem="anw-yh-4K9" firstAttribute="top" secondItem="uEr-Dh-hYd" secondAttribute="bottom" constant="8" id="dZp-MF-60g"/>
+                            <constraint firstItem="9CN-7N-fWX" firstAttribute="centerX" secondItem="4o5-x8-VFF" secondAttribute="centerX" id="vtw-CG-nbd"/>
+                        </constraints>
+                    </view>
+                    <tabBarItem key="tabBarItem" title="Item" image="doques" id="heo-Eb-xdT"/>
+                    <connections>
+                        <outlet property="subtitleLabel" destination="4o5-x8-VFF" id="qc4-aG-arr"/>
+                        <outlet property="titleLabel" destination="Snv-rW-QBz" id="3ia-rH-Y2e"/>
+                    </connections>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="f9V-UL-h4O" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="322" y="15405"/>
+        </scene>
         <!--Chastening Norm Orientation2 View Controller-->
         <scene sceneID="N6G-mC-R0E">
             <objects>
@@ -4880,7 +5249,7 @@
                                     <constraint firstAttribute="width" constant="300" id="CXt-Rw-cnQ"/>
                                 </constraints>
                                 <fontDescription key="fontDescription" type="system" pointSize="17"/>
-                                <color key="textColor" cocoaTouchSystemColor="darkTextColor"/>
+                                <color key="textColor" red="0.0" green="0.0" blue="0.0" alpha="1" colorSpace="calibratedRGB"/>
                                 <nil key="highlightedColor"/>
                             </label>
                             <pickerView contentMode="scaleToFill" misplaced="YES" translatesAutoresizingMaskIntoConstraints="NO" id="b0I-Q9-DW1">
@@ -4942,7 +5311,7 @@
                                     <constraint firstAttribute="width" constant="300" id="nip-ep-fUC"/>
                                 </constraints>
                                 <fontDescription key="fontDescription" type="system" pointSize="17"/>
-                                <color key="textColor" cocoaTouchSystemColor="darkTextColor"/>
+                                <color key="textColor" red="0.0" green="0.0" blue="0.0" alpha="1" colorSpace="calibratedRGB"/>
                                 <nil key="highlightedColor"/>
                             </label>
                             <pickerView contentMode="scaleToFill" misplaced="YES" translatesAutoresizingMaskIntoConstraints="NO" id="a01-if-cz0">
@@ -5004,7 +5373,7 @@
                                     <constraint firstAttribute="width" constant="300" id="Ri3-Qp-dij"/>
                                 </constraints>
                                 <fontDescription key="fontDescription" type="system" pointSize="17"/>
-                                <color key="textColor" cocoaTouchSystemColor="darkTextColor"/>
+                                <color key="textColor" red="0.0" green="0.0" blue="0.0" alpha="1" colorSpace="calibratedRGB"/>
                                 <nil key="highlightedColor"/>
                             </label>
                             <pickerView contentMode="scaleToFill" misplaced="YES" translatesAutoresizingMaskIntoConstraints="NO" id="jfU-dk-2tS">
@@ -5066,7 +5435,7 @@
                                     <constraint firstAttribute="width" constant="300" id="6Z9-9c-3uT"/>
                                 </constraints>
                                 <fontDescription key="fontDescription" type="system" pointSize="17"/>
-                                <color key="textColor" cocoaTouchSystemColor="darkTextColor"/>
+                                <color key="textColor" red="0.0" green="0.0" blue="0.0" alpha="1" colorSpace="calibratedRGB"/>
                                 <nil key="highlightedColor"/>
                             </label>
                             <pickerView contentMode="scaleToFill" misplaced="YES" translatesAutoresizingMaskIntoConstraints="NO" id="AMr-1W-BN2">
@@ -5128,7 +5497,7 @@
                                     <constraint firstAttribute="width" constant="300" id="0fD-AP-SHL"/>
                                 </constraints>
                                 <fontDescription key="fontDescription" type="system" pointSize="17"/>
-                                <color key="textColor" cocoaTouchSystemColor="darkTextColor"/>
+                                <color key="textColor" red="0.0" green="0.0" blue="0.0" alpha="1" colorSpace="calibratedRGB"/>
                                 <nil key="highlightedColor"/>
                             </label>
                             <pickerView contentMode="scaleToFill" misplaced="YES" translatesAutoresizingMaskIntoConstraints="NO" id="TXP-KI-w05">
@@ -5190,7 +5559,7 @@
                                     <constraint firstAttribute="width" constant="300" id="tdd-Bh-LeP"/>
                                 </constraints>
                                 <fontDescription key="fontDescription" type="system" pointSize="17"/>
-                                <color key="textColor" cocoaTouchSystemColor="darkTextColor"/>
+                                <color key="textColor" red="0.0" green="0.0" blue="0.0" alpha="1" colorSpace="calibratedRGB"/>
                                 <nil key="highlightedColor"/>
                             </label>
                             <pickerView contentMode="scaleToFill" misplaced="YES" translatesAutoresizingMaskIntoConstraints="NO" id="Vnh-zy-aPh">
@@ -5436,7 +5805,7 @@
                             <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="電話" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="bOb-ji-acf">
                                 <rect key="frame" x="138" y="169" width="34" height="21"/>
                                 <fontDescription key="fontDescription" type="system" pointSize="17"/>
-                                <color key="textColor" cocoaTouchSystemColor="darkTextColor"/>
+                                <color key="textColor" red="0.0" green="0.0" blue="0.0" alpha="1" colorSpace="calibratedRGB"/>
                                 <nil key="highlightedColor"/>
                             </label>
                             <textField opaque="NO" clipsSubviews="YES" contentMode="scaleToFill" contentHorizontalAlignment="left" contentVerticalAlignment="center" borderStyle="roundedRect" textAlignment="natural" minimumFontSize="17" translatesAutoresizingMaskIntoConstraints="NO" id="UiZ-A6-tuU">
@@ -5510,7 +5879,7 @@
                             <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="EMAIL" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="OVz-TZ-NIY">
                                 <rect key="frame" x="123" y="169" width="49" height="21"/>
                                 <fontDescription key="fontDescription" type="system" pointSize="17"/>
-                                <color key="textColor" cocoaTouchSystemColor="darkTextColor"/>
+                                <color key="textColor" red="0.0" green="0.0" blue="0.0" alpha="1" colorSpace="calibratedRGB"/>
                                 <nil key="highlightedColor"/>
                             </label>
                         </subviews>
@@ -5548,7 +5917,7 @@
                             <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="公司" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="Z2b-Fr-x1o">
                                 <rect key="frame" x="138" y="169" width="34" height="21"/>
                                 <fontDescription key="fontDescription" type="system" pointSize="17"/>
-                                <color key="textColor" cocoaTouchSystemColor="darkTextColor"/>
+                                <color key="textColor" red="0.0" green="0.0" blue="0.0" alpha="1" colorSpace="calibratedRGB"/>
                                 <nil key="highlightedColor"/>
                             </label>
                             <textField opaque="NO" clipsSubviews="YES" contentMode="scaleToFill" contentHorizontalAlignment="left" contentVerticalAlignment="center" borderStyle="roundedRect" textAlignment="natural" minimumFontSize="17" translatesAutoresizingMaskIntoConstraints="NO" id="OBf-cu-8Pf">
@@ -5604,7 +5973,7 @@
                             <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="部門" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="cNd-qg-7gC">
                                 <rect key="frame" x="138" y="169" width="34" height="21"/>
                                 <fontDescription key="fontDescription" type="system" pointSize="17"/>
-                                <color key="textColor" cocoaTouchSystemColor="darkTextColor"/>
+                                <color key="textColor" red="0.0" green="0.0" blue="0.0" alpha="1" colorSpace="calibratedRGB"/>
                                 <nil key="highlightedColor"/>
                             </label>
                             <textField opaque="NO" clipsSubviews="YES" contentMode="scaleToFill" contentHorizontalAlignment="left" contentVerticalAlignment="center" borderStyle="roundedRect" textAlignment="natural" minimumFontSize="17" translatesAutoresizingMaskIntoConstraints="NO" id="tVh-TY-54q">
@@ -5645,8 +6014,283 @@
             </objects>
             <point key="canvasLocation" x="3778" y="-254"/>
         </scene>
+        <!--Reset Noti Date View Controller-->
+        <scene sceneID="erg-mI-din">
+            <objects>
+                <viewController id="qQm-kf-FCG" customClass="ResetNotiDateViewController" customModule="AnnGiNoCoreData" customModuleProvider="target" sceneMemberID="viewController">
+                    <layoutGuides>
+                        <viewControllerLayoutGuide type="top" id="lcF-LL-ZHy"/>
+                        <viewControllerLayoutGuide type="bottom" id="kYb-Lr-h8L"/>
+                    </layoutGuides>
+                    <view key="view" contentMode="scaleToFill" id="VhF-ft-L36">
+                        <rect key="frame" x="0.0" y="0.0" width="600" height="600"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="Nul-1U-Qb4">
+                                <rect key="frame" x="20" y="28" width="32" height="32"/>
+                                <constraints>
+                                    <constraint firstAttribute="width" constant="32" id="Eld-PL-L9D"/>
+                                    <constraint firstAttribute="height" constant="32" id="YkG-Bf-ySt"/>
+                                </constraints>
+                                <state key="normal" image="closeButton"/>
+                                <connections>
+                                    <action selector="closeButtonClicked" destination="qQm-kf-FCG" eventType="touchUpInside" id="vFa-CW-EEe"/>
+                                </connections>
+                            </button>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="請設定您下次上班的日子，以方便我們做提醒" textAlignment="natural" lineBreakMode="tailTruncation" numberOfLines="0" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="s8s-EO-Owk">
+                                <rect key="frame" x="120" y="28" width="360" height="65.5"/>
+                                <fontDescription key="fontDescription" style="UICTFontTextStyleTitle1"/>
+                                <color key="textColor" red="0.40000000000000002" green="0.80000000000000004" blue="0.80000000000000004" alpha="1" colorSpace="calibratedRGB"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="下次上班日為：" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="OGA-Aw-4ih">
+                                <rect key="frame" x="20" y="145" width="119" height="20.5"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                                <color key="textColor" cocoaTouchSystemColor="darkTextColor"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                            <textField opaque="NO" clipsSubviews="YES" contentMode="scaleToFill" contentHorizontalAlignment="left" contentVerticalAlignment="center" borderStyle="roundedRect" textAlignment="natural" minimumFontSize="17" translatesAutoresizingMaskIntoConstraints="NO" id="S5z-xA-DwV">
+                                <rect key="frame" x="147" y="141" width="67" height="30"/>
+                                <constraints>
+                                    <constraint firstAttribute="width" constant="67" id="eeA-Fk-Ypx"/>
+                                </constraints>
+                                <fontDescription key="fontDescription" type="system" pointSize="14"/>
+                                <textInputTraits key="textInputTraits"/>
+                            </textField>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="天後" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="6DS-eW-OPC">
+                                <rect key="frame" x="222" y="146" width="34" height="20.5"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                                <color key="textColor" cocoaTouchSystemColor="darkTextColor"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="km8-iO-YFq">
+                                <rect key="frame" x="262" y="505" width="75" height="75"/>
+                                <constraints>
+                                    <constraint firstAttribute="width" constant="75" id="Boq-Ht-i3g"/>
+                                    <constraint firstAttribute="height" constant="75" id="tDv-6S-xkT"/>
+                                </constraints>
+                                <state key="normal" title="確定送出" backgroundImage="Button">
+                                    <color key="titleColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                                </state>
+                                <connections>
+                                    <action selector="resetDateClicked" destination="qQm-kf-FCG" eventType="touchUpInside" id="8I7-RL-b9L"/>
+                                </connections>
+                            </button>
+                        </subviews>
+                        <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                        <constraints>
+                            <constraint firstItem="Nul-1U-Qb4" firstAttribute="top" secondItem="lcF-LL-ZHy" secondAttribute="bottom" constant="8" id="00m-CN-eJa"/>
+                            <constraint firstAttribute="leadingMargin" secondItem="OGA-Aw-4ih" secondAttribute="leading" id="0L6-mK-JsW"/>
+                            <constraint firstItem="OGA-Aw-4ih" firstAttribute="top" secondItem="s8s-EO-Owk" secondAttribute="bottom" constant="51.5" id="0mU-W7-qjD"/>
+                            <constraint firstItem="s8s-EO-Owk" firstAttribute="width" secondItem="VhF-ft-L36" secondAttribute="width" multiplier="0.6" id="6jP-HP-437"/>
+                            <constraint firstItem="s8s-EO-Owk" firstAttribute="centerX" secondItem="VhF-ft-L36" secondAttribute="centerX" id="8dC-iG-gv4"/>
+                            <constraint firstItem="6DS-eW-OPC" firstAttribute="leading" secondItem="S5z-xA-DwV" secondAttribute="trailing" constant="8" id="96A-pR-NC0"/>
+                            <constraint firstItem="km8-iO-YFq" firstAttribute="centerX" secondItem="VhF-ft-L36" secondAttribute="centerX" id="CXk-a4-dtO"/>
+                            <constraint firstItem="kYb-Lr-h8L" firstAttribute="top" secondItem="km8-iO-YFq" secondAttribute="bottom" constant="20" id="Puj-GF-DvJ"/>
+                            <constraint firstItem="S5z-xA-DwV" firstAttribute="leading" secondItem="OGA-Aw-4ih" secondAttribute="trailing" constant="8" id="VSd-Ho-XoJ"/>
+                            <constraint firstItem="6DS-eW-OPC" firstAttribute="centerY" secondItem="S5z-xA-DwV" secondAttribute="centerY" id="Win-HT-g8O"/>
+                            <constraint firstAttribute="leadingMargin" secondItem="Nul-1U-Qb4" secondAttribute="leading" id="eWF-57-Uvr"/>
+                            <constraint firstItem="s8s-EO-Owk" firstAttribute="top" secondItem="lcF-LL-ZHy" secondAttribute="bottom" constant="8" id="jdv-wo-gBd"/>
+                            <constraint firstItem="S5z-xA-DwV" firstAttribute="centerY" secondItem="OGA-Aw-4ih" secondAttribute="centerY" id="lPc-c5-pLM"/>
+                        </constraints>
+                    </view>
+                    <connections>
+                        <outlet property="dayTextField" destination="S5z-xA-DwV" id="6D2-qx-ikm"/>
+                    </connections>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="Wly-EC-iR3" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="-1198" y="16807"/>
+        </scene>
+        <!--View Controller-->
+        <scene sceneID="4Lj-rZ-kPf">
+            <objects>
+                <viewController id="4a9-Gg-OQ8" sceneMemberID="viewController">
+                    <layoutGuides>
+                        <viewControllerLayoutGuide type="top" id="t1R-ez-TaJ"/>
+                        <viewControllerLayoutGuide type="bottom" id="yDi-Gi-1cJ"/>
+                    </layoutGuides>
+                    <view key="view" contentMode="scaleToFill" id="ReC-EK-JRu">
+                        <rect key="frame" x="0.0" y="0.0" width="600" height="600"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" misplaced="YES" text="就算部屬達成預期目標，主管也應繼續指導、督促他，使他表現得更好。" lineBreakMode="tailTruncation" numberOfLines="0" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="gYU-hK-CLD">
+                                <rect key="frame" x="28" y="179" width="544" height="41"/>
+                                <constraints>
+                                    <constraint firstAttribute="width" constant="300" id="nsp-SQ-aYi"/>
+                                </constraints>
+                                <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                                <color key="textColor" red="0.0" green="0.0" blue="0.0" alpha="1" colorSpace="calibratedRGB"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                            <pickerView contentMode="scaleToFill" misplaced="YES" translatesAutoresizingMaskIntoConstraints="NO" id="ooe-c0-AEa">
+                                <rect key="frame" x="0.0" y="228" width="600" height="162"/>
+                                <connections>
+                                    <outlet property="dataSource" destination="4a9-Gg-OQ8" id="aCp-33-3CY"/>
+                                    <outlet property="delegate" destination="4a9-Gg-OQ8" id="gSQ-GL-lIz"/>
+                                </connections>
+                            </pickerView>
+                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="rLb-Bc-g6b">
+                                <rect key="frame" x="278" y="535" width="45" height="45"/>
+                                <constraints>
+                                    <constraint firstAttribute="height" constant="45" id="7UQ-h6-Yev"/>
+                                    <constraint firstAttribute="width" constant="45" id="KTn-HS-pXM"/>
+                                </constraints>
+                                <state key="normal" title="下一題" backgroundImage="Button">
+                                    <color key="titleColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                                    <color key="titleShadowColor" white="0.5" alpha="1" colorSpace="calibratedWhite"/>
+                                </state>
+                            </button>
+                        </subviews>
+                        <constraints>
+                            <constraint firstItem="ooe-c0-AEa" firstAttribute="top" secondItem="gYU-hK-CLD" secondAttribute="bottom" constant="8" id="Ida-7j-sqy"/>
+                            <constraint firstItem="yDi-Gi-1cJ" firstAttribute="top" secondItem="rLb-Bc-g6b" secondAttribute="bottom" constant="20" id="Q49-Bf-dcK"/>
+                            <constraint firstAttribute="trailingMargin" secondItem="ooe-c0-AEa" secondAttribute="trailing" constant="-16" id="UnU-ku-8PS"/>
+                            <constraint firstAttribute="centerX" secondItem="gYU-hK-CLD" secondAttribute="centerX" id="Vvc-yS-Oxr"/>
+                            <constraint firstItem="ooe-c0-AEa" firstAttribute="leading" secondItem="ReC-EK-JRu" secondAttribute="leadingMargin" constant="-16" id="rlT-FX-JV5"/>
+                            <constraint firstAttribute="centerX" secondItem="rLb-Bc-g6b" secondAttribute="centerX" id="wHp-ON-Wux"/>
+                            <constraint firstAttribute="centerY" secondItem="gYU-hK-CLD" secondAttribute="centerY" multiplier="1.5" id="zGB-AX-RVC"/>
+                        </constraints>
+                    </view>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="LCg-Jl-1so" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="-2028" y="17195"/>
+        </scene>
+        <!--Show Detail Noti Date View Controller-->
+        <scene sceneID="uBf-Xx-Lp8">
+            <objects>
+                <viewController id="hrE-r4-hRO" customClass="ShowDetailNotiDateViewController" customModule="AnnGiNoCoreData" customModuleProvider="target" sceneMemberID="viewController">
+                    <layoutGuides>
+                        <viewControllerLayoutGuide type="top" id="dMm-TR-J2N"/>
+                        <viewControllerLayoutGuide type="bottom" id="Wj5-Mn-XLX"/>
+                    </layoutGuides>
+                    <view key="view" contentMode="scaleToFill" id="Eow-hv-6Uq">
+                        <rect key="frame" x="0.0" y="0.0" width="600" height="600"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="您好，在這邊可以重新設定您的下次上班日" textAlignment="center" lineBreakMode="tailTruncation" numberOfLines="0" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="7pL-ym-Zh8">
+                                <rect key="frame" x="120" y="28" width="360" height="65.5"/>
+                                <fontDescription key="fontDescription" style="UICTFontTextStyleTitle1"/>
+                                <color key="textColor" red="0.40000000000000002" green="0.80000000000000004" blue="0.80000000000000004" alpha="1" colorSpace="calibratedRGB"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="目前設定的下次上班日：" textAlignment="natural" lineBreakMode="tailTruncation" numberOfLines="0" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="Dai-OP-Yy2">
+                                <rect key="frame" x="20" y="139" width="560" height="20.5"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                                <color key="textColor" cocoaTouchSystemColor="darkTextColor"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="dGM-S2-OeF">
+                                <rect key="frame" x="262.5" y="505" width="75" height="75"/>
+                                <constraints>
+                                    <constraint firstAttribute="height" constant="75" id="A1e-su-5wY"/>
+                                    <constraint firstAttribute="width" constant="75" id="nbR-O7-vdh"/>
+                                </constraints>
+                                <state key="normal" title="重新設定" backgroundImage="Button">
+                                    <color key="titleColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                                </state>
+                                <connections>
+                                    <segue destination="qQm-kf-FCG" kind="presentation" id="353-eS-440"/>
+                                </connections>
+                            </button>
+                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="Qov-cC-0AQ">
+                                <rect key="frame" x="20" y="20" width="32" height="32"/>
+                                <constraints>
+                                    <constraint firstAttribute="height" constant="32" id="UNm-K8-112"/>
+                                    <constraint firstAttribute="width" constant="32" id="YVR-jS-unc"/>
+                                </constraints>
+                                <state key="normal" image="closeButton"/>
+                                <connections>
+                                    <action selector="closeButtonClicked" destination="hrE-r4-hRO" eventType="touchUpInside" id="V3k-A4-F6E"/>
+                                </connections>
+                            </button>
+                        </subviews>
+                        <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                        <constraints>
+                            <constraint firstAttribute="leadingMargin" secondItem="Dai-OP-Yy2" secondAttribute="leading" id="A4e-Ri-nRU"/>
+                            <constraint firstItem="7pL-ym-Zh8" firstAttribute="top" secondItem="dMm-TR-J2N" secondAttribute="bottom" constant="8" id="F8b-P6-1Fq"/>
+                            <constraint firstAttribute="leadingMargin" secondItem="Qov-cC-0AQ" secondAttribute="leading" id="FpC-Gf-iHI"/>
+                            <constraint firstItem="7pL-ym-Zh8" firstAttribute="width" secondItem="Eow-hv-6Uq" secondAttribute="width" multiplier="0.6" id="Tfi-6T-MJP"/>
+                            <constraint firstAttribute="trailingMargin" secondItem="Dai-OP-Yy2" secondAttribute="trailing" id="TkD-qF-jKv"/>
+                            <constraint firstItem="7pL-ym-Zh8" firstAttribute="centerX" secondItem="Eow-hv-6Uq" secondAttribute="centerX" id="YO8-Zz-lpR"/>
+                            <constraint firstItem="Wj5-Mn-XLX" firstAttribute="top" secondItem="dGM-S2-OeF" secondAttribute="bottom" constant="20" id="d1S-Ah-dFO"/>
+                            <constraint firstItem="Dai-OP-Yy2" firstAttribute="top" secondItem="7pL-ym-Zh8" secondAttribute="bottom" constant="45.5" id="grd-xY-YoD"/>
+                            <constraint firstItem="Qov-cC-0AQ" firstAttribute="top" secondItem="dMm-TR-J2N" secondAttribute="bottom" id="mtb-sh-Hph"/>
+                            <constraint firstItem="dGM-S2-OeF" firstAttribute="centerX" secondItem="Eow-hv-6Uq" secondAttribute="centerX" id="o95-dN-1ln"/>
+                        </constraints>
+                    </view>
+                    <connections>
+                        <outlet property="contentLabel" destination="Dai-OP-Yy2" id="Dxf-4x-QOI"/>
+                    </connections>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="zi3-Vt-bdg" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="-1198" y="16089"/>
+        </scene>
+        <!--View Controller-->
+        <scene sceneID="QUD-GH-ZVh">
+            <objects>
+                <viewController id="qQy-1n-h3q" sceneMemberID="viewController">
+                    <layoutGuides>
+                        <viewControllerLayoutGuide type="top" id="WOy-x8-4rB"/>
+                        <viewControllerLayoutGuide type="bottom" id="7GA-rF-oEu"/>
+                    </layoutGuides>
+                    <view key="view" contentMode="scaleToFill" id="frC-Tz-fc2">
+                        <rect key="frame" x="0.0" y="0.0" width="600" height="600"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" misplaced="YES" text="就算部屬達成預期目標，主管也應繼續指導、督促他，使他表現得更好。" lineBreakMode="tailTruncation" numberOfLines="0" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="oM2-50-2Cf">
+                                <rect key="frame" x="28" y="179" width="544" height="41"/>
+                                <constraints>
+                                    <constraint firstAttribute="width" constant="300" id="6xs-f5-Fp1"/>
+                                </constraints>
+                                <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                                <color key="textColor" red="0.0" green="0.0" blue="0.0" alpha="1" colorSpace="calibratedRGB"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                            <pickerView contentMode="scaleToFill" misplaced="YES" translatesAutoresizingMaskIntoConstraints="NO" id="BOU-Jc-5Gf">
+                                <rect key="frame" x="0.0" y="228" width="600" height="162"/>
+                                <connections>
+                                    <outlet property="dataSource" destination="qQy-1n-h3q" id="o7D-1k-x55"/>
+                                    <outlet property="delegate" destination="qQy-1n-h3q" id="C7o-Op-sdl"/>
+                                </connections>
+                            </pickerView>
+                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="w1b-tn-G1k">
+                                <rect key="frame" x="278" y="535" width="45" height="45"/>
+                                <constraints>
+                                    <constraint firstAttribute="width" constant="45" id="0gE-pN-4wl"/>
+                                    <constraint firstAttribute="height" constant="45" id="21g-Zu-fff"/>
+                                </constraints>
+                                <state key="normal" title="下一題" backgroundImage="Button">
+                                    <color key="titleColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                                    <color key="titleShadowColor" white="0.5" alpha="1" colorSpace="calibratedWhite"/>
+                                </state>
+                            </button>
+                        </subviews>
+                        <constraints>
+                            <constraint firstAttribute="trailingMargin" secondItem="BOU-Jc-5Gf" secondAttribute="trailing" constant="-16" id="8Ou-ms-HX8"/>
+                            <constraint firstItem="7GA-rF-oEu" firstAttribute="top" secondItem="w1b-tn-G1k" secondAttribute="bottom" constant="20" id="GM1-dv-xIH"/>
+                            <constraint firstAttribute="centerX" secondItem="oM2-50-2Cf" secondAttribute="centerX" id="Jc8-gw-BhE"/>
+                            <constraint firstAttribute="centerY" secondItem="oM2-50-2Cf" secondAttribute="centerY" multiplier="1.5" id="VKz-BC-Eeb"/>
+                            <constraint firstAttribute="centerX" secondItem="w1b-tn-G1k" secondAttribute="centerX" id="lpf-ab-Dll"/>
+                            <constraint firstItem="BOU-Jc-5Gf" firstAttribute="top" secondItem="oM2-50-2Cf" secondAttribute="bottom" constant="8" id="mU5-6N-dPn"/>
+                            <constraint firstItem="BOU-Jc-5Gf" firstAttribute="leading" secondItem="frC-Tz-fc2" secondAttribute="leadingMargin" constant="-16" id="wim-iS-N2Y"/>
+                        </constraints>
+                    </view>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="6sG-Vy-ml1" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="328" y="16331"/>
+        </scene>
     </scenes>
     <resources>
         <image name="Button" width="41" height="41"/>
+        <image name="closeButton" width="14" height="14"/>
+        <image name="designer" width="31" height="31"/>
+        <image name="doques" width="31" height="31"/>
+        <image name="explain" width="31" height="31"/>
+        <image name="progress" width="31" height="31"/>
+        <image name="resetDate" width="31" height="31"/>
     </resources>
 </document>

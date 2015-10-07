@@ -16,7 +16,7 @@ class CompanyKindViewController: UIViewController {
     
     @IBOutlet weak var other: UITextField!
     override func viewDidLoad() {
-        super.viewDidLoad()
+        super.viewDidLoad(); self.view.backgroundColor = UIColor(patternImage: UIImage(named: "bg.jpg")!)
         
         title = "初始問卷 (7/72)"
         var backbutton = UIBarButtonItem(title: "7/72", style: UIBarButtonItemStyle.Done, target: nil, action: nil)

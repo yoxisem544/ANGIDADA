@@ -7,6 +7,9 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		630104FB1BC4DF0E008DBED5 /* ShowDetailNotiDateViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 630104FA1BC4DF0E008DBED5 /* ShowDetailNotiDateViewController.swift */; settings = {ASSET_TAGS = (); }; };
+		630104FD1BC4DF21008DBED5 /* ResetNotiDateViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 630104FC1BC4DF21008DBED5 /* ResetNotiDateViewController.swift */; settings = {ASSET_TAGS = (); }; };
+		630104FF1BC4DFAD008DBED5 /* UserSetting.swift in Sources */ = {isa = PBXBuildFile; fileRef = 630104FE1BC4DFAD008DBED5 /* UserSetting.swift */; settings = {ASSET_TAGS = (); }; };
 		631739C31BA9374100242094 /* InitialInformationViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 631739C21BA9374100242094 /* InitialInformationViewController.swift */; };
 		631739C51BA937CA00242094 /* HintOnceViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 631739C41BA937CA00242094 /* HintOnceViewController.swift */; };
 		631739C71BA938EF00242094 /* FirstPartStartViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 631739C61BA938EF00242094 /* FirstPartStartViewController.swift */; };
@@ -24,12 +27,20 @@
 		631739DF1BA97DE700242094 /* PersonalInformation.swift in Sources */ = {isa = PBXBuildFile; fileRef = 631739DE1BA97DE700242094 /* PersonalInformation.swift */; };
 		631739E11BA9ABC200242094 /* Authoritarian4ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 631739E01BA9ABC200242094 /* Authoritarian4ViewController.swift */; };
 		631739E31BA9ABEC00242094 /* Authoritarian5ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 631739E21BA9ABEC00242094 /* Authoritarian5ViewController.swift */; };
+		632996F91BC399BA0061FEB4 /* QuestionareNotification.swift in Sources */ = {isa = PBXBuildFile; fileRef = 632996F81BC399BA0061FEB4 /* QuestionareNotification.swift */; settings = {ASSET_TAGS = (); }; };
+		6347B5241BC26C41004677C4 /* DayQuestionareViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6347B5231BC26C41004677C4 /* DayQuestionareViewController.swift */; settings = {ASSET_TAGS = (); }; };
 		635CD9ED1BBF9F8600CFBE50 /* NameInfoViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 635CD9EC1BBF9F8600CFBE50 /* NameInfoViewController.swift */; settings = {ASSET_TAGS = (); }; };
 		635CD9EF1BBFA04400CFBE50 /* TelInfoViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 635CD9EE1BBFA04400CFBE50 /* TelInfoViewController.swift */; settings = {ASSET_TAGS = (); }; };
 		635CD9F11BBFA05100CFBE50 /* EMAILInfoViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 635CD9F01BBFA05100CFBE50 /* EMAILInfoViewController.swift */; settings = {ASSET_TAGS = (); }; };
 		635CD9F31BBFA05D00CFBE50 /* CompanyInfoViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 635CD9F21BBFA05D00CFBE50 /* CompanyInfoViewController.swift */; settings = {ASSET_TAGS = (); }; };
 		635CD9F51BBFA06700CFBE50 /* DepartmentInfoViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 635CD9F41BBFA06700CFBE50 /* DepartmentInfoViewController.swift */; settings = {ASSET_TAGS = (); }; };
 		635CD9F71BBFB28E00CFBE50 /* bg.png in Resources */ = {isa = PBXBuildFile; fileRef = 635CD9F61BBFB28E00CFBE50 /* bg.png */; settings = {ASSET_TAGS = (); }; };
+		635CD9FB1BBFF26300CFBE50 /* bg.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 635CD9FA1BBFF26300CFBE50 /* bg.jpg */; settings = {ASSET_TAGS = (); }; };
+		635CD9FF1BC0038100CFBE50 /* IntroductionViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 635CD9FE1BC0038100CFBE50 /* IntroductionViewController.swift */; settings = {ASSET_TAGS = (); }; };
+		635CDA011BC0042F00CFBE50 /* DesignerViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 635CDA001BC0042F00CFBE50 /* DesignerViewController.swift */; settings = {ASSET_TAGS = (); }; };
+		635CDA031BC0043C00CFBE50 /* ChangeDateViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 635CDA021BC0043C00CFBE50 /* ChangeDateViewController.swift */; settings = {ASSET_TAGS = (); }; };
+		635CDA051BC0044800CFBE50 /* ProgressViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 635CDA041BC0044800CFBE50 /* ProgressViewController.swift */; settings = {ASSET_TAGS = (); }; };
+		635CDA071BC0048600CFBE50 /* MainQuestionareViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 635CDA061BC0048600CFBE50 /* MainQuestionareViewController.swift */; settings = {ASSET_TAGS = (); }; };
 		63A8705A1BB1A75B00313716 /* StatusKeys.swift in Sources */ = {isa = PBXBuildFile; fileRef = 63A870591BB1A75B00313716 /* StatusKeys.swift */; };
 		63A8705C1BB2926000313716 /* HowLongStayingInCompanyViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 63A8705B1BB2926000313716 /* HowLongStayingInCompanyViewController.swift */; };
 		63A8705E1BB29B6500313716 /* FirstPartConfirmViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 63A8705D1BB29B6500313716 /* FirstPartConfirmViewController.swift */; };
@@ -136,6 +147,9 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		630104FA1BC4DF0E008DBED5 /* ShowDetailNotiDateViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ShowDetailNotiDateViewController.swift; sourceTree = "<group>"; };
+		630104FC1BC4DF21008DBED5 /* ResetNotiDateViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ResetNotiDateViewController.swift; sourceTree = "<group>"; };
+		630104FE1BC4DFAD008DBED5 /* UserSetting.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = UserSetting.swift; sourceTree = "<group>"; };
 		631739C21BA9374100242094 /* InitialInformationViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = InitialInformationViewController.swift; sourceTree = "<group>"; };
 		631739C41BA937CA00242094 /* HintOnceViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = HintOnceViewController.swift; sourceTree = "<group>"; };
 		631739C61BA938EF00242094 /* FirstPartStartViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = FirstPartStartViewController.swift; sourceTree = "<group>"; };
@@ -153,12 +167,20 @@
 		631739DE1BA97DE700242094 /* PersonalInformation.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = PersonalInformation.swift; sourceTree = "<group>"; };
 		631739E01BA9ABC200242094 /* Authoritarian4ViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Authoritarian4ViewController.swift; sourceTree = "<group>"; };
 		631739E21BA9ABEC00242094 /* Authoritarian5ViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Authoritarian5ViewController.swift; sourceTree = "<group>"; };
+		632996F81BC399BA0061FEB4 /* QuestionareNotification.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = QuestionareNotification.swift; sourceTree = "<group>"; };
+		6347B5231BC26C41004677C4 /* DayQuestionareViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = DayQuestionareViewController.swift; sourceTree = "<group>"; };
 		635CD9EC1BBF9F8600CFBE50 /* NameInfoViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = NameInfoViewController.swift; sourceTree = "<group>"; };
 		635CD9EE1BBFA04400CFBE50 /* TelInfoViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = TelInfoViewController.swift; sourceTree = "<group>"; };
 		635CD9F01BBFA05100CFBE50 /* EMAILInfoViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = EMAILInfoViewController.swift; sourceTree = "<group>"; };
 		635CD9F21BBFA05D00CFBE50 /* CompanyInfoViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CompanyInfoViewController.swift; sourceTree = "<group>"; };
 		635CD9F41BBFA06700CFBE50 /* DepartmentInfoViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = DepartmentInfoViewController.swift; sourceTree = "<group>"; };
 		635CD9F61BBFB28E00CFBE50 /* bg.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = bg.png; sourceTree = "<group>"; };
+		635CD9FA1BBFF26300CFBE50 /* bg.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = bg.jpg; sourceTree = "<group>"; };
+		635CD9FE1BC0038100CFBE50 /* IntroductionViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = IntroductionViewController.swift; sourceTree = "<group>"; };
+		635CDA001BC0042F00CFBE50 /* DesignerViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = DesignerViewController.swift; sourceTree = "<group>"; };
+		635CDA021BC0043C00CFBE50 /* ChangeDateViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ChangeDateViewController.swift; sourceTree = "<group>"; };
+		635CDA041BC0044800CFBE50 /* ProgressViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ProgressViewController.swift; sourceTree = "<group>"; };
+		635CDA061BC0048600CFBE50 /* MainQuestionareViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = MainQuestionareViewController.swift; sourceTree = "<group>"; };
 		63A870591BB1A75B00313716 /* StatusKeys.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = StatusKeys.swift; sourceTree = "<group>"; };
 		63A8705B1BB2926000313716 /* HowLongStayingInCompanyViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = HowLongStayingInCompanyViewController.swift; sourceTree = "<group>"; };
 		63A8705D1BB29B6500313716 /* FirstPartConfirmViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = FirstPartConfirmViewController.swift; sourceTree = "<group>"; };
@@ -307,6 +329,38 @@
 			path = ..;
 			sourceTree = "<group>";
 		};
+		6347B5221BC26C13004677C4 /* DAY questionare controllers */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			name = "DAY questionare controllers";
+			sourceTree = "<group>";
+		};
+		635CD9FC1BC0029A00CFBE50 /* user basic info */ = {
+			isa = PBXGroup;
+			children = (
+				635CD9EC1BBF9F8600CFBE50 /* NameInfoViewController.swift */,
+				635CD9EE1BBFA04400CFBE50 /* TelInfoViewController.swift */,
+				635CD9F01BBFA05100CFBE50 /* EMAILInfoViewController.swift */,
+				635CD9F41BBFA06700CFBE50 /* DepartmentInfoViewController.swift */,
+				635CD9F21BBFA05D00CFBE50 /* CompanyInfoViewController.swift */,
+			);
+			name = "user basic info";
+			path = ..;
+			sourceTree = "<group>";
+		};
+		635CD9FD1BC0035A00CFBE50 /* tab bar view controllers */ = {
+			isa = PBXGroup;
+			children = (
+				635CD9FE1BC0038100CFBE50 /* IntroductionViewController.swift */,
+				635CDA001BC0042F00CFBE50 /* DesignerViewController.swift */,
+				635CDA021BC0043C00CFBE50 /* ChangeDateViewController.swift */,
+				635CDA041BC0044800CFBE50 /* ProgressViewController.swift */,
+				635CDA061BC0048600CFBE50 /* MainQuestionareViewController.swift */,
+			);
+			name = "tab bar view controllers";
+			sourceTree = "<group>";
+		};
 		63A870581BB1A73C00313716 /* model */ = {
 			isa = PBXGroup;
 			children = (
@@ -436,11 +490,6 @@
 		63E61E781BA685CA009F50DA = {
 			isa = PBXGroup;
 			children = (
-				635CD9EC1BBF9F8600CFBE50 /* NameInfoViewController.swift */,
-				635CD9EE1BBFA04400CFBE50 /* TelInfoViewController.swift */,
-				635CD9F01BBFA05100CFBE50 /* EMAILInfoViewController.swift */,
-				635CD9F41BBFA06700CFBE50 /* DepartmentInfoViewController.swift */,
-				635CD9F21BBFA05D00CFBE50 /* CompanyInfoViewController.swift */,
 				63E61EC81BA6862A009F50DA /* libsqlite3.dylib */,
 				63E61EC61BA68621009F50DA /* libz.dylib */,
 				63E61EC41BA68619009F50DA /* SystemConfiguration.framework */,
@@ -470,6 +519,8 @@
 		63E61E831BA685CA009F50DA /* AnnGiNoCoreData */ = {
 			isa = PBXGroup;
 			children = (
+				635CD9FD1BC0035A00CFBE50 /* tab bar view controllers */,
+				635CD9FC1BC0029A00CFBE50 /* user basic info */,
 				63A870DE1BB3FCE700313716 /* 2. second part */,
 				63A870F41BB3FCE700313716 /* 3. third part */,
 				63A870FA1BB3FCE700313716 /* 4. fourth part */,
@@ -483,7 +534,14 @@
 				63FFC86D1BA6888F0029FC56 /* TestObject.swift */,
 				63E61E881BA685CA009F50DA /* ViewController.swift */,
 				635CD9F61BBFB28E00CFBE50 /* bg.png */,
+				635CD9FA1BBFF26300CFBE50 /* bg.jpg */,
 				63E61E8A1BA685CA009F50DA /* Main.storyboard */,
+				630104FE1BC4DFAD008DBED5 /* UserSetting.swift */,
+				632996F81BC399BA0061FEB4 /* QuestionareNotification.swift */,
+				6347B5231BC26C41004677C4 /* DayQuestionareViewController.swift */,
+				630104FA1BC4DF0E008DBED5 /* ShowDetailNotiDateViewController.swift */,
+				630104FC1BC4DF21008DBED5 /* ResetNotiDateViewController.swift */,
+				6347B5221BC26C13004677C4 /* DAY questionare controllers */,
 				63A8705D1BB29B6500313716 /* FirstPartConfirmViewController.swift */,
 				63EB28461BB4EDAE007B5BAC /* SecondPartConfirmViewController.swift */,
 				63EB28481BB4EF8C007B5BAC /* ThirdParConfirmViewController.swift */,
@@ -615,6 +673,7 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				635CD9FB1BBFF26300CFBE50 /* bg.jpg in Resources */,
 				63E61E8C1BA685CA009F50DA /* Main.storyboard in Resources */,
 				63E61E911BA685CA009F50DA /* LaunchScreen.xib in Resources */,
 				635CD9F71BBFB28E00CFBE50 /* bg.png in Resources */,
@@ -652,9 +711,12 @@
 				635CD9F51BBFA06700CFBE50 /* DepartmentInfoViewController.swift in Sources */,
 				63EB284F1BB4F05B007B5BAC /* SixthPartConfirmViewController.swift in Sources */,
 				63A8712A1BB3FCE700313716 /* PerceivedSupervisorEffectiveness2ViewController.swift in Sources */,
+				635CDA071BC0048600CFBE50 /* MainQuestionareViewController.swift in Sources */,
 				63A871271BB3FCE700313716 /* GeneralSupervisorDirectedOCB3ViewController.swift in Sources */,
 				63A871401BB3FCE700313716 /* EmotionalJobDemand3ViewController.swift in Sources */,
+				632996F91BC399BA0061FEB4 /* QuestionareNotification.swift in Sources */,
 				63A871291BB3FCE700313716 /* PerceivedSupervisorEffectiveness1ViewController.swift in Sources */,
+				635CDA011BC0042F00CFBE50 /* DesignerViewController.swift in Sources */,
 				63A8714B1BB3FCE700313716 /* ChasteningNormOrientation4ViewController.swift in Sources */,
 				631739D11BA9546E00242094 /* DepartmentPickerViewController.swift in Sources */,
 				63A871281BB3FCE700313716 /* GeneralSupervisorDirectedOCB4ViewController.swift in Sources */,
@@ -664,6 +726,7 @@
 				63A871261BB3FCE700313716 /* GeneralSupervisorDirectedOCB2ViewController.swift in Sources */,
 				63A8713E1BB3FCE700313716 /* EmotionalJobDemand1ViewController.swift in Sources */,
 				631739D31BA956EC00242094 /* CompanyKindViewController.swift in Sources */,
+				630104FF1BC4DFAD008DBED5 /* UserSetting.swift in Sources */,
 				63FFC86E1BA6888F0029FC56 /* TestObject.swift in Sources */,
 				63A8705E1BB29B6500313716 /* FirstPartConfirmViewController.swift in Sources */,
 				631739E31BA9ABEC00242094 /* Authoritarian5ViewController.swift in Sources */,
@@ -683,9 +746,12 @@
 				63A8711F1BB3FCE700313716 /* BenevolentLeadership4ViewController.swift in Sources */,
 				63A871501BB3FCE700313716 /* PowerDistanceOrientation2ViewController.swift in Sources */,
 				63A871531BB3FCE700313716 /* PowerDistanceOrientation5ViewController.swift in Sources */,
+				630104FD1BC4DF21008DBED5 /* ResetNotiDateViewController.swift in Sources */,
 				63A871371BB3FCE700313716 /* Competence2ViewController.swift in Sources */,
 				63A871481BB3FCE700313716 /* ChasteningNormOrientation1ViewController.swift in Sources */,
+				630104FB1BC4DF0E008DBED5 /* ShowDetailNotiDateViewController.swift in Sources */,
 				631739D51BA95D3600242094 /* SecondPartBossSexPickerViewController.swift in Sources */,
+				6347B5241BC26C41004677C4 /* DayQuestionareViewController.swift in Sources */,
 				63A871251BB3FCE700313716 /* GeneralSupervisorDirectedOCB1ViewController.swift in Sources */,
 				63A8711E1BB3FCE700313716 /* BenevolentLeadership3ViewController.swift in Sources */,
 				63E61E871BA685CA009F50DA /* AppDelegate.swift in Sources */,
@@ -693,11 +759,14 @@
 				63A8705A1BB1A75B00313716 /* StatusKeys.swift in Sources */,
 				63A8714F1BB3FCE700313716 /* PowerDistanceOrientation1ViewController.swift in Sources */,
 				63A8714A1BB3FCE700313716 /* ChasteningNormOrientation3ViewController.swift in Sources */,
+				635CDA051BC0044800CFBE50 /* ProgressViewController.swift in Sources */,
 				63A870651BB2FD5800313716 /* MiddleOfSecondPartViewController.swift in Sources */,
 				63A8711C1BB3FCE700313716 /* BenevolentLeadership1ViewController.swift in Sources */,
+				635CDA031BC0043C00CFBE50 /* ChangeDateViewController.swift in Sources */,
 				631739CD1BA94F8600242094 /* EducationalBackgroundPickerViewController.swift in Sources */,
 				63A871201BB3FCE700313716 /* BenevolentLeadership5ViewController.swift in Sources */,
 				63A871361BB3FCE700313716 /* Competence1ViewController.swift in Sources */,
+				635CD9FF1BC0038100CFBE50 /* IntroductionViewController.swift in Sources */,
 				63A871351BB3FCE700313716 /* IntensityOfSupervisorSubordinateInteraction5ViewController.swift in Sources */,
 				63A871431BB3FCE700313716 /* QuantitativeJobDemand1ViewController.swift in Sources */,
 				63A8711D1BB3FCE700313716 /* BenevolentLeadership2ViewController.swift in Sources */,

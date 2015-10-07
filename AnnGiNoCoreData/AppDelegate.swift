@@ -25,9 +25,8 @@ class AppDelegate: UIResponder, UIApplicationDelegate {
         Parse.setApplicationId("LgTpOBlioAGaP88D1WTxn5P4L2GWkBDVSEDBTgLu", clientKey: "2lGpw0C6m6HmJaq8imPuGrH1N28gXI3jKqyr9M4X")
         
         window?.backgroundColor = UIColor.whiteColor()
-        let v = UIView(frame: window!.frame)
-        v.backgroundColor = UIColor(patternImage: UIImage(named: "bg.png")!)
-        window?.addSubview(v)
+
+        UITabBar.appearance().tintColor = UIColor(red:0.161,  green:0.733,  blue:0.937, alpha:1)
         
 
         

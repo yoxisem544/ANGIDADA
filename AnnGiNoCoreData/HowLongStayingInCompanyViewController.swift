@@ -17,7 +17,7 @@ class HowLongStayingInCompanyViewController: UIViewController {
     var user: PersonalInformation!
     
     override func viewDidLoad() {
-        super.viewDidLoad()
+        super.viewDidLoad(); self.view.backgroundColor = UIColor(patternImage: UIImage(named: "bg.jpg")!)
         yearTextField.delegate = self
         monthTextField.delegate = self
 

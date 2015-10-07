@@ -14,7 +14,7 @@ class FirstPartConfirmViewController: UIViewController {
     var user: PersonalInformation!
     
     override func viewDidLoad() {
-        super.viewDidLoad()
+        super.viewDidLoad(); self.view.backgroundColor = UIColor(patternImage: UIImage(named: "bg.jpg")!)
 
         // Do any additional setup after loading the view.
         title = "第一部份總結"
