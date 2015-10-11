@@ -206,17 +206,6 @@ public class PersonalInformation: PFObject, PFSubclassing {
     
     override init() {
         super.init()
-        userUUID = "tset lalalal yoyo"
-        age = 977
-        educationalBackground = "tset lalalal yoyo"
-        serviceTimeLength = "tset lalalal yoyo"
-        currentRank = "tset lalalal yoyo"
-        currentDepartmentProperty = "tset lalalal yoyo"
-        currentCompanyProperty = "tset lalalal yoyo"
-        directManagerSex = "tset lalalal yoyo"
-        peopleThatDirectManagerManaged = 977
-        timeSpentWithDirectManager = "tset lalalal yoyo"
-        
     }
     
     

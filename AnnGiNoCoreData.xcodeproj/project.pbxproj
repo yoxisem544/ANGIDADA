@@ -29,6 +29,7 @@
 		631739E31BA9ABEC00242094 /* Authoritarian5ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 631739E21BA9ABEC00242094 /* Authoritarian5ViewController.swift */; };
 		632996F91BC399BA0061FEB4 /* QuestionareNotification.swift in Sources */ = {isa = PBXBuildFile; fileRef = 632996F81BC399BA0061FEB4 /* QuestionareNotification.swift */; settings = {ASSET_TAGS = (); }; };
 		6347B5241BC26C41004677C4 /* DayQuestionareViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6347B5231BC26C41004677C4 /* DayQuestionareViewController.swift */; settings = {ASSET_TAGS = (); }; };
+		634E32CB1BC9B85400C322CB /* MorningQuestionare.swift in Sources */ = {isa = PBXBuildFile; fileRef = 634E32CA1BC9B85400C322CB /* MorningQuestionare.swift */; settings = {ASSET_TAGS = (); }; };
 		635CD9ED1BBF9F8600CFBE50 /* NameInfoViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 635CD9EC1BBF9F8600CFBE50 /* NameInfoViewController.swift */; settings = {ASSET_TAGS = (); }; };
 		635CD9EF1BBFA04400CFBE50 /* TelInfoViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 635CD9EE1BBFA04400CFBE50 /* TelInfoViewController.swift */; settings = {ASSET_TAGS = (); }; };
 		635CD9F11BBFA05100CFBE50 /* EMAILInfoViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 635CD9F01BBFA05100CFBE50 /* EMAILInfoViewController.swift */; settings = {ASSET_TAGS = (); }; };
@@ -169,6 +170,7 @@
 		631739E21BA9ABEC00242094 /* Authoritarian5ViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Authoritarian5ViewController.swift; sourceTree = "<group>"; };
 		632996F81BC399BA0061FEB4 /* QuestionareNotification.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = QuestionareNotification.swift; sourceTree = "<group>"; };
 		6347B5231BC26C41004677C4 /* DayQuestionareViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = DayQuestionareViewController.swift; sourceTree = "<group>"; };
+		634E32CA1BC9B85400C322CB /* MorningQuestionare.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = MorningQuestionare.swift; sourceTree = "<group>"; };
 		635CD9EC1BBF9F8600CFBE50 /* NameInfoViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = NameInfoViewController.swift; sourceTree = "<group>"; };
 		635CD9EE1BBFA04400CFBE50 /* TelInfoViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = TelInfoViewController.swift; sourceTree = "<group>"; };
 		635CD9F01BBFA05100CFBE50 /* EMAILInfoViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = EMAILInfoViewController.swift; sourceTree = "<group>"; };
@@ -365,6 +367,7 @@
 			isa = PBXGroup;
 			children = (
 				631739DE1BA97DE700242094 /* PersonalInformation.swift */,
+				634E32CA1BC9B85400C322CB /* MorningQuestionare.swift */,
 				63A870591BB1A75B00313716 /* StatusKeys.swift */,
 			);
 			name = model;
@@ -788,6 +791,7 @@
 				63A871441BB3FCE700313716 /* QuantitativeJobDemand2ViewController.swift in Sources */,
 				63A871211BB3FCE700313716 /* DeferenceToSupervisor1ViewController.swift in Sources */,
 				63A871541BB3FCE700313716 /* PowerDistanceOrientation6ViewController.swift in Sources */,
+				634E32CB1BC9B85400C322CB /* MorningQuestionare.swift in Sources */,
 				63A871471BB3FCE700313716 /* QuantitativeJobDemand5ViewController.swift in Sources */,
 				631739DD1BA966CA00242094 /* Authoritarian3ViewController.swift in Sources */,
 				63A8712C1BB3FCE700313716 /* PerceivedSupervisorEffectiveness4ViewController.swift in Sources */,

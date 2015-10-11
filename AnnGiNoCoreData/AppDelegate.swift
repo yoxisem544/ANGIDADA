@@ -21,14 +21,13 @@ class AppDelegate: UIResponder, UIApplicationDelegate {
         
         TestObject.initialize()
         PersonalInformation.initialize()
+        Questionare.initialize()
         
         Parse.setApplicationId("LgTpOBlioAGaP88D1WTxn5P4L2GWkBDVSEDBTgLu", clientKey: "2lGpw0C6m6HmJaq8imPuGrH1N28gXI3jKqyr9M4X")
         
         window?.backgroundColor = UIColor.whiteColor()
 
         UITabBar.appearance().tintColor = UIColor(red:0.161,  green:0.733,  blue:0.937, alpha:1)
-        
-
         
 //        var test = TestObject()
 //        test.foo = "bar!中文字"

@@ -11,6 +11,7 @@ import UIKit
 class ShowDetailNotiDateViewController: UIViewController {
 
     @IBOutlet weak var contentLabel: UILabel!
+    let weekdayString = ["週日","週一","週二","週三","週四","週五","週六"]
     
     override func viewDidLoad() {
         super.viewDidLoad()
@@ -26,14 +27,23 @@ class ShowDetailNotiDateViewController: UIViewController {
     }
 
     func setView() {
+//        NSCalendar* cal = [NSCalendar currentCalendar];
+//        NSDateComponents* comp = [cal components:kCFCalendarUnitWeekday fromDate:[NSDate date]];
+//        return [comp weekday];
+        
         // Do any additional setup after loading the view.
         let nextWorkingDay = UserSetting().nextWorkingDay
         let formatter = NSDateFormatter()
         //        formatter.dateFormat = "yyyy-MM-dd HH:mm:ss ZZZ"
         formatter.dateFormat = "MM-dd"
+        
         if nextWorkingDay != nil {
+            let cal = NSCalendar.currentCalendar()
+            let comp = cal.components(NSCalendarUnit.Weekday, fromDate: nextWorkingDay!)
+            
             let s = formatter.stringFromDate(nextWorkingDay!)
-            contentLabel.text = "目前設定的下次上班日：" + s
+            print(comp.weekday)
+            contentLabel.text = "目前設定的下次上班日：" + s + "\((weekdayString[comp.weekday-1]))"
         } else {
             contentLabel.text = "目前設定的下次上班日：" + "尚未設定"
         }

@@ -18,6 +18,7 @@ class NameInfoViewController: UIViewController {
 
         // Do any additional setup after loading the view.
         user = PersonalInformation()
+        user.userUUID = NSUUID().UUIDString
         var tap = UITapGestureRecognizer(target: self, action: "tap")
         self.view.addGestureRecognizer(tap)
         contentTextField.delegate = self
