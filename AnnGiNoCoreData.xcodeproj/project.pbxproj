@@ -105,6 +105,68 @@
 		63A871521BB3FCE700313716 /* PowerDistanceOrientation4ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 63A871191BB3FCE700313716 /* PowerDistanceOrientation4ViewController.swift */; };
 		63A871531BB3FCE700313716 /* PowerDistanceOrientation5ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 63A8711A1BB3FCE700313716 /* PowerDistanceOrientation5ViewController.swift */; };
 		63A871541BB3FCE700313716 /* PowerDistanceOrientation6ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 63A8711B1BB3FCE700313716 /* PowerDistanceOrientation6ViewController.swift */; };
+		63C08B6F1BCB302F00AB3E2F /* AuthoritarianLeadershipNeeded1ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 63C08B321BCB302F00AB3E2F /* AuthoritarianLeadershipNeeded1ViewController.swift */; settings = {ASSET_TAGS = (); }; };
+		63C08B701BCB302F00AB3E2F /* AuthoritarianLeadershipNeeded2ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 63C08B331BCB302F00AB3E2F /* AuthoritarianLeadershipNeeded2ViewController.swift */; settings = {ASSET_TAGS = (); }; };
+		63C08B711BCB302F00AB3E2F /* AuthoritarianLeadershipNeeded3ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 63C08B341BCB302F00AB3E2F /* AuthoritarianLeadershipNeeded3ViewController.swift */; settings = {ASSET_TAGS = (); }; };
+		63C08B721BCB302F00AB3E2F /* AuthoritarianLeadershipNeeded4ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 63C08B351BCB302F00AB3E2F /* AuthoritarianLeadershipNeeded4ViewController.swift */; settings = {ASSET_TAGS = (); }; };
+		63C08B731BCB302F00AB3E2F /* AuthoritarianLeadershipNeeded5ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 63C08B361BCB302F00AB3E2F /* AuthoritarianLeadershipNeeded5ViewController.swift */; settings = {ASSET_TAGS = (); }; };
+		63C08B741BCB302F00AB3E2F /* BenevolentLeadershipNeeded1ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 63C08B371BCB302F00AB3E2F /* BenevolentLeadershipNeeded1ViewController.swift */; settings = {ASSET_TAGS = (); }; };
+		63C08B751BCB302F00AB3E2F /* BenevolentLeadershipNeeded2ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 63C08B381BCB302F00AB3E2F /* BenevolentLeadershipNeeded2ViewController.swift */; settings = {ASSET_TAGS = (); }; };
+		63C08B761BCB302F00AB3E2F /* BenevolentLeadershipNeeded3ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 63C08B391BCB302F00AB3E2F /* BenevolentLeadershipNeeded3ViewController.swift */; settings = {ASSET_TAGS = (); }; };
+		63C08B771BCB302F00AB3E2F /* BenevolentLeadershipNeeded4ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 63C08B3A1BCB302F00AB3E2F /* BenevolentLeadershipNeeded4ViewController.swift */; settings = {ASSET_TAGS = (); }; };
+		63C08B781BCB302F00AB3E2F /* BenevolentLeadershipNeeded5ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 63C08B3B1BCB302F00AB3E2F /* BenevolentLeadershipNeeded5ViewController.swift */; settings = {ASSET_TAGS = (); }; };
+		63C08B791BCB302F00AB3E2F /* ExpectedEmotionalJobDemand1ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 63C08B3C1BCB302F00AB3E2F /* ExpectedEmotionalJobDemand1ViewController.swift */; settings = {ASSET_TAGS = (); }; };
+		63C08B7A1BCB302F00AB3E2F /* ExpectedEmotionalJobDemand2ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 63C08B3D1BCB302F00AB3E2F /* ExpectedEmotionalJobDemand2ViewController.swift */; settings = {ASSET_TAGS = (); }; };
+		63C08B7B1BCB302F00AB3E2F /* ExpectedEmotionalJobDemand3ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 63C08B3E1BCB302F00AB3E2F /* ExpectedEmotionalJobDemand3ViewController.swift */; settings = {ASSET_TAGS = (); }; };
+		63C08B7C1BCB302F00AB3E2F /* ExpectedEmotionalJobDemand4ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 63C08B3F1BCB302F00AB3E2F /* ExpectedEmotionalJobDemand4ViewController.swift */; settings = {ASSET_TAGS = (); }; };
+		63C08B7D1BCB302F00AB3E2F /* ExpectedEmotionalJobDemand5ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 63C08B401BCB302F00AB3E2F /* ExpectedEmotionalJobDemand5ViewController.swift */; settings = {ASSET_TAGS = (); }; };
+		63C08B7E1BCB302F00AB3E2F /* ExpectedQuantativeJobDemand1ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 63C08B411BCB302F00AB3E2F /* ExpectedQuantativeJobDemand1ViewController.swift */; settings = {ASSET_TAGS = (); }; };
+		63C08B7F1BCB302F00AB3E2F /* ExpectedQuantativeJobDemand2ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 63C08B421BCB302F00AB3E2F /* ExpectedQuantativeJobDemand2ViewController.swift */; settings = {ASSET_TAGS = (); }; };
+		63C08B801BCB302F00AB3E2F /* ExpectedQuantativeJobDemand3ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 63C08B431BCB302F00AB3E2F /* ExpectedQuantativeJobDemand3ViewController.swift */; settings = {ASSET_TAGS = (); }; };
+		63C08B811BCB302F00AB3E2F /* ExpectedQuantativeJobDemand4ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 63C08B441BCB302F00AB3E2F /* ExpectedQuantativeJobDemand4ViewController.swift */; settings = {ASSET_TAGS = (); }; };
+		63C08B821BCB302F00AB3E2F /* ExpectedQuantativeJobDemand5ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 63C08B451BCB302F00AB3E2F /* ExpectedQuantativeJobDemand5ViewController.swift */; settings = {ASSET_TAGS = (); }; };
+		63C08B831BCB302F00AB3E2F /* JobSatisfaction1ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 63C08B471BCB302F00AB3E2F /* JobSatisfaction1ViewController.swift */; settings = {ASSET_TAGS = (); }; };
+		63C08B841BCB302F00AB3E2F /* JobSatisfaction2ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 63C08B481BCB302F00AB3E2F /* JobSatisfaction2ViewController.swift */; settings = {ASSET_TAGS = (); }; };
+		63C08B851BCB302F00AB3E2F /* JobSatisfaction3ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 63C08B491BCB302F00AB3E2F /* JobSatisfaction3ViewController.swift */; settings = {ASSET_TAGS = (); }; };
+		63C08B861BCB302F00AB3E2F /* JobSatisfaction4ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 63C08B4A1BCB302F00AB3E2F /* JobSatisfaction4ViewController.swift */; settings = {ASSET_TAGS = (); }; };
+		63C08B871BCB302F00AB3E2F /* JobSatisfaction5ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 63C08B4B1BCB302F00AB3E2F /* JobSatisfaction5ViewController.swift */; settings = {ASSET_TAGS = (); }; };
+		63C08B881BCB302F00AB3E2F /* NegativeAffect10ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 63C08B4C1BCB302F00AB3E2F /* NegativeAffect10ViewController.swift */; settings = {ASSET_TAGS = (); }; };
+		63C08B891BCB302F00AB3E2F /* NegativeAffect1ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 63C08B4D1BCB302F00AB3E2F /* NegativeAffect1ViewController.swift */; settings = {ASSET_TAGS = (); }; };
+		63C08B8A1BCB302F00AB3E2F /* NegativeAffect2ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 63C08B4E1BCB302F00AB3E2F /* NegativeAffect2ViewController.swift */; settings = {ASSET_TAGS = (); }; };
+		63C08B8B1BCB302F00AB3E2F /* NegativeAffect3ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 63C08B4F1BCB302F00AB3E2F /* NegativeAffect3ViewController.swift */; settings = {ASSET_TAGS = (); }; };
+		63C08B8C1BCB302F00AB3E2F /* NegativeAffect4ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 63C08B501BCB302F00AB3E2F /* NegativeAffect4ViewController.swift */; settings = {ASSET_TAGS = (); }; };
+		63C08B8D1BCB302F00AB3E2F /* NegativeAffect5ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 63C08B511BCB302F00AB3E2F /* NegativeAffect5ViewController.swift */; settings = {ASSET_TAGS = (); }; };
+		63C08B8E1BCB302F00AB3E2F /* NegativeAffect6ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 63C08B521BCB302F00AB3E2F /* NegativeAffect6ViewController.swift */; settings = {ASSET_TAGS = (); }; };
+		63C08B8F1BCB302F00AB3E2F /* NegativeAffect7ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 63C08B531BCB302F00AB3E2F /* NegativeAffect7ViewController.swift */; settings = {ASSET_TAGS = (); }; };
+		63C08B901BCB302F00AB3E2F /* NegativeAffect8ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 63C08B541BCB302F00AB3E2F /* NegativeAffect8ViewController.swift */; settings = {ASSET_TAGS = (); }; };
+		63C08B911BCB302F00AB3E2F /* NegativeAffect9ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 63C08B551BCB302F00AB3E2F /* NegativeAffect9ViewController.swift */; settings = {ASSET_TAGS = (); }; };
+		63C08B921BCB302F00AB3E2F /* PositiveAffect10ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 63C08B561BCB302F00AB3E2F /* PositiveAffect10ViewController.swift */; settings = {ASSET_TAGS = (); }; };
+		63C08B931BCB302F00AB3E2F /* PositiveAffect1ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 63C08B571BCB302F00AB3E2F /* PositiveAffect1ViewController.swift */; settings = {ASSET_TAGS = (); }; };
+		63C08B941BCB302F00AB3E2F /* PositiveAffect2ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 63C08B581BCB302F00AB3E2F /* PositiveAffect2ViewController.swift */; settings = {ASSET_TAGS = (); }; };
+		63C08B951BCB302F00AB3E2F /* PositiveAffect3ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 63C08B591BCB302F00AB3E2F /* PositiveAffect3ViewController.swift */; settings = {ASSET_TAGS = (); }; };
+		63C08B961BCB302F00AB3E2F /* PositiveAffect4ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 63C08B5A1BCB302F00AB3E2F /* PositiveAffect4ViewController.swift */; settings = {ASSET_TAGS = (); }; };
+		63C08B971BCB302F00AB3E2F /* PositiveAffect5ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 63C08B5B1BCB302F00AB3E2F /* PositiveAffect5ViewController.swift */; settings = {ASSET_TAGS = (); }; };
+		63C08B981BCB302F00AB3E2F /* PositiveAffect6ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 63C08B5C1BCB302F00AB3E2F /* PositiveAffect6ViewController.swift */; settings = {ASSET_TAGS = (); }; };
+		63C08B991BCB302F00AB3E2F /* PositiveAffect7ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 63C08B5D1BCB302F00AB3E2F /* PositiveAffect7ViewController.swift */; settings = {ASSET_TAGS = (); }; };
+		63C08B9A1BCB302F00AB3E2F /* PositiveAffect8ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 63C08B5E1BCB302F00AB3E2F /* PositiveAffect8ViewController.swift */; settings = {ASSET_TAGS = (); }; };
+		63C08B9B1BCB302F00AB3E2F /* PositiveAffect9ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 63C08B5F1BCB302F00AB3E2F /* PositiveAffect9ViewController.swift */; settings = {ASSET_TAGS = (); }; };
+		63C08B9C1BCB302F00AB3E2F /* SupervisorDirectedOCB1ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 63C08B601BCB302F00AB3E2F /* SupervisorDirectedOCB1ViewController.swift */; settings = {ASSET_TAGS = (); }; };
+		63C08B9D1BCB302F00AB3E2F /* SupervisorDirectedOCB2ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 63C08B611BCB302F00AB3E2F /* SupervisorDirectedOCB2ViewController.swift */; settings = {ASSET_TAGS = (); }; };
+		63C08B9E1BCB302F00AB3E2F /* SupervisorDirectedOCB3ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 63C08B621BCB302F00AB3E2F /* SupervisorDirectedOCB3ViewController.swift */; settings = {ASSET_TAGS = (); }; };
+		63C08B9F1BCB302F00AB3E2F /* SupervisorDirectedOCB4ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 63C08B631BCB302F00AB3E2F /* SupervisorDirectedOCB4ViewController.swift */; settings = {ASSET_TAGS = (); }; };
+		63C08BA01BCB302F00AB3E2F /* AuthoriarianLeadershipRecieved1ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 63C08B651BCB302F00AB3E2F /* AuthoriarianLeadershipRecieved1ViewController.swift */; settings = {ASSET_TAGS = (); }; };
+		63C08BA11BCB302F00AB3E2F /* AuthoriarianLeadershipRecieved2ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 63C08B661BCB302F00AB3E2F /* AuthoriarianLeadershipRecieved2ViewController.swift */; settings = {ASSET_TAGS = (); }; };
+		63C08BA21BCB302F00AB3E2F /* AuthoriarianLeadershipRecieved3ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 63C08B671BCB302F00AB3E2F /* AuthoriarianLeadershipRecieved3ViewController.swift */; settings = {ASSET_TAGS = (); }; };
+		63C08BA31BCB302F00AB3E2F /* AuthoriarianLeadershipRecieved4ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 63C08B681BCB302F00AB3E2F /* AuthoriarianLeadershipRecieved4ViewController.swift */; settings = {ASSET_TAGS = (); }; };
+		63C08BA41BCB302F00AB3E2F /* AuthoriarianLeadershipRecieved5ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 63C08B691BCB302F00AB3E2F /* AuthoriarianLeadershipRecieved5ViewController.swift */; settings = {ASSET_TAGS = (); }; };
+		63C08BA51BCB302F00AB3E2F /* BenevolentLeadershipRecieved1ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 63C08B6A1BCB302F00AB3E2F /* BenevolentLeadershipRecieved1ViewController.swift */; settings = {ASSET_TAGS = (); }; };
+		63C08BA61BCB302F00AB3E2F /* BenevolentLeadershipRecieved2ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 63C08B6B1BCB302F00AB3E2F /* BenevolentLeadershipRecieved2ViewController.swift */; settings = {ASSET_TAGS = (); }; };
+		63C08BA71BCB302F00AB3E2F /* BenevolentLeadershipRecieved3ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 63C08B6C1BCB302F00AB3E2F /* BenevolentLeadershipRecieved3ViewController.swift */; settings = {ASSET_TAGS = (); }; };
+		63C08BA81BCB302F00AB3E2F /* BenevolentLeadershipRecieved4ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 63C08B6D1BCB302F00AB3E2F /* BenevolentLeadershipRecieved4ViewController.swift */; settings = {ASSET_TAGS = (); }; };
+		63C08BA91BCB302F00AB3E2F /* BenevolentLeadershipRecieved5ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 63C08B6E1BCB302F00AB3E2F /* BenevolentLeadershipRecieved5ViewController.swift */; settings = {ASSET_TAGS = (); }; };
+		63C08BAB1BCB33C900AB3E2F /* MorningFirstComfirmViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 63C08BAA1BCB33C900AB3E2F /* MorningFirstComfirmViewController.swift */; settings = {ASSET_TAGS = (); }; };
+		63C08BAD1BCB33EA00AB3E2F /* NightFirstConfirmViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 63C08BAC1BCB33EA00AB3E2F /* NightFirstConfirmViewController.swift */; settings = {ASSET_TAGS = (); }; };
+		63C08BAF1BCB33FC00AB3E2F /* NightSecondConfirmViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 63C08BAE1BCB33FC00AB3E2F /* NightSecondConfirmViewController.swift */; settings = {ASSET_TAGS = (); }; };
 		63E61E871BA685CA009F50DA /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 63E61E861BA685CA009F50DA /* AppDelegate.swift */; };
 		63E61E891BA685CA009F50DA /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 63E61E881BA685CA009F50DA /* ViewController.swift */; };
 		63E61E8C1BA685CA009F50DA /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 63E61E8A1BA685CA009F50DA /* Main.storyboard */; };
@@ -246,6 +308,68 @@
 		63A871191BB3FCE700313716 /* PowerDistanceOrientation4ViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = PowerDistanceOrientation4ViewController.swift; sourceTree = "<group>"; };
 		63A8711A1BB3FCE700313716 /* PowerDistanceOrientation5ViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = PowerDistanceOrientation5ViewController.swift; sourceTree = "<group>"; };
 		63A8711B1BB3FCE700313716 /* PowerDistanceOrientation6ViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = PowerDistanceOrientation6ViewController.swift; sourceTree = "<group>"; };
+		63C08B321BCB302F00AB3E2F /* AuthoritarianLeadershipNeeded1ViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = AuthoritarianLeadershipNeeded1ViewController.swift; sourceTree = "<group>"; };
+		63C08B331BCB302F00AB3E2F /* AuthoritarianLeadershipNeeded2ViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = AuthoritarianLeadershipNeeded2ViewController.swift; sourceTree = "<group>"; };
+		63C08B341BCB302F00AB3E2F /* AuthoritarianLeadershipNeeded3ViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = AuthoritarianLeadershipNeeded3ViewController.swift; sourceTree = "<group>"; };
+		63C08B351BCB302F00AB3E2F /* AuthoritarianLeadershipNeeded4ViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = AuthoritarianLeadershipNeeded4ViewController.swift; sourceTree = "<group>"; };
+		63C08B361BCB302F00AB3E2F /* AuthoritarianLeadershipNeeded5ViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = AuthoritarianLeadershipNeeded5ViewController.swift; sourceTree = "<group>"; };
+		63C08B371BCB302F00AB3E2F /* BenevolentLeadershipNeeded1ViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = BenevolentLeadershipNeeded1ViewController.swift; sourceTree = "<group>"; };
+		63C08B381BCB302F00AB3E2F /* BenevolentLeadershipNeeded2ViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = BenevolentLeadershipNeeded2ViewController.swift; sourceTree = "<group>"; };
+		63C08B391BCB302F00AB3E2F /* BenevolentLeadershipNeeded3ViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = BenevolentLeadershipNeeded3ViewController.swift; sourceTree = "<group>"; };
+		63C08B3A1BCB302F00AB3E2F /* BenevolentLeadershipNeeded4ViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = BenevolentLeadershipNeeded4ViewController.swift; sourceTree = "<group>"; };
+		63C08B3B1BCB302F00AB3E2F /* BenevolentLeadershipNeeded5ViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = BenevolentLeadershipNeeded5ViewController.swift; sourceTree = "<group>"; };
+		63C08B3C1BCB302F00AB3E2F /* ExpectedEmotionalJobDemand1ViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ExpectedEmotionalJobDemand1ViewController.swift; sourceTree = "<group>"; };
+		63C08B3D1BCB302F00AB3E2F /* ExpectedEmotionalJobDemand2ViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ExpectedEmotionalJobDemand2ViewController.swift; sourceTree = "<group>"; };
+		63C08B3E1BCB302F00AB3E2F /* ExpectedEmotionalJobDemand3ViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ExpectedEmotionalJobDemand3ViewController.swift; sourceTree = "<group>"; };
+		63C08B3F1BCB302F00AB3E2F /* ExpectedEmotionalJobDemand4ViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ExpectedEmotionalJobDemand4ViewController.swift; sourceTree = "<group>"; };
+		63C08B401BCB302F00AB3E2F /* ExpectedEmotionalJobDemand5ViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ExpectedEmotionalJobDemand5ViewController.swift; sourceTree = "<group>"; };
+		63C08B411BCB302F00AB3E2F /* ExpectedQuantativeJobDemand1ViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ExpectedQuantativeJobDemand1ViewController.swift; sourceTree = "<group>"; };
+		63C08B421BCB302F00AB3E2F /* ExpectedQuantativeJobDemand2ViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ExpectedQuantativeJobDemand2ViewController.swift; sourceTree = "<group>"; };
+		63C08B431BCB302F00AB3E2F /* ExpectedQuantativeJobDemand3ViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ExpectedQuantativeJobDemand3ViewController.swift; sourceTree = "<group>"; };
+		63C08B441BCB302F00AB3E2F /* ExpectedQuantativeJobDemand4ViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ExpectedQuantativeJobDemand4ViewController.swift; sourceTree = "<group>"; };
+		63C08B451BCB302F00AB3E2F /* ExpectedQuantativeJobDemand5ViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ExpectedQuantativeJobDemand5ViewController.swift; sourceTree = "<group>"; };
+		63C08B471BCB302F00AB3E2F /* JobSatisfaction1ViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = JobSatisfaction1ViewController.swift; sourceTree = "<group>"; };
+		63C08B481BCB302F00AB3E2F /* JobSatisfaction2ViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = JobSatisfaction2ViewController.swift; sourceTree = "<group>"; };
+		63C08B491BCB302F00AB3E2F /* JobSatisfaction3ViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = JobSatisfaction3ViewController.swift; sourceTree = "<group>"; };
+		63C08B4A1BCB302F00AB3E2F /* JobSatisfaction4ViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = JobSatisfaction4ViewController.swift; sourceTree = "<group>"; };
+		63C08B4B1BCB302F00AB3E2F /* JobSatisfaction5ViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = JobSatisfaction5ViewController.swift; sourceTree = "<group>"; };
+		63C08B4C1BCB302F00AB3E2F /* NegativeAffect10ViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = NegativeAffect10ViewController.swift; sourceTree = "<group>"; };
+		63C08B4D1BCB302F00AB3E2F /* NegativeAffect1ViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = NegativeAffect1ViewController.swift; sourceTree = "<group>"; };
+		63C08B4E1BCB302F00AB3E2F /* NegativeAffect2ViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = NegativeAffect2ViewController.swift; sourceTree = "<group>"; };
+		63C08B4F1BCB302F00AB3E2F /* NegativeAffect3ViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = NegativeAffect3ViewController.swift; sourceTree = "<group>"; };
+		63C08B501BCB302F00AB3E2F /* NegativeAffect4ViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = NegativeAffect4ViewController.swift; sourceTree = "<group>"; };
+		63C08B511BCB302F00AB3E2F /* NegativeAffect5ViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = NegativeAffect5ViewController.swift; sourceTree = "<group>"; };
+		63C08B521BCB302F00AB3E2F /* NegativeAffect6ViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = NegativeAffect6ViewController.swift; sourceTree = "<group>"; };
+		63C08B531BCB302F00AB3E2F /* NegativeAffect7ViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = NegativeAffect7ViewController.swift; sourceTree = "<group>"; };
+		63C08B541BCB302F00AB3E2F /* NegativeAffect8ViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = NegativeAffect8ViewController.swift; sourceTree = "<group>"; };
+		63C08B551BCB302F00AB3E2F /* NegativeAffect9ViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = NegativeAffect9ViewController.swift; sourceTree = "<group>"; };
+		63C08B561BCB302F00AB3E2F /* PositiveAffect10ViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = PositiveAffect10ViewController.swift; sourceTree = "<group>"; };
+		63C08B571BCB302F00AB3E2F /* PositiveAffect1ViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = PositiveAffect1ViewController.swift; sourceTree = "<group>"; };
+		63C08B581BCB302F00AB3E2F /* PositiveAffect2ViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = PositiveAffect2ViewController.swift; sourceTree = "<group>"; };
+		63C08B591BCB302F00AB3E2F /* PositiveAffect3ViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = PositiveAffect3ViewController.swift; sourceTree = "<group>"; };
+		63C08B5A1BCB302F00AB3E2F /* PositiveAffect4ViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = PositiveAffect4ViewController.swift; sourceTree = "<group>"; };
+		63C08B5B1BCB302F00AB3E2F /* PositiveAffect5ViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = PositiveAffect5ViewController.swift; sourceTree = "<group>"; };
+		63C08B5C1BCB302F00AB3E2F /* PositiveAffect6ViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = PositiveAffect6ViewController.swift; sourceTree = "<group>"; };
+		63C08B5D1BCB302F00AB3E2F /* PositiveAffect7ViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = PositiveAffect7ViewController.swift; sourceTree = "<group>"; };
+		63C08B5E1BCB302F00AB3E2F /* PositiveAffect8ViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = PositiveAffect8ViewController.swift; sourceTree = "<group>"; };
+		63C08B5F1BCB302F00AB3E2F /* PositiveAffect9ViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = PositiveAffect9ViewController.swift; sourceTree = "<group>"; };
+		63C08B601BCB302F00AB3E2F /* SupervisorDirectedOCB1ViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SupervisorDirectedOCB1ViewController.swift; sourceTree = "<group>"; };
+		63C08B611BCB302F00AB3E2F /* SupervisorDirectedOCB2ViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SupervisorDirectedOCB2ViewController.swift; sourceTree = "<group>"; };
+		63C08B621BCB302F00AB3E2F /* SupervisorDirectedOCB3ViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SupervisorDirectedOCB3ViewController.swift; sourceTree = "<group>"; };
+		63C08B631BCB302F00AB3E2F /* SupervisorDirectedOCB4ViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SupervisorDirectedOCB4ViewController.swift; sourceTree = "<group>"; };
+		63C08B651BCB302F00AB3E2F /* AuthoriarianLeadershipRecieved1ViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = AuthoriarianLeadershipRecieved1ViewController.swift; sourceTree = "<group>"; };
+		63C08B661BCB302F00AB3E2F /* AuthoriarianLeadershipRecieved2ViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = AuthoriarianLeadershipRecieved2ViewController.swift; sourceTree = "<group>"; };
+		63C08B671BCB302F00AB3E2F /* AuthoriarianLeadershipRecieved3ViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = AuthoriarianLeadershipRecieved3ViewController.swift; sourceTree = "<group>"; };
+		63C08B681BCB302F00AB3E2F /* AuthoriarianLeadershipRecieved4ViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = AuthoriarianLeadershipRecieved4ViewController.swift; sourceTree = "<group>"; };
+		63C08B691BCB302F00AB3E2F /* AuthoriarianLeadershipRecieved5ViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = AuthoriarianLeadershipRecieved5ViewController.swift; sourceTree = "<group>"; };
+		63C08B6A1BCB302F00AB3E2F /* BenevolentLeadershipRecieved1ViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = BenevolentLeadershipRecieved1ViewController.swift; sourceTree = "<group>"; };
+		63C08B6B1BCB302F00AB3E2F /* BenevolentLeadershipRecieved2ViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = BenevolentLeadershipRecieved2ViewController.swift; sourceTree = "<group>"; };
+		63C08B6C1BCB302F00AB3E2F /* BenevolentLeadershipRecieved3ViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = BenevolentLeadershipRecieved3ViewController.swift; sourceTree = "<group>"; };
+		63C08B6D1BCB302F00AB3E2F /* BenevolentLeadershipRecieved4ViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = BenevolentLeadershipRecieved4ViewController.swift; sourceTree = "<group>"; };
+		63C08B6E1BCB302F00AB3E2F /* BenevolentLeadershipRecieved5ViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = BenevolentLeadershipRecieved5ViewController.swift; sourceTree = "<group>"; };
+		63C08BAA1BCB33C900AB3E2F /* MorningFirstComfirmViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = MorningFirstComfirmViewController.swift; sourceTree = "<group>"; };
+		63C08BAC1BCB33EA00AB3E2F /* NightFirstConfirmViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = NightFirstConfirmViewController.swift; sourceTree = "<group>"; };
+		63C08BAE1BCB33FC00AB3E2F /* NightSecondConfirmViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = NightSecondConfirmViewController.swift; sourceTree = "<group>"; };
 		63E61E811BA685CA009F50DA /* AnnGiNoCoreData.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = AnnGiNoCoreData.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		63E61E851BA685CA009F50DA /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		63E61E861BA685CA009F50DA /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
@@ -490,6 +614,89 @@
 			path = "6. sixth part";
 			sourceTree = "<group>";
 		};
+		63C08B311BCB302F00AB3E2F /* morning */ = {
+			isa = PBXGroup;
+			children = (
+				63C08B321BCB302F00AB3E2F /* AuthoritarianLeadershipNeeded1ViewController.swift */,
+				63C08B331BCB302F00AB3E2F /* AuthoritarianLeadershipNeeded2ViewController.swift */,
+				63C08B341BCB302F00AB3E2F /* AuthoritarianLeadershipNeeded3ViewController.swift */,
+				63C08B351BCB302F00AB3E2F /* AuthoritarianLeadershipNeeded4ViewController.swift */,
+				63C08B361BCB302F00AB3E2F /* AuthoritarianLeadershipNeeded5ViewController.swift */,
+				63C08B371BCB302F00AB3E2F /* BenevolentLeadershipNeeded1ViewController.swift */,
+				63C08B381BCB302F00AB3E2F /* BenevolentLeadershipNeeded2ViewController.swift */,
+				63C08B391BCB302F00AB3E2F /* BenevolentLeadershipNeeded3ViewController.swift */,
+				63C08B3A1BCB302F00AB3E2F /* BenevolentLeadershipNeeded4ViewController.swift */,
+				63C08B3B1BCB302F00AB3E2F /* BenevolentLeadershipNeeded5ViewController.swift */,
+				63C08B3C1BCB302F00AB3E2F /* ExpectedEmotionalJobDemand1ViewController.swift */,
+				63C08B3D1BCB302F00AB3E2F /* ExpectedEmotionalJobDemand2ViewController.swift */,
+				63C08B3E1BCB302F00AB3E2F /* ExpectedEmotionalJobDemand3ViewController.swift */,
+				63C08B3F1BCB302F00AB3E2F /* ExpectedEmotionalJobDemand4ViewController.swift */,
+				63C08B401BCB302F00AB3E2F /* ExpectedEmotionalJobDemand5ViewController.swift */,
+				63C08B411BCB302F00AB3E2F /* ExpectedQuantativeJobDemand1ViewController.swift */,
+				63C08B421BCB302F00AB3E2F /* ExpectedQuantativeJobDemand2ViewController.swift */,
+				63C08B431BCB302F00AB3E2F /* ExpectedQuantativeJobDemand3ViewController.swift */,
+				63C08B441BCB302F00AB3E2F /* ExpectedQuantativeJobDemand4ViewController.swift */,
+				63C08B451BCB302F00AB3E2F /* ExpectedQuantativeJobDemand5ViewController.swift */,
+				63C08BAA1BCB33C900AB3E2F /* MorningFirstComfirmViewController.swift */,
+			);
+			path = morning;
+			sourceTree = "<group>";
+		};
+		63C08B461BCB302F00AB3E2F /* night */ = {
+			isa = PBXGroup;
+			children = (
+				63C08B471BCB302F00AB3E2F /* JobSatisfaction1ViewController.swift */,
+				63C08B481BCB302F00AB3E2F /* JobSatisfaction2ViewController.swift */,
+				63C08B491BCB302F00AB3E2F /* JobSatisfaction3ViewController.swift */,
+				63C08B4A1BCB302F00AB3E2F /* JobSatisfaction4ViewController.swift */,
+				63C08B4B1BCB302F00AB3E2F /* JobSatisfaction5ViewController.swift */,
+				63C08B4C1BCB302F00AB3E2F /* NegativeAffect10ViewController.swift */,
+				63C08B4D1BCB302F00AB3E2F /* NegativeAffect1ViewController.swift */,
+				63C08B4E1BCB302F00AB3E2F /* NegativeAffect2ViewController.swift */,
+				63C08B4F1BCB302F00AB3E2F /* NegativeAffect3ViewController.swift */,
+				63C08B501BCB302F00AB3E2F /* NegativeAffect4ViewController.swift */,
+				63C08B511BCB302F00AB3E2F /* NegativeAffect5ViewController.swift */,
+				63C08B521BCB302F00AB3E2F /* NegativeAffect6ViewController.swift */,
+				63C08B531BCB302F00AB3E2F /* NegativeAffect7ViewController.swift */,
+				63C08B541BCB302F00AB3E2F /* NegativeAffect8ViewController.swift */,
+				63C08B551BCB302F00AB3E2F /* NegativeAffect9ViewController.swift */,
+				63C08B561BCB302F00AB3E2F /* PositiveAffect10ViewController.swift */,
+				63C08B571BCB302F00AB3E2F /* PositiveAffect1ViewController.swift */,
+				63C08B581BCB302F00AB3E2F /* PositiveAffect2ViewController.swift */,
+				63C08B591BCB302F00AB3E2F /* PositiveAffect3ViewController.swift */,
+				63C08B5A1BCB302F00AB3E2F /* PositiveAffect4ViewController.swift */,
+				63C08B5B1BCB302F00AB3E2F /* PositiveAffect5ViewController.swift */,
+				63C08B5C1BCB302F00AB3E2F /* PositiveAffect6ViewController.swift */,
+				63C08B5D1BCB302F00AB3E2F /* PositiveAffect7ViewController.swift */,
+				63C08B5E1BCB302F00AB3E2F /* PositiveAffect8ViewController.swift */,
+				63C08B5F1BCB302F00AB3E2F /* PositiveAffect9ViewController.swift */,
+				63C08B601BCB302F00AB3E2F /* SupervisorDirectedOCB1ViewController.swift */,
+				63C08B611BCB302F00AB3E2F /* SupervisorDirectedOCB2ViewController.swift */,
+				63C08B621BCB302F00AB3E2F /* SupervisorDirectedOCB3ViewController.swift */,
+				63C08B631BCB302F00AB3E2F /* SupervisorDirectedOCB4ViewController.swift */,
+				63C08BAC1BCB33EA00AB3E2F /* NightFirstConfirmViewController.swift */,
+				63C08BAE1BCB33FC00AB3E2F /* NightSecondConfirmViewController.swift */,
+			);
+			path = night;
+			sourceTree = "<group>";
+		};
+		63C08B641BCB302F00AB3E2F /* noon */ = {
+			isa = PBXGroup;
+			children = (
+				63C08B651BCB302F00AB3E2F /* AuthoriarianLeadershipRecieved1ViewController.swift */,
+				63C08B661BCB302F00AB3E2F /* AuthoriarianLeadershipRecieved2ViewController.swift */,
+				63C08B671BCB302F00AB3E2F /* AuthoriarianLeadershipRecieved3ViewController.swift */,
+				63C08B681BCB302F00AB3E2F /* AuthoriarianLeadershipRecieved4ViewController.swift */,
+				63C08B691BCB302F00AB3E2F /* AuthoriarianLeadershipRecieved5ViewController.swift */,
+				63C08B6A1BCB302F00AB3E2F /* BenevolentLeadershipRecieved1ViewController.swift */,
+				63C08B6B1BCB302F00AB3E2F /* BenevolentLeadershipRecieved2ViewController.swift */,
+				63C08B6C1BCB302F00AB3E2F /* BenevolentLeadershipRecieved3ViewController.swift */,
+				63C08B6D1BCB302F00AB3E2F /* BenevolentLeadershipRecieved4ViewController.swift */,
+				63C08B6E1BCB302F00AB3E2F /* BenevolentLeadershipRecieved5ViewController.swift */,
+			);
+			path = noon;
+			sourceTree = "<group>";
+		};
 		63E61E781BA685CA009F50DA = {
 			isa = PBXGroup;
 			children = (
@@ -539,6 +746,9 @@
 				635CD9F61BBFB28E00CFBE50 /* bg.png */,
 				635CD9FA1BBFF26300CFBE50 /* bg.jpg */,
 				63E61E8A1BA685CA009F50DA /* Main.storyboard */,
+				63C08B311BCB302F00AB3E2F /* morning */,
+				63C08B461BCB302F00AB3E2F /* night */,
+				63C08B641BCB302F00AB3E2F /* noon */,
 				630104FE1BC4DFAD008DBED5 /* UserSetting.swift */,
 				632996F81BC399BA0061FEB4 /* QuestionareNotification.swift */,
 				6347B5231BC26C41004677C4 /* DayQuestionareViewController.swift */,
@@ -698,96 +908,157 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				63C08B991BCB302F00AB3E2F /* PositiveAffect7ViewController.swift in Sources */,
 				635CD9F31BBFA05D00CFBE50 /* CompanyInfoViewController.swift in Sources */,
 				63A8712E1BB3FCE700313716 /* PersonLifeInclusion2ViewController.swift in Sources */,
+				63C08B711BCB302F00AB3E2F /* AuthoritarianLeadershipNeeded3ViewController.swift in Sources */,
 				63A871411BB3FCE700313716 /* EmotionalJobDemand4ViewController.swift in Sources */,
 				631739C31BA9374100242094 /* InitialInformationViewController.swift in Sources */,
+				63C08BA31BCB302F00AB3E2F /* AuthoriarianLeadershipRecieved4ViewController.swift in Sources */,
+				63C08B901BCB302F00AB3E2F /* NegativeAffect8ViewController.swift in Sources */,
+				63C08B971BCB302F00AB3E2F /* PositiveAffect5ViewController.swift in Sources */,
 				63A871331BB3FCE700313716 /* IntensityOfSupervisorSubordinateInteraction3ViewController.swift in Sources */,
+				63C08B9A1BCB302F00AB3E2F /* PositiveAffect8ViewController.swift in Sources */,
 				63A8713F1BB3FCE700313716 /* EmotionalJobDemand2ViewController.swift in Sources */,
 				63A871391BB3FCE700313716 /* TraitJobSatisfaction1ViewController.swift in Sources */,
+				63C08BA71BCB302F00AB3E2F /* BenevolentLeadershipRecieved3ViewController.swift in Sources */,
+				63C08BA41BCB302F00AB3E2F /* AuthoriarianLeadershipRecieved5ViewController.swift in Sources */,
 				63EB284D1BB4F04E007B5BAC /* FifthPartConfirmViewController.swift in Sources */,
+				63C08B771BCB302F00AB3E2F /* BenevolentLeadershipNeeded4ViewController.swift in Sources */,
 				63A8714E1BB3FCE700313716 /* ChasteningNormOrientation7ViewController.swift in Sources */,
 				63A871491BB3FCE700313716 /* ChasteningNormOrientation2ViewController.swift in Sources */,
+				63C08B9F1BCB302F00AB3E2F /* SupervisorDirectedOCB4ViewController.swift in Sources */,
 				631739D71BA95E2700242094 /* SecondPartBossPeopleViewController.swift in Sources */,
 				635CD9EF1BBFA04400CFBE50 /* TelInfoViewController.swift in Sources */,
+				63C08BA21BCB302F00AB3E2F /* AuthoriarianLeadershipRecieved3ViewController.swift in Sources */,
 				63EB28491BB4EF8C007B5BAC /* ThirdParConfirmViewController.swift in Sources */,
+				63C08B8C1BCB302F00AB3E2F /* NegativeAffect4ViewController.swift in Sources */,
 				635CD9F51BBFA06700CFBE50 /* DepartmentInfoViewController.swift in Sources */,
 				63EB284F1BB4F05B007B5BAC /* SixthPartConfirmViewController.swift in Sources */,
 				63A8712A1BB3FCE700313716 /* PerceivedSupervisorEffectiveness2ViewController.swift in Sources */,
+				63C08B721BCB302F00AB3E2F /* AuthoritarianLeadershipNeeded4ViewController.swift in Sources */,
 				635CDA071BC0048600CFBE50 /* MainQuestionareViewController.swift in Sources */,
 				63A871271BB3FCE700313716 /* GeneralSupervisorDirectedOCB3ViewController.swift in Sources */,
+				63C08B951BCB302F00AB3E2F /* PositiveAffect3ViewController.swift in Sources */,
+				63C08B941BCB302F00AB3E2F /* PositiveAffect2ViewController.swift in Sources */,
+				63C08B851BCB302F00AB3E2F /* JobSatisfaction3ViewController.swift in Sources */,
 				63A871401BB3FCE700313716 /* EmotionalJobDemand3ViewController.swift in Sources */,
+				63C08B791BCB302F00AB3E2F /* ExpectedEmotionalJobDemand1ViewController.swift in Sources */,
 				632996F91BC399BA0061FEB4 /* QuestionareNotification.swift in Sources */,
 				63A871291BB3FCE700313716 /* PerceivedSupervisorEffectiveness1ViewController.swift in Sources */,
 				635CDA011BC0042F00CFBE50 /* DesignerViewController.swift in Sources */,
 				63A8714B1BB3FCE700313716 /* ChasteningNormOrientation4ViewController.swift in Sources */,
 				631739D11BA9546E00242094 /* DepartmentPickerViewController.swift in Sources */,
 				63A871281BB3FCE700313716 /* GeneralSupervisorDirectedOCB4ViewController.swift in Sources */,
+				63C08B981BCB302F00AB3E2F /* PositiveAffect6ViewController.swift in Sources */,
+				63C08B7B1BCB302F00AB3E2F /* ExpectedEmotionalJobDemand3ViewController.swift in Sources */,
+				63C08B8F1BCB302F00AB3E2F /* NegativeAffect7ViewController.swift in Sources */,
 				63EB28471BB4EDAE007B5BAC /* SecondPartConfirmViewController.swift in Sources */,
 				63A871301BB3FCE700313716 /* PersonLifeInclusion4ViewController.swift in Sources */,
 				63A870631BB2EF5300313716 /* SecondPartWorkTogetherTimeViewController.swift in Sources */,
 				63A871261BB3FCE700313716 /* GeneralSupervisorDirectedOCB2ViewController.swift in Sources */,
 				63A8713E1BB3FCE700313716 /* EmotionalJobDemand1ViewController.swift in Sources */,
 				631739D31BA956EC00242094 /* CompanyKindViewController.swift in Sources */,
+				63C08B881BCB302F00AB3E2F /* NegativeAffect10ViewController.swift in Sources */,
 				630104FF1BC4DFAD008DBED5 /* UserSetting.swift in Sources */,
 				63FFC86E1BA6888F0029FC56 /* TestObject.swift in Sources */,
 				63A8705E1BB29B6500313716 /* FirstPartConfirmViewController.swift in Sources */,
 				631739E31BA9ABEC00242094 /* Authoritarian5ViewController.swift in Sources */,
 				635CD9F11BBFA05100CFBE50 /* EMAILInfoViewController.swift in Sources */,
 				63EB284B1BB4EFF7007B5BAC /* FourthPartConfirmViewController.swift in Sources */,
+				63C08B781BCB302F00AB3E2F /* BenevolentLeadershipNeeded5ViewController.swift in Sources */,
 				63A871341BB3FCE700313716 /* IntensityOfSupervisorSubordinateInteraction4ViewController.swift in Sources */,
+				63C08B911BCB302F00AB3E2F /* NegativeAffect9ViewController.swift in Sources */,
 				63A871451BB3FCE700313716 /* QuantitativeJobDemand3ViewController.swift in Sources */,
 				63A871461BB3FCE700313716 /* QuantitativeJobDemand4ViewController.swift in Sources */,
 				63E61E891BA685CA009F50DA /* ViewController.swift in Sources */,
+				63C08B751BCB302F00AB3E2F /* BenevolentLeadershipNeeded2ViewController.swift in Sources */,
 				63A8713D1BB3FCE700313716 /* TraitJobSatisfaction5ViewController.swift in Sources */,
 				63A871381BB3FCE700313716 /* Competence3ViewController.swift in Sources */,
+				63C08B7A1BCB302F00AB3E2F /* ExpectedEmotionalJobDemand2ViewController.swift in Sources */,
+				63C08B821BCB302F00AB3E2F /* ExpectedQuantativeJobDemand5ViewController.swift in Sources */,
 				63A871511BB3FCE700313716 /* PowerDistanceOrientation3ViewController.swift in Sources */,
 				631739C71BA938EF00242094 /* FirstPartStartViewController.swift in Sources */,
+				63C08BA11BCB302F00AB3E2F /* AuthoriarianLeadershipRecieved2ViewController.swift in Sources */,
 				63A8714D1BB3FCE700313716 /* ChasteningNormOrientation6ViewController.swift in Sources */,
 				635CD9ED1BBF9F8600CFBE50 /* NameInfoViewController.swift in Sources */,
+				63C08B8D1BCB302F00AB3E2F /* NegativeAffect5ViewController.swift in Sources */,
 				63A8714C1BB3FCE700313716 /* ChasteningNormOrientation5ViewController.swift in Sources */,
+				63C08B6F1BCB302F00AB3E2F /* AuthoritarianLeadershipNeeded1ViewController.swift in Sources */,
 				63A8711F1BB3FCE700313716 /* BenevolentLeadership4ViewController.swift in Sources */,
 				63A871501BB3FCE700313716 /* PowerDistanceOrientation2ViewController.swift in Sources */,
 				63A871531BB3FCE700313716 /* PowerDistanceOrientation5ViewController.swift in Sources */,
+				63C08B931BCB302F00AB3E2F /* PositiveAffect1ViewController.swift in Sources */,
+				63C08BA81BCB302F00AB3E2F /* BenevolentLeadershipRecieved4ViewController.swift in Sources */,
 				630104FD1BC4DF21008DBED5 /* ResetNotiDateViewController.swift in Sources */,
+				63C08B8B1BCB302F00AB3E2F /* NegativeAffect3ViewController.swift in Sources */,
 				63A871371BB3FCE700313716 /* Competence2ViewController.swift in Sources */,
 				63A871481BB3FCE700313716 /* ChasteningNormOrientation1ViewController.swift in Sources */,
 				630104FB1BC4DF0E008DBED5 /* ShowDetailNotiDateViewController.swift in Sources */,
 				631739D51BA95D3600242094 /* SecondPartBossSexPickerViewController.swift in Sources */,
+				63C08B9E1BCB302F00AB3E2F /* SupervisorDirectedOCB3ViewController.swift in Sources */,
+				63C08B9B1BCB302F00AB3E2F /* PositiveAffect9ViewController.swift in Sources */,
+				63C08B8E1BCB302F00AB3E2F /* NegativeAffect6ViewController.swift in Sources */,
 				6347B5241BC26C41004677C4 /* DayQuestionareViewController.swift in Sources */,
 				63A871251BB3FCE700313716 /* GeneralSupervisorDirectedOCB1ViewController.swift in Sources */,
+				63C08B861BCB302F00AB3E2F /* JobSatisfaction4ViewController.swift in Sources */,
 				63A8711E1BB3FCE700313716 /* BenevolentLeadership3ViewController.swift in Sources */,
 				63E61E871BA685CA009F50DA /* AppDelegate.swift in Sources */,
 				63A871241BB3FCE700313716 /* DeferenceToSupervisor4ViewController.swift in Sources */,
+				63C08B741BCB302F00AB3E2F /* BenevolentLeadershipNeeded1ViewController.swift in Sources */,
+				63C08BAF1BCB33FC00AB3E2F /* NightSecondConfirmViewController.swift in Sources */,
 				63A8705A1BB1A75B00313716 /* StatusKeys.swift in Sources */,
 				63A8714F1BB3FCE700313716 /* PowerDistanceOrientation1ViewController.swift in Sources */,
+				63C08B761BCB302F00AB3E2F /* BenevolentLeadershipNeeded3ViewController.swift in Sources */,
 				63A8714A1BB3FCE700313716 /* ChasteningNormOrientation3ViewController.swift in Sources */,
+				63C08B8A1BCB302F00AB3E2F /* NegativeAffect2ViewController.swift in Sources */,
 				635CDA051BC0044800CFBE50 /* ProgressViewController.swift in Sources */,
+				63C08B7D1BCB302F00AB3E2F /* ExpectedEmotionalJobDemand5ViewController.swift in Sources */,
 				63A870651BB2FD5800313716 /* MiddleOfSecondPartViewController.swift in Sources */,
 				63A8711C1BB3FCE700313716 /* BenevolentLeadership1ViewController.swift in Sources */,
 				635CDA031BC0043C00CFBE50 /* ChangeDateViewController.swift in Sources */,
+				63C08B701BCB302F00AB3E2F /* AuthoritarianLeadershipNeeded2ViewController.swift in Sources */,
 				631739CD1BA94F8600242094 /* EducationalBackgroundPickerViewController.swift in Sources */,
 				63A871201BB3FCE700313716 /* BenevolentLeadership5ViewController.swift in Sources */,
 				63A871361BB3FCE700313716 /* Competence1ViewController.swift in Sources */,
 				635CD9FF1BC0038100CFBE50 /* IntroductionViewController.swift in Sources */,
+				63C08B801BCB302F00AB3E2F /* ExpectedQuantativeJobDemand3ViewController.swift in Sources */,
 				63A871351BB3FCE700313716 /* IntensityOfSupervisorSubordinateInteraction5ViewController.swift in Sources */,
 				63A871431BB3FCE700313716 /* QuantitativeJobDemand1ViewController.swift in Sources */,
 				63A8711D1BB3FCE700313716 /* BenevolentLeadership2ViewController.swift in Sources */,
+				63C08B871BCB302F00AB3E2F /* JobSatisfaction5ViewController.swift in Sources */,
 				63A8705C1BB2926000313716 /* HowLongStayingInCompanyViewController.swift in Sources */,
 				63A8713A1BB3FCE700313716 /* TraitJobSatisfaction2ViewController.swift in Sources */,
+				63C08BAB1BCB33C900AB3E2F /* MorningFirstComfirmViewController.swift in Sources */,
 				63A870611BB2DA8300313716 /* SecondPartStartViewController.swift in Sources */,
+				63C08BA61BCB302F00AB3E2F /* BenevolentLeadershipRecieved2ViewController.swift in Sources */,
+				63C08B7E1BCB302F00AB3E2F /* ExpectedQuantativeJobDemand1ViewController.swift in Sources */,
 				63A8712F1BB3FCE700313716 /* PersonLifeInclusion3ViewController.swift in Sources */,
+				63C08B9D1BCB302F00AB3E2F /* SupervisorDirectedOCB2ViewController.swift in Sources */,
 				631739DF1BA97DE700242094 /* PersonalInformation.swift in Sources */,
 				631739CF1BA9526C00242094 /* CompanyLevelViewController.swift in Sources */,
 				63A871311BB3FCE700313716 /* IntensityOfSupervisorSubordinateInteraction1ViewController.swift in Sources */,
 				63A871421BB3FCE700313716 /* EmotionalJobDemand5ViewController.swift in Sources */,
+				63C08B921BCB302F00AB3E2F /* PositiveAffect10ViewController.swift in Sources */,
+				63C08BA01BCB302F00AB3E2F /* AuthoriarianLeadershipRecieved1ViewController.swift in Sources */,
+				63C08BA51BCB302F00AB3E2F /* BenevolentLeadershipRecieved1ViewController.swift in Sources */,
 				63A8713B1BB3FCE700313716 /* TraitJobSatisfaction3ViewController.swift in Sources */,
 				631739C91BA93A1500242094 /* SexPickerViewController.swift in Sources */,
+				63C08BAD1BCB33EA00AB3E2F /* NightFirstConfirmViewController.swift in Sources */,
+				63C08B961BCB302F00AB3E2F /* PositiveAffect4ViewController.swift in Sources */,
+				63C08B7C1BCB302F00AB3E2F /* ExpectedEmotionalJobDemand4ViewController.swift in Sources */,
+				63C08B891BCB302F00AB3E2F /* NegativeAffect1ViewController.swift in Sources */,
+				63C08B811BCB302F00AB3E2F /* ExpectedQuantativeJobDemand4ViewController.swift in Sources */,
 				631739CB1BA93EEF00242094 /* AgeViewController.swift in Sources */,
 				63A871521BB3FCE700313716 /* PowerDistanceOrientation4ViewController.swift in Sources */,
+				63C08B731BCB302F00AB3E2F /* AuthoritarianLeadershipNeeded5ViewController.swift in Sources */,
+				63C08B9C1BCB302F00AB3E2F /* SupervisorDirectedOCB1ViewController.swift in Sources */,
 				63A871221BB3FCE700313716 /* DeferenceToSupervisor2ViewController.swift in Sources */,
 				631739DB1BA9661E00242094 /* Authoritarian2ViewController.swift in Sources */,
+				63C08BA91BCB302F00AB3E2F /* BenevolentLeadershipRecieved5ViewController.swift in Sources */,
 				63A8713C1BB3FCE700313716 /* TraitJobSatisfaction4ViewController.swift in Sources */,
+				63C08B841BCB302F00AB3E2F /* JobSatisfaction2ViewController.swift in Sources */,
+				63C08B831BCB302F00AB3E2F /* JobSatisfaction1ViewController.swift in Sources */,
 				63A871441BB3FCE700313716 /* QuantitativeJobDemand2ViewController.swift in Sources */,
 				63A871211BB3FCE700313716 /* DeferenceToSupervisor1ViewController.swift in Sources */,
 				63A871541BB3FCE700313716 /* PowerDistanceOrientation6ViewController.swift in Sources */,
@@ -796,6 +1067,7 @@
 				631739DD1BA966CA00242094 /* Authoritarian3ViewController.swift in Sources */,
 				63A8712C1BB3FCE700313716 /* PerceivedSupervisorEffectiveness4ViewController.swift in Sources */,
 				631739C51BA937CA00242094 /* HintOnceViewController.swift in Sources */,
+				63C08B7F1BCB302F00AB3E2F /* ExpectedQuantativeJobDemand2ViewController.swift in Sources */,
 				631739E11BA9ABC200242094 /* Authoritarian4ViewController.swift in Sources */,
 				63A871321BB3FCE700313716 /* IntensityOfSupervisorSubordinateInteraction2ViewController.swift in Sources */,
 				631739D91BA9635B00242094 /* Authoritarian1ViewController.swift in Sources */,
