@@ -13,17 +13,17 @@ class PositiveAffect3ViewController: UIViewController {
     
     
     let fearLevel = ["從未如此","很少如此","偶爾如此","有時如此","經常如此","總是如此"]
-    var user: PersonalInformation!
+    var questionare: Questionare!
     
     override func viewDidLoad() {
         super.viewDidLoad(); self.view.backgroundColor = UIColor(patternImage: UIImage(named: "bg.jpg")!)
         
-        title = "初始問卷 (70/72)"
-        var backbutton = UIBarButtonItem(title: "70/72", style: UIBarButtonItemStyle.Done, target: nil, action: nil)
+        title = "晚間問卷 (3/29)"
+        var backbutton = UIBarButtonItem(title: "3/29", style: UIBarButtonItemStyle.Done, target: nil, action: nil)
         self.navigationItem.backBarButtonItem = backbutton
         // Do any additional setup after loading the view.
         fearLevelPickerView.selectRow(0, inComponent: 0, animated: true)
-        user.chasteningNormOrientationQuestion5 = fearLevel[0]
+        questionare.positiveAffect3 = fearLevel[0]
     }
     
     override func didReceiveMemoryWarning() {
@@ -41,13 +41,13 @@ class PositiveAffect3ViewController: UIViewController {
         // Pass the selected object to the new view controller.
         if segue.identifier == "next" {
             let vc = segue.destinationViewController as! PositiveAffect4ViewController
-            vc.user = user
+            vc.questionare = questionare
         }
     }
     
     
     @IBAction func nextClicked(sender: AnyObject) {
-        performSegueWithIdentifier("next", sender: user)
+        performSegueWithIdentifier("next", sender: questionare)
     }
 }
 
@@ -64,6 +64,6 @@ extension PositiveAffect3ViewController : UIPickerViewDataSource, UIPickerViewDe
     }
     func pickerView(pickerView: UIPickerView, didSelectRow row: Int, inComponent component: Int) {
         print(fearLevel[row])
-        user.chasteningNormOrientationQuestion5 = fearLevel[row]
+        questionare.positiveAffect3 = fearLevel[row]
     }
 }

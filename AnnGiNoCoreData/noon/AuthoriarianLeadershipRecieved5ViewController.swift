@@ -13,17 +13,17 @@ class AuthoriarianLeadershipRecieved5ViewController: UIViewController {
     
     
     let fearLevel = ["非常不同意", "不同意", "有點不同意", "有點同意", "同意", "非常同意"]
-    var user: PersonalInformation!
+    var questionare: Questionare!
     
     override func viewDidLoad() {
         super.viewDidLoad(); self.view.backgroundColor = UIColor(patternImage: UIImage(named: "bg.jpg")!)
         
-        title = "初始問卷 (70/72)"
-        var backbutton = UIBarButtonItem(title: "70/72", style: UIBarButtonItemStyle.Done, target: nil, action: nil)
+        title = "午間問卷 (5/10)"
+        var backbutton = UIBarButtonItem(title: "5/10", style: UIBarButtonItemStyle.Done, target: nil, action: nil)
         self.navigationItem.backBarButtonItem = backbutton
         // Do any additional setup after loading the view.
         fearLevelPickerView.selectRow(0, inComponent: 0, animated: true)
-        user.chasteningNormOrientationQuestion5 = fearLevel[0]
+        questionare.authoritarianLeadershipReceived5 = fearLevel[0]
     }
     
     override func didReceiveMemoryWarning() {
@@ -41,13 +41,13 @@ class AuthoriarianLeadershipRecieved5ViewController: UIViewController {
         // Pass the selected object to the new view controller.
         if segue.identifier == "next" {
             let vc = segue.destinationViewController as! BenevolentLeadershipRecieved1ViewController
-            vc.user = user
+            vc.questionare = questionare
         }
     }
     
     
     @IBAction func nextClicked(sender: AnyObject) {
-        performSegueWithIdentifier("next", sender: user)
+        performSegueWithIdentifier("next", sender: questionare)
     }
 }
 
@@ -64,6 +64,6 @@ extension AuthoriarianLeadershipRecieved5ViewController : UIPickerViewDataSource
     }
     func pickerView(pickerView: UIPickerView, didSelectRow row: Int, inComponent component: Int) {
         print(fearLevel[row])
-        user.chasteningNormOrientationQuestion5 = fearLevel[row]
+        questionare.authoritarianLeadershipReceived5 = fearLevel[row]
     }
 }

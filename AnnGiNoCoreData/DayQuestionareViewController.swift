@@ -110,6 +110,17 @@ class DayQuestionareViewController: UIViewController {
         pushSegueAndDoQuestionare(1)
     }
     
+    @IBAction func morning() {
+        pushSegueAndDoQuestionare(1)
+    }
+    @IBAction func noon() {
+        pushSegueAndDoQuestionare(2)
+    }
+    @IBAction func night() {
+        pushSegueAndDoQuestionare(3)
+    }
+
+    
     override func didReceiveMemoryWarning() {
         super.didReceiveMemoryWarning()
         // Dispose of any resources that can be recreated.

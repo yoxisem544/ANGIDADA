@@ -13,17 +13,17 @@ class ExpectedEmotionalJobDemand5ViewController: UIViewController {
     
     
     let fearLevel = ["非常不同意", "不同意", "有點不同意", "有點同意", "同意", "非常同意"]
-    var user: PersonalInformation!
+    var questionare: Questionare!
     
     override func viewDidLoad() {
         super.viewDidLoad(); self.view.backgroundColor = UIColor(patternImage: UIImage(named: "bg.jpg")!)
         
-        title = "初始問卷 (70/72)"
-        var backbutton = UIBarButtonItem(title: "70/72", style: UIBarButtonItemStyle.Done, target: nil, action: nil)
+        title = "早晨問卷 (10/20)"
+        var backbutton = UIBarButtonItem(title: "10/20", style: UIBarButtonItemStyle.Done, target: nil, action: nil)
         self.navigationItem.backBarButtonItem = backbutton
         // Do any additional setup after loading the view.
         fearLevelPickerView.selectRow(0, inComponent: 0, animated: true)
-        user.chasteningNormOrientationQuestion5 = fearLevel[0]
+        questionare.expectedEmotionalJobDemand5 = fearLevel[0]
     }
     
     override func didReceiveMemoryWarning() {
@@ -40,14 +40,14 @@ class ExpectedEmotionalJobDemand5ViewController: UIViewController {
         // Get the new view controller using segue.destinationViewController.
         // Pass the selected object to the new view controller.
         if segue.identifier == "next" {
-            let vc = segue.destinationViewController as! AuthoritarianLeadershipNeeded1ViewController
-            vc.user = user
+            let vc = segue.destinationViewController as! MorningFirstComfirmViewController
+            vc.questionare = questionare
         }
     }
     
     
     @IBAction func nextClicked(sender: AnyObject) {
-        performSegueWithIdentifier("next", sender: user)
+        performSegueWithIdentifier("next", sender: questionare)
     }
 }
 
@@ -64,6 +64,6 @@ extension ExpectedEmotionalJobDemand5ViewController : UIPickerViewDataSource, UI
     }
     func pickerView(pickerView: UIPickerView, didSelectRow row: Int, inComponent component: Int) {
         print(fearLevel[row])
-        user.chasteningNormOrientationQuestion5 = fearLevel[row]
+        questionare.expectedEmotionalJobDemand5 = fearLevel[row]
     }
 }

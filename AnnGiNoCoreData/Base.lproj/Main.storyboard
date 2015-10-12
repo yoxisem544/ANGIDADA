@@ -5215,25 +5215,52 @@
                                 <nil key="highlightedColor"/>
                             </label>
                             <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="非填答時段" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="Dew-6v-7No">
-                                <rect key="frame" x="256.5" y="232" width="85" height="20.5"/>
+                                <rect key="frame" x="256" y="232" width="85" height="20.5"/>
                                 <fontDescription key="fontDescription" type="system" pointSize="17"/>
                                 <color key="textColor" red="0.0" green="0.0" blue="0.0" alpha="1" colorSpace="calibratedRGB"/>
                                 <nil key="highlightedColor"/>
                             </label>
+                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="t8d-i9-Cnb">
+                                <rect key="frame" x="285" y="430" width="30" height="30"/>
+                                <state key="normal" title="下午"/>
+                                <connections>
+                                    <action selector="noon" destination="btj-JN-0PR" eventType="touchUpInside" id="vDH-IW-qCd"/>
+                                </connections>
+                            </button>
+                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="hli-gx-ED7">
+                                <rect key="frame" x="329" y="430" width="30" height="30"/>
+                                <state key="normal" title="晚上"/>
+                                <connections>
+                                    <action selector="night" destination="btj-JN-0PR" eventType="touchUpInside" id="N4L-Xe-8by"/>
+                                </connections>
+                            </button>
+                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="JAU-dL-jJX">
+                                <rect key="frame" x="247" y="430" width="30" height="30"/>
+                                <state key="normal" title="早上"/>
+                                <connections>
+                                    <action selector="morning" destination="btj-JN-0PR" eventType="touchUpInside" id="aYG-dg-yEw"/>
+                                </connections>
+                            </button>
                         </subviews>
                         <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
                         <constraints>
                             <constraint firstItem="Snv-rW-QBz" firstAttribute="top" secondItem="Iui-fk-nRO" secondAttribute="bottom" id="2kX-JM-ZgU"/>
+                            <constraint firstItem="t8d-i9-Cnb" firstAttribute="leading" secondItem="JAU-dL-jJX" secondAttribute="trailing" constant="8" id="84i-Vo-kdQ"/>
                             <constraint firstItem="uEr-Dh-hYd" firstAttribute="centerX" secondItem="Kku-4e-l3F" secondAttribute="centerX" id="9zs-OV-Dhe"/>
                             <constraint firstItem="4o5-x8-VFF" firstAttribute="top" secondItem="Snv-rW-QBz" secondAttribute="bottom" constant="36.5" id="F1J-jq-bH4"/>
+                            <constraint firstItem="hli-gx-ED7" firstAttribute="centerY" secondItem="t8d-i9-Cnb" secondAttribute="centerY" id="G7x-cJ-tnA"/>
                             <constraint firstItem="Dew-6v-7No" firstAttribute="centerX" secondItem="x7M-qh-rJE" secondAttribute="centerX" id="L2t-VB-zWC"/>
                             <constraint firstItem="Dew-6v-7No" firstAttribute="top" secondItem="x7M-qh-rJE" secondAttribute="bottom" constant="7.5" id="MTQ-nz-92Y"/>
                             <constraint firstItem="4o5-x8-VFF" firstAttribute="centerX" secondItem="Snv-rW-QBz" secondAttribute="centerX" id="NRG-ki-E1u"/>
+                            <constraint firstItem="uEr-Dh-hYd" firstAttribute="top" secondItem="t8d-i9-Cnb" secondAttribute="bottom" constant="8" id="SPe-Dh-TPY"/>
                             <constraint firstItem="9CN-7N-fWX" firstAttribute="top" secondItem="4o5-x8-VFF" secondAttribute="bottom" constant="8" id="URe-1U-Idc"/>
+                            <constraint firstItem="JAU-dL-jJX" firstAttribute="centerY" secondItem="t8d-i9-Cnb" secondAttribute="centerY" id="dGI-PE-3NE"/>
                             <constraint firstItem="Snv-rW-QBz" firstAttribute="centerX" secondItem="Kku-4e-l3F" secondAttribute="centerX" id="dQ0-ky-xRh"/>
                             <constraint firstItem="anw-yh-4K9" firstAttribute="top" secondItem="uEr-Dh-hYd" secondAttribute="bottom" constant="8" id="dZp-MF-60g"/>
+                            <constraint firstItem="t8d-i9-Cnb" firstAttribute="centerX" secondItem="uEr-Dh-hYd" secondAttribute="centerX" id="gKO-Du-hng"/>
                             <constraint firstItem="x7M-qh-rJE" firstAttribute="centerX" secondItem="9CN-7N-fWX" secondAttribute="centerX" id="hqt-Pm-irk"/>
                             <constraint firstItem="x7M-qh-rJE" firstAttribute="top" secondItem="9CN-7N-fWX" secondAttribute="bottom" constant="16" id="leC-g1-vG4"/>
+                            <constraint firstItem="hli-gx-ED7" firstAttribute="leading" secondItem="t8d-i9-Cnb" secondAttribute="trailing" constant="14" id="tcz-X4-hmm"/>
                             <constraint firstItem="9CN-7N-fWX" firstAttribute="centerX" secondItem="4o5-x8-VFF" secondAttribute="centerX" id="vtw-CG-nbd"/>
                         </constraints>
                     </view>
@@ -6352,10 +6379,10 @@
             </objects>
             <point key="canvasLocation" x="1460" y="16233"/>
         </scene>
-        <!--View Controller-->
+        <!--Noon Start View Controller-->
         <scene sceneID="dgN-MK-uqZ">
             <objects>
-                <viewController id="uHG-Sh-oTz" sceneMemberID="viewController">
+                <viewController id="uHG-Sh-oTz" customClass="NoonStartViewController" customModule="AnnGiNoCoreData" customModuleProvider="target" sceneMemberID="viewController">
                     <layoutGuides>
                         <viewControllerLayoutGuide type="top" id="8Tr-ap-hxD"/>
                         <viewControllerLayoutGuide type="bottom" id="L8l-Jr-hUL"/>
@@ -6382,9 +6409,7 @@
                                     <color key="titleColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
                                 </state>
                                 <connections>
-                                    <segue destination="JgW-om-miL" kind="show" id="ihs-9R-UVz">
-                                        <nil key="action"/>
-                                    </segue>
+                                    <action selector="startQuestionare" destination="uHG-Sh-oTz" eventType="touchUpInside" id="d8R-qs-FA9"/>
                                 </connections>
                             </button>
                         </subviews>
@@ -6398,6 +6423,9 @@
                         </constraints>
                     </view>
                     <navigationItem key="navigationItem" id="Bxd-Sx-xK8"/>
+                    <connections>
+                        <segue destination="JgW-om-miL" kind="show" identifier="next" id="7r1-UO-Hzc"/>
+                    </connections>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="YzT-jX-KHd" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>
@@ -6431,9 +6459,7 @@
                                     <color key="titleColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
                                 </state>
                                 <connections>
-                                    <segue destination="S92-sa-0Bp" kind="show" id="Srv-oh-ojw">
-                                        <nil key="action"/>
-                                    </segue>
+                                    <segue destination="S92-sa-0Bp" kind="show" id="3zg-54-sIa"/>
                                 </connections>
                             </button>
                         </subviews>
@@ -6452,10 +6478,10 @@
             </objects>
             <point key="canvasLocation" x="1460" y="18314"/>
         </scene>
-        <!--View Controller-->
+        <!--Night Start View Controller-->
         <scene sceneID="b5O-Wd-I6Y">
             <objects>
-                <viewController id="S92-sa-0Bp" sceneMemberID="viewController">
+                <viewController id="S92-sa-0Bp" customClass="NightStartViewController" customModule="AnnGiNoCoreData" customModuleProvider="target" sceneMemberID="viewController">
                     <layoutGuides>
                         <viewControllerLayoutGuide type="top" id="uTN-zi-R48"/>
                         <viewControllerLayoutGuide type="bottom" id="hqR-tO-l32"/>
@@ -6480,9 +6506,7 @@
                                     <color key="titleColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
                                 </state>
                                 <connections>
-                                    <segue destination="6vt-c4-Ryq" kind="show" id="rYk-Nd-tiX">
-                                        <nil key="action"/>
-                                    </segue>
+                                    <action selector="startQuestionare" destination="S92-sa-0Bp" eventType="touchUpInside" id="3M9-Ms-waX"/>
                                 </connections>
                             </button>
                         </subviews>
@@ -6496,6 +6520,9 @@
                         </constraints>
                     </view>
                     <navigationItem key="navigationItem" id="ZSE-6o-scx"/>
+                    <connections>
+                        <segue destination="6vt-c4-Ryq" kind="show" identifier="next" id="2bI-cm-hQj"/>
+                    </connections>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="Pbg-se-oli" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>
@@ -6513,7 +6540,7 @@
                         <rect key="frame" x="0.0" y="0.0" width="600" height="600"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <subviews>
-                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" misplaced="YES" text="就算部屬達成預期目標，主管也應繼續指導、督促他，使他表現得更好。" lineBreakMode="tailTruncation" numberOfLines="0" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="YUz-lg-PMo">
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" misplaced="YES" text="今天我必須在短時間內，完成所交付的工作任務。" lineBreakMode="tailTruncation" numberOfLines="0" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="YUz-lg-PMo">
                                 <rect key="frame" x="28" y="179" width="544" height="41"/>
                                 <constraints>
                                     <constraint firstAttribute="width" constant="300" id="NEn-Q1-1o5"/>
@@ -6577,7 +6604,7 @@
                         <rect key="frame" x="0.0" y="0.0" width="600" height="600"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <subviews>
-                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" misplaced="YES" text="就算部屬達成預期目標，主管也應繼續指導、督促他，使他表現得更好。" lineBreakMode="tailTruncation" numberOfLines="0" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="atg-9u-cL3">
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" misplaced="YES" text="今天我必須非常努力，才有可能完成工作任務。" lineBreakMode="tailTruncation" numberOfLines="0" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="atg-9u-cL3">
                                 <rect key="frame" x="28" y="179" width="544" height="41"/>
                                 <constraints>
                                     <constraint firstAttribute="width" constant="300" id="QFg-EV-Nvb"/>
@@ -6641,7 +6668,7 @@
                         <rect key="frame" x="0.0" y="0.0" width="600" height="600"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <subviews>
-                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" misplaced="YES" text="就算部屬達成預期目標，主管也應繼續指導、督促他，使他表現得更好。" lineBreakMode="tailTruncation" numberOfLines="0" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="XAZ-0m-5Hn">
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" misplaced="YES" text="今天我必須格外費心，才能圓滿達成工作任務。" lineBreakMode="tailTruncation" numberOfLines="0" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="XAZ-0m-5Hn">
                                 <rect key="frame" x="28" y="179" width="544" height="41"/>
                                 <constraints>
                                     <constraint firstAttribute="width" constant="300" id="geO-cj-4WL"/>
@@ -6705,7 +6732,7 @@
                         <rect key="frame" x="0.0" y="0.0" width="600" height="600"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <subviews>
-                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" misplaced="YES" text="就算部屬達成預期目標，主管也應繼續指導、督促他，使他表現得更好。" lineBreakMode="tailTruncation" numberOfLines="0" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="hyR-So-1m3">
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" misplaced="YES" text="今天我必須超時工作，才能如期完成工作任務。" lineBreakMode="tailTruncation" numberOfLines="0" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="hyR-So-1m3">
                                 <rect key="frame" x="28" y="179" width="544" height="41"/>
                                 <constraints>
                                     <constraint firstAttribute="width" constant="300" id="iRn-Sn-Zua"/>
@@ -6748,7 +6775,7 @@
                     </view>
                     <connections>
                         <outlet property="fearLevelPickerView" destination="Hb9-su-vH3" id="nDX-Gq-WhL"/>
-                        <segue destination="jDe-A3-Pe9" kind="show" id="Y35-QX-Ndc">
+                        <segue destination="jDe-A3-Pe9" kind="show" identifier="next" id="Y35-QX-Ndc">
                             <nil key="action"/>
                         </segue>
                     </connections>
@@ -6769,7 +6796,7 @@
                         <rect key="frame" x="0.0" y="0.0" width="600" height="600"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <subviews>
-                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" misplaced="YES" text="就算部屬達成預期目標，主管也應繼續指導、督促他，使他表現得更好。" lineBreakMode="tailTruncation" numberOfLines="0" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="HIw-l5-HQE">
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" misplaced="YES" text="為完成工作任務，我今天必須同時滿足不同對象的要求。" lineBreakMode="tailTruncation" numberOfLines="0" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="HIw-l5-HQE">
                                 <rect key="frame" x="28" y="179" width="544" height="41"/>
                                 <constraints>
                                     <constraint firstAttribute="width" constant="300" id="TNC-53-vzW"/>
@@ -6833,7 +6860,7 @@
                         <rect key="frame" x="0.0" y="0.0" width="600" height="600"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <subviews>
-                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" misplaced="YES" text="就算部屬達成預期目標，主管也應繼續指導、督促他，使他表現得更好。" lineBreakMode="tailTruncation" numberOfLines="0" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="QWi-hQ-FK9">
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" misplaced="YES" text="我今天在工作中，必須面對很難搞的接觸對象。" lineBreakMode="tailTruncation" numberOfLines="0" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="QWi-hQ-FK9">
                                 <rect key="frame" x="28" y="179" width="544" height="41"/>
                                 <constraints>
                                     <constraint firstAttribute="width" constant="300" id="0NH-a3-GKs"/>
@@ -6897,7 +6924,7 @@
                         <rect key="frame" x="0.0" y="0.0" width="600" height="600"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <subviews>
-                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" misplaced="YES" text="就算部屬達成預期目標，主管也應繼續指導、督促他，使他表現得更好。" lineBreakMode="tailTruncation" numberOfLines="0" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="VBC-WQ-IHT">
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" misplaced="YES" text="我今天在工作中，必須設法說服他人接受我的提議。" lineBreakMode="tailTruncation" numberOfLines="0" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="VBC-WQ-IHT">
                                 <rect key="frame" x="28" y="179" width="544" height="41"/>
                                 <constraints>
                                     <constraint firstAttribute="width" constant="300" id="8Fg-Fm-2ub"/>
@@ -6961,7 +6988,7 @@
                         <rect key="frame" x="0.0" y="0.0" width="600" height="600"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <subviews>
-                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" misplaced="YES" text="就算部屬達成預期目標，主管也應繼續指導、督促他，使他表現得更好。" lineBreakMode="tailTruncation" numberOfLines="0" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="Kdv-KR-Rlo">
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" misplaced="YES" text="我今天必須在工作中控制或展現情緒，會相當吃力。" lineBreakMode="tailTruncation" numberOfLines="0" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="Kdv-KR-Rlo">
                                 <rect key="frame" x="28" y="179" width="544" height="41"/>
                                 <constraints>
                                     <constraint firstAttribute="width" constant="300" id="7kW-Q6-5S6"/>
@@ -7025,7 +7052,7 @@
                         <rect key="frame" x="0.0" y="0.0" width="600" height="600"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <subviews>
-                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" misplaced="YES" text="就算部屬達成預期目標，主管也應繼續指導、督促他，使他表現得更好。" lineBreakMode="tailTruncation" numberOfLines="0" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="G6a-TM-kDi">
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" misplaced="YES" text="我今天可能會在工作中遭遇使自己心情受影響的事。" lineBreakMode="tailTruncation" numberOfLines="0" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="G6a-TM-kDi">
                                 <rect key="frame" x="28" y="179" width="544" height="41"/>
                                 <constraints>
                                     <constraint firstAttribute="width" constant="300" id="Bzw-6f-z6q"/>
@@ -7089,7 +7116,7 @@
                         <rect key="frame" x="0.0" y="0.0" width="600" height="600"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <subviews>
-                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" misplaced="YES" text="就算部屬達成預期目標，主管也應繼續指導、督促他，使他表現得更好。" lineBreakMode="tailTruncation" numberOfLines="0" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="ExI-Cz-ifu">
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" misplaced="YES" text="我今天可能會在工作中經歷使自己難受、生氣的情況。" lineBreakMode="tailTruncation" numberOfLines="0" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="ExI-Cz-ifu">
                                 <rect key="frame" x="28" y="179" width="544" height="41"/>
                                 <constraints>
                                     <constraint firstAttribute="width" constant="300" id="ANu-Cb-C7J"/>
@@ -7141,10 +7168,10 @@
             </objects>
             <point key="canvasLocation" x="10508" y="16233"/>
         </scene>
-        <!--First Part Confirm View Controller-->
+        <!--Morning First Comfirm View Controller-->
         <scene sceneID="y5N-QJ-qIB">
             <objects>
-                <viewController id="Ccn-Di-fsJ" customClass="FirstPartConfirmViewController" customModule="AnnGiNoCoreData" customModuleProvider="target" sceneMemberID="viewController">
+                <viewController id="Ccn-Di-fsJ" customClass="MorningFirstComfirmViewController" customModule="AnnGiNoCoreData" customModuleProvider="target" sceneMemberID="viewController">
                     <layoutGuides>
                         <viewControllerLayoutGuide type="top" id="qGQ-9J-xBF"/>
                         <viewControllerLayoutGuide type="bottom" id="0Ce-9F-RDG"/>
@@ -7170,6 +7197,9 @@
                                 <state key="normal" title="開始作答" backgroundImage="Button">
                                     <color key="titleColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
                                 </state>
+                                <connections>
+                                    <action selector="nextClicked" destination="Ccn-Di-fsJ" eventType="touchUpInside" id="sge-sB-l0c"/>
+                                </connections>
                             </button>
                         </subviews>
                         <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
@@ -7203,7 +7233,7 @@
                         <rect key="frame" x="0.0" y="0.0" width="600" height="600"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <subviews>
-                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" misplaced="YES" text="就算部屬達成預期目標，主管也應繼續指導、督促他，使他表現得更好。" lineBreakMode="tailTruncation" numberOfLines="0" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="Ka1-iu-xqX">
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" misplaced="YES" text="對工作任務的內容與程序給予仔細的指示、嚴格要求。" lineBreakMode="tailTruncation" numberOfLines="0" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="Ka1-iu-xqX">
                                 <rect key="frame" x="28" y="179" width="544" height="41"/>
                                 <constraints>
                                     <constraint firstAttribute="width" constant="300" id="c2S-rv-iFN"/>
@@ -7268,7 +7298,7 @@
                         <rect key="frame" x="0.0" y="0.0" width="600" height="600"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <subviews>
-                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" misplaced="YES" text="就算部屬達成預期目標，主管也應繼續指導、督促他，使他表現得更好。" lineBreakMode="tailTruncation" numberOfLines="0" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="RC7-4e-Kf9">
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" misplaced="YES" text="清楚傳達工作要求與指示，並訂定明確的任務完成時限。" lineBreakMode="tailTruncation" numberOfLines="0" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="RC7-4e-Kf9">
                                 <rect key="frame" x="28" y="179" width="544" height="41"/>
                                 <constraints>
                                     <constraint firstAttribute="width" constant="300" id="uDF-8V-jBB"/>
@@ -7332,7 +7362,7 @@
                         <rect key="frame" x="0.0" y="0.0" width="600" height="600"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <subviews>
-                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" misplaced="YES" text="就算部屬達成預期目標，主管也應繼續指導、督促他，使他表現得更好。" lineBreakMode="tailTruncation" numberOfLines="0" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="PPp-D4-RlG">
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" misplaced="YES" text="嚴厲責備未能達成任務的部屬。" lineBreakMode="tailTruncation" numberOfLines="0" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="PPp-D4-RlG">
                                 <rect key="frame" x="28" y="179" width="544" height="41"/>
                                 <constraints>
                                     <constraint firstAttribute="width" constant="300" id="zFG-nd-oK6"/>
@@ -7396,7 +7426,7 @@
                         <rect key="frame" x="0.0" y="0.0" width="600" height="600"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <subviews>
-                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" misplaced="YES" text="就算部屬達成預期目標，主管也應繼續指導、督促他，使他表現得更好。" lineBreakMode="tailTruncation" numberOfLines="0" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="ZY3-81-gmh">
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" misplaced="YES" text="採用嚴格的方法進行管理，確保任務達成。" lineBreakMode="tailTruncation" numberOfLines="0" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="ZY3-81-gmh">
                                 <rect key="frame" x="28" y="179" width="544" height="41"/>
                                 <constraints>
                                     <constraint firstAttribute="width" constant="300" id="apW-e3-HXy"/>
@@ -7460,7 +7490,7 @@
                         <rect key="frame" x="0.0" y="0.0" width="600" height="600"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <subviews>
-                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" misplaced="YES" text="就算部屬達成預期目標，主管也應繼續指導、督促他，使他表現得更好。" lineBreakMode="tailTruncation" numberOfLines="0" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="vHr-yz-F5v">
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" misplaced="YES" text="明快處置違反他指示與規定的部屬。" lineBreakMode="tailTruncation" numberOfLines="0" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="vHr-yz-F5v">
                                 <rect key="frame" x="28" y="179" width="544" height="41"/>
                                 <constraints>
                                     <constraint firstAttribute="width" constant="300" id="Vk3-vs-rec"/>
@@ -7524,7 +7554,7 @@
                         <rect key="frame" x="0.0" y="0.0" width="600" height="600"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <subviews>
-                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" misplaced="YES" text="就算部屬達成預期目標，主管也應繼續指導、督促他，使他表現得更好。" lineBreakMode="tailTruncation" numberOfLines="0" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="u5Y-vV-NnW">
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" misplaced="YES" text="關懷我私人的生活起居。" lineBreakMode="tailTruncation" numberOfLines="0" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="u5Y-vV-NnW">
                                 <rect key="frame" x="28" y="179" width="544" height="41"/>
                                 <constraints>
                                     <constraint firstAttribute="width" constant="300" id="2pJ-lH-3IS"/>
@@ -7588,7 +7618,7 @@
                         <rect key="frame" x="0.0" y="0.0" width="600" height="600"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <subviews>
-                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" misplaced="YES" text="就算部屬達成預期目標，主管也應繼續指導、督促他，使他表現得更好。" lineBreakMode="tailTruncation" numberOfLines="0" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="RTM-CY-7qC">
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" misplaced="YES" text="當我碰到難題時，即時給我鼓勵。" lineBreakMode="tailTruncation" numberOfLines="0" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="RTM-CY-7qC">
                                 <rect key="frame" x="28" y="179" width="544" height="41"/>
                                 <constraints>
                                     <constraint firstAttribute="width" constant="300" id="TeJ-76-X0n"/>
@@ -7652,7 +7682,7 @@
                         <rect key="frame" x="0.0" y="0.0" width="600" height="600"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <subviews>
-                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" misplaced="YES" text="就算部屬達成預期目標，主管也應繼續指導、督促他，使他表現得更好。" lineBreakMode="tailTruncation" numberOfLines="0" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="NdI-cx-xHR">
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" misplaced="YES" text="當我工作表現不佳的時候，積極了解真正的原因何在。" lineBreakMode="tailTruncation" numberOfLines="0" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="NdI-cx-xHR">
                                 <rect key="frame" x="28" y="179" width="544" height="41"/>
                                 <constraints>
                                     <constraint firstAttribute="width" constant="300" id="pio-PK-Wmz"/>
@@ -7716,7 +7746,7 @@
                         <rect key="frame" x="0.0" y="0.0" width="600" height="600"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <subviews>
-                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" misplaced="YES" text="就算部屬達成預期目標，主管也應繼續指導、督促他，使他表現得更好。" lineBreakMode="tailTruncation" numberOfLines="0" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="cbM-lq-Nj5">
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" misplaced="YES" text="根據我個人的需要，來滿足我的要求。" lineBreakMode="tailTruncation" numberOfLines="0" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="cbM-lq-Nj5">
                                 <rect key="frame" x="28" y="179" width="544" height="41"/>
                                 <constraints>
                                     <constraint firstAttribute="width" constant="300" id="tc8-a4-zY3"/>
@@ -7780,7 +7810,7 @@
                         <rect key="frame" x="0.0" y="0.0" width="600" height="600"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <subviews>
-                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" misplaced="YES" text="就算部屬達成預期目標，主管也應繼續指導、督促他，使他表現得更好。" lineBreakMode="tailTruncation" numberOfLines="0" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="jHg-Ob-9w5">
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" misplaced="YES" text="對於我在工作上所缺乏的能力，給予適當的教育與輔導。" lineBreakMode="tailTruncation" numberOfLines="0" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="jHg-Ob-9w5">
                                 <rect key="frame" x="28" y="179" width="544" height="41"/>
                                 <constraints>
                                     <constraint firstAttribute="width" constant="300" id="9W2-JN-A3Z"/>
@@ -7823,11 +7853,58 @@
                     </view>
                     <connections>
                         <outlet property="fearLevelPickerView" destination="Zyy-qm-3zq" id="WJE-oe-x7J"/>
+                        <segue destination="4WD-rp-UhV" kind="show" identifier="next" id="K9N-AR-S6v"/>
                     </connections>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="3Rv-NA-oVg" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>
             <point key="canvasLocation" x="20288" y="16253"/>
+        </scene>
+        <!--Morning Last Confirm View Controller-->
+        <scene sceneID="YOw-F8-LaH">
+            <objects>
+                <viewController id="4WD-rp-UhV" customClass="MorningLastConfirmViewController" customModule="AnnGiNoCoreData" customModuleProvider="target" sceneMemberID="viewController">
+                    <layoutGuides>
+                        <viewControllerLayoutGuide type="top" id="BxV-Ye-MUi"/>
+                        <viewControllerLayoutGuide type="bottom" id="eJE-tv-fSw"/>
+                    </layoutGuides>
+                    <view key="view" contentMode="scaleToFill" id="7Qd-SQ-yEy">
+                        <rect key="frame" x="0.0" y="0.0" width="600" height="600"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="morning 問卷結束，確認上傳？" textAlignment="natural" lineBreakMode="tailTruncation" numberOfLines="0" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="Iz1-fB-Sly">
+                                <rect key="frame" x="120" y="170" width="360" height="20.5"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                                <color key="textColor" cocoaTouchSystemColor="darkTextColor"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="P2W-IZ-bJ5">
+                                <rect key="frame" x="262.5" y="505" width="75" height="75"/>
+                                <constraints>
+                                    <constraint firstAttribute="width" constant="75" id="0sy-we-oa7"/>
+                                    <constraint firstAttribute="height" constant="75" id="hkt-Cc-LYT"/>
+                                </constraints>
+                                <state key="normal" title="確認上傳" backgroundImage="Button">
+                                    <color key="titleColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                                </state>
+                                <connections>
+                                    <action selector="finishedQuestionareClicked" destination="4WD-rp-UhV" eventType="touchUpInside" id="omT-OQ-hYu"/>
+                                </connections>
+                            </button>
+                        </subviews>
+                        <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                        <constraints>
+                            <constraint firstItem="Iz1-fB-Sly" firstAttribute="centerY" secondItem="7Qd-SQ-yEy" secondAttribute="centerY" multiplier="0.6" id="F14-iq-uXw"/>
+                            <constraint firstItem="Iz1-fB-Sly" firstAttribute="centerX" secondItem="7Qd-SQ-yEy" secondAttribute="centerX" id="FQO-PU-947"/>
+                            <constraint firstItem="P2W-IZ-bJ5" firstAttribute="centerX" secondItem="7Qd-SQ-yEy" secondAttribute="centerX" id="Lr3-Zq-wpr"/>
+                            <constraint firstItem="eJE-tv-fSw" firstAttribute="top" secondItem="P2W-IZ-bJ5" secondAttribute="bottom" constant="20" id="XhA-Db-X4w"/>
+                            <constraint firstItem="Iz1-fB-Sly" firstAttribute="width" secondItem="7Qd-SQ-yEy" secondAttribute="width" multiplier="0.6" id="ebl-gW-Agi"/>
+                        </constraints>
+                    </view>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="otH-ZC-Rda" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="20953" y="16254"/>
         </scene>
         <!--Authoriarian Leadership Recieved1 View Controller-->
         <scene sceneID="Fml-Kf-KB9">
@@ -7841,7 +7918,7 @@
                         <rect key="frame" x="0.0" y="0.0" width="600" height="600"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <subviews>
-                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" misplaced="YES" text="就算部屬達成預期目標，主管也應繼續指導、督促他，使他表現得更好。" lineBreakMode="tailTruncation" numberOfLines="0" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="OXP-t1-HUL">
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" misplaced="YES" text="對工作任務的內容與程序給予仔細的指示、嚴格要求。" lineBreakMode="tailTruncation" numberOfLines="0" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="OXP-t1-HUL">
                                 <rect key="frame" x="28" y="179" width="544" height="41"/>
                                 <constraints>
                                     <constraint firstAttribute="width" constant="300" id="niV-ya-bqp"/>
@@ -7905,7 +7982,7 @@
                         <rect key="frame" x="0.0" y="0.0" width="600" height="600"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <subviews>
-                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" misplaced="YES" text="就算部屬達成預期目標，主管也應繼續指導、督促他，使他表現得更好。" lineBreakMode="tailTruncation" numberOfLines="0" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="48l-76-8XO">
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" misplaced="YES" text="清楚傳達工作要求與指示，並訂定明確的任務完成時限。" lineBreakMode="tailTruncation" numberOfLines="0" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="48l-76-8XO">
                                 <rect key="frame" x="28" y="179" width="544" height="41"/>
                                 <constraints>
                                     <constraint firstAttribute="width" constant="300" id="UNR-2R-RpC"/>
@@ -7969,7 +8046,7 @@
                         <rect key="frame" x="0.0" y="0.0" width="600" height="600"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <subviews>
-                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" misplaced="YES" text="就算部屬達成預期目標，主管也應繼續指導、督促他，使他表現得更好。" lineBreakMode="tailTruncation" numberOfLines="0" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="hZK-vL-BxL">
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" misplaced="YES" text="嚴厲責備未能達成任務的部屬。" lineBreakMode="tailTruncation" numberOfLines="0" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="hZK-vL-BxL">
                                 <rect key="frame" x="28" y="179" width="544" height="41"/>
                                 <constraints>
                                     <constraint firstAttribute="width" constant="300" id="Jxr-EY-lLo"/>
@@ -8033,7 +8110,7 @@
                         <rect key="frame" x="0.0" y="0.0" width="600" height="600"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <subviews>
-                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" misplaced="YES" text="就算部屬達成預期目標，主管也應繼續指導、督促他，使他表現得更好。" lineBreakMode="tailTruncation" numberOfLines="0" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="a25-0r-AOw">
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" misplaced="YES" text="採用嚴格的方法進行管理，確保任務達成。" lineBreakMode="tailTruncation" numberOfLines="0" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="a25-0r-AOw">
                                 <rect key="frame" x="28" y="179" width="544" height="41"/>
                                 <constraints>
                                     <constraint firstAttribute="width" constant="300" id="rF1-p1-WDB"/>
@@ -8097,7 +8174,7 @@
                         <rect key="frame" x="0.0" y="0.0" width="600" height="600"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <subviews>
-                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" misplaced="YES" text="就算部屬達成預期目標，主管也應繼續指導、督促他，使他表現得更好。" lineBreakMode="tailTruncation" numberOfLines="0" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="ePF-sP-HUi">
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" misplaced="YES" text="明快處置違反他指示與規定的部屬。" lineBreakMode="tailTruncation" numberOfLines="0" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="ePF-sP-HUi">
                                 <rect key="frame" x="28" y="179" width="544" height="41"/>
                                 <constraints>
                                     <constraint firstAttribute="width" constant="300" id="A5T-ga-Vhw"/>
@@ -8161,7 +8238,7 @@
                         <rect key="frame" x="0.0" y="0.0" width="600" height="600"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <subviews>
-                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" misplaced="YES" text="就算部屬達成預期目標，主管也應繼續指導、督促他，使他表現得更好。" lineBreakMode="tailTruncation" numberOfLines="0" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="gN6-vE-xd8">
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" misplaced="YES" text="關懷我私人的生活起居。" lineBreakMode="tailTruncation" numberOfLines="0" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="gN6-vE-xd8">
                                 <rect key="frame" x="28" y="179" width="544" height="41"/>
                                 <constraints>
                                     <constraint firstAttribute="width" constant="300" id="WfP-6n-YrA"/>
@@ -8225,7 +8302,7 @@
                         <rect key="frame" x="0.0" y="0.0" width="600" height="600"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <subviews>
-                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" misplaced="YES" text="就算部屬達成預期目標，主管也應繼續指導、督促他，使他表現得更好。" lineBreakMode="tailTruncation" numberOfLines="0" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="S9n-wh-a5W">
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" misplaced="YES" text="當我碰到難題時，即時給我鼓勵。" lineBreakMode="tailTruncation" numberOfLines="0" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="S9n-wh-a5W">
                                 <rect key="frame" x="28" y="179" width="544" height="41"/>
                                 <constraints>
                                     <constraint firstAttribute="width" constant="300" id="qjG-cH-De5"/>
@@ -8289,7 +8366,7 @@
                         <rect key="frame" x="0.0" y="0.0" width="600" height="600"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <subviews>
-                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" misplaced="YES" text="就算部屬達成預期目標，主管也應繼續指導、督促他，使他表現得更好。" lineBreakMode="tailTruncation" numberOfLines="0" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="djy-2A-ozq">
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" misplaced="YES" text="根據我個人的需要，來滿足我的要求。" lineBreakMode="tailTruncation" numberOfLines="0" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="djy-2A-ozq">
                                 <rect key="frame" x="28" y="179" width="544" height="41"/>
                                 <constraints>
                                     <constraint firstAttribute="width" constant="300" id="psV-bY-kgS"/>
@@ -8353,7 +8430,7 @@
                         <rect key="frame" x="0.0" y="0.0" width="600" height="600"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <subviews>
-                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" misplaced="YES" text="就算部屬達成預期目標，主管也應繼續指導、督促他，使他表現得更好。" lineBreakMode="tailTruncation" numberOfLines="0" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="nfp-84-Gz6">
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" misplaced="YES" text="當我工作表現不佳的時候，積極了解真正的原因何在。" lineBreakMode="tailTruncation" numberOfLines="0" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="nfp-84-Gz6">
                                 <rect key="frame" x="28" y="179" width="544" height="41"/>
                                 <constraints>
                                     <constraint firstAttribute="width" constant="300" id="jF7-oS-aBn"/>
@@ -8417,7 +8494,7 @@
                         <rect key="frame" x="0.0" y="0.0" width="600" height="600"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <subviews>
-                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" misplaced="YES" text="就算部屬達成預期目標，主管也應繼續指導、督促他，使他表現得更好。" lineBreakMode="tailTruncation" numberOfLines="0" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="i63-Pc-nuQ">
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" misplaced="YES" text="對於我在工作上所缺乏的能力，給予適當的教育與輔導。" lineBreakMode="tailTruncation" numberOfLines="0" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="i63-Pc-nuQ">
                                 <rect key="frame" x="28" y="179" width="544" height="41"/>
                                 <constraints>
                                     <constraint firstAttribute="width" constant="300" id="8c7-JA-EUD"/>
@@ -8460,11 +8537,58 @@
                     </view>
                     <connections>
                         <outlet property="fearLevelPickerView" destination="x9w-CE-Q8I" id="4hW-yB-eHY"/>
+                        <segue destination="6mf-bk-3lG" kind="show" identifier="next" id="IPs-ze-Er0"/>
                     </connections>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="ULf-qO-9M5" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>
             <point key="canvasLocation" x="9662" y="17509"/>
+        </scene>
+        <!--Noon Last Confirm View Controller-->
+        <scene sceneID="BMu-BZ-F5N">
+            <objects>
+                <viewController id="6mf-bk-3lG" customClass="NoonLastConfirmViewController" customModule="AnnGiNoCoreData" customModuleProvider="target" sceneMemberID="viewController">
+                    <layoutGuides>
+                        <viewControllerLayoutGuide type="top" id="EuV-kU-Qcz"/>
+                        <viewControllerLayoutGuide type="bottom" id="hdE-aM-V45"/>
+                    </layoutGuides>
+                    <view key="view" contentMode="scaleToFill" id="xKa-oS-N3h">
+                        <rect key="frame" x="0.0" y="0.0" width="600" height="600"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="下午問卷確認上傳歐！" textAlignment="natural" lineBreakMode="tailTruncation" numberOfLines="0" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="zdi-L2-5Th">
+                                <rect key="frame" x="120" y="170" width="360" height="20.5"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                                <color key="textColor" cocoaTouchSystemColor="darkTextColor"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="1iC-ZK-OXj">
+                                <rect key="frame" x="262.5" y="505" width="75" height="75"/>
+                                <constraints>
+                                    <constraint firstAttribute="height" constant="75" id="e6U-aA-MdK"/>
+                                    <constraint firstAttribute="width" constant="75" id="phS-WN-xPv"/>
+                                </constraints>
+                                <state key="normal" title="確認上傳" backgroundImage="Button">
+                                    <color key="titleColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                                </state>
+                                <connections>
+                                    <action selector="confirmAndSaveToParse" destination="6mf-bk-3lG" eventType="touchUpInside" id="iI3-mH-aaZ"/>
+                                </connections>
+                            </button>
+                        </subviews>
+                        <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                        <constraints>
+                            <constraint firstItem="zdi-L2-5Th" firstAttribute="centerX" secondItem="xKa-oS-N3h" secondAttribute="centerX" id="83g-BO-9nO"/>
+                            <constraint firstItem="zdi-L2-5Th" firstAttribute="width" secondItem="xKa-oS-N3h" secondAttribute="width" multiplier="0.6" id="CJZ-J0-IXw"/>
+                            <constraint firstItem="hdE-aM-V45" firstAttribute="top" secondItem="1iC-ZK-OXj" secondAttribute="bottom" constant="20" id="RgL-2s-nyw"/>
+                            <constraint firstItem="zdi-L2-5Th" firstAttribute="centerY" secondItem="xKa-oS-N3h" secondAttribute="centerY" multiplier="0.6" id="UCU-zv-y3m"/>
+                            <constraint firstItem="1iC-ZK-OXj" firstAttribute="centerX" secondItem="xKa-oS-N3h" secondAttribute="centerX" id="dx5-C2-Tvc"/>
+                        </constraints>
+                    </view>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="eoR-Jk-V8S" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="10562" y="17514"/>
         </scene>
         <!--Positive Affect1 View Controller-->
         <scene sceneID="xk7-Fl-rMl">
@@ -8478,8 +8602,8 @@
                         <rect key="frame" x="0.0" y="0.0" width="600" height="600"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <subviews>
-                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" misplaced="YES" text="就算部屬達成預期目標，主管也應繼續指導、督促他，使他表現得更好。" lineBreakMode="tailTruncation" numberOfLines="0" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="tvI-Cp-lfz">
-                                <rect key="frame" x="28" y="179" width="544" height="41"/>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="新奇有趣" lineBreakMode="tailTruncation" numberOfLines="0" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="tvI-Cp-lfz">
+                                <rect key="frame" x="150" y="189.5" width="300" height="20.5"/>
                                 <constraints>
                                     <constraint firstAttribute="width" constant="300" id="rjP-E2-VsR"/>
                                 </constraints>
@@ -8542,7 +8666,7 @@
                         <rect key="frame" x="0.0" y="0.0" width="600" height="600"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <subviews>
-                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" misplaced="YES" text="就算部屬達成預期目標，主管也應繼續指導、督促他，使他表現得更好。" lineBreakMode="tailTruncation" numberOfLines="0" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="LI1-O8-jDt">
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" misplaced="YES" text="感覺興奮" lineBreakMode="tailTruncation" numberOfLines="0" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="LI1-O8-jDt">
                                 <rect key="frame" x="28" y="179" width="544" height="41"/>
                                 <constraints>
                                     <constraint firstAttribute="width" constant="300" id="01M-IN-uFH"/>
@@ -8606,7 +8730,7 @@
                         <rect key="frame" x="0.0" y="0.0" width="600" height="600"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <subviews>
-                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" misplaced="YES" text="就算部屬達成預期目標，主管也應繼續指導、督促他，使他表現得更好。" lineBreakMode="tailTruncation" numberOfLines="0" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="WM7-Yq-utf">
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" misplaced="YES" text="充滿活力" lineBreakMode="tailTruncation" numberOfLines="0" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="WM7-Yq-utf">
                                 <rect key="frame" x="28" y="179" width="544" height="41"/>
                                 <constraints>
                                     <constraint firstAttribute="width" constant="300" id="Noy-U3-vpZ"/>
@@ -8670,7 +8794,7 @@
                         <rect key="frame" x="0.0" y="0.0" width="600" height="600"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <subviews>
-                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" misplaced="YES" text="就算部屬達成預期目標，主管也應繼續指導、督促他，使他表現得更好。" lineBreakMode="tailTruncation" numberOfLines="0" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="oHS-j7-Iiz">
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" misplaced="YES" text="充滿熱忱" lineBreakMode="tailTruncation" numberOfLines="0" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="oHS-j7-Iiz">
                                 <rect key="frame" x="28" y="179" width="544" height="41"/>
                                 <constraints>
                                     <constraint firstAttribute="width" constant="300" id="FpT-b7-gxt"/>
@@ -8734,7 +8858,7 @@
                         <rect key="frame" x="0.0" y="0.0" width="600" height="600"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <subviews>
-                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" misplaced="YES" text="就算部屬達成預期目標，主管也應繼續指導、督促他，使他表現得更好。" lineBreakMode="tailTruncation" numberOfLines="0" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="H4F-Zl-5NJ">
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" misplaced="YES" text="肯定自我" lineBreakMode="tailTruncation" numberOfLines="0" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="H4F-Zl-5NJ">
                                 <rect key="frame" x="28" y="179" width="544" height="41"/>
                                 <constraints>
                                     <constraint firstAttribute="width" constant="300" id="DOC-3E-8fo"/>
@@ -8798,7 +8922,7 @@
                         <rect key="frame" x="0.0" y="0.0" width="600" height="600"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <subviews>
-                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" misplaced="YES" text="就算部屬達成預期目標，主管也應繼續指導、督促他，使他表現得更好。" lineBreakMode="tailTruncation" numberOfLines="0" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="fTO-ng-dcU">
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" misplaced="YES" text="思路敏捷" lineBreakMode="tailTruncation" numberOfLines="0" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="fTO-ng-dcU">
                                 <rect key="frame" x="28" y="179" width="544" height="41"/>
                                 <constraints>
                                     <constraint firstAttribute="width" constant="300" id="Tfe-6G-peP"/>
@@ -8862,7 +8986,7 @@
                         <rect key="frame" x="0.0" y="0.0" width="600" height="600"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <subviews>
-                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" misplaced="YES" text="就算部屬達成預期目標，主管也應繼續指導、督促他，使他表現得更好。" lineBreakMode="tailTruncation" numberOfLines="0" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="XBb-kA-QYd">
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" misplaced="YES" text="受到激勵" lineBreakMode="tailTruncation" numberOfLines="0" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="XBb-kA-QYd">
                                 <rect key="frame" x="28" y="179" width="544" height="41"/>
                                 <constraints>
                                     <constraint firstAttribute="width" constant="300" id="pHc-r6-BUz"/>
@@ -8926,7 +9050,7 @@
                         <rect key="frame" x="0.0" y="0.0" width="600" height="600"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <subviews>
-                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" misplaced="YES" text="就算部屬達成預期目標，主管也應繼續指導、督促他，使他表現得更好。" lineBreakMode="tailTruncation" numberOfLines="0" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="gZf-yk-fWR">
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" misplaced="YES" text="全神貫注" lineBreakMode="tailTruncation" numberOfLines="0" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="gZf-yk-fWR">
                                 <rect key="frame" x="28" y="179" width="544" height="41"/>
                                 <constraints>
                                     <constraint firstAttribute="width" constant="300" id="j3g-Ox-bAv"/>
@@ -8990,7 +9114,7 @@
                         <rect key="frame" x="0.0" y="0.0" width="600" height="600"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <subviews>
-                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" misplaced="YES" text="就算部屬達成預期目標，主管也應繼續指導、督促他，使他表現得更好。" lineBreakMode="tailTruncation" numberOfLines="0" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="tIN-EQ-ggX">
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" misplaced="YES" text="意志堅決" lineBreakMode="tailTruncation" numberOfLines="0" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="tIN-EQ-ggX">
                                 <rect key="frame" x="28" y="179" width="544" height="41"/>
                                 <constraints>
                                     <constraint firstAttribute="width" constant="300" id="lRb-ho-ZCs"/>
@@ -9054,7 +9178,7 @@
                         <rect key="frame" x="0.0" y="0.0" width="600" height="600"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <subviews>
-                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" misplaced="YES" text="就算部屬達成預期目標，主管也應繼續指導、督促他，使他表現得更好。" lineBreakMode="tailTruncation" numberOfLines="0" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="xzv-5T-fOW">
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" misplaced="YES" text="主動積極" lineBreakMode="tailTruncation" numberOfLines="0" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="xzv-5T-fOW">
                                 <rect key="frame" x="28" y="179" width="544" height="41"/>
                                 <constraints>
                                     <constraint firstAttribute="width" constant="300" id="r7D-5G-75G"/>
@@ -9118,7 +9242,7 @@
                         <rect key="frame" x="0.0" y="0.0" width="600" height="600"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <subviews>
-                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" misplaced="YES" text="就算部屬達成預期目標，主管也應繼續指導、督促他，使他表現得更好。" lineBreakMode="tailTruncation" numberOfLines="0" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="0Ih-vw-c5g">
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" misplaced="YES" text="痛苦憂傷" lineBreakMode="tailTruncation" numberOfLines="0" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="0Ih-vw-c5g">
                                 <rect key="frame" x="28" y="179" width="544" height="41"/>
                                 <constraints>
                                     <constraint firstAttribute="width" constant="300" id="Xjn-wr-tr1"/>
@@ -9182,7 +9306,7 @@
                         <rect key="frame" x="0.0" y="0.0" width="600" height="600"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <subviews>
-                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" misplaced="YES" text="就算部屬達成預期目標，主管也應繼續指導、督促他，使他表現得更好。" lineBreakMode="tailTruncation" numberOfLines="0" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="u9G-NN-GKt">
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" misplaced="YES" text="心煩意亂" lineBreakMode="tailTruncation" numberOfLines="0" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="u9G-NN-GKt">
                                 <rect key="frame" x="28" y="179" width="544" height="41"/>
                                 <constraints>
                                     <constraint firstAttribute="width" constant="300" id="0Hc-9X-P5v"/>
@@ -9246,7 +9370,7 @@
                         <rect key="frame" x="0.0" y="0.0" width="600" height="600"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <subviews>
-                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" misplaced="YES" text="就算部屬達成預期目標，主管也應繼續指導、督促他，使他表現得更好。" lineBreakMode="tailTruncation" numberOfLines="0" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="ahC-3f-Ib1">
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" misplaced="YES" text="受到驚嚇" lineBreakMode="tailTruncation" numberOfLines="0" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="ahC-3f-Ib1">
                                 <rect key="frame" x="28" y="179" width="544" height="41"/>
                                 <constraints>
                                     <constraint firstAttribute="width" constant="300" id="3Hk-3x-NV6"/>
@@ -9289,7 +9413,7 @@
                     </view>
                     <connections>
                         <outlet property="fearLevelPickerView" destination="ssR-hU-IGw" id="BcP-pT-3qL"/>
-                        <segue destination="SgJ-Lr-JBu" kind="show" id="kW7-98-MBD">
+                        <segue destination="SgJ-Lr-JBu" kind="show" identifier="next" id="kW7-98-MBD">
                             <nil key="action"/>
                         </segue>
                     </connections>
@@ -9310,7 +9434,7 @@
                         <rect key="frame" x="0.0" y="0.0" width="600" height="600"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <subviews>
-                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" misplaced="YES" text="就算部屬達成預期目標，主管也應繼續指導、督促他，使他表現得更好。" lineBreakMode="tailTruncation" numberOfLines="0" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="Hkb-fj-ICN">
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" misplaced="YES" text="有罪惡感" lineBreakMode="tailTruncation" numberOfLines="0" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="Hkb-fj-ICN">
                                 <rect key="frame" x="28" y="179" width="544" height="41"/>
                                 <constraints>
                                     <constraint firstAttribute="width" constant="300" id="PMg-TU-7XL"/>
@@ -9374,7 +9498,7 @@
                         <rect key="frame" x="0.0" y="0.0" width="600" height="600"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <subviews>
-                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" misplaced="YES" text="就算部屬達成預期目標，主管也應繼續指導、督促他，使他表現得更好。" lineBreakMode="tailTruncation" numberOfLines="0" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="eho-Jg-4jd">
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" misplaced="YES" text="憤恨不平" lineBreakMode="tailTruncation" numberOfLines="0" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="eho-Jg-4jd">
                                 <rect key="frame" x="28" y="179" width="544" height="41"/>
                                 <constraints>
                                     <constraint firstAttribute="width" constant="300" id="oez-bI-oxz"/>
@@ -9417,7 +9541,7 @@
                     </view>
                     <connections>
                         <outlet property="fearLevelPickerView" destination="g5v-bH-8J7" id="l4v-2m-fgd"/>
-                        <segue destination="ZLE-R3-R7I" kind="show" id="uZ7-c2-UKj">
+                        <segue destination="ZLE-R3-R7I" kind="show" identifier="next" id="uZ7-c2-UKj">
                             <nil key="action"/>
                         </segue>
                     </connections>
@@ -9438,7 +9562,7 @@
                         <rect key="frame" x="0.0" y="0.0" width="600" height="600"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <subviews>
-                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" misplaced="YES" text="就算部屬達成預期目標，主管也應繼續指導、督促他，使他表現得更好。" lineBreakMode="tailTruncation" numberOfLines="0" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="IFI-Sw-Xf4">
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" misplaced="YES" text="急躁易怒" lineBreakMode="tailTruncation" numberOfLines="0" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="IFI-Sw-Xf4">
                                 <rect key="frame" x="28" y="179" width="544" height="41"/>
                                 <constraints>
                                     <constraint firstAttribute="width" constant="300" id="1Sg-Zl-0Te"/>
@@ -9502,7 +9626,7 @@
                         <rect key="frame" x="0.0" y="0.0" width="600" height="600"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <subviews>
-                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" misplaced="YES" text="就算部屬達成預期目標，主管也應繼續指導、督促他，使他表現得更好。" lineBreakMode="tailTruncation" numberOfLines="0" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="bFc-VY-U1s">
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" misplaced="YES" text="心生愧疚" lineBreakMode="tailTruncation" numberOfLines="0" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="bFc-VY-U1s">
                                 <rect key="frame" x="28" y="179" width="544" height="41"/>
                                 <constraints>
                                     <constraint firstAttribute="width" constant="300" id="zcs-4x-BeV"/>
@@ -9566,7 +9690,7 @@
                         <rect key="frame" x="0.0" y="0.0" width="600" height="600"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <subviews>
-                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" misplaced="YES" text="就算部屬達成預期目標，主管也應繼續指導、督促他，使他表現得更好。" lineBreakMode="tailTruncation" numberOfLines="0" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="TGn-Cv-CN3">
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" misplaced="YES" text="心神不寧" lineBreakMode="tailTruncation" numberOfLines="0" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="TGn-Cv-CN3">
                                 <rect key="frame" x="28" y="179" width="544" height="41"/>
                                 <constraints>
                                     <constraint firstAttribute="width" constant="300" id="Yuf-sr-SkF"/>
@@ -9630,7 +9754,7 @@
                         <rect key="frame" x="0.0" y="0.0" width="600" height="600"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <subviews>
-                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" misplaced="YES" text="就算部屬達成預期目標，主管也應繼續指導、督促他，使他表現得更好。" lineBreakMode="tailTruncation" numberOfLines="0" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="6z8-qw-oSU">
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" misplaced="YES" text="緊張不安" lineBreakMode="tailTruncation" numberOfLines="0" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="6z8-qw-oSU">
                                 <rect key="frame" x="28" y="179" width="544" height="41"/>
                                 <constraints>
                                     <constraint firstAttribute="width" constant="300" id="5bC-6Y-6eg"/>
@@ -9694,7 +9818,7 @@
                         <rect key="frame" x="0.0" y="0.0" width="600" height="600"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <subviews>
-                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" misplaced="YES" text="就算部屬達成預期目標，主管也應繼續指導、督促他，使他表現得更好。" lineBreakMode="tailTruncation" numberOfLines="0" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="106-gf-7Wh">
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" misplaced="YES" text="擔心害怕" lineBreakMode="tailTruncation" numberOfLines="0" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="106-gf-7Wh">
                                 <rect key="frame" x="28" y="179" width="544" height="41"/>
                                 <constraints>
                                     <constraint firstAttribute="width" constant="300" id="65c-eG-Kpz"/>
@@ -9773,6 +9897,9 @@
                                 <state key="normal" title="開始作答" backgroundImage="Button">
                                     <color key="titleColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
                                 </state>
+                                <connections>
+                                    <action selector="nextClicked" destination="y9c-kp-OM2" eventType="touchUpInside" id="Rl0-wm-02a"/>
+                                </connections>
                             </button>
                         </subviews>
                         <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
@@ -9806,7 +9933,7 @@
                         <rect key="frame" x="0.0" y="0.0" width="600" height="600"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <subviews>
-                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" misplaced="YES" text="就算部屬達成預期目標，主管也應繼續指導、督促他，使他表現得更好。" lineBreakMode="tailTruncation" numberOfLines="0" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="Kn1-h0-tEp">
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" misplaced="YES" text="我感覺自己從今天的工作中獲得真正的快樂。" lineBreakMode="tailTruncation" numberOfLines="0" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="Kn1-h0-tEp">
                                 <rect key="frame" x="28" y="179" width="544" height="41"/>
                                 <constraints>
                                     <constraint firstAttribute="width" constant="300" id="gnt-iL-enM"/>
@@ -9870,7 +9997,7 @@
                         <rect key="frame" x="0.0" y="0.0" width="600" height="600"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <subviews>
-                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" misplaced="YES" text="就算部屬達成預期目標，主管也應繼續指導、督促他，使他表現得更好。" lineBreakMode="tailTruncation" numberOfLines="0" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="9nA-SG-Flh">
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" misplaced="YES" text="今天大多數的時間裡，我都對自己的工作充滿熱情。" lineBreakMode="tailTruncation" numberOfLines="0" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="9nA-SG-Flh">
                                 <rect key="frame" x="28" y="179" width="544" height="41"/>
                                 <constraints>
                                     <constraint firstAttribute="width" constant="300" id="WBG-PD-JYJ"/>
@@ -9934,7 +10061,7 @@
                         <rect key="frame" x="0.0" y="0.0" width="600" height="600"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <subviews>
-                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" misplaced="YES" text="就算部屬達成預期目標，主管也應繼續指導、督促他，使他表現得更好。" lineBreakMode="tailTruncation" numberOfLines="0" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="mh0-VP-w4V">
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" misplaced="YES" text="我對自己今。天的工作成果感覺相當滿意" lineBreakMode="tailTruncation" numberOfLines="0" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="mh0-VP-w4V">
                                 <rect key="frame" x="28" y="179" width="544" height="41"/>
                                 <constraints>
                                     <constraint firstAttribute="width" constant="300" id="KUY-Cq-RWC"/>
@@ -9998,7 +10125,7 @@
                         <rect key="frame" x="0.0" y="0.0" width="600" height="600"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <subviews>
-                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" misplaced="YES" text="就算部屬達成預期目標，主管也應繼續指導、督促他，使他表現得更好。" lineBreakMode="tailTruncation" numberOfLines="0" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="8hZ-P9-RHI">
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" misplaced="YES" text="我今天工作中的每一分鐘都像是度日如年。" lineBreakMode="tailTruncation" numberOfLines="0" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="8hZ-P9-RHI">
                                 <rect key="frame" x="28" y="179" width="544" height="41"/>
                                 <constraints>
                                     <constraint firstAttribute="width" constant="300" id="zHc-P9-0a2"/>
@@ -10062,7 +10189,7 @@
                         <rect key="frame" x="0.0" y="0.0" width="600" height="600"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <subviews>
-                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" misplaced="YES" text="就算部屬達成預期目標，主管也應繼續指導、督促他，使他表現得更好。" lineBreakMode="tailTruncation" numberOfLines="0" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="4Ox-v2-5he">
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" misplaced="YES" text="今天的工作令我感覺很不愉快。" lineBreakMode="tailTruncation" numberOfLines="0" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="4Ox-v2-5he">
                                 <rect key="frame" x="28" y="179" width="544" height="41"/>
                                 <constraints>
                                     <constraint firstAttribute="width" constant="300" id="gcM-u8-8Zb"/>
@@ -10126,7 +10253,7 @@
                         <rect key="frame" x="0.0" y="0.0" width="600" height="600"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <subviews>
-                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" misplaced="YES" text="就算部屬達成預期目標，主管也應繼續指導、督促他，使他表現得更好。" lineBreakMode="tailTruncation" numberOfLines="0" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="j5P-2f-qmZ">
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" misplaced="YES" text="在今天的工作中，我用比職責要求還多的努力來滿足我直屬主管的指示。" lineBreakMode="tailTruncation" numberOfLines="0" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="j5P-2f-qmZ">
                                 <rect key="frame" x="28" y="179" width="544" height="41"/>
                                 <constraints>
                                     <constraint firstAttribute="width" constant="300" id="ozu-vj-gqr"/>
@@ -10190,7 +10317,7 @@
                         <rect key="frame" x="0.0" y="0.0" width="600" height="600"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <subviews>
-                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" misplaced="YES" text="就算部屬達成預期目標，主管也應繼續指導、督促他，使他表現得更好。" lineBreakMode="tailTruncation" numberOfLines="0" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="h3E-34-Byj">
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" misplaced="YES" text="在今天的工作中，我額外付出許多心力讓我直屬主管感到滿意。" lineBreakMode="tailTruncation" numberOfLines="0" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="h3E-34-Byj">
                                 <rect key="frame" x="28" y="179" width="544" height="41"/>
                                 <constraints>
                                     <constraint firstAttribute="width" constant="300" id="edD-DM-cNZ"/>
@@ -10254,7 +10381,7 @@
                         <rect key="frame" x="0.0" y="0.0" width="600" height="600"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <subviews>
-                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" misplaced="YES" text="就算部屬達成預期目標，主管也應繼續指導、督促他，使他表現得更好。" lineBreakMode="tailTruncation" numberOfLines="0" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="nMz-ye-ENc">
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" misplaced="YES" text="在今天的工作中，我自願在職責範圍之外，對我直屬主管提供協助。" lineBreakMode="tailTruncation" numberOfLines="0" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="nMz-ye-ENc">
                                 <rect key="frame" x="28" y="179" width="544" height="41"/>
                                 <constraints>
                                     <constraint firstAttribute="width" constant="300" id="TTg-P8-QPE"/>
@@ -10306,6 +10433,52 @@
             </objects>
             <point key="canvasLocation" x="26197" y="18313"/>
         </scene>
+        <!--Night Last Confirm View Controller-->
+        <scene sceneID="zbc-PK-l10">
+            <objects>
+                <viewController id="DPt-cF-QxT" customClass="NightLastConfirmViewController" customModule="AnnGiNoCoreData" customModuleProvider="target" sceneMemberID="viewController">
+                    <layoutGuides>
+                        <viewControllerLayoutGuide type="top" id="Ukg-EE-5bM"/>
+                        <viewControllerLayoutGuide type="bottom" id="L39-Lg-J4s"/>
+                    </layoutGuides>
+                    <view key="view" contentMode="scaleToFill" id="Hfp-Kb-bqG">
+                        <rect key="frame" x="0.0" y="0.0" width="600" height="600"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="晚上上傳歐歐歐歐歐歐歐歐歐" textAlignment="natural" lineBreakMode="tailTruncation" numberOfLines="0" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="xin-XM-FMo">
+                                <rect key="frame" x="120" y="170" width="360" height="20.5"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                                <color key="textColor" cocoaTouchSystemColor="darkTextColor"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="zOC-x4-s7q">
+                                <rect key="frame" x="262.5" y="505" width="75" height="75"/>
+                                <constraints>
+                                    <constraint firstAttribute="width" constant="75" id="ZUw-4m-Sdq"/>
+                                    <constraint firstAttribute="height" constant="75" id="dk7-TK-Ar5"/>
+                                </constraints>
+                                <state key="normal" title="確認上傳" backgroundImage="Button">
+                                    <color key="titleColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                                </state>
+                                <connections>
+                                    <action selector="saveToParse" destination="DPt-cF-QxT" eventType="touchUpInside" id="8Ht-CU-18K"/>
+                                </connections>
+                            </button>
+                        </subviews>
+                        <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                        <constraints>
+                            <constraint firstItem="zOC-x4-s7q" firstAttribute="centerX" secondItem="Hfp-Kb-bqG" secondAttribute="centerX" id="1GY-uv-ARv"/>
+                            <constraint firstItem="xin-XM-FMo" firstAttribute="centerY" secondItem="Hfp-Kb-bqG" secondAttribute="centerY" multiplier="0.6" id="2IJ-6t-TkM"/>
+                            <constraint firstItem="xin-XM-FMo" firstAttribute="width" secondItem="Hfp-Kb-bqG" secondAttribute="width" multiplier="0.6" id="9wm-cm-g0z"/>
+                            <constraint firstItem="xin-XM-FMo" firstAttribute="centerX" secondItem="Hfp-Kb-bqG" secondAttribute="centerX" id="Z6z-bH-xF2"/>
+                            <constraint firstItem="L39-Lg-J4s" firstAttribute="top" secondItem="zOC-x4-s7q" secondAttribute="bottom" constant="20" id="gqw-dg-cgd"/>
+                        </constraints>
+                    </view>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="2NO-8H-d5B" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="27669" y="18314"/>
+        </scene>
         <!--Supervisor DirectedOCB4 View Controller-->
         <scene sceneID="Zt6-DI-8A6">
             <objects>
@@ -10318,7 +10491,7 @@
                         <rect key="frame" x="0.0" y="0.0" width="600" height="600"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <subviews>
-                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" misplaced="YES" text="就算部屬達成預期目標，主管也應繼續指導、督促他，使他表現得更好。" lineBreakMode="tailTruncation" numberOfLines="0" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="fNn-m5-FVH">
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" misplaced="YES" text="在今天的工作中，我試圖達成比我直屬主管所要求水準還要更好的表現。" lineBreakMode="tailTruncation" numberOfLines="0" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="fNn-m5-FVH">
                                 <rect key="frame" x="28" y="179" width="544" height="41"/>
                                 <constraints>
                                     <constraint firstAttribute="width" constant="300" id="YH4-xH-lPL"/>
@@ -10361,6 +10534,7 @@
                     </view>
                     <connections>
                         <outlet property="fearLevelPickerView" destination="6tM-BT-Ivy" id="4Fj-dV-TD9"/>
+                        <segue destination="DPt-cF-QxT" kind="show" identifier="next" id="6sG-VU-7qj"/>
                     </connections>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="u83-Nd-vqU" userLabel="First Responder" sceneMemberID="firstResponder"/>
@@ -10497,6 +10671,9 @@
                                 <state key="normal" title="開始作答" backgroundImage="Button">
                                     <color key="titleColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
                                 </state>
+                                <connections>
+                                    <action selector="nextClicked" destination="evd-ZM-ZCm" eventType="touchUpInside" id="4Wf-im-A5F"/>
+                                </connections>
                             </button>
                         </subviews>
                         <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>

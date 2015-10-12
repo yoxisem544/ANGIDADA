@@ -171,15 +171,18 @@ public class Questionare : PFObject, PFSubclassing {
         static let tempOfQuestionareId = "tempOfQuestionareId"
     }
     
-    func saveToParse() {
+    func saveToParse(success: () -> Void, failure: () -> Void) {
         // save to parse
-        self.saveInBackgroundWithBlock { (success, error) -> Void in
-            if success {
+        self.saveInBackgroundWithBlock { (successed, error) -> Void in
+            if successed {
                 // ok saving to parse
                 // save object id to local
                 let ud = NSUserDefaults.standardUserDefaults()
                 ud.setObject(self.objectId, forKey: KeyOfQuestionare.tempOfQuestionareId)
                 ud.synchronize()
+                success()
+            } else {
+                failure()
             }
         }
     }

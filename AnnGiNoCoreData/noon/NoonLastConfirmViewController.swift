@@ -1,14 +1,14 @@
 //
-//  NightFirstConfirmViewController.swift
+//  NoonLastConfirmViewController.swift
 //  AnnGiNoCoreData
 //
-//  Created by David on 2015/10/11.
+//  Created by David on 2015/10/12.
 //  Copyright © 2015年 David. All rights reserved.
 //
 
 import UIKit
 
-class NightFirstConfirmViewController: UIViewController {
+class NoonLastConfirmViewController: UIViewController {
     
     var questionare: Questionare!
 
@@ -23,21 +23,23 @@ class NightFirstConfirmViewController: UIViewController {
         // Dispose of any resources that can be recreated.
     }
     
-    @IBAction func nextClicked() {
-        performSegueWithIdentifier("next", sender: questionare)
+    @IBAction func confirmAndSaveToParse() {
+        questionare.saveToParse({ () -> Void in
+            print("save to parse ok noon")
+            self.dismissViewControllerAnimated(true, completion: nil)
+            }) { () -> Void in
+                print("fail to save noon")
+        }
     }
-
+    
+    /*
     // MARK: - Navigation
 
     // In a storyboard-based application, you will often want to do a little preparation before navigation
     override func prepareForSegue(segue: UIStoryboardSegue, sender: AnyObject?) {
         // Get the new view controller using segue.destinationViewController.
         // Pass the selected object to the new view controller.
-        if segue.identifier == "next" {
-            let vc = segue.destinationViewController as! JobSatisfaction1ViewController
-            vc.questionare = questionare
-        }
     }
-
+    */
 
 }
