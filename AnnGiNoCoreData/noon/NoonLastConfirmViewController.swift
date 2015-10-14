@@ -24,6 +24,7 @@ class NoonLastConfirmViewController: UIViewController {
     }
     
     @IBAction func confirmAndSaveToParse() {
+        questionare.noonStamp = true
         questionare.saveToParse({ () -> Void in
             print("save to parse ok noon")
             self.dismissViewControllerAnimated(true, completion: nil)

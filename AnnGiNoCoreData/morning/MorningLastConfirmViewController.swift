@@ -23,6 +23,7 @@ class MorningLastConfirmViewController: UIViewController {
         // Dispose of any resources that can be recreated.
     }
     @IBAction func finishedQuestionareClicked() {
+        questionare.morningStamp = true
         questionare.saveToParse({ () -> Void in
             // ok
             print("save to parse! \(self.questionare.objectId)")

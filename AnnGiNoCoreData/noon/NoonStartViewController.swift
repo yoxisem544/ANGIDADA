@@ -30,17 +30,55 @@ class NoonStartViewController: UIViewController {
         if !isRetrieving {
             isRetrieving = true
             questionare.retrieveUnfinishedQuestionare({ (questionare) -> Void in
-                if let q = questionare {
-                    self.questionare = q
-                    self.performSegueWithIdentifier("next", sender: self.questionare)
-                    self.isRetrieving = false
+                print(self.questionare.retrieveUnfinishedQuestionareId())
+                if self.questionare.retrieveUnfinishedQuestionareId() == nil {
+//                    self.alertError("你今早有問卷沒有做到，請重新設定下次上班日！")
+                    self.alertError("你今早有問卷沒有做到，請重新設定下次上班日！", completion: { () -> Void in
+                        self.dismissViewControllerAnimated(true, completion: nil)
+                        self.isRetrieving = false
+                    })
                 } else {
-                    self.isRetrieving = false
-                    print("fail to retrieve")
+                    if let q = questionare {
+                        self.questionare = q
+                        self.performSegueWithIdentifier("next", sender: self.questionare)
+                        self.isRetrieving = false
+                    } else {
+                        self.isRetrieving = false
+//                        self.alertError("你的網路有問題喔！")
+                        self.alertError("你的網路有問題喔！", completion: { () -> Void in
+                            
+                        })
+                        print("fail to retrieve")
+                    }
                 }
             })
         }
     }
+    
+    func alertError(m: String, completion: () -> Void) {
+        var message = ""
+        
+        // check if lost a questionare
+        message = "你今早有問卷沒有做到，請重新設定下次上班日！"
+        //        // check if date is set
+        //
+        //        // check if today
+        //        if let date = UserSetting().nextWorkingDay {
+        //            message = "上班日為\(date)"
+        //        }
+        //        // check if need to set date
+        //        message = "請重新設定下次上班日！"
+        message = m
+        let alert = UIAlertController(title: "錯誤", message: message, preferredStyle: UIAlertControllerStyle.Alert)
+        let ok = UIAlertAction(title: "好", style: UIAlertActionStyle.Cancel, handler: { (action) -> Void in
+            completion()
+        })
+        alert.addAction(ok)
+        dispatch_async(dispatch_get_main_queue()) { () -> Void in
+            self.presentViewController(alert, animated: true, completion: nil)
+        }
+    }
+    
     // MARK: - Navigation
 
     // In a storyboard-based application, you will often want to do a little preparation before navigation

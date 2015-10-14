@@ -29,10 +29,19 @@ class SixthPartConfirmViewController: UIViewController {
             if success {
                 print("OKOKOK")
                 UserSetting.storeUserInformation(self.user)
+                UserSetting.userHasFinishedFirstQuestionare()
+//                self.presentMainScreen()
+                self.performSegueWithIdentifier("next", sender: nil)
             } else {
                 // TODO: if fail
             }
         }
+    }
+    
+    func presentMainScreen() {
+        let storyboard = UIStoryboard(name: "Main", bundle: nil)
+        let vc = storyboard.instantiateViewControllerWithIdentifier("main screen") as! UITabBarController
+        self.presentViewController(vc, animated: true, completion: nil)
     }
     
     override func didReceiveMemoryWarning() {
@@ -43,7 +52,7 @@ class SixthPartConfirmViewController: UIViewController {
     @IBOutlet weak var resultTextView: UITextView!
     
     @IBAction func nextClicked() {
-        performSegueWithIdentifier("next", sender: user)
+        saveToParseAndSaveLocalUserInformation()
     }
     
     // MARK: - Navigation
@@ -52,10 +61,10 @@ class SixthPartConfirmViewController: UIViewController {
     override func prepareForSegue(segue: UIStoryboardSegue, sender: AnyObject?) {
         // Get the new view controller using segue.destinationViewController.
         // Pass the selected object to the new view controller.
-        if segue.identifier == "next" {
-            let vc = segue.destinationViewController as! Intensity1ViewController
-            vc.user = user
-        }
+//        if segue.identifier == "next" {
+//            let vc = segue.destinationViewController as! Intensity1ViewController
+//            vc.user = user
+//        }
     }
 
 }

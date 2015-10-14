@@ -24,15 +24,24 @@ class NightLastConfirmViewController: UIViewController {
     }
     
     @IBAction func saveToParse() {
+        questionare.nightStamp = true
         questionare.saveToParse({ () -> Void in
             print("ok to parse night")
-            self.dismissViewControllerAnimated(true, completion: nil)
+//            self.dismissViewControllerAnimated(true, completion: nil)
+            self.questionare.completeQuestionare()
+            self.performSegueWithIdentifier("next", sender: nil)
             }) { () -> Void in
                 print("fail to save to parse night")
         }
     }
+    
+//    func presentMainScreen() {
+//        let storyboard = UIStoryboard(name: "Main", bundle: nil)
+//        let vc = storyboard.instantiateViewControllerWithIdentifier("main screen") as! UITabBarController
+//        self.presentViewController(vc, animated: true, completion: nil)
+//    }
 
-    /*
+
     // MARK: - Navigation
 
     // In a storyboard-based application, you will often want to do a little preparation before navigation
@@ -40,6 +49,6 @@ class NightLastConfirmViewController: UIViewController {
         // Get the new view controller using segue.destinationViewController.
         // Pass the selected object to the new view controller.
     }
-    */
+
 
 }

@@ -19,12 +19,31 @@ class UserSetting {
         static let userDepartment = "userDepartment"
         // states
         static let isUserFinishedFirstSurvey = "isUserFinishedFirstSurvey"
+        static let lastCompletedSurveyDate = "lastCompletedSurveyDate"
         // informations
         static let nextWorkingDay = "nextWorkingDay"
         // store progress
         static let initialQuestionareCount = "initialQuestionareCount"
         static let everydayQuestionareCount = "everydayQuestionareCount"
         static let afterQuestionareCount = "afterQuestionareCount"
+    }
+    class func lastCompletedSurveyDate() -> NSDate? {
+        let ud = NSUserDefaults.standardUserDefaults()
+        return ud.objectForKey(Key.lastCompletedSurveyDate) as? NSDate
+    }
+    class func setLastCompletedSurveyDate(date: NSDate) {
+        let ud = NSUserDefaults.standardUserDefaults()
+        ud.setObject(date, forKey: Key.lastCompletedSurveyDate)
+        ud.synchronize()
+    }
+    class func hasUserFinishedFirstQuestionare() -> Bool {
+        let ud = NSUserDefaults.standardUserDefaults()
+        return ud.boolForKey(Key.isUserFinishedFirstSurvey)
+    }
+    class func userHasFinishedFirstQuestionare() {
+        let ud = NSUserDefaults.standardUserDefaults()
+        ud.setBool(true, forKey: Key.isUserFinishedFirstSurvey)
+        ud.synchronize()
     }
     var nextWorkingDay: NSDate? {
         get {
@@ -86,16 +105,26 @@ class UserSetting {
     
     // MARK: - user information
     class func storeUserInformation(user: PersonalInformation) {
-        if user.userUUID != nil && user.userName != nil && user.userCompany != nil && user.userEMAIL != nil && user.userPhone != nil && user.userDepartment != nil {
-            let ud = NSUserDefaults.standardUserDefaults()
-            ud.setObject(user.userUUID, forKey: Key.userUUID)
-            ud.setObject(user.userPhone, forKey: Key.userPhone)
-            ud.setObject(user.userEMAIL, forKey: Key.userEMAIL)
-            ud.setObject(user.userDepartment, forKey: Key.userDepartment)
-            ud.setObject(user.userCompany, forKey: Key.userCompany)
+        let ud = NSUserDefaults.standardUserDefaults()
+        if user.userName != nil {
             ud.setObject(user.userName, forKey: Key.userName)
-            ud.synchronize()
         }
+        if user.userUUID != nil {
+            ud.setObject(user.userUUID, forKey: Key.userUUID)
+        }
+        if user.userPhone != nil {
+            ud.setObject(user.userPhone, forKey: Key.userPhone)
+        }
+        if user.userEMAIL != nil {
+            ud.setObject(user.userEMAIL, forKey: Key.userEMAIL)
+        }
+        if user.userDepartment != nil {
+            ud.setObject(user.userDepartment, forKey: Key.userDepartment)
+        }
+        if user.userCompany != nil {
+            ud.setObject(user.userCompany, forKey: Key.userCompany)
+        }
+        ud.synchronize()
     }
     class func userName() -> String? {
         let ud = NSUserDefaults.standardUserDefaults()

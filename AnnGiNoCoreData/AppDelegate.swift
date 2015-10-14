@@ -29,19 +29,18 @@ class AppDelegate: UIResponder, UIApplicationDelegate {
 
         UITabBar.appearance().tintColor = UIColor(red:0.161,  green:0.733,  blue:0.937, alpha:1)
         
-//        var test = TestObject()
-//        test.foo = "bar!中文字"
-//        test.saveInBackgroundWithBlock { (success, error) -> Void in
-//            if success {
-//                println("BAR!中文字")
-//            }
-//        }
-//        var test = PersonalInformation()
-//        test.saveInBackgroundWithBlock { (success, error) -> Void in
-//            if success {
-//                println("OK save")
-//            }
-//        }
+        let storyboard = UIStoryboard(name: "Main", bundle: nil)
+        let firstQuestionare = storyboard.instantiateViewControllerWithIdentifier("first questionare") as! UINavigationController
+        let mainScreen = storyboard.instantiateViewControllerWithIdentifier("main screen") as! UITabBarController
+        
+        self.window = UIWindow(frame: UIScreen.mainScreen().bounds)
+        if UserSetting.hasUserFinishedFirstQuestionare() {
+            self.window?.rootViewController = mainScreen
+        } else {
+            self.window?.rootViewController = firstQuestionare
+        }
+        
+        self.window?.makeKeyAndVisible()
         
         return true
     }

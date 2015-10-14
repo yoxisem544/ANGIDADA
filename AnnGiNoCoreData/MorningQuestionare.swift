@@ -18,6 +18,11 @@ public class Questionare : PFObject, PFSubclassing {
     // user uuid
     @NSManaged var userUUID: String!
     
+    // state
+    @NSManaged var morningStamp: Bool
+    @NSManaged var noonStamp: Bool
+    @NSManaged var nightStamp: Bool
+    
     // contents
     // MARK: - morning
 //    (1)	今天我必須在短時間內，完成所交付的工作任務。
@@ -164,8 +169,15 @@ public class Questionare : PFObject, PFSubclassing {
         userName = UserSetting.userName()
         userUUID = UserSetting.userUUID()
         index = UserSetting.everydayQuestionareCount() + 1
+        print("userName\(userName)userUUID\(userUUID)index\(index)")
     }
     
+    func completeQuestionare() {
+        let ud = NSUserDefaults.standardUserDefaults()
+        ud.removeObjectForKey(KeyOfQuestionare.tempOfQuestionareId)
+        ud.synchronize()
+        UserSetting.incrementEverydayQuestionareCount()
+    }
     
     struct KeyOfQuestionare {
         static let tempOfQuestionareId = "tempOfQuestionareId"
@@ -178,7 +190,9 @@ public class Questionare : PFObject, PFSubclassing {
                 // ok saving to parse
                 // save object id to local
                 let ud = NSUserDefaults.standardUserDefaults()
-                ud.setObject(self.objectId, forKey: KeyOfQuestionare.tempOfQuestionareId)
+                print("morning finished saveing \(self.objectId) to parse")
+                ud.setObject(self.objectId!, forKey: KeyOfQuestionare.tempOfQuestionareId)
+                print(ud.objectForKey(KeyOfQuestionare.tempOfQuestionareId))
                 ud.synchronize()
                 success()
             } else {
@@ -188,6 +202,7 @@ public class Questionare : PFObject, PFSubclassing {
     }
     func retrieveUnfinishedQuestionareId() -> String? {
         let ud = NSUserDefaults.standardUserDefaults()
+        print("object id is \(ud.objectForKey(KeyOfQuestionare.tempOfQuestionareId))")
         if let id = ud.objectForKey(KeyOfQuestionare.tempOfQuestionareId) as? String {
             return id
         }
@@ -208,6 +223,8 @@ public class Questionare : PFObject, PFSubclassing {
                     completion(questionare: nil)
                 }
             })
+        } else {
+            completion(questionare: nil)
         }
     }
     

@@ -32,14 +32,21 @@ class ResetNotiDateViewController: UIViewController {
     }
     
     @IBAction func closeButtonClicked() {
-        self.dismissViewControllerAnimated(true, completion: nil)
+//        presentMainScreen()
+        dismissViewControllerAnimated(true, completion: nil)
     }
     
     @IBAction func resetDateClicked() {
         if let dayToSet = Int(dayTextField.text!) {
             UserSetting.setNextWorkingDay(dayToSet)
-            closeButtonClicked()
+            presentMainScreen()
         }
+    }
+    
+    func presentMainScreen() {
+        let storyboard = UIStoryboard(name: "Main", bundle: nil)
+        let vc = storyboard.instantiateViewControllerWithIdentifier("main screen") as! UITabBarController
+        self.presentViewController(vc, animated: true, completion: nil)
     }
     /*
     // MARK: - Navigation

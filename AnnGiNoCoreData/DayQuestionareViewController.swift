@@ -20,15 +20,64 @@ class DayQuestionareViewController: UIViewController {
 
         // Do any additional setup after loading the view.
         print(checkWhichSurveyToDo())
+        print("ok to do the survey? \(checkIfTodayIsTheDateToDoSurvey())")
         
         let test = Questionare()
 //        test.saveToParse()
         print(test.retrieveUnfinishedQuestionareId())
-        var testToRetrieve: Questionare!
-        test.retrieveUnfinishedQuestionare { (questionare) -> Void in
-            testToRetrieve = questionare
-            print(testToRetrieve.objectId)
+        print(UserSetting.everydayQuestionareCount())
+    }
+    func checkIfUserIstryingToDoSurveyAgain() -> Bool {
+        if let lastCompletedSurveyDate = UserSetting.lastCompletedSurveyDate() {
+            let now = NSDate()
+            let formatter = NSDateFormatter()
+            formatter.dateFormat = "MM"
+            let monthNow = Int(formatter.stringFromDate(now))
+            let monthLastCompleted = Int(formatter.stringFromDate(lastCompletedSurveyDate))
+            
+            formatter.dateFormat = "dd"
+            let dayNow = Int(formatter.stringFromDate(now))
+            let dayLastCompleted = Int(formatter.stringFromDate(lastCompletedSurveyDate))
+            
+            if monthNow == monthLastCompleted {
+                if dayNow == dayLastCompleted {
+                    return true
+                }
+            }
+            
         }
+        return false
+    }
+    
+    func checkIfThereIsAUnfinishedSurvey() -> Bool {
+        if Questionare().retrieveUnfinishedQuestionareId() != nil {
+            return true
+        }
+        return false
+    }
+    
+    
+    func checkIfTodayIsTheDateToDoSurvey() -> Bool {
+        
+        if let nextWorkingDay = UserSetting().nextWorkingDay {
+            let now = NSDate()
+            let formatter = NSDateFormatter()
+            formatter.dateFormat = "MM"
+            let monthNow = Int(formatter.stringFromDate(now))
+            let monthToDoSurvey = Int(formatter.stringFromDate(nextWorkingDay))
+            
+            formatter.dateFormat = "dd"
+            let dayNow = Int(formatter.stringFromDate(now))
+            let dayToDoSurvey = Int(formatter.stringFromDate(nextWorkingDay))
+            
+            if monthNow == monthToDoSurvey {
+                if dayNow == dayToDoSurvey {
+                    return true
+                }
+            }
+        }
+        
+        return false
     }
     
     func checkWhichSurveyToDo() -> Int {
@@ -65,28 +114,28 @@ class DayQuestionareViewController: UIViewController {
         }
         
         // check next survey date
-        if let nextWorkingDay = UserSetting().nextWorkingDay {
-            formatter.dateFormat = "MM"
-            // check month first
-            let thisMonth = Int(formatter.stringFromDate(now))
-            let nextMonth = Int(formatter.stringFromDate(nextWorkingDay))
-            if thisMonth <= nextMonth {
-                formatter.dateFormat = "dd"
-                let thisDate = Int(formatter.stringFromDate(now))
-                let nextDate = Int(formatter.stringFromDate(nextWorkingDay))
-                if thisDate == nextDate {
-                    return surveyNumber
-                }
-            }
-            // return the result
-        }
+//        if let nextWorkingDay = UserSetting().nextWorkingDay {
+//            formatter.dateFormat = "MM"
+//            // check month first
+//            let thisMonth = Int(formatter.stringFromDate(now))
+//            let nextMonth = Int(formatter.stringFromDate(nextWorkingDay))
+//            if thisMonth <= nextMonth {
+//                formatter.dateFormat = "dd"
+//                let thisDate = Int(formatter.stringFromDate(now))
+//                let nextDate = Int(formatter.stringFromDate(nextWorkingDay))
+//                if thisDate == nextDate {
+//                    return surveyNumber
+//                }
+//            }
+//            // return the result
+//        }
         
-        return 0
+        return surveyNumber
     }
     
     func pushSegueAndDoQuestionare(surveyNumber: Int) {
         if surveyNumber == 0 {
-            
+            alertNoQuestionare()
         } else if surveyNumber == 1 {
             performSegueWithIdentifier("morning", sender: nil)
         } else if surveyNumber == 2 {
@@ -96,18 +145,47 @@ class DayQuestionareViewController: UIViewController {
         }
     }
 
+    func alertNoQuestionare() {
+        var message = ""
+        
+        // check if lost a questionare
+        message = "你今天有問卷沒有做到，請重新設定下次上班日！"
+        // check if date is set
+
+        // check if today
+        if let date = UserSetting().nextWorkingDay {
+            message = "上班日為\(date)"
+        }
+        // check if need to set date
+        message = "非填答時段"
+        
+        let alert = UIAlertController(title: "錯誤", message: message, preferredStyle: UIAlertControllerStyle.Alert)
+        let ok = UIAlertAction(title: "好", style: UIAlertActionStyle.Cancel, handler: nil)
+        alert.addAction(ok)
+        dispatch_async(dispatch_get_main_queue()) { () -> Void in
+            self.presentViewController(alert, animated: true, completion: nil)
+        }
+    }
     @IBAction func startButtonClicked(sender: AnyObject) {
         // check date now
         let formatter = NSDateFormatter()
 //        formatter.dateFormat = "yyyy-MM-dd HH:mm:ss ZZZ"
         formatter.dateFormat = "HH:mm"
         
-        print(formatter.stringFromDate(NSDate()))
+//        print(formatter.stringFromDate(NSDate()))
         
-        QuestionareNotification.clearNotification()
-        QuestionareNotification.setNotificationAfterFewDays(2)
+//        QuestionareNotification.clearNotification()
+//        QuestionareNotification.setNotificationAfterFewDays(2)
         
-        pushSegueAndDoQuestionare(1)
+        print(checkWhichSurveyToDo())
+//        pushSegueAndDoQuestionare(1)
+
+        if checkIfThereIsAUnfinishedSurvey() {
+            pushSegueAndDoQuestionare(checkWhichSurveyToDo())
+        } else {
+            // if morning
+            pushSegueAndDoQuestionare(checkWhichSurveyToDo())
+        }
     }
     
     @IBAction func morning() {
