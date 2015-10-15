@@ -61,7 +61,13 @@ class DepartmentPickerViewController: UIViewController {
         if other.enabled {
             user.currentDepartmentProperty = other.text
         }
-        self.performSegueWithIdentifier("6 to 7", sender: user)
+        if !other.enabled {
+            self.performSegueWithIdentifier("6 to 7", sender: user)
+        } else {
+            if other.text != "" {
+                self.performSegueWithIdentifier("6 to 7", sender: user)
+            }
+        }
     }
 }
 

@@ -173,6 +173,7 @@
 		63C08BAB1BCB33C900AB3E2F /* MorningFirstComfirmViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 63C08BAA1BCB33C900AB3E2F /* MorningFirstComfirmViewController.swift */; settings = {ASSET_TAGS = (); }; };
 		63C08BAD1BCB33EA00AB3E2F /* NightFirstConfirmViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 63C08BAC1BCB33EA00AB3E2F /* NightFirstConfirmViewController.swift */; settings = {ASSET_TAGS = (); }; };
 		63C08BAF1BCB33FC00AB3E2F /* NightSecondConfirmViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 63C08BAE1BCB33FC00AB3E2F /* NightSecondConfirmViewController.swift */; settings = {ASSET_TAGS = (); }; };
+		63DC7EB91BCEB424002D9B5F /* BackgroundViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 63DC7EB81BCEB424002D9B5F /* BackgroundViewController.swift */; settings = {ASSET_TAGS = (); }; };
 		63E61E871BA685CA009F50DA /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 63E61E861BA685CA009F50DA /* AppDelegate.swift */; };
 		63E61E891BA685CA009F50DA /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 63E61E881BA685CA009F50DA /* ViewController.swift */; };
 		63E61E8C1BA685CA009F50DA /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 63E61E8A1BA685CA009F50DA /* Main.storyboard */; };
@@ -382,6 +383,7 @@
 		63C08BAA1BCB33C900AB3E2F /* MorningFirstComfirmViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = MorningFirstComfirmViewController.swift; sourceTree = "<group>"; };
 		63C08BAC1BCB33EA00AB3E2F /* NightFirstConfirmViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = NightFirstConfirmViewController.swift; sourceTree = "<group>"; };
 		63C08BAE1BCB33FC00AB3E2F /* NightSecondConfirmViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = NightSecondConfirmViewController.swift; sourceTree = "<group>"; };
+		63DC7EB81BCEB424002D9B5F /* BackgroundViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = BackgroundViewController.swift; sourceTree = "<group>"; };
 		63E61E811BA685CA009F50DA /* AnnGiNoCoreData.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = AnnGiNoCoreData.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		63E61E851BA685CA009F50DA /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		63E61E861BA685CA009F50DA /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
@@ -764,6 +766,7 @@
 				635CD9F61BBFB28E00CFBE50 /* bg.png */,
 				635CD9FA1BBFF26300CFBE50 /* bg.jpg */,
 				63E61E8A1BA685CA009F50DA /* Main.storyboard */,
+				63DC7EB81BCEB424002D9B5F /* BackgroundViewController.swift */,
 				63C08B311BCB302F00AB3E2F /* morning */,
 				63C08B461BCB302F00AB3E2F /* night */,
 				63C08B641BCB302F00AB3E2F /* noon */,
@@ -1028,6 +1031,7 @@
 				63A8711E1BB3FCE700313716 /* BenevolentLeadership3ViewController.swift in Sources */,
 				63E61E871BA685CA009F50DA /* AppDelegate.swift in Sources */,
 				63A871241BB3FCE700313716 /* DeferenceToSupervisor4ViewController.swift in Sources */,
+				63DC7EB91BCEB424002D9B5F /* BackgroundViewController.swift in Sources */,
 				63C08B741BCB302F00AB3E2F /* BenevolentLeadershipNeeded1ViewController.swift in Sources */,
 				63C08BAF1BCB33FC00AB3E2F /* NightSecondConfirmViewController.swift in Sources */,
 				63A8705A1BB1A75B00313716 /* StatusKeys.swift in Sources */,

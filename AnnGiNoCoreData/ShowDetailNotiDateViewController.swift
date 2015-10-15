@@ -14,7 +14,7 @@ class ShowDetailNotiDateViewController: UIViewController {
     let weekdayString = ["週日","週一","週二","週三","週四","週五","週六"]
     
     override func viewDidLoad() {
-        super.viewDidLoad()
+        super.viewDidLoad(); self.view.backgroundColor = UIColor(patternImage: UIImage(named: "bg.jpg")!)
 
         setView()
         

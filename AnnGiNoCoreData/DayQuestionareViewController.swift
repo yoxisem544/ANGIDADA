@@ -16,7 +16,7 @@ class DayQuestionareViewController: UIViewController {
     @IBOutlet weak var canDoSurveyLabel: UILabel!
     
     override func viewDidLoad() {
-        super.viewDidLoad()
+        super.viewDidLoad(); self.view.backgroundColor = UIColor(patternImage: UIImage(named: "bg.jpg")!)
 
         // Do any additional setup after loading the view.
         print(checkWhichSurveyToDo())
@@ -133,6 +133,26 @@ class DayQuestionareViewController: UIViewController {
         return surveyNumber
     }
     
+    func isNowMorning() -> Bool {
+        let now = NSDate()
+        let formatter = NSDateFormatter()
+        //        formatter.dateFormat = "yyyy-MM-dd HH:mm:ss ZZZ"
+        formatter.dateFormat = "HH"
+        let h = Int(formatter.stringFromDate(now))
+        formatter.dateFormat = "mm"
+        let m = Int(formatter.stringFromDate(now))
+        
+        // check time
+        
+        // 1 for morning
+        if h! * 60 + m! >= 9 * 60 + 0 {
+            if h! * 60 + m! <= 12 * 60 + 30 {
+                return true
+            }
+        }
+        return false
+    }
+    
     func pushSegueAndDoQuestionare(surveyNumber: Int) {
         if surveyNumber == 0 {
             alertNoQuestionare()
@@ -142,6 +162,19 @@ class DayQuestionareViewController: UIViewController {
             performSegueWithIdentifier("noon", sender: nil)
         } else if surveyNumber == 3 {
             performSegueWithIdentifier("night", sender: nil)
+        }
+    }
+    
+    func alertError(m: String, completion: () -> Void) {
+        let message = m
+        
+        let alert = UIAlertController(title: "錯誤", message: message, preferredStyle: UIAlertControllerStyle.Alert)
+        let ok = UIAlertAction(title: "好", style: UIAlertActionStyle.Cancel, handler: {(action) -> Void in
+            completion()
+        })
+        alert.addAction(ok)
+        dispatch_async(dispatch_get_main_queue()) { () -> Void in
+            self.presentViewController(alert, animated: true, completion: nil)
         }
     }
 
@@ -181,10 +214,36 @@ class DayQuestionareViewController: UIViewController {
 //        pushSegueAndDoQuestionare(1)
 
         if checkIfThereIsAUnfinishedSurvey() {
-            pushSegueAndDoQuestionare(checkWhichSurveyToDo())
+            if isNowMorning() {
+                if checkIfThereIsAUnfinishedSurvey() {
+                    print("alreay have do morning survey")
+                    alertError("你已經做過了！不用重複填寫喔！", completion: {})
+                } else {
+                    pushSegueAndDoQuestionare(checkWhichSurveyToDo())
+                }
+            } else {
+                if checkIfThereIsAUnfinishedSurvey() {
+                    pushSegueAndDoQuestionare(checkWhichSurveyToDo())
+                } else {
+                    print("alreay have do morning survey")
+                    alertError("你早上或者下午有漏掉問卷喔！今天的已經作廢了！", completion: {})
+                }
+            }
+//            if checkIfUserIstryingToDoSurveyAgain() {
+//                pushSegueAndDoQuestionare(checkWhichSurveyToDo())
+//            } else {
+//                if !checkIfThereIsAUnfinishedSurvey() {
+//                    pushSegueAndDoQuestionare(checkWhichSurveyToDo())
+//                } else {
+//                    print("alreay have do morning survey")
+//                    alertError("你已經做過了！不用重複填寫喔！", completion: {})
+//                }
+//            }
         } else {
             // if morning
-            pushSegueAndDoQuestionare(checkWhichSurveyToDo())
+            if !checkIfUserIstryingToDoSurveyAgain() {
+                pushSegueAndDoQuestionare(checkWhichSurveyToDo())
+            }
         }
     }
     

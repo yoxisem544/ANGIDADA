@@ -53,7 +53,14 @@ class CompanyKindViewController: UIViewController {
         if other.enabled {
             user.currentCompanyProperty = other.text
         }
-        self.performSegueWithIdentifier("7 to confirm first part", sender: user)
+//        self.performSegueWithIdentifier("7 to confirm first part", sender: user)
+        if !other.enabled {
+            self.performSegueWithIdentifier("7 to confirm first part", sender: user)
+        } else {
+            if other.text != "" {
+                self.performSegueWithIdentifier("7 to confirm first part", sender: user)
+            }
+        }
     }
     
     override func touchesBegan(touches: Set<UITouch>, withEvent event: UIEvent?) {

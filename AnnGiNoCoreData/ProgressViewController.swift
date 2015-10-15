@@ -14,7 +14,7 @@ class ProgressViewController: UIViewController {
     @IBOutlet weak var everydayProgressLabel: UILabel!
     @IBOutlet weak var finalQuestionareLabel: UILabel!
     override func viewDidLoad() {
-        super.viewDidLoad()
+        super.viewDidLoad(); self.view.backgroundColor = UIColor(patternImage: UIImage(named: "bg.jpg")!)
 
         // Do any additional setup after loading the view.
     }
