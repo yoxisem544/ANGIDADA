@@ -1052,7 +1052,7 @@
                                 </connections>
                             </pickerView>
                             <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="obN-mi-NPe">
-                                <rect key="frame" x="278" y="539" width="45" height="41"/>
+                                <rect key="frame" x="278" y="539" width="59" height="41"/>
                                 <animations/>
                                 <constraints>
                                     <constraint firstAttribute="width" constant="45" id="D3L-ft-prn"/>
