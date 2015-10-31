@@ -1,73 +1,74 @@
 //
-//  CompanyInfoViewController.swift
+//  AwardNameViewController.swift
 //  AnnGiNoCoreData
 //
-//  Created by David on 2015/10/3.
+//  Created by David on 2015/10/15.
 //  Copyright © 2015年 David. All rights reserved.
 //
 
 import UIKit
-import Parse
 
-class CompanyInfoViewController: UIViewController {
+class AwardNameViewController: UIViewController {
     
-    var user: PersonalInformation!
+    @IBOutlet weak var contentTextField: UITextField!
     var award: Award!
-    
+
     override func viewDidLoad() {
-        super.viewDidLoad(); self.view.backgroundColor = UIColor(patternImage: UIImage(named: "bg.jpg")!)
+        super.viewDidLoad()
+        self.view.backgroundColor = UIColor(patternImage: UIImage(named: "bg.jpg")!)
         
-        title = "公司"
-        var backbutton = UIBarButtonItem(title: "公司", style: UIBarButtonItemStyle.Done, target: nil, action: nil)
+        title = "姓名"
+        var backbutton = UIBarButtonItem(title: "姓名", style: UIBarButtonItemStyle.Done, target: nil, action: nil)
         self.navigationItem.backBarButtonItem = backbutton
         
-        // Do any additional setup after loading the view.
-        var tap = UITapGestureRecognizer(target: self, action: "tap")
-        self.view.addGestureRecognizer(tap)
+        // init award
+        award = Award()
+        award.userName = UserSetting.userName()
+        award.userUUID = UserSetting.userUUID()
+        
         contentTextField.delegate = self
+        // Do any additional setup after loading the view.
+        let tap = UITapGestureRecognizer(target: self, action: "tap")
+        view.addGestureRecognizer(tap)
     }
     
     func tap() {
-        self.view.endEditing(true)
+        view.endEditing(true)
     }
-    
+
     override func didReceiveMemoryWarning() {
         super.didReceiveMemoryWarning()
         // Dispose of any resources that can be recreated.
     }
     
-    @IBOutlet weak var contentTextField: UITextField!
-    
     @IBAction func nextClicked() {
         if contentTextField.text != "" {
-            award.company = contentTextField.text
-            performSegueWithIdentifier("next", sender: user)
+            award.name = contentTextField.text
+            performSegueWithIdentifier("next", sender: award)
         }
     }
-    
-    
-    
+
+
     // MARK: - Navigation
-    
+
     // In a storyboard-based application, you will often want to do a little preparation before navigation
     override func prepareForSegue(segue: UIStoryboardSegue, sender: AnyObject?) {
         // Get the new view controller using segue.destinationViewController.
         // Pass the selected object to the new view controller.
         if segue.identifier == "next" {
-            let vc = segue.destinationViewController as! DepartmentInfoViewController
-            vc.award = award
+            let vc = segue.destinationViewController as! CompanyInfoViewController
+            vc.award = sender as! Award
         }
     }
-    
-    
+
+
 }
 
-extension CompanyInfoViewController : UITextFieldDelegate {
+extension AwardNameViewController : UITextFieldDelegate {
     func textFieldShouldReturn(textField: UITextField) -> Bool {
         if textField == contentTextField {
             contentTextField.resignFirstResponder()
         }
         return true
     }
-    
 }

@@ -26,6 +26,27 @@ class DayQuestionareViewController: UIViewController {
 //        test.saveToParse()
         print(test.retrieveUnfinishedQuestionareId())
         print(UserSetting.everydayQuestionareCount())
+        
+//        pushToAwardView()
+    }
+    
+    func updateStatusOfNotifyToUser() {
+        let hi = checkWhichSurveyToDo()
+        if hi == 0 {
+            canDoSurveyLabel.text = "非填答時段"
+        } else if hi == 1 {
+            canDoSurveyLabel.text = "早晨時段"
+        } else if hi == 2 {
+            canDoSurveyLabel.text = "午間時段"
+        } else if hi == 3 {
+            canDoSurveyLabel.text = "晚間時段"
+        }
+    }
+    
+    override func viewDidAppear(animated: Bool) {
+        super.viewDidAppear(animated)
+        updateStatusOfNotifyToUser()
+        checkIfUserHas10Questionare()
     }
     func checkIfUserIstryingToDoSurveyAgain() -> Bool {
         if let lastCompletedSurveyDate = UserSetting.lastCompletedSurveyDate() {
@@ -51,9 +72,36 @@ class DayQuestionareViewController: UIViewController {
     
     func checkIfThereIsAUnfinishedSurvey() -> Bool {
         if Questionare().retrieveUnfinishedQuestionareId() != nil {
+//            if !checkIfTimeStampBetweenNowAndTimeStampAreTheSame() {
+//                return true
+//            }
             return true
         }
         return false
+    }
+    
+    // check time
+    func checkIfTimeStampBetweenNowAndTimeStampAreTheSame() -> Bool {
+        let formatter = NSDateFormatter()
+            formatter.dateFormat = "dd"
+        if let timeStamp = UserSetting.questionareTimeStamp() {
+            let dayNow = Int(formatter.stringFromDate(NSDate()))
+            let dayOfStamp = Int(formatter.stringFromDate(timeStamp))
+            formatter.dateFormat = "MM"
+            let monthNow = Int(formatter.stringFromDate(NSDate()))
+            let monthOfStamp = Int(formatter.stringFromDate(timeStamp))
+            print("now \(dayNow) \(monthNow)")
+            print("stamp \(dayOfStamp) \(monthOfStamp)")
+            if dayNow == dayOfStamp {
+                if monthNow == monthOfStamp {
+                    return true
+                }
+            }
+            return false
+        } else {
+            return false
+        }
+        
     }
     
     
@@ -217,7 +265,12 @@ class DayQuestionareViewController: UIViewController {
             if isNowMorning() {
                 if checkIfThereIsAUnfinishedSurvey() {
                     print("alreay have do morning survey")
-                    alertError("你已經做過了！不用重複填寫喔！", completion: {})
+                    if checkIfTimeStampBetweenNowAndTimeStampAreTheSame() {
+                       alertError("你已經做過了！不用重複填寫喔！", completion: {})
+                    } else {
+                        pushSegueAndDoQuestionare(checkWhichSurveyToDo())
+                    }
+//                    alertError("你已經做過了！不用重複填寫喔！", completion: {})
                 } else {
                     pushSegueAndDoQuestionare(checkWhichSurveyToDo())
                 }
@@ -271,6 +324,20 @@ class DayQuestionareViewController: UIViewController {
             let names = UIFont.fontNamesForFamilyName(familyName)
             print("Font Names = [\(names)]")
         }
+    }
+    
+    func checkIfUserHas10Questionare() {
+        if UserSetting.everydayQuestionareCount() >= 10 {
+            // yes
+            if !UserSetting.hasUserAlreadyGetTheAward() {
+                // can get the award
+                pushToAwardView()
+            }
+        }
+    }
+    
+    func pushToAwardView() {
+        performSegueWithIdentifier("award", sender: nil)
     }
     
     /*

@@ -40,19 +40,50 @@ class NoonStartViewController: UIViewController {
                 } else {
                     if let q = questionare {
                         self.questionare = q
-                        self.performSegueWithIdentifier("next", sender: self.questionare)
+                        if self.checkDateOfQuestionareIsToday(q) {
+                            self.performSegueWithIdentifier("next", sender: self.questionare)
+                        } else {
+                            self.alertError("你尚未填寫早上問卷喔！", completion: { () -> Void in
+                                self.dismissViewControllerAnimated(true, completion: nil)
+                                self.isRetrieving = false
+                            })
+                        }
                         self.isRetrieving = false
                     } else {
                         self.isRetrieving = false
 //                        self.alertError("你的網路有問題喔！")
                         self.alertError("你的網路有問題喔！", completion: { () -> Void in
-                            
+                            self.dismissViewControllerAnimated(true, completion: nil)
+                            self.isRetrieving = false
                         })
                         print("fail to retrieve")
                     }
                 }
             })
         }
+    }
+    
+    func checkDateOfQuestionareIsToday(questionare: Questionare) -> Bool {
+        if let updatedAt = questionare.updatedAt {
+            let formatter = NSDateFormatter()
+            //        formatter.dateFormat = "yyyy-MM-dd HH:mm:ss ZZZ"
+            formatter.dateFormat = "dd"
+            // last day
+            let lastDay = Int(formatter.stringFromDate(updatedAt))
+            formatter.dateFormat = "MM"
+            let lastMonth = Int(formatter.stringFromDate(updatedAt))
+            // date from now
+            formatter.dateFormat = "dd"
+            let dayNow = Int(formatter.stringFromDate(NSDate()))
+            formatter.dateFormat = "MM"
+            let monthNow = Int(formatter.stringFromDate(NSDate()))
+            if dayNow == lastDay {
+                if monthNow == lastMonth {
+                    return true
+                }
+            }
+        }
+        return false
     }
     
     func alertError(m: String, completion: () -> Void) {

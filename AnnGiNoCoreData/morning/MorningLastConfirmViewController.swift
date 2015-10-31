@@ -27,6 +27,7 @@ class MorningLastConfirmViewController: UIViewController {
         questionare.saveToParse({ () -> Void in
             // ok
             print("save to parse! \(self.questionare.objectId)")
+            UserSetting.setQuestionareTimeStamp(NSDate())
             self.dismissViewControllerAnimated(true, completion: nil)
             }, failure: { () -> Void in
                 // fail

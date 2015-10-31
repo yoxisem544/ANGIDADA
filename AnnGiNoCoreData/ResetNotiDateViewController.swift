@@ -36,10 +36,20 @@ class ResetNotiDateViewController: UIViewController {
         dismissViewControllerAnimated(true, completion: nil)
     }
     
+    func showAlert(completion: () -> Void) {
+        let alert = UIAlertController(title: "小提示", message: "我們將於09:00、14:00、18:00提醒您填寫問卷", preferredStyle: UIAlertControllerStyle.Alert)
+        let ok = UIAlertAction(title: "好", style: UIAlertActionStyle.Cancel) { (UIAlertAction) -> Void in
+            completion()
+        }
+        alert.addAction(ok)
+        presentViewController(alert, animated: true, completion: nil)
+    }
     @IBAction func resetDateClicked() {
         if let dayToSet = Int(dayTextField.text!) {
-            UserSetting.setNextWorkingDay(dayToSet)
-            presentMainScreen()
+            showAlert({ () -> Void in
+                UserSetting.setNextWorkingDay(dayToSet)
+                self.presentMainScreen()
+            })
         }
     }
     

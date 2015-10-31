@@ -23,6 +23,7 @@ class SexPickerViewController: UIViewController {
         sexPickerView.selectRow(0, inComponent: 0, animated: true)
 //        user = PersonalInformation()
         user.sex = "男性"
+        print("ajks\(user.userEMAIL)")
     }
     
     override func viewDidAppear(animated: Bool) {

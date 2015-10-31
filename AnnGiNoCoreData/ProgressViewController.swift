@@ -32,8 +32,8 @@ class ProgressViewController: UIViewController {
             firstQuestionareProgressLabel.text = "初始問卷： 0/1"
         }
         
-        everydayProgressLabel.text = "每日經驗取樣： \(UserSetting.everydayQuestionareCount())/12"
-        finalQuestionareLabel.text = "事後調查： 0/1"
+        everydayProgressLabel.text = "每日經驗取樣： \(UserSetting.everydayQuestionareCount())/10"
+        finalQuestionareLabel.text = "事後調查： \(UserSetting.finalQuesionareCount())/1"
     }
 
     override func didReceiveMemoryWarning() {

@@ -1,32 +1,34 @@
 //
-//  EMAILInfoViewController.swift
+//  AwardPhoneNumberViewController.swift
 //  AnnGiNoCoreData
 //
-//  Created by David on 2015/10/3.
+//  Created by David on 2015/10/15.
 //  Copyright © 2015年 David. All rights reserved.
 //
 
 import UIKit
-import Parse
 
-class EMAILInfoViewController: UIViewController {
-    
-    var user: PersonalInformation!
+class AwardPhoneNumberViewController: UIViewController {
+
+    @IBOutlet weak var contentTextField: UITextField!
+    var award: Award!
     
     override func viewDidLoad() {
-        super.viewDidLoad(); self.view.backgroundColor = UIColor(patternImage: UIImage(named: "bg.jpg")!)
+        super.viewDidLoad()
+        self.view.backgroundColor = UIColor(patternImage: UIImage(named: "bg.jpg")!)
         
-        // Do any additional setup after loading the view.
-        var tap = UITapGestureRecognizer(target: self, action: "tap")
-        self.view.addGestureRecognizer(tap)
-        contentTextField.delegate = self
-        title = "基本資料"
-        var backbutton = UIBarButtonItem(title: "返回", style: UIBarButtonItemStyle.Done, target: nil, action: nil)
+        title = "手機"
+        var backbutton = UIBarButtonItem(title: "手機", style: UIBarButtonItemStyle.Done, target: nil, action: nil)
         self.navigationItem.backBarButtonItem = backbutton
+        
+        contentTextField.delegate = self
+        // Do any additional setup after loading the view.
+        let tap = UITapGestureRecognizer(target: self, action: "tap")
+        view.addGestureRecognizer(tap)
     }
     
     func tap() {
-        self.view.endEditing(true)
+        view.endEditing(true)
     }
     
     override func didReceiveMemoryWarning() {
@@ -34,15 +36,12 @@ class EMAILInfoViewController: UIViewController {
         // Dispose of any resources that can be recreated.
     }
     
-    @IBOutlet weak var contentTextField: UITextField!
-    
     @IBAction func nextClicked() {
         if contentTextField.text != "" {
-            user.userEMAIL = contentTextField.text
-            performSegueWithIdentifier("next", sender: user)
+            award.phoneNumber = contentTextField.text
+            performSegueWithIdentifier("next", sender: award)
         }
     }
-    
     
     
     // MARK: - Navigation
@@ -52,21 +51,19 @@ class EMAILInfoViewController: UIViewController {
         // Get the new view controller using segue.destinationViewController.
         // Pass the selected object to the new view controller.
         if segue.identifier == "next" {
-            let vc = segue.destinationViewController as! SexPickerViewController
-            vc.user = user
+            let vc = segue.destinationViewController as! AwardConfirmViewController
+            vc.award = award
         }
     }
     
     
 }
 
-extension EMAILInfoViewController : UITextFieldDelegate {
+extension AwardPhoneNumberViewController : UITextFieldDelegate {
     func textFieldShouldReturn(textField: UITextField) -> Bool {
         if textField == contentTextField {
-            user.userEMAIL = contentTextField.text
             contentTextField.resignFirstResponder()
         }
         return true
     }
-    
 }

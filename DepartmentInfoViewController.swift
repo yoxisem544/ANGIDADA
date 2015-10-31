@@ -12,17 +12,19 @@ import Parse
 class DepartmentInfoViewController: UIViewController {
     
     var user: PersonalInformation!
+    var award: Award!
     
     override func viewDidLoad() {
         super.viewDidLoad(); self.view.backgroundColor = UIColor(patternImage: UIImage(named: "bg.jpg")!)
+        
+        title = "部門"
+        var backbutton = UIBarButtonItem(title: "部門", style: UIBarButtonItemStyle.Done, target: nil, action: nil)
+        self.navigationItem.backBarButtonItem = backbutton
         
         // Do any additional setup after loading the view.
         var tap = UITapGestureRecognizer(target: self, action: "tap")
         self.view.addGestureRecognizer(tap)
         contentTextField.delegate = self
-        title = "基本資料"
-        var backbutton = UIBarButtonItem(title: "返回", style: UIBarButtonItemStyle.Done, target: nil, action: nil)
-        self.navigationItem.backBarButtonItem = backbutton
     }
     
     func tap() {
@@ -38,7 +40,7 @@ class DepartmentInfoViewController: UIViewController {
     
     @IBAction func nextClicked() {
         if contentTextField.text != "" {
-            user.userDepartment = contentTextField.text
+            award.department = contentTextField.text
             performSegueWithIdentifier("next", sender: user)
         }
     }
@@ -52,8 +54,8 @@ class DepartmentInfoViewController: UIViewController {
         // Get the new view controller using segue.destinationViewController.
         // Pass the selected object to the new view controller.
         if segue.identifier == "next" {
-            let vc = segue.destinationViewController as! SexPickerViewController
-            vc.user = user
+            let vc = segue.destinationViewController as! AwardEmailViewController
+            vc.award = award
         }
     }
     

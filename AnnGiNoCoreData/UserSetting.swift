@@ -20,12 +20,44 @@ class UserSetting {
         // states
         static let isUserFinishedFirstSurvey = "isUserFinishedFirstSurvey"
         static let lastCompletedSurveyDate = "lastCompletedSurveyDate"
+        static let questionareTimeStamp = "questionareTimeStamp"
         // informations
         static let nextWorkingDay = "nextWorkingDay"
         // store progress
         static let initialQuestionareCount = "initialQuestionareCount"
         static let everydayQuestionareCount = "everydayQuestionareCount"
         static let afterQuestionareCount = "afterQuestionareCount"
+        // award
+        static let hasUserAlreadyGetTheAward = "hasUserAlreadyGetTheAward"
+    }
+    class func questionareTimeStamp() -> NSDate? {
+        let ud = NSUserDefaults.standardUserDefaults()
+        let time = ud.objectForKey(Key.questionareTimeStamp) as? NSDate
+        print(time)
+        return ud.objectForKey(Key.questionareTimeStamp) as? NSDate
+    }
+    
+    class func setQuestionareTimeStamp(time: NSDate?) {
+        let ud = NSUserDefaults.standardUserDefaults()
+        ud.setObject(time, forKey: Key.questionareTimeStamp)
+        ud.synchronize()
+    }
+    class func userEMAIL() -> String {
+        let ud = NSUserDefaults.standardUserDefaults()
+        return (ud.objectForKey(Key.userEMAIL) as? String ?? "")
+    }
+    class func userPhone() -> String {
+        let ud = NSUserDefaults.standardUserDefaults()
+        return (ud.objectForKey(Key.userPhone) as? String ?? "")
+    }
+    class func hasUserAlreadyGetTheAward() -> Bool {
+        let ud = NSUserDefaults.standardUserDefaults()
+        return ud.boolForKey(Key.hasUserAlreadyGetTheAward)
+    }
+    class func userSuccessfullyGetTheAward() {
+        let ud = NSUserDefaults.standardUserDefaults()
+        ud.setBool(true, forKey: Key.hasUserAlreadyGetTheAward)
+        ud.synchronize()
     }
     class func lastCompletedSurveyDate() -> NSDate? {
         let ud = NSUserDefaults.standardUserDefaults()
@@ -87,6 +119,10 @@ class UserSetting {
         let count = ud.integerForKey(Key.everydayQuestionareCount)
         ud.setInteger((count - 1), forKey: Key.everydayQuestionareCount)
         ud.synchronize()
+    }
+    class func finalQuesionareCount() -> Int {
+        let ud = NSUserDefaults.standardUserDefaults()
+        return ud.integerForKey(Key.afterQuestionareCount)
     }
     class func incrementAfterQuestionareCount() {
         let ud = NSUserDefaults.standardUserDefaults()

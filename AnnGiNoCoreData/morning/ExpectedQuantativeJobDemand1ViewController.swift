@@ -21,6 +21,8 @@ class ExpectedQuantativeJobDemand1ViewController: UIViewController {
         // initialize Questionare
         questionare = Questionare()
         questionare.retrieveUserInfo()
+        print(questionare.createdAt)
+        UserSetting.setQuestionareTimeStamp(questionare.createdAt)
         
         title = "早晨問卷 (1/20)"
         var backbutton = UIBarButtonItem(title: "1/20", style: UIBarButtonItemStyle.Done, target: nil, action: nil)
@@ -29,6 +31,21 @@ class ExpectedQuantativeJobDemand1ViewController: UIViewController {
         fearLevelPickerView.selectRow(0, inComponent: 0, animated: true)
         questionare.expectedQuantitativeJobDemand1 = fearLevel[0]
     }
+//    
+//    func isRepeatingQuestionare() -> Bool {
+//        let formatter = NSDateFormatter()
+//        //        formatter.dateFormat = "yyyy-MM-dd HH:mm:ss ZZZ"
+//        formatter.dateFormat = "dd"
+//        // now
+//        let nowDay = Int(formatter.stringFromDate(NSDate()))
+//        formatter.dateFormat = "MM"
+//        let nowMonth = Int(formatter.stringFromDate(NSDate()))
+//        // online
+//        formatter.dateFormat = "dd"
+//        let
+//        formatter.dateFormat = "MM"
+//
+//    }
     
     override func didReceiveMemoryWarning() {
         super.didReceiveMemoryWarning()
