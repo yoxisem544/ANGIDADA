@@ -16,7 +16,7 @@ class ExpectedQuantativeJobDemand3ViewController: UIViewController {
     var questionare: Questionare!
     
     override func viewDidLoad() {
-        super.viewDidLoad(); self.view.backgroundColor = UIColor(patternImage: UIImage(named: "bg.jpg")!)
+        super.viewDidLoad(); self.view.backgroundColor = UIColor(patternImage: UIImage(named: "bg-morning.jpg")!)
         
         title = "早晨問卷 (3/20)"
         var backbutton = UIBarButtonItem(title: "3/20", style: UIBarButtonItemStyle.Done, target: nil, action: nil)

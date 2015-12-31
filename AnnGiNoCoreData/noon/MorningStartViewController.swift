@@ -1,21 +1,23 @@
 //
-//  NightFirstConfirmViewController.swift
+//  MorningStartViewController.swift
 //  AnnGiNoCoreData
 //
-//  Created by David on 2015/10/11.
+//  Created by David on 2015/10/26.
 //  Copyright © 2015年 David. All rights reserved.
 //
 
 import UIKit
 
-class NightFirstConfirmViewController: UIViewController {
-    
-    var questionare: Questionare!
+class MorningStartViewController: UIViewController {
 
     override func viewDidLoad() {
-        super.viewDidLoad(); self.view.backgroundColor = UIColor(patternImage: UIImage(named: "bg-night.jpg")!)
-
+        super.viewDidLoad(); self.view.backgroundColor = UIColor(patternImage: UIImage(named: "bg-morning.jpg")!)
+        
         // Do any additional setup after loading the view.
+    }
+    
+    @IBAction func dismissClicked() {
+        dismissViewControllerAnimated(true, completion: nil)
     }
 
     override func didReceiveMemoryWarning() {
@@ -23,21 +25,15 @@ class NightFirstConfirmViewController: UIViewController {
         // Dispose of any resources that can be recreated.
     }
     
-    @IBAction func nextClicked() {
-        performSegueWithIdentifier("next", sender: questionare)
-    }
 
+    /*
     // MARK: - Navigation
 
     // In a storyboard-based application, you will often want to do a little preparation before navigation
     override func prepareForSegue(segue: UIStoryboardSegue, sender: AnyObject?) {
         // Get the new view controller using segue.destinationViewController.
         // Pass the selected object to the new view controller.
-        if segue.identifier == "next" {
-            let vc = segue.destinationViewController as! JobSatisfaction1ViewController
-            vc.questionare = questionare
-        }
     }
-
+    */
 
 }

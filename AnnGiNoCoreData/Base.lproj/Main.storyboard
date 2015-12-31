@@ -1,8 +1,8 @@
 <?xml version="1.0" encoding="UTF-8" standalone="no"?>
-<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="8191" systemVersion="15A284" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES">
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="9060" systemVersion="15A284" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES">
     <dependencies>
         <deployment identifier="iOS"/>
-        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="8154"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="9051"/>
         <capability name="Constraints to layout margins" minToolsVersion="6.0"/>
         <capability name="Constraints with non-1.0 multipliers" minToolsVersion="5.1"/>
     </dependencies>
@@ -24,6 +24,54 @@
                 <placeholder placeholderIdentifier="IBFirstResponder" id="iI1-ER-vVY" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>
             <point key="canvasLocation" x="-56" y="684"/>
+        </scene>
+        <!--Show Attentent Right View Controller-->
+        <scene sceneID="iAc-x7-yha">
+            <objects>
+                <viewController id="jj3-la-dc3" customClass="ShowAttententRightViewController" customModule="AnnGiNoCoreData" customModuleProvider="target" sceneMemberID="viewController">
+                    <layoutGuides>
+                        <viewControllerLayoutGuide type="top" id="iwb-wZ-FGt"/>
+                        <viewControllerLayoutGuide type="bottom" id="q13-1J-UOv"/>
+                    </layoutGuides>
+                    <view key="view" contentMode="scaleToFill" id="pkc-Mu-3Gr">
+                        <rect key="frame" x="0.0" y="0.0" width="600" height="600"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="TCb-qG-l8k">
+                                <rect key="frame" x="25" y="28" width="32" height="32"/>
+                                <animations/>
+                                <constraints>
+                                    <constraint firstAttribute="width" constant="32" id="APF-gG-ow6"/>
+                                    <constraint firstAttribute="height" constant="32" id="WIh-Sz-8sg"/>
+                                </constraints>
+                                <state key="normal" image="closeButton"/>
+                                <connections>
+                                    <action selector="closeButtonClicked" destination="jj3-la-dc3" eventType="touchUpInside" id="7Mc-Mu-47D"/>
+                                </connections>
+                            </button>
+                            <textView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" editable="NO" textAlignment="natural" selectable="NO" translatesAutoresizingMaskIntoConstraints="NO" id="lgq-dN-Dhm">
+                                <rect key="frame" x="20" y="68" width="560" height="512"/>
+                                <animations/>
+                                <mutableString key="text">我們完全尊重您的參與意願；如您在參與過程中，對任何問題感覺有疑慮，可拒絕回答該問題，或者自由決定終止參與本研究。在任何階段決定終止參與研究，都不會造成您的任何損失。本研究的所有參與人員將會確保資料的保密性。根據科技部相關規範，資料在本研究結案五年內，將妥善留存於受密碼保護的設備中；屆時除了本研究負責人與學術倫理審查單位之外，將無人能在研究執行完畢後重新取得您的資料。所有資料將在整體層次進行分析，不會針對您的個人資料單獨進行分析。在結案報告中，亦將不會出現任何能識別您身分的個人資料。在研究進行過程中，您將需要回答所設計問卷中的所有問題。這些問題都沒有所謂的正確答案，請您依照您的直覺、真實感受及當下的印象進行回答即可。您針對每一題所提供的答案，在分析階段都將無法直接與您個人進行連結，我們將會竭盡所能地確保匿名性與保密性。本研究將不會對您產生任何生理、心理或經濟方面的相關風險。您的參與純屬自願，所有資料都將匿名、保密處理，因此沒有任何對您造成損失的疑慮與風險。本研究的負責人為國立中山大學人力資源管理研究所王安智教授。如您有任何問題，歡迎透過電子郵件進行聯繫（acwang@mail.nsysu.edu.tw）。</mutableString>
+                                <fontDescription key="fontDescription" type="system" pointSize="14"/>
+                                <textInputTraits key="textInputTraits" autocapitalizationType="sentences"/>
+                            </textView>
+                        </subviews>
+                        <animations/>
+                        <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                        <constraints>
+                            <constraint firstItem="lgq-dN-Dhm" firstAttribute="top" secondItem="TCb-qG-l8k" secondAttribute="bottom" constant="8" id="00C-f9-0qN"/>
+                            <constraint firstItem="TCb-qG-l8k" firstAttribute="leading" secondItem="pkc-Mu-3Gr" secondAttribute="leadingMargin" constant="5" id="ECa-Er-VMG"/>
+                            <constraint firstItem="lgq-dN-Dhm" firstAttribute="leading" secondItem="pkc-Mu-3Gr" secondAttribute="leading" constant="20" id="K5C-eU-SxU"/>
+                            <constraint firstItem="q13-1J-UOv" firstAttribute="top" secondItem="lgq-dN-Dhm" secondAttribute="bottom" constant="20" id="c9E-pz-8UM"/>
+                            <constraint firstAttribute="trailing" secondItem="lgq-dN-Dhm" secondAttribute="trailing" constant="20" id="cDt-aa-4ER"/>
+                            <constraint firstItem="TCb-qG-l8k" firstAttribute="top" secondItem="iwb-wZ-FGt" secondAttribute="bottom" constant="8" id="isR-rd-AFE"/>
+                        </constraints>
+                    </view>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="Wyo-1E-ZK1" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="-6" y="-141"/>
         </scene>
         <!--Name Info View Controller-->
         <scene sceneID="fNN-fb-McZ">
@@ -97,17 +145,22 @@
                         <rect key="frame" x="0.0" y="0.0" width="600" height="600"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <subviews>
-                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="hcB-Ec-kTh">
+                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="wordWrap" translatesAutoresizingMaskIntoConstraints="NO" id="hcB-Ec-kTh">
                                 <rect key="frame" x="20" y="517" width="75" height="75"/>
                                 <animations/>
                                 <constraints>
                                     <constraint firstAttribute="width" constant="75" id="Lrc-k4-BqL"/>
                                     <constraint firstAttribute="height" constant="75" id="UTl-YK-it0"/>
                                 </constraints>
-                                <state key="normal" title="放棄此問卷" backgroundImage="Button">
+                                <state key="normal" backgroundImage="Button">
+                                    <string key="title">研究參與者
+  權益維護</string>
                                     <color key="titleColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
                                     <color key="titleShadowColor" white="0.5" alpha="1" colorSpace="calibratedWhite"/>
                                 </state>
+                                <connections>
+                                    <segue destination="jj3-la-dc3" kind="presentation" id="Prd-wr-lnS"/>
+                                </connections>
                             </button>
                             <textView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" editable="NO" selectable="NO" translatesAutoresizingMaskIntoConstraints="NO" id="Q5k-VP-SiQ">
                                 <rect key="frame" x="0.0" y="64" width="600" height="445"/>
@@ -5205,7 +5258,7 @@
             </objects>
             <point key="canvasLocation" x="602" y="13345"/>
         </scene>
-        <!--Item-->
+        <!--說明-->
         <scene sceneID="sjH-Y1-99o">
             <objects>
                 <viewController id="1Br-6F-GmB" customClass="BackgroundViewController" customModule="AnnGiNoCoreData" customModuleProvider="target" sceneMemberID="viewController">
@@ -5218,7 +5271,7 @@
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <subviews>
                             <textView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" editable="NO" textAlignment="natural" selectable="NO" translatesAutoresizingMaskIntoConstraints="NO" id="4e8-n6-ovD">
-                                <rect key="frame" x="20" y="57" width="560" height="486"/>
+                                <rect key="frame" x="20" y="68.5" width="560" height="474.5"/>
                                 <animations/>
                                 <string key="text">歡迎您參與本研究！本研究的主要目的是希望透過學術性的方式，了解職場員工與其直屬主管的互動經驗，以建立可實際增進單位效能的領導模式。
 
@@ -5243,10 +5296,10 @@
                                 <fontDescription key="fontDescription" type="system" pointSize="14"/>
                                 <textInputTraits key="textInputTraits" autocapitalizationType="sentences"/>
                             </textView>
-                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="主管部屬互動經驗調查  - 問卷說明" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="YWe-PY-tBo">
-                                <rect key="frame" x="20" y="28" width="560" height="21"/>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="主管部屬互動經驗調查  - 問卷說明" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" minimumScaleFactor="0.5" translatesAutoresizingMaskIntoConstraints="NO" id="YWe-PY-tBo">
+                                <rect key="frame" x="20" y="28" width="560" height="32.5"/>
                                 <animations/>
-                                <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                                <fontDescription key="fontDescription" style="UICTFontTextStyleTitle1"/>
                                 <color key="textColor" red="0.40000000000000002" green="0.80000000000000004" blue="0.80000000000000004" alpha="1" colorSpace="calibratedRGB"/>
                                 <nil key="highlightedColor"/>
                             </label>
@@ -5263,13 +5316,13 @@
                             <constraint firstAttribute="trailing" secondItem="YWe-PY-tBo" secondAttribute="trailing" constant="20" id="xc2-dN-94C"/>
                         </constraints>
                     </view>
-                    <tabBarItem key="tabBarItem" title="Item" image="explain" id="Yrf-OM-bgB"/>
+                    <tabBarItem key="tabBarItem" title="說明" image="explain" id="Yrf-OM-bgB"/>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="b2M-7B-Wxx" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>
             <point key="canvasLocation" x="1450" y="13217"/>
         </scene>
-        <!--Item-->
+        <!--進度-->
         <scene sceneID="w6i-dp-5NG">
             <objects>
                 <viewController id="q0p-p9-LnC" customClass="ProgressViewController" customModule="AnnGiNoCoreData" customModuleProvider="target" sceneMemberID="viewController">
@@ -5323,7 +5376,7 @@
                             <constraint firstItem="fhj-2J-NNp" firstAttribute="centerX" secondItem="Pnj-iG-uDe" secondAttribute="centerX" id="za9-Zo-a4t"/>
                         </constraints>
                     </view>
-                    <tabBarItem key="tabBarItem" title="Item" image="progress" id="tKo-Hf-TRF"/>
+                    <tabBarItem key="tabBarItem" title="進度" image="progress" id="tKo-Hf-TRF"/>
                     <connections>
                         <outlet property="everydayProgressLabel" destination="l8k-SE-cei" id="ruz-lY-XEM"/>
                         <outlet property="finalQuestionareLabel" destination="Vey-fw-eZQ" id="xyw-dI-JWw"/>
@@ -5334,7 +5387,7 @@
             </objects>
             <point key="canvasLocation" x="1570" y="14053"/>
         </scene>
-        <!--Item-->
+        <!--版本-->
         <scene sceneID="FBG-A8-4xs">
             <objects>
                 <viewController id="58N-nA-BrT" customClass="BackgroundViewController" customModule="AnnGiNoCoreData" customModuleProvider="target" sceneMemberID="viewController">
@@ -5439,13 +5492,13 @@
                             <constraint firstItem="UHh-mt-KJD" firstAttribute="top" secondItem="Jep-Pb-xcW" secondAttribute="bottom" constant="8" id="xVJ-qa-e0B"/>
                         </constraints>
                     </view>
-                    <tabBarItem key="tabBarItem" title="Item" image="designer" id="CXk-jY-mCe"/>
+                    <tabBarItem key="tabBarItem" title="版本" image="designer" id="CXk-jY-mCe"/>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="YDU-BS-hrP" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>
             <point key="canvasLocation" x="1226" y="15025"/>
         </scene>
-        <!--Item-->
+        <!--個人-->
         <scene sceneID="Gy7-uy-C2O">
             <objects>
                 <viewController id="bws-a2-9Y8" customClass="BackgroundViewController" customModule="AnnGiNoCoreData" customModuleProvider="target" sceneMemberID="viewController">
@@ -5508,13 +5561,13 @@
                             <constraint firstItem="cP6-FV-mvi" firstAttribute="top" secondItem="RRw-J8-6TL" secondAttribute="bottom" constant="8" id="tm9-0O-sNE"/>
                         </constraints>
                     </view>
-                    <tabBarItem key="tabBarItem" title="Item" image="resetDate" id="KIi-9u-N1H"/>
+                    <tabBarItem key="tabBarItem" title="個人" image="resetDate" id="KIi-9u-N1H"/>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="RKs-wk-Egs" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>
             <point key="canvasLocation" x="-530" y="15297"/>
         </scene>
-        <!--Item-->
+        <!--問卷-->
         <scene sceneID="q0t-Bo-CHK">
             <objects>
                 <viewController id="btj-JN-0PR" customClass="DayQuestionareViewController" customModule="AnnGiNoCoreData" customModuleProvider="target" sceneMemberID="viewController">
@@ -5626,7 +5679,7 @@
                             <constraint firstItem="9CN-7N-fWX" firstAttribute="centerX" secondItem="4o5-x8-VFF" secondAttribute="centerX" id="vtw-CG-nbd"/>
                         </constraints>
                     </view>
-                    <tabBarItem key="tabBarItem" title="Item" image="doques" id="heo-Eb-xdT"/>
+                    <tabBarItem key="tabBarItem" title="問卷" image="doques" id="heo-Eb-xdT"/>
                     <connections>
                         <outlet property="canDoSurveyLabel" destination="Dew-6v-7No" id="dDJ-df-gnH"/>
                         <outlet property="subtitleLabel" destination="4o5-x8-VFF" id="qc4-aG-arr"/>
@@ -6818,21 +6871,21 @@
                                 <rect key="frame" x="20" y="88" width="560" height="21"/>
                                 <animations/>
                                 <fontDescription key="fontDescription" type="system" pointSize="17"/>
-                                <color key="textColor" cocoaTouchSystemColor="darkTextColor"/>
+                                <color key="textColor" red="0.0" green="0.0" blue="0.0" alpha="1" colorSpace="calibratedRGB"/>
                                 <nil key="highlightedColor"/>
                             </label>
                             <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Label" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="bex-Wh-X16">
                                 <rect key="frame" x="20" y="117" width="560" height="21"/>
                                 <animations/>
                                 <fontDescription key="fontDescription" type="system" pointSize="17"/>
-                                <color key="textColor" cocoaTouchSystemColor="darkTextColor"/>
+                                <color key="textColor" red="0.0" green="0.0" blue="0.0" alpha="1" colorSpace="calibratedRGB"/>
                                 <nil key="highlightedColor"/>
                             </label>
                             <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" misplaced="YES" text="Label" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="jcM-7i-kEz">
                                 <rect key="frame" x="20" y="146" width="560" height="21"/>
                                 <animations/>
                                 <fontDescription key="fontDescription" type="system" pointSize="17"/>
-                                <color key="textColor" cocoaTouchSystemColor="darkTextColor"/>
+                                <color key="textColor" red="0.0" green="0.0" blue="0.0" alpha="1" colorSpace="calibratedRGB"/>
                                 <nil key="highlightedColor"/>
                             </label>
                         </subviews>
@@ -6923,10 +6976,10 @@
             </objects>
             <point key="canvasLocation" x="-380" y="16383"/>
         </scene>
-        <!--Background View Controller-->
+        <!--Morning Start View Controller-->
         <scene sceneID="frE-fh-irl">
             <objects>
-                <viewController id="Ha8-D2-bTk" customClass="BackgroundViewController" customModule="AnnGiNoCoreData" customModuleProvider="target" sceneMemberID="viewController">
+                <viewController id="Ha8-D2-bTk" customClass="MorningStartViewController" customModule="AnnGiNoCoreData" customModuleProvider="target" sceneMemberID="viewController">
                     <layoutGuides>
                         <viewControllerLayoutGuide type="top" id="qXv-fd-acT"/>
                         <viewControllerLayoutGuide type="bottom" id="JoQ-7M-6sY"/>
@@ -6943,7 +6996,7 @@
                                 <nil key="highlightedColor"/>
                             </label>
                             <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="Gee-Eg-Fh0">
-                                <rect key="frame" x="262.5" y="505" width="75" height="75"/>
+                                <rect key="frame" x="262" y="505" width="75" height="75"/>
                                 <animations/>
                                 <constraints>
                                     <constraint firstAttribute="height" constant="75" id="Vig-aj-2tt"/>
@@ -6958,6 +7011,20 @@
                                     </segue>
                                 </connections>
                             </button>
+                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="YkI-tC-JSf">
+                                <rect key="frame" x="20" y="529" width="51" height="51"/>
+                                <animations/>
+                                <constraints>
+                                    <constraint firstAttribute="height" constant="51" id="CVj-k0-YuD"/>
+                                    <constraint firstAttribute="width" constant="51" id="fSr-O6-axS"/>
+                                </constraints>
+                                <state key="normal" title="離開" backgroundImage="Button">
+                                    <color key="titleColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                                </state>
+                                <connections>
+                                    <action selector="dismissClicked" destination="Ha8-D2-bTk" eventType="touchUpInside" id="CiY-vH-ZCx"/>
+                                </connections>
+                            </button>
                         </subviews>
                         <animations/>
                         <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
@@ -6966,6 +7033,8 @@
                             <constraint firstItem="qzh-V7-7T6" firstAttribute="width" secondItem="8Nd-LJ-hap" secondAttribute="width" multiplier="0.6" id="OFw-ss-Leq"/>
                             <constraint firstItem="qzh-V7-7T6" firstAttribute="centerX" secondItem="8Nd-LJ-hap" secondAttribute="centerX" id="QKK-eN-ef9"/>
                             <constraint firstItem="JoQ-7M-6sY" firstAttribute="top" secondItem="Gee-Eg-Fh0" secondAttribute="bottom" constant="20" id="SgU-rF-2wh"/>
+                            <constraint firstAttribute="leadingMargin" secondItem="YkI-tC-JSf" secondAttribute="leading" id="XbF-5T-jaf"/>
+                            <constraint firstItem="JoQ-7M-6sY" firstAttribute="top" secondItem="YkI-tC-JSf" secondAttribute="bottom" constant="20" id="guJ-0a-fFe"/>
                             <constraint firstItem="qzh-V7-7T6" firstAttribute="centerY" secondItem="8Nd-LJ-hap" secondAttribute="centerY" multiplier="0.6" id="zlY-W4-OvH"/>
                         </constraints>
                     </view>
@@ -7010,14 +7079,30 @@
                                     <action selector="startQuestionare" destination="uHG-Sh-oTz" eventType="touchUpInside" id="d8R-qs-FA9"/>
                                 </connections>
                             </button>
+                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="V3p-eo-hTn">
+                                <rect key="frame" x="20" y="529" width="51" height="51"/>
+                                <animations/>
+                                <constraints>
+                                    <constraint firstAttribute="height" constant="51" id="Osa-I0-wcx"/>
+                                    <constraint firstAttribute="width" constant="51" id="b25-JN-8Xc"/>
+                                </constraints>
+                                <state key="normal" title="離開" backgroundImage="Button">
+                                    <color key="titleColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                                </state>
+                                <connections>
+                                    <action selector="dismissClicked" destination="uHG-Sh-oTz" eventType="touchUpInside" id="0K2-R8-YF0"/>
+                                </connections>
+                            </button>
                         </subviews>
                         <animations/>
                         <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
                         <constraints>
                             <constraint firstItem="Hmj-fW-slq" firstAttribute="centerX" secondItem="dTZ-4j-5sY" secondAttribute="centerX" id="27f-vx-HJv"/>
+                            <constraint firstItem="L8l-Jr-hUL" firstAttribute="top" secondItem="V3p-eo-hTn" secondAttribute="bottom" constant="20" id="HVZ-3D-PdO"/>
                             <constraint firstItem="L8l-Jr-hUL" firstAttribute="top" secondItem="Hmj-fW-slq" secondAttribute="bottom" constant="20" id="K1T-pF-Xi1"/>
                             <constraint firstItem="buu-8h-3bI" firstAttribute="centerY" secondItem="dTZ-4j-5sY" secondAttribute="centerY" multiplier="0.6" id="WVv-HB-0Bt"/>
                             <constraint firstItem="buu-8h-3bI" firstAttribute="width" secondItem="dTZ-4j-5sY" secondAttribute="width" multiplier="0.6" id="kkw-eS-TyC"/>
+                            <constraint firstAttribute="leadingMargin" secondItem="V3p-eo-hTn" secondAttribute="leading" id="r8e-OZ-QTq"/>
                             <constraint firstItem="buu-8h-3bI" firstAttribute="centerX" secondItem="dTZ-4j-5sY" secondAttribute="centerX" id="zgl-m6-JhY"/>
                         </constraints>
                     </view>
@@ -7030,10 +7115,10 @@
             </objects>
             <point key="canvasLocation" x="1452" y="17549"/>
         </scene>
-        <!--Background View Controller-->
+        <!--Night Initail View Controller-->
         <scene sceneID="LcS-AD-1Ja">
             <objects>
-                <viewController id="neR-sl-euO" customClass="BackgroundViewController" customModule="AnnGiNoCoreData" customModuleProvider="target" sceneMemberID="viewController">
+                <viewController id="neR-sl-euO" customClass="NightInitailViewController" customModule="AnnGiNoCoreData" customModuleProvider="target" sceneMemberID="viewController">
                     <layoutGuides>
                         <viewControllerLayoutGuide type="top" id="Gzl-73-y0C"/>
                         <viewControllerLayoutGuide type="bottom" id="KL9-43-Kt0"/>
@@ -7063,10 +7148,26 @@
                                     <segue destination="S92-sa-0Bp" kind="show" id="3zg-54-sIa"/>
                                 </connections>
                             </button>
+                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="L9O-zN-RKH">
+                                <rect key="frame" x="20" y="529" width="51" height="51"/>
+                                <animations/>
+                                <constraints>
+                                    <constraint firstAttribute="height" constant="51" id="BnL-nU-q4Y"/>
+                                    <constraint firstAttribute="width" constant="51" id="pSJ-SU-Loz"/>
+                                </constraints>
+                                <state key="normal" title="離開" backgroundImage="Button">
+                                    <color key="titleColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                                </state>
+                                <connections>
+                                    <action selector="dismissClicked" destination="neR-sl-euO" eventType="touchUpInside" id="1WN-bo-a2M"/>
+                                </connections>
+                            </button>
                         </subviews>
                         <animations/>
                         <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
                         <constraints>
+                            <constraint firstItem="KL9-43-Kt0" firstAttribute="top" secondItem="L9O-zN-RKH" secondAttribute="bottom" constant="20" id="1xt-y0-WKU"/>
+                            <constraint firstAttribute="leadingMargin" secondItem="L9O-zN-RKH" secondAttribute="leading" id="KgF-88-haV"/>
                             <constraint firstItem="oJE-JB-6IH" firstAttribute="centerX" secondItem="GJp-u2-yv8" secondAttribute="centerX" id="V1J-ix-q3q"/>
                             <constraint firstItem="KL9-43-Kt0" firstAttribute="top" secondItem="Avd-Bg-zEF" secondAttribute="bottom" constant="20" id="Ylg-z9-CzZ"/>
                             <constraint firstItem="Avd-Bg-zEF" firstAttribute="centerX" secondItem="GJp-u2-yv8" secondAttribute="centerX" id="eUM-SI-kAA"/>
@@ -11476,7 +11577,7 @@
                                 <rect key="frame" x="120" y="139" width="360" height="81.5"/>
                                 <animations/>
                                 <fontDescription key="fontDescription" type="system" pointSize="17"/>
-                                <color key="textColor" cocoaTouchSystemColor="darkTextColor"/>
+                                <color key="textColor" red="0.0" green="0.0" blue="0.0" alpha="1" colorSpace="calibratedRGB"/>
                                 <nil key="highlightedColor"/>
                             </label>
                             <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="6a0-Jd-hZa">
@@ -11526,7 +11627,7 @@
                                 <rect key="frame" x="20" y="140" width="85" height="20.5"/>
                                 <animations/>
                                 <fontDescription key="fontDescription" type="system" pointSize="17"/>
-                                <color key="textColor" cocoaTouchSystemColor="darkTextColor"/>
+                                <color key="textColor" red="0.0" green="0.0" blue="0.0" alpha="1" colorSpace="calibratedRGB"/>
                                 <nil key="highlightedColor"/>
                             </label>
                             <textField opaque="NO" clipsSubviews="YES" contentMode="scaleToFill" contentHorizontalAlignment="left" contentVerticalAlignment="center" borderStyle="roundedRect" textAlignment="natural" minimumFontSize="17" translatesAutoresizingMaskIntoConstraints="NO" id="26C-vr-ZiV">
@@ -11571,10 +11672,10 @@
             </objects>
             <point key="canvasLocation" x="1257" y="19095"/>
         </scene>
-        <!--Background View Controller-->
+        <!--Morning Background View Controller-->
         <scene sceneID="CRF-6T-VlW">
             <objects>
-                <viewController id="tqb-sR-ZBC" customClass="BackgroundViewController" customModule="AnnGiNoCoreData" customModuleProvider="target" sceneMemberID="viewController">
+                <viewController id="tqb-sR-ZBC" customClass="MorningBackgroundViewController" customModule="AnnGiNoCoreData" customModuleProvider="target" sceneMemberID="viewController">
                     <layoutGuides>
                         <viewControllerLayoutGuide type="top" id="kL8-yT-GDf"/>
                         <viewControllerLayoutGuide type="bottom" id="60W-kQ-G6f"/>
@@ -11786,7 +11887,7 @@
                                 <rect key="frame" x="20" y="140" width="119" height="20.5"/>
                                 <animations/>
                                 <fontDescription key="fontDescription" type="system" pointSize="17"/>
-                                <color key="textColor" cocoaTouchSystemColor="darkTextColor"/>
+                                <color key="textColor" red="0.0" green="0.0" blue="0.0" alpha="1" colorSpace="calibratedRGB"/>
                                 <nil key="highlightedColor"/>
                             </label>
                             <textField opaque="NO" clipsSubviews="YES" contentMode="scaleToFill" contentHorizontalAlignment="left" contentVerticalAlignment="center" borderStyle="roundedRect" textAlignment="natural" minimumFontSize="17" translatesAutoresizingMaskIntoConstraints="NO" id="Kk8-nx-UXN">
@@ -11847,7 +11948,7 @@
                                 <rect key="frame" x="20" y="140" width="119" height="20.5"/>
                                 <animations/>
                                 <fontDescription key="fontDescription" type="system" pointSize="17"/>
-                                <color key="textColor" cocoaTouchSystemColor="darkTextColor"/>
+                                <color key="textColor" red="0.0" green="0.0" blue="0.0" alpha="1" colorSpace="calibratedRGB"/>
                                 <nil key="highlightedColor"/>
                             </label>
                             <textField opaque="NO" clipsSubviews="YES" contentMode="scaleToFill" contentHorizontalAlignment="left" contentVerticalAlignment="center" borderStyle="roundedRect" textAlignment="natural" minimumFontSize="17" translatesAutoresizingMaskIntoConstraints="NO" id="Gmm-kT-kLg">
@@ -11908,7 +12009,7 @@
                                 <rect key="frame" x="20" y="140" width="119" height="20.5"/>
                                 <animations/>
                                 <fontDescription key="fontDescription" type="system" pointSize="17"/>
-                                <color key="textColor" cocoaTouchSystemColor="darkTextColor"/>
+                                <color key="textColor" red="0.0" green="0.0" blue="0.0" alpha="1" colorSpace="calibratedRGB"/>
                                 <nil key="highlightedColor"/>
                             </label>
                             <textField opaque="NO" clipsSubviews="YES" contentMode="scaleToFill" contentHorizontalAlignment="left" contentVerticalAlignment="center" borderStyle="roundedRect" textAlignment="natural" minimumFontSize="17" translatesAutoresizingMaskIntoConstraints="NO" id="EfK-T8-OMv">
@@ -11969,7 +12070,7 @@
                                 <rect key="frame" x="20" y="140" width="119" height="20.5"/>
                                 <animations/>
                                 <fontDescription key="fontDescription" type="system" pointSize="17"/>
-                                <color key="textColor" cocoaTouchSystemColor="darkTextColor"/>
+                                <color key="textColor" red="0.0" green="0.0" blue="0.0" alpha="1" colorSpace="calibratedRGB"/>
                                 <nil key="highlightedColor"/>
                             </label>
                             <textField opaque="NO" clipsSubviews="YES" contentMode="scaleToFill" contentHorizontalAlignment="left" contentVerticalAlignment="center" borderStyle="roundedRect" textAlignment="natural" minimumFontSize="17" translatesAutoresizingMaskIntoConstraints="NO" id="qSi-tp-3r4">

@@ -23,6 +23,11 @@ public class Questionare : PFObject, PFSubclassing {
     @NSManaged var noonStamp: Bool
     @NSManaged var nightStamp: Bool
     
+    // time
+    @NSManaged var morningTime: String!
+    @NSManaged var noonTime: String!
+    @NSManaged var nightTime: String!
+    
     // contents
     // MARK: - morning
 //    (1)	今天我必須在短時間內，完成所交付的工作任務。

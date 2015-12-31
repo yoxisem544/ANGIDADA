@@ -13,7 +13,7 @@ class NightLastConfirmViewController: UIViewController {
     var questionare: Questionare!
 
     override func viewDidLoad() {
-        super.viewDidLoad(); self.view.backgroundColor = UIColor(patternImage: UIImage(named: "bg.jpg")!)
+        super.viewDidLoad(); self.view.backgroundColor = UIColor(patternImage: UIImage(named: "bg-night.jpg")!)
 
         // Do any additional setup after loading the view.
     }
@@ -25,6 +25,9 @@ class NightLastConfirmViewController: UIViewController {
     
     @IBAction func saveToParse() {
         questionare.nightStamp = true
+        let formatter = NSDateFormatter()
+        formatter.dateFormat = "yyyy-MM-dd HH:mm:ss ZZZ"
+        questionare.nightTime = formatter.stringFromDate(NSDate())
         questionare.saveToParse({ () -> Void in
             print("ok to parse night")
 //            self.dismissViewControllerAnimated(true, completion: nil)

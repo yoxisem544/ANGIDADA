@@ -23,6 +23,10 @@ class AppDelegate: UIResponder, UIApplicationDelegate {
         PersonalInformation.initialize()
         Questionare.initialize()
         
+        // register for notification
+        UIApplication.sharedApplication().registerUserNotificationSettings(UIUserNotificationSettings(forTypes: [UIUserNotificationType.Alert, UIUserNotificationType.Badge, UIUserNotificationType.Sound], categories: nil))
+        UIApplication.sharedApplication().registerForRemoteNotifications()
+        
         Parse.setApplicationId("LgTpOBlioAGaP88D1WTxn5P4L2GWkBDVSEDBTgLu", clientKey: "2lGpw0C6m6HmJaq8imPuGrH1N28gXI3jKqyr9M4X")
         
         window?.backgroundColor = UIColor.whiteColor()

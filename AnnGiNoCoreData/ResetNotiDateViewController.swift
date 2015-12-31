@@ -47,6 +47,7 @@ class ResetNotiDateViewController: UIViewController {
     @IBAction func resetDateClicked() {
         if let dayToSet = Int(dayTextField.text!) {
             showAlert({ () -> Void in
+                QuestionareNotification.setNotificationAfterFewDays(dayToSet)
                 UserSetting.setNextWorkingDay(dayToSet)
                 self.presentMainScreen()
             })

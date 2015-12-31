@@ -14,11 +14,13 @@ class NightStartViewController: UIViewController {
     var isRetrieving: Bool = false
     
     override func viewDidLoad() {
-        super.viewDidLoad(); self.view.backgroundColor = UIColor(patternImage: UIImage(named: "bg.jpg")!)
+        super.viewDidLoad(); self.view.backgroundColor = UIColor(patternImage: UIImage(named: "bg-night.jpg")!)
         
         // Do any additional setup after loading the view.
         questionare = Questionare()
     }
+    
+    
     
     override func didReceiveMemoryWarning() {
         super.didReceiveMemoryWarning()

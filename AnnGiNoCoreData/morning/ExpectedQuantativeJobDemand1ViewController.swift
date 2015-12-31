@@ -16,7 +16,7 @@ class ExpectedQuantativeJobDemand1ViewController: UIViewController {
     var questionare: Questionare!
     
     override func viewDidLoad() {
-        super.viewDidLoad(); self.view.backgroundColor = UIColor(patternImage: UIImage(named: "bg.jpg")!)
+        super.viewDidLoad(); self.view.backgroundColor = UIColor(patternImage: UIImage(named: "bg-morning.jpg")!)
         
         // initialize Questionare
         questionare = Questionare()

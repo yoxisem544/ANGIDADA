@@ -7,11 +7,11 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		630000C91BCBFA9F00AB3209 /* MorningLastConfirmViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 630000C81BCBFA9F00AB3209 /* MorningLastConfirmViewController.swift */; settings = {ASSET_TAGS = (); }; };
-		630000CB1BCBFAE500AB3209 /* NoonLastConfirmViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 630000CA1BCBFAE500AB3209 /* NoonLastConfirmViewController.swift */; settings = {ASSET_TAGS = (); }; };
-		630104FB1BC4DF0E008DBED5 /* ShowDetailNotiDateViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 630104FA1BC4DF0E008DBED5 /* ShowDetailNotiDateViewController.swift */; settings = {ASSET_TAGS = (); }; };
-		630104FD1BC4DF21008DBED5 /* ResetNotiDateViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 630104FC1BC4DF21008DBED5 /* ResetNotiDateViewController.swift */; settings = {ASSET_TAGS = (); }; };
-		630104FF1BC4DFAD008DBED5 /* UserSetting.swift in Sources */ = {isa = PBXBuildFile; fileRef = 630104FE1BC4DFAD008DBED5 /* UserSetting.swift */; settings = {ASSET_TAGS = (); }; };
+		630000C91BCBFA9F00AB3209 /* MorningLastConfirmViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 630000C81BCBFA9F00AB3209 /* MorningLastConfirmViewController.swift */; };
+		630000CB1BCBFAE500AB3209 /* NoonLastConfirmViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 630000CA1BCBFAE500AB3209 /* NoonLastConfirmViewController.swift */; };
+		630104FB1BC4DF0E008DBED5 /* ShowDetailNotiDateViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 630104FA1BC4DF0E008DBED5 /* ShowDetailNotiDateViewController.swift */; };
+		630104FD1BC4DF21008DBED5 /* ResetNotiDateViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 630104FC1BC4DF21008DBED5 /* ResetNotiDateViewController.swift */; };
+		630104FF1BC4DFAD008DBED5 /* UserSetting.swift in Sources */ = {isa = PBXBuildFile; fileRef = 630104FE1BC4DFAD008DBED5 /* UserSetting.swift */; };
 		631739C31BA9374100242094 /* InitialInformationViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 631739C21BA9374100242094 /* InitialInformationViewController.swift */; };
 		631739C51BA937CA00242094 /* HintOnceViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 631739C41BA937CA00242094 /* HintOnceViewController.swift */; };
 		631739C71BA938EF00242094 /* FirstPartStartViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 631739C61BA938EF00242094 /* FirstPartStartViewController.swift */; };
@@ -29,31 +29,39 @@
 		631739DF1BA97DE700242094 /* PersonalInformation.swift in Sources */ = {isa = PBXBuildFile; fileRef = 631739DE1BA97DE700242094 /* PersonalInformation.swift */; };
 		631739E11BA9ABC200242094 /* Authoritarian4ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 631739E01BA9ABC200242094 /* Authoritarian4ViewController.swift */; };
 		631739E31BA9ABEC00242094 /* Authoritarian5ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 631739E21BA9ABEC00242094 /* Authoritarian5ViewController.swift */; };
-		632996F91BC399BA0061FEB4 /* QuestionareNotification.swift in Sources */ = {isa = PBXBuildFile; fileRef = 632996F81BC399BA0061FEB4 /* QuestionareNotification.swift */; settings = {ASSET_TAGS = (); }; };
-		6347B5241BC26C41004677C4 /* DayQuestionareViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6347B5231BC26C41004677C4 /* DayQuestionareViewController.swift */; settings = {ASSET_TAGS = (); }; };
-		634C74611BD0BF050098D630 /* AwardNameViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 634C74601BD0BF050098D630 /* AwardNameViewController.swift */; settings = {ASSET_TAGS = (); }; };
-		634C74641BD0C0240098D630 /* Award.swift in Sources */ = {isa = PBXBuildFile; fileRef = 634C74631BD0C0240098D630 /* Award.swift */; settings = {ASSET_TAGS = (); }; };
-		634C74661BD0C1570098D630 /* AwardEmailViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 634C74651BD0C1570098D630 /* AwardEmailViewController.swift */; settings = {ASSET_TAGS = (); }; };
-		634C74681BD0C1630098D630 /* AwardZipCodeViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 634C74671BD0C1630098D630 /* AwardZipCodeViewController.swift */; settings = {ASSET_TAGS = (); }; };
-		634C746A1BD0C16B0098D630 /* AwardAddressViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 634C74691BD0C16B0098D630 /* AwardAddressViewController.swift */; settings = {ASSET_TAGS = (); }; };
-		634C746C1BD0C1BA0098D630 /* AwardPhoneNumberViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 634C746B1BD0C1BA0098D630 /* AwardPhoneNumberViewController.swift */; settings = {ASSET_TAGS = (); }; };
-		634C746E1BD0C3B50098D630 /* AwardConfirmViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 634C746D1BD0C3B50098D630 /* AwardConfirmViewController.swift */; settings = {ASSET_TAGS = (); }; };
-		634C74701BD3245C0098D630 /* PersonalInfoShowViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 634C746F1BD3245C0098D630 /* PersonalInfoShowViewController.swift */; settings = {ASSET_TAGS = (); }; };
-		634E32CB1BC9B85400C322CB /* Questionare.swift in Sources */ = {isa = PBXBuildFile; fileRef = 634E32CA1BC9B85400C322CB /* Questionare.swift */; settings = {ASSET_TAGS = (); }; };
-		635CD9ED1BBF9F8600CFBE50 /* NameInfoViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 635CD9EC1BBF9F8600CFBE50 /* NameInfoViewController.swift */; settings = {ASSET_TAGS = (); }; };
-		635CD9EF1BBFA04400CFBE50 /* TelInfoViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 635CD9EE1BBFA04400CFBE50 /* TelInfoViewController.swift */; settings = {ASSET_TAGS = (); }; };
-		635CD9F11BBFA05100CFBE50 /* EMAILInfoViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 635CD9F01BBFA05100CFBE50 /* EMAILInfoViewController.swift */; settings = {ASSET_TAGS = (); }; };
-		635CD9F31BBFA05D00CFBE50 /* CompanyInfoViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 635CD9F21BBFA05D00CFBE50 /* CompanyInfoViewController.swift */; settings = {ASSET_TAGS = (); }; };
-		635CD9F51BBFA06700CFBE50 /* DepartmentInfoViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 635CD9F41BBFA06700CFBE50 /* DepartmentInfoViewController.swift */; settings = {ASSET_TAGS = (); }; };
-		635CD9F71BBFB28E00CFBE50 /* bg.png in Resources */ = {isa = PBXBuildFile; fileRef = 635CD9F61BBFB28E00CFBE50 /* bg.png */; settings = {ASSET_TAGS = (); }; };
-		635CD9FB1BBFF26300CFBE50 /* bg.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 635CD9FA1BBFF26300CFBE50 /* bg.jpg */; settings = {ASSET_TAGS = (); }; };
-		635CD9FF1BC0038100CFBE50 /* IntroductionViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 635CD9FE1BC0038100CFBE50 /* IntroductionViewController.swift */; settings = {ASSET_TAGS = (); }; };
-		635CDA011BC0042F00CFBE50 /* DesignerViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 635CDA001BC0042F00CFBE50 /* DesignerViewController.swift */; settings = {ASSET_TAGS = (); }; };
-		635CDA031BC0043C00CFBE50 /* ChangeDateViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 635CDA021BC0043C00CFBE50 /* ChangeDateViewController.swift */; settings = {ASSET_TAGS = (); }; };
-		635CDA051BC0044800CFBE50 /* ProgressViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 635CDA041BC0044800CFBE50 /* ProgressViewController.swift */; settings = {ASSET_TAGS = (); }; };
-		635CDA071BC0048600CFBE50 /* MainQuestionareViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 635CDA061BC0048600CFBE50 /* MainQuestionareViewController.swift */; settings = {ASSET_TAGS = (); }; };
-		636E0FD01BCC017700C65F0A /* NightLastConfirmViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 636E0FCF1BCC017700C65F0A /* NightLastConfirmViewController.swift */; settings = {ASSET_TAGS = (); }; };
-		636E0FD21BCC026800C65F0A /* MorningLoadQuestionareViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 636E0FD11BCC026800C65F0A /* MorningLoadQuestionareViewController.swift */; settings = {ASSET_TAGS = (); }; };
+		632996F91BC399BA0061FEB4 /* QuestionareNotification.swift in Sources */ = {isa = PBXBuildFile; fileRef = 632996F81BC399BA0061FEB4 /* QuestionareNotification.swift */; };
+		634333F41BFC03A600F9B121 /* bg-morning.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 634333F31BFC03A600F9B121 /* bg-morning.jpg */; };
+		634333F61BFC03BE00F9B121 /* bg-noon.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 634333F51BFC03BE00F9B121 /* bg-noon.jpg */; };
+		634333F81BFC03CC00F9B121 /* bg-night.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 634333F71BFC03CC00F9B121 /* bg-night.jpg */; };
+		634333FA1BFC14C900F9B121 /* MorningBackgroundViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 634333F91BFC14C900F9B121 /* MorningBackgroundViewController.swift */; };
+		634333FC1BFC14D700F9B121 /* NightBackgroundViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 634333FB1BFC14D700F9B121 /* NightBackgroundViewController.swift */; };
+		634333FE1BFC1EBB00F9B121 /* ShowAttententRightViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 634333FD1BFC1EBB00F9B121 /* ShowAttententRightViewController.swift */; };
+		6347B5241BC26C41004677C4 /* DayQuestionareViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6347B5231BC26C41004677C4 /* DayQuestionareViewController.swift */; };
+		634C74611BD0BF050098D630 /* AwardNameViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 634C74601BD0BF050098D630 /* AwardNameViewController.swift */; };
+		634C74641BD0C0240098D630 /* Award.swift in Sources */ = {isa = PBXBuildFile; fileRef = 634C74631BD0C0240098D630 /* Award.swift */; };
+		634C74661BD0C1570098D630 /* AwardEmailViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 634C74651BD0C1570098D630 /* AwardEmailViewController.swift */; };
+		634C74681BD0C1630098D630 /* AwardZipCodeViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 634C74671BD0C1630098D630 /* AwardZipCodeViewController.swift */; };
+		634C746A1BD0C16B0098D630 /* AwardAddressViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 634C74691BD0C16B0098D630 /* AwardAddressViewController.swift */; };
+		634C746C1BD0C1BA0098D630 /* AwardPhoneNumberViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 634C746B1BD0C1BA0098D630 /* AwardPhoneNumberViewController.swift */; };
+		634C746E1BD0C3B50098D630 /* AwardConfirmViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 634C746D1BD0C3B50098D630 /* AwardConfirmViewController.swift */; };
+		634C74701BD3245C0098D630 /* PersonalInfoShowViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 634C746F1BD3245C0098D630 /* PersonalInfoShowViewController.swift */; };
+		634E32CB1BC9B85400C322CB /* Questionare.swift in Sources */ = {isa = PBXBuildFile; fileRef = 634E32CA1BC9B85400C322CB /* Questionare.swift */; };
+		635CD9ED1BBF9F8600CFBE50 /* NameInfoViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 635CD9EC1BBF9F8600CFBE50 /* NameInfoViewController.swift */; };
+		635CD9EF1BBFA04400CFBE50 /* TelInfoViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 635CD9EE1BBFA04400CFBE50 /* TelInfoViewController.swift */; };
+		635CD9F11BBFA05100CFBE50 /* EMAILInfoViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 635CD9F01BBFA05100CFBE50 /* EMAILInfoViewController.swift */; };
+		635CD9F31BBFA05D00CFBE50 /* CompanyInfoViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 635CD9F21BBFA05D00CFBE50 /* CompanyInfoViewController.swift */; };
+		635CD9F51BBFA06700CFBE50 /* DepartmentInfoViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 635CD9F41BBFA06700CFBE50 /* DepartmentInfoViewController.swift */; };
+		635CD9F71BBFB28E00CFBE50 /* bg.png in Resources */ = {isa = PBXBuildFile; fileRef = 635CD9F61BBFB28E00CFBE50 /* bg.png */; };
+		635CD9FB1BBFF26300CFBE50 /* bg.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 635CD9FA1BBFF26300CFBE50 /* bg.jpg */; };
+		635CD9FF1BC0038100CFBE50 /* IntroductionViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 635CD9FE1BC0038100CFBE50 /* IntroductionViewController.swift */; };
+		635CDA011BC0042F00CFBE50 /* DesignerViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 635CDA001BC0042F00CFBE50 /* DesignerViewController.swift */; };
+		635CDA031BC0043C00CFBE50 /* ChangeDateViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 635CDA021BC0043C00CFBE50 /* ChangeDateViewController.swift */; };
+		635CDA051BC0044800CFBE50 /* ProgressViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 635CDA041BC0044800CFBE50 /* ProgressViewController.swift */; };
+		635CDA071BC0048600CFBE50 /* MainQuestionareViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 635CDA061BC0048600CFBE50 /* MainQuestionareViewController.swift */; };
+		636E0FD01BCC017700C65F0A /* NightLastConfirmViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 636E0FCF1BCC017700C65F0A /* NightLastConfirmViewController.swift */; };
+		636E0FD21BCC026800C65F0A /* MorningLoadQuestionareViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 636E0FD11BCC026800C65F0A /* MorningLoadQuestionareViewController.swift */; };
+		6396B52B1BDED27E00E851CF /* MorningStartViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6396B52A1BDED27E00E851CF /* MorningStartViewController.swift */; };
+		6396B52D1BDED73700E851CF /* NightInitailViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6396B52C1BDED73700E851CF /* NightInitailViewController.swift */; };
 		63A8705A1BB1A75B00313716 /* StatusKeys.swift in Sources */ = {isa = PBXBuildFile; fileRef = 63A870591BB1A75B00313716 /* StatusKeys.swift */; };
 		63A8705C1BB2926000313716 /* HowLongStayingInCompanyViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 63A8705B1BB2926000313716 /* HowLongStayingInCompanyViewController.swift */; };
 		63A8705E1BB29B6500313716 /* FirstPartConfirmViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 63A8705D1BB29B6500313716 /* FirstPartConfirmViewController.swift */; };
@@ -117,72 +125,72 @@
 		63A871521BB3FCE700313716 /* PowerDistanceOrientation4ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 63A871191BB3FCE700313716 /* PowerDistanceOrientation4ViewController.swift */; };
 		63A871531BB3FCE700313716 /* PowerDistanceOrientation5ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 63A8711A1BB3FCE700313716 /* PowerDistanceOrientation5ViewController.swift */; };
 		63A871541BB3FCE700313716 /* PowerDistanceOrientation6ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 63A8711B1BB3FCE700313716 /* PowerDistanceOrientation6ViewController.swift */; };
-		63ADF1EA1BCC1E6800374D11 /* NoonStartViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 63ADF1E91BCC1E6800374D11 /* NoonStartViewController.swift */; settings = {ASSET_TAGS = (); }; };
-		63ADF1EC1BCC231100374D11 /* NightStartViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 63ADF1EB1BCC231100374D11 /* NightStartViewController.swift */; settings = {ASSET_TAGS = (); }; };
-		63C08B6F1BCB302F00AB3E2F /* AuthoritarianLeadershipNeeded1ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 63C08B321BCB302F00AB3E2F /* AuthoritarianLeadershipNeeded1ViewController.swift */; settings = {ASSET_TAGS = (); }; };
-		63C08B701BCB302F00AB3E2F /* AuthoritarianLeadershipNeeded2ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 63C08B331BCB302F00AB3E2F /* AuthoritarianLeadershipNeeded2ViewController.swift */; settings = {ASSET_TAGS = (); }; };
-		63C08B711BCB302F00AB3E2F /* AuthoritarianLeadershipNeeded3ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 63C08B341BCB302F00AB3E2F /* AuthoritarianLeadershipNeeded3ViewController.swift */; settings = {ASSET_TAGS = (); }; };
-		63C08B721BCB302F00AB3E2F /* AuthoritarianLeadershipNeeded4ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 63C08B351BCB302F00AB3E2F /* AuthoritarianLeadershipNeeded4ViewController.swift */; settings = {ASSET_TAGS = (); }; };
-		63C08B731BCB302F00AB3E2F /* AuthoritarianLeadershipNeeded5ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 63C08B361BCB302F00AB3E2F /* AuthoritarianLeadershipNeeded5ViewController.swift */; settings = {ASSET_TAGS = (); }; };
-		63C08B741BCB302F00AB3E2F /* BenevolentLeadershipNeeded1ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 63C08B371BCB302F00AB3E2F /* BenevolentLeadershipNeeded1ViewController.swift */; settings = {ASSET_TAGS = (); }; };
-		63C08B751BCB302F00AB3E2F /* BenevolentLeadershipNeeded2ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 63C08B381BCB302F00AB3E2F /* BenevolentLeadershipNeeded2ViewController.swift */; settings = {ASSET_TAGS = (); }; };
-		63C08B761BCB302F00AB3E2F /* BenevolentLeadershipNeeded3ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 63C08B391BCB302F00AB3E2F /* BenevolentLeadershipNeeded3ViewController.swift */; settings = {ASSET_TAGS = (); }; };
-		63C08B771BCB302F00AB3E2F /* BenevolentLeadershipNeeded4ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 63C08B3A1BCB302F00AB3E2F /* BenevolentLeadershipNeeded4ViewController.swift */; settings = {ASSET_TAGS = (); }; };
-		63C08B781BCB302F00AB3E2F /* BenevolentLeadershipNeeded5ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 63C08B3B1BCB302F00AB3E2F /* BenevolentLeadershipNeeded5ViewController.swift */; settings = {ASSET_TAGS = (); }; };
-		63C08B791BCB302F00AB3E2F /* ExpectedEmotionalJobDemand1ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 63C08B3C1BCB302F00AB3E2F /* ExpectedEmotionalJobDemand1ViewController.swift */; settings = {ASSET_TAGS = (); }; };
-		63C08B7A1BCB302F00AB3E2F /* ExpectedEmotionalJobDemand2ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 63C08B3D1BCB302F00AB3E2F /* ExpectedEmotionalJobDemand2ViewController.swift */; settings = {ASSET_TAGS = (); }; };
-		63C08B7B1BCB302F00AB3E2F /* ExpectedEmotionalJobDemand3ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 63C08B3E1BCB302F00AB3E2F /* ExpectedEmotionalJobDemand3ViewController.swift */; settings = {ASSET_TAGS = (); }; };
-		63C08B7C1BCB302F00AB3E2F /* ExpectedEmotionalJobDemand4ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 63C08B3F1BCB302F00AB3E2F /* ExpectedEmotionalJobDemand4ViewController.swift */; settings = {ASSET_TAGS = (); }; };
-		63C08B7D1BCB302F00AB3E2F /* ExpectedEmotionalJobDemand5ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 63C08B401BCB302F00AB3E2F /* ExpectedEmotionalJobDemand5ViewController.swift */; settings = {ASSET_TAGS = (); }; };
-		63C08B7E1BCB302F00AB3E2F /* ExpectedQuantativeJobDemand1ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 63C08B411BCB302F00AB3E2F /* ExpectedQuantativeJobDemand1ViewController.swift */; settings = {ASSET_TAGS = (); }; };
-		63C08B7F1BCB302F00AB3E2F /* ExpectedQuantativeJobDemand2ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 63C08B421BCB302F00AB3E2F /* ExpectedQuantativeJobDemand2ViewController.swift */; settings = {ASSET_TAGS = (); }; };
-		63C08B801BCB302F00AB3E2F /* ExpectedQuantativeJobDemand3ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 63C08B431BCB302F00AB3E2F /* ExpectedQuantativeJobDemand3ViewController.swift */; settings = {ASSET_TAGS = (); }; };
-		63C08B811BCB302F00AB3E2F /* ExpectedQuantativeJobDemand4ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 63C08B441BCB302F00AB3E2F /* ExpectedQuantativeJobDemand4ViewController.swift */; settings = {ASSET_TAGS = (); }; };
-		63C08B821BCB302F00AB3E2F /* ExpectedQuantativeJobDemand5ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 63C08B451BCB302F00AB3E2F /* ExpectedQuantativeJobDemand5ViewController.swift */; settings = {ASSET_TAGS = (); }; };
-		63C08B831BCB302F00AB3E2F /* JobSatisfaction1ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 63C08B471BCB302F00AB3E2F /* JobSatisfaction1ViewController.swift */; settings = {ASSET_TAGS = (); }; };
-		63C08B841BCB302F00AB3E2F /* JobSatisfaction2ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 63C08B481BCB302F00AB3E2F /* JobSatisfaction2ViewController.swift */; settings = {ASSET_TAGS = (); }; };
-		63C08B851BCB302F00AB3E2F /* JobSatisfaction3ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 63C08B491BCB302F00AB3E2F /* JobSatisfaction3ViewController.swift */; settings = {ASSET_TAGS = (); }; };
-		63C08B861BCB302F00AB3E2F /* JobSatisfaction4ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 63C08B4A1BCB302F00AB3E2F /* JobSatisfaction4ViewController.swift */; settings = {ASSET_TAGS = (); }; };
-		63C08B871BCB302F00AB3E2F /* JobSatisfaction5ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 63C08B4B1BCB302F00AB3E2F /* JobSatisfaction5ViewController.swift */; settings = {ASSET_TAGS = (); }; };
-		63C08B881BCB302F00AB3E2F /* NegativeAffect10ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 63C08B4C1BCB302F00AB3E2F /* NegativeAffect10ViewController.swift */; settings = {ASSET_TAGS = (); }; };
-		63C08B891BCB302F00AB3E2F /* NegativeAffect1ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 63C08B4D1BCB302F00AB3E2F /* NegativeAffect1ViewController.swift */; settings = {ASSET_TAGS = (); }; };
-		63C08B8A1BCB302F00AB3E2F /* NegativeAffect2ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 63C08B4E1BCB302F00AB3E2F /* NegativeAffect2ViewController.swift */; settings = {ASSET_TAGS = (); }; };
-		63C08B8B1BCB302F00AB3E2F /* NegativeAffect3ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 63C08B4F1BCB302F00AB3E2F /* NegativeAffect3ViewController.swift */; settings = {ASSET_TAGS = (); }; };
-		63C08B8C1BCB302F00AB3E2F /* NegativeAffect4ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 63C08B501BCB302F00AB3E2F /* NegativeAffect4ViewController.swift */; settings = {ASSET_TAGS = (); }; };
-		63C08B8D1BCB302F00AB3E2F /* NegativeAffect5ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 63C08B511BCB302F00AB3E2F /* NegativeAffect5ViewController.swift */; settings = {ASSET_TAGS = (); }; };
-		63C08B8E1BCB302F00AB3E2F /* NegativeAffect6ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 63C08B521BCB302F00AB3E2F /* NegativeAffect6ViewController.swift */; settings = {ASSET_TAGS = (); }; };
-		63C08B8F1BCB302F00AB3E2F /* NegativeAffect7ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 63C08B531BCB302F00AB3E2F /* NegativeAffect7ViewController.swift */; settings = {ASSET_TAGS = (); }; };
-		63C08B901BCB302F00AB3E2F /* NegativeAffect8ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 63C08B541BCB302F00AB3E2F /* NegativeAffect8ViewController.swift */; settings = {ASSET_TAGS = (); }; };
-		63C08B911BCB302F00AB3E2F /* NegativeAffect9ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 63C08B551BCB302F00AB3E2F /* NegativeAffect9ViewController.swift */; settings = {ASSET_TAGS = (); }; };
-		63C08B921BCB302F00AB3E2F /* PositiveAffect10ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 63C08B561BCB302F00AB3E2F /* PositiveAffect10ViewController.swift */; settings = {ASSET_TAGS = (); }; };
-		63C08B931BCB302F00AB3E2F /* PositiveAffect1ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 63C08B571BCB302F00AB3E2F /* PositiveAffect1ViewController.swift */; settings = {ASSET_TAGS = (); }; };
-		63C08B941BCB302F00AB3E2F /* PositiveAffect2ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 63C08B581BCB302F00AB3E2F /* PositiveAffect2ViewController.swift */; settings = {ASSET_TAGS = (); }; };
-		63C08B951BCB302F00AB3E2F /* PositiveAffect3ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 63C08B591BCB302F00AB3E2F /* PositiveAffect3ViewController.swift */; settings = {ASSET_TAGS = (); }; };
-		63C08B961BCB302F00AB3E2F /* PositiveAffect4ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 63C08B5A1BCB302F00AB3E2F /* PositiveAffect4ViewController.swift */; settings = {ASSET_TAGS = (); }; };
-		63C08B971BCB302F00AB3E2F /* PositiveAffect5ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 63C08B5B1BCB302F00AB3E2F /* PositiveAffect5ViewController.swift */; settings = {ASSET_TAGS = (); }; };
-		63C08B981BCB302F00AB3E2F /* PositiveAffect6ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 63C08B5C1BCB302F00AB3E2F /* PositiveAffect6ViewController.swift */; settings = {ASSET_TAGS = (); }; };
-		63C08B991BCB302F00AB3E2F /* PositiveAffect7ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 63C08B5D1BCB302F00AB3E2F /* PositiveAffect7ViewController.swift */; settings = {ASSET_TAGS = (); }; };
-		63C08B9A1BCB302F00AB3E2F /* PositiveAffect8ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 63C08B5E1BCB302F00AB3E2F /* PositiveAffect8ViewController.swift */; settings = {ASSET_TAGS = (); }; };
-		63C08B9B1BCB302F00AB3E2F /* PositiveAffect9ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 63C08B5F1BCB302F00AB3E2F /* PositiveAffect9ViewController.swift */; settings = {ASSET_TAGS = (); }; };
-		63C08B9C1BCB302F00AB3E2F /* SupervisorDirectedOCB1ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 63C08B601BCB302F00AB3E2F /* SupervisorDirectedOCB1ViewController.swift */; settings = {ASSET_TAGS = (); }; };
-		63C08B9D1BCB302F00AB3E2F /* SupervisorDirectedOCB2ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 63C08B611BCB302F00AB3E2F /* SupervisorDirectedOCB2ViewController.swift */; settings = {ASSET_TAGS = (); }; };
-		63C08B9E1BCB302F00AB3E2F /* SupervisorDirectedOCB3ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 63C08B621BCB302F00AB3E2F /* SupervisorDirectedOCB3ViewController.swift */; settings = {ASSET_TAGS = (); }; };
-		63C08B9F1BCB302F00AB3E2F /* SupervisorDirectedOCB4ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 63C08B631BCB302F00AB3E2F /* SupervisorDirectedOCB4ViewController.swift */; settings = {ASSET_TAGS = (); }; };
-		63C08BA01BCB302F00AB3E2F /* AuthoriarianLeadershipRecieved1ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 63C08B651BCB302F00AB3E2F /* AuthoriarianLeadershipRecieved1ViewController.swift */; settings = {ASSET_TAGS = (); }; };
-		63C08BA11BCB302F00AB3E2F /* AuthoriarianLeadershipRecieved2ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 63C08B661BCB302F00AB3E2F /* AuthoriarianLeadershipRecieved2ViewController.swift */; settings = {ASSET_TAGS = (); }; };
-		63C08BA21BCB302F00AB3E2F /* AuthoriarianLeadershipRecieved3ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 63C08B671BCB302F00AB3E2F /* AuthoriarianLeadershipRecieved3ViewController.swift */; settings = {ASSET_TAGS = (); }; };
-		63C08BA31BCB302F00AB3E2F /* AuthoriarianLeadershipRecieved4ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 63C08B681BCB302F00AB3E2F /* AuthoriarianLeadershipRecieved4ViewController.swift */; settings = {ASSET_TAGS = (); }; };
-		63C08BA41BCB302F00AB3E2F /* AuthoriarianLeadershipRecieved5ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 63C08B691BCB302F00AB3E2F /* AuthoriarianLeadershipRecieved5ViewController.swift */; settings = {ASSET_TAGS = (); }; };
-		63C08BA51BCB302F00AB3E2F /* BenevolentLeadershipRecieved1ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 63C08B6A1BCB302F00AB3E2F /* BenevolentLeadershipRecieved1ViewController.swift */; settings = {ASSET_TAGS = (); }; };
-		63C08BA61BCB302F00AB3E2F /* BenevolentLeadershipRecieved2ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 63C08B6B1BCB302F00AB3E2F /* BenevolentLeadershipRecieved2ViewController.swift */; settings = {ASSET_TAGS = (); }; };
-		63C08BA71BCB302F00AB3E2F /* BenevolentLeadershipRecieved3ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 63C08B6C1BCB302F00AB3E2F /* BenevolentLeadershipRecieved3ViewController.swift */; settings = {ASSET_TAGS = (); }; };
-		63C08BA81BCB302F00AB3E2F /* BenevolentLeadershipRecieved4ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 63C08B6D1BCB302F00AB3E2F /* BenevolentLeadershipRecieved4ViewController.swift */; settings = {ASSET_TAGS = (); }; };
-		63C08BA91BCB302F00AB3E2F /* BenevolentLeadershipRecieved5ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 63C08B6E1BCB302F00AB3E2F /* BenevolentLeadershipRecieved5ViewController.swift */; settings = {ASSET_TAGS = (); }; };
-		63C08BAB1BCB33C900AB3E2F /* MorningFirstComfirmViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 63C08BAA1BCB33C900AB3E2F /* MorningFirstComfirmViewController.swift */; settings = {ASSET_TAGS = (); }; };
-		63C08BAD1BCB33EA00AB3E2F /* NightFirstConfirmViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 63C08BAC1BCB33EA00AB3E2F /* NightFirstConfirmViewController.swift */; settings = {ASSET_TAGS = (); }; };
-		63C08BAF1BCB33FC00AB3E2F /* NightSecondConfirmViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 63C08BAE1BCB33FC00AB3E2F /* NightSecondConfirmViewController.swift */; settings = {ASSET_TAGS = (); }; };
-		63DC7EB91BCEB424002D9B5F /* BackgroundViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 63DC7EB81BCEB424002D9B5F /* BackgroundViewController.swift */; settings = {ASSET_TAGS = (); }; };
-		63DC7EBB1BD00021002D9B5F /* cover.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 63DC7EBA1BD00021002D9B5F /* cover.jpg */; settings = {ASSET_TAGS = (); }; };
+		63ADF1EA1BCC1E6800374D11 /* NoonStartViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 63ADF1E91BCC1E6800374D11 /* NoonStartViewController.swift */; };
+		63ADF1EC1BCC231100374D11 /* NightStartViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 63ADF1EB1BCC231100374D11 /* NightStartViewController.swift */; };
+		63C08B6F1BCB302F00AB3E2F /* AuthoritarianLeadershipNeeded1ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 63C08B321BCB302F00AB3E2F /* AuthoritarianLeadershipNeeded1ViewController.swift */; };
+		63C08B701BCB302F00AB3E2F /* AuthoritarianLeadershipNeeded2ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 63C08B331BCB302F00AB3E2F /* AuthoritarianLeadershipNeeded2ViewController.swift */; };
+		63C08B711BCB302F00AB3E2F /* AuthoritarianLeadershipNeeded3ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 63C08B341BCB302F00AB3E2F /* AuthoritarianLeadershipNeeded3ViewController.swift */; };
+		63C08B721BCB302F00AB3E2F /* AuthoritarianLeadershipNeeded4ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 63C08B351BCB302F00AB3E2F /* AuthoritarianLeadershipNeeded4ViewController.swift */; };
+		63C08B731BCB302F00AB3E2F /* AuthoritarianLeadershipNeeded5ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 63C08B361BCB302F00AB3E2F /* AuthoritarianLeadershipNeeded5ViewController.swift */; };
+		63C08B741BCB302F00AB3E2F /* BenevolentLeadershipNeeded1ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 63C08B371BCB302F00AB3E2F /* BenevolentLeadershipNeeded1ViewController.swift */; };
+		63C08B751BCB302F00AB3E2F /* BenevolentLeadershipNeeded2ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 63C08B381BCB302F00AB3E2F /* BenevolentLeadershipNeeded2ViewController.swift */; };
+		63C08B761BCB302F00AB3E2F /* BenevolentLeadershipNeeded3ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 63C08B391BCB302F00AB3E2F /* BenevolentLeadershipNeeded3ViewController.swift */; };
+		63C08B771BCB302F00AB3E2F /* BenevolentLeadershipNeeded4ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 63C08B3A1BCB302F00AB3E2F /* BenevolentLeadershipNeeded4ViewController.swift */; };
+		63C08B781BCB302F00AB3E2F /* BenevolentLeadershipNeeded5ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 63C08B3B1BCB302F00AB3E2F /* BenevolentLeadershipNeeded5ViewController.swift */; };
+		63C08B791BCB302F00AB3E2F /* ExpectedEmotionalJobDemand1ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 63C08B3C1BCB302F00AB3E2F /* ExpectedEmotionalJobDemand1ViewController.swift */; };
+		63C08B7A1BCB302F00AB3E2F /* ExpectedEmotionalJobDemand2ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 63C08B3D1BCB302F00AB3E2F /* ExpectedEmotionalJobDemand2ViewController.swift */; };
+		63C08B7B1BCB302F00AB3E2F /* ExpectedEmotionalJobDemand3ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 63C08B3E1BCB302F00AB3E2F /* ExpectedEmotionalJobDemand3ViewController.swift */; };
+		63C08B7C1BCB302F00AB3E2F /* ExpectedEmotionalJobDemand4ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 63C08B3F1BCB302F00AB3E2F /* ExpectedEmotionalJobDemand4ViewController.swift */; };
+		63C08B7D1BCB302F00AB3E2F /* ExpectedEmotionalJobDemand5ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 63C08B401BCB302F00AB3E2F /* ExpectedEmotionalJobDemand5ViewController.swift */; };
+		63C08B7E1BCB302F00AB3E2F /* ExpectedQuantativeJobDemand1ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 63C08B411BCB302F00AB3E2F /* ExpectedQuantativeJobDemand1ViewController.swift */; };
+		63C08B7F1BCB302F00AB3E2F /* ExpectedQuantativeJobDemand2ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 63C08B421BCB302F00AB3E2F /* ExpectedQuantativeJobDemand2ViewController.swift */; };
+		63C08B801BCB302F00AB3E2F /* ExpectedQuantativeJobDemand3ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 63C08B431BCB302F00AB3E2F /* ExpectedQuantativeJobDemand3ViewController.swift */; };
+		63C08B811BCB302F00AB3E2F /* ExpectedQuantativeJobDemand4ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 63C08B441BCB302F00AB3E2F /* ExpectedQuantativeJobDemand4ViewController.swift */; };
+		63C08B821BCB302F00AB3E2F /* ExpectedQuantativeJobDemand5ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 63C08B451BCB302F00AB3E2F /* ExpectedQuantativeJobDemand5ViewController.swift */; };
+		63C08B831BCB302F00AB3E2F /* JobSatisfaction1ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 63C08B471BCB302F00AB3E2F /* JobSatisfaction1ViewController.swift */; };
+		63C08B841BCB302F00AB3E2F /* JobSatisfaction2ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 63C08B481BCB302F00AB3E2F /* JobSatisfaction2ViewController.swift */; };
+		63C08B851BCB302F00AB3E2F /* JobSatisfaction3ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 63C08B491BCB302F00AB3E2F /* JobSatisfaction3ViewController.swift */; };
+		63C08B861BCB302F00AB3E2F /* JobSatisfaction4ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 63C08B4A1BCB302F00AB3E2F /* JobSatisfaction4ViewController.swift */; };
+		63C08B871BCB302F00AB3E2F /* JobSatisfaction5ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 63C08B4B1BCB302F00AB3E2F /* JobSatisfaction5ViewController.swift */; };
+		63C08B881BCB302F00AB3E2F /* NegativeAffect10ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 63C08B4C1BCB302F00AB3E2F /* NegativeAffect10ViewController.swift */; };
+		63C08B891BCB302F00AB3E2F /* NegativeAffect1ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 63C08B4D1BCB302F00AB3E2F /* NegativeAffect1ViewController.swift */; };
+		63C08B8A1BCB302F00AB3E2F /* NegativeAffect2ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 63C08B4E1BCB302F00AB3E2F /* NegativeAffect2ViewController.swift */; };
+		63C08B8B1BCB302F00AB3E2F /* NegativeAffect3ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 63C08B4F1BCB302F00AB3E2F /* NegativeAffect3ViewController.swift */; };
+		63C08B8C1BCB302F00AB3E2F /* NegativeAffect4ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 63C08B501BCB302F00AB3E2F /* NegativeAffect4ViewController.swift */; };
+		63C08B8D1BCB302F00AB3E2F /* NegativeAffect5ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 63C08B511BCB302F00AB3E2F /* NegativeAffect5ViewController.swift */; };
+		63C08B8E1BCB302F00AB3E2F /* NegativeAffect6ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 63C08B521BCB302F00AB3E2F /* NegativeAffect6ViewController.swift */; };
+		63C08B8F1BCB302F00AB3E2F /* NegativeAffect7ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 63C08B531BCB302F00AB3E2F /* NegativeAffect7ViewController.swift */; };
+		63C08B901BCB302F00AB3E2F /* NegativeAffect8ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 63C08B541BCB302F00AB3E2F /* NegativeAffect8ViewController.swift */; };
+		63C08B911BCB302F00AB3E2F /* NegativeAffect9ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 63C08B551BCB302F00AB3E2F /* NegativeAffect9ViewController.swift */; };
+		63C08B921BCB302F00AB3E2F /* PositiveAffect10ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 63C08B561BCB302F00AB3E2F /* PositiveAffect10ViewController.swift */; };
+		63C08B931BCB302F00AB3E2F /* PositiveAffect1ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 63C08B571BCB302F00AB3E2F /* PositiveAffect1ViewController.swift */; };
+		63C08B941BCB302F00AB3E2F /* PositiveAffect2ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 63C08B581BCB302F00AB3E2F /* PositiveAffect2ViewController.swift */; };
+		63C08B951BCB302F00AB3E2F /* PositiveAffect3ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 63C08B591BCB302F00AB3E2F /* PositiveAffect3ViewController.swift */; };
+		63C08B961BCB302F00AB3E2F /* PositiveAffect4ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 63C08B5A1BCB302F00AB3E2F /* PositiveAffect4ViewController.swift */; };
+		63C08B971BCB302F00AB3E2F /* PositiveAffect5ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 63C08B5B1BCB302F00AB3E2F /* PositiveAffect5ViewController.swift */; };
+		63C08B981BCB302F00AB3E2F /* PositiveAffect6ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 63C08B5C1BCB302F00AB3E2F /* PositiveAffect6ViewController.swift */; };
+		63C08B991BCB302F00AB3E2F /* PositiveAffect7ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 63C08B5D1BCB302F00AB3E2F /* PositiveAffect7ViewController.swift */; };
+		63C08B9A1BCB302F00AB3E2F /* PositiveAffect8ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 63C08B5E1BCB302F00AB3E2F /* PositiveAffect8ViewController.swift */; };
+		63C08B9B1BCB302F00AB3E2F /* PositiveAffect9ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 63C08B5F1BCB302F00AB3E2F /* PositiveAffect9ViewController.swift */; };
+		63C08B9C1BCB302F00AB3E2F /* SupervisorDirectedOCB1ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 63C08B601BCB302F00AB3E2F /* SupervisorDirectedOCB1ViewController.swift */; };
+		63C08B9D1BCB302F00AB3E2F /* SupervisorDirectedOCB2ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 63C08B611BCB302F00AB3E2F /* SupervisorDirectedOCB2ViewController.swift */; };
+		63C08B9E1BCB302F00AB3E2F /* SupervisorDirectedOCB3ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 63C08B621BCB302F00AB3E2F /* SupervisorDirectedOCB3ViewController.swift */; };
+		63C08B9F1BCB302F00AB3E2F /* SupervisorDirectedOCB4ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 63C08B631BCB302F00AB3E2F /* SupervisorDirectedOCB4ViewController.swift */; };
+		63C08BA01BCB302F00AB3E2F /* AuthoriarianLeadershipRecieved1ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 63C08B651BCB302F00AB3E2F /* AuthoriarianLeadershipRecieved1ViewController.swift */; };
+		63C08BA11BCB302F00AB3E2F /* AuthoriarianLeadershipRecieved2ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 63C08B661BCB302F00AB3E2F /* AuthoriarianLeadershipRecieved2ViewController.swift */; };
+		63C08BA21BCB302F00AB3E2F /* AuthoriarianLeadershipRecieved3ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 63C08B671BCB302F00AB3E2F /* AuthoriarianLeadershipRecieved3ViewController.swift */; };
+		63C08BA31BCB302F00AB3E2F /* AuthoriarianLeadershipRecieved4ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 63C08B681BCB302F00AB3E2F /* AuthoriarianLeadershipRecieved4ViewController.swift */; };
+		63C08BA41BCB302F00AB3E2F /* AuthoriarianLeadershipRecieved5ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 63C08B691BCB302F00AB3E2F /* AuthoriarianLeadershipRecieved5ViewController.swift */; };
+		63C08BA51BCB302F00AB3E2F /* BenevolentLeadershipRecieved1ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 63C08B6A1BCB302F00AB3E2F /* BenevolentLeadershipRecieved1ViewController.swift */; };
+		63C08BA61BCB302F00AB3E2F /* BenevolentLeadershipRecieved2ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 63C08B6B1BCB302F00AB3E2F /* BenevolentLeadershipRecieved2ViewController.swift */; };
+		63C08BA71BCB302F00AB3E2F /* BenevolentLeadershipRecieved3ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 63C08B6C1BCB302F00AB3E2F /* BenevolentLeadershipRecieved3ViewController.swift */; };
+		63C08BA81BCB302F00AB3E2F /* BenevolentLeadershipRecieved4ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 63C08B6D1BCB302F00AB3E2F /* BenevolentLeadershipRecieved4ViewController.swift */; };
+		63C08BA91BCB302F00AB3E2F /* BenevolentLeadershipRecieved5ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 63C08B6E1BCB302F00AB3E2F /* BenevolentLeadershipRecieved5ViewController.swift */; };
+		63C08BAB1BCB33C900AB3E2F /* MorningFirstComfirmViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 63C08BAA1BCB33C900AB3E2F /* MorningFirstComfirmViewController.swift */; };
+		63C08BAD1BCB33EA00AB3E2F /* NightFirstConfirmViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 63C08BAC1BCB33EA00AB3E2F /* NightFirstConfirmViewController.swift */; };
+		63C08BAF1BCB33FC00AB3E2F /* NightSecondConfirmViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 63C08BAE1BCB33FC00AB3E2F /* NightSecondConfirmViewController.swift */; };
+		63DC7EB91BCEB424002D9B5F /* BackgroundViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 63DC7EB81BCEB424002D9B5F /* BackgroundViewController.swift */; };
+		63DC7EBB1BD00021002D9B5F /* cover.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 63DC7EBA1BD00021002D9B5F /* cover.jpg */; };
 		63E61E871BA685CA009F50DA /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 63E61E861BA685CA009F50DA /* AppDelegate.swift */; };
 		63E61E891BA685CA009F50DA /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 63E61E881BA685CA009F50DA /* ViewController.swift */; };
 		63E61E8C1BA685CA009F50DA /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 63E61E8A1BA685CA009F50DA /* Main.storyboard */; };
@@ -249,6 +257,12 @@
 		631739E01BA9ABC200242094 /* Authoritarian4ViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Authoritarian4ViewController.swift; sourceTree = "<group>"; };
 		631739E21BA9ABEC00242094 /* Authoritarian5ViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Authoritarian5ViewController.swift; sourceTree = "<group>"; };
 		632996F81BC399BA0061FEB4 /* QuestionareNotification.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = QuestionareNotification.swift; sourceTree = "<group>"; };
+		634333F31BFC03A600F9B121 /* bg-morning.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = "bg-morning.jpg"; sourceTree = "<group>"; };
+		634333F51BFC03BE00F9B121 /* bg-noon.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = "bg-noon.jpg"; sourceTree = "<group>"; };
+		634333F71BFC03CC00F9B121 /* bg-night.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = "bg-night.jpg"; sourceTree = "<group>"; };
+		634333F91BFC14C900F9B121 /* MorningBackgroundViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = MorningBackgroundViewController.swift; sourceTree = "<group>"; };
+		634333FB1BFC14D700F9B121 /* NightBackgroundViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = NightBackgroundViewController.swift; sourceTree = "<group>"; };
+		634333FD1BFC1EBB00F9B121 /* ShowAttententRightViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ShowAttententRightViewController.swift; sourceTree = "<group>"; };
 		6347B5231BC26C41004677C4 /* DayQuestionareViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = DayQuestionareViewController.swift; sourceTree = "<group>"; };
 		634C74601BD0BF050098D630 /* AwardNameViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = AwardNameViewController.swift; sourceTree = "<group>"; };
 		634C74631BD0C0240098D630 /* Award.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Award.swift; sourceTree = "<group>"; };
@@ -273,6 +287,8 @@
 		635CDA061BC0048600CFBE50 /* MainQuestionareViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = MainQuestionareViewController.swift; sourceTree = "<group>"; };
 		636E0FCF1BCC017700C65F0A /* NightLastConfirmViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = NightLastConfirmViewController.swift; sourceTree = "<group>"; };
 		636E0FD11BCC026800C65F0A /* MorningLoadQuestionareViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = MorningLoadQuestionareViewController.swift; sourceTree = "<group>"; };
+		6396B52A1BDED27E00E851CF /* MorningStartViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = MorningStartViewController.swift; path = ../noon/MorningStartViewController.swift; sourceTree = "<group>"; };
+		6396B52C1BDED73700E851CF /* NightInitailViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = NightInitailViewController.swift; sourceTree = "<group>"; };
 		63A870591BB1A75B00313716 /* StatusKeys.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = StatusKeys.swift; sourceTree = "<group>"; };
 		63A8705B1BB2926000313716 /* HowLongStayingInCompanyViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = HowLongStayingInCompanyViewController.swift; sourceTree = "<group>"; };
 		63A8705D1BB29B6500313716 /* FirstPartConfirmViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = FirstPartConfirmViewController.swift; sourceTree = "<group>"; };
@@ -685,6 +701,7 @@
 				63C08B441BCB302F00AB3E2F /* ExpectedQuantativeJobDemand4ViewController.swift */,
 				63C08B451BCB302F00AB3E2F /* ExpectedQuantativeJobDemand5ViewController.swift */,
 				63C08BAA1BCB33C900AB3E2F /* MorningFirstComfirmViewController.swift */,
+				6396B52A1BDED27E00E851CF /* MorningStartViewController.swift */,
 				636E0FD11BCC026800C65F0A /* MorningLoadQuestionareViewController.swift */,
 			);
 			path = morning;
@@ -752,6 +769,9 @@
 		63E61E781BA685CA009F50DA = {
 			isa = PBXGroup;
 			children = (
+				634333FD1BFC1EBB00F9B121 /* ShowAttententRightViewController.swift */,
+				634333F91BFC14C900F9B121 /* MorningBackgroundViewController.swift */,
+				634333FB1BFC14D700F9B121 /* NightBackgroundViewController.swift */,
 				63E61EC81BA6862A009F50DA /* libsqlite3.dylib */,
 				63E61EC61BA68621009F50DA /* libz.dylib */,
 				63E61EC41BA68619009F50DA /* SystemConfiguration.framework */,
@@ -797,7 +817,11 @@
 				63E61E881BA685CA009F50DA /* ViewController.swift */,
 				635CD9F61BBFB28E00CFBE50 /* bg.png */,
 				635CD9FA1BBFF26300CFBE50 /* bg.jpg */,
+				634333F31BFC03A600F9B121 /* bg-morning.jpg */,
+				634333F51BFC03BE00F9B121 /* bg-noon.jpg */,
+				634333F71BFC03CC00F9B121 /* bg-night.jpg */,
 				63E61E8A1BA685CA009F50DA /* Main.storyboard */,
+				6396B52C1BDED73700E851CF /* NightInitailViewController.swift */,
 				634C746F1BD3245C0098D630 /* PersonalInfoShowViewController.swift */,
 				634C74621BD0BF0C0098D630 /* Award */,
 				63DC7EB81BCEB424002D9B5F /* BackgroundViewController.swift */,
@@ -943,9 +967,12 @@
 			buildActionMask = 2147483647;
 			files = (
 				635CD9FB1BBFF26300CFBE50 /* bg.jpg in Resources */,
+				634333F81BFC03CC00F9B121 /* bg-night.jpg in Resources */,
 				63E61E8C1BA685CA009F50DA /* Main.storyboard in Resources */,
 				63E61E911BA685CA009F50DA /* LaunchScreen.xib in Resources */,
 				63DC7EBB1BD00021002D9B5F /* cover.jpg in Resources */,
+				634333F41BFC03A600F9B121 /* bg-morning.jpg in Resources */,
+				634333F61BFC03BE00F9B121 /* bg-noon.jpg in Resources */,
 				635CD9F71BBFB28E00CFBE50 /* bg.png in Resources */,
 				63E61E8E1BA685CA009F50DA /* Images.xcassets in Resources */,
 			);
@@ -1037,6 +1064,7 @@
 				634C74681BD0C1630098D630 /* AwardZipCodeViewController.swift in Sources */,
 				63E61E891BA685CA009F50DA /* ViewController.swift in Sources */,
 				63C08B751BCB302F00AB3E2F /* BenevolentLeadershipNeeded2ViewController.swift in Sources */,
+				6396B52B1BDED27E00E851CF /* MorningStartViewController.swift in Sources */,
 				63A8713D1BB3FCE700313716 /* TraitJobSatisfaction5ViewController.swift in Sources */,
 				63A871381BB3FCE700313716 /* Competence3ViewController.swift in Sources */,
 				63C08B7A1BCB302F00AB3E2F /* ExpectedEmotionalJobDemand2ViewController.swift in Sources */,
@@ -1067,6 +1095,7 @@
 				634C74701BD3245C0098D630 /* PersonalInfoShowViewController.swift in Sources */,
 				634C746C1BD0C1BA0098D630 /* AwardPhoneNumberViewController.swift in Sources */,
 				6347B5241BC26C41004677C4 /* DayQuestionareViewController.swift in Sources */,
+				634333FC1BFC14D700F9B121 /* NightBackgroundViewController.swift in Sources */,
 				63A871251BB3FCE700313716 /* GeneralSupervisorDirectedOCB1ViewController.swift in Sources */,
 				63C08B861BCB302F00AB3E2F /* JobSatisfaction4ViewController.swift in Sources */,
 				63A8711E1BB3FCE700313716 /* BenevolentLeadership3ViewController.swift in Sources */,
@@ -1077,6 +1106,7 @@
 				63C08BAF1BCB33FC00AB3E2F /* NightSecondConfirmViewController.swift in Sources */,
 				63A8705A1BB1A75B00313716 /* StatusKeys.swift in Sources */,
 				63A8714F1BB3FCE700313716 /* PowerDistanceOrientation1ViewController.swift in Sources */,
+				634333FA1BFC14C900F9B121 /* MorningBackgroundViewController.swift in Sources */,
 				63C08B761BCB302F00AB3E2F /* BenevolentLeadershipNeeded3ViewController.swift in Sources */,
 				63A8714A1BB3FCE700313716 /* ChasteningNormOrientation3ViewController.swift in Sources */,
 				63C08B8A1BCB302F00AB3E2F /* NegativeAffect2ViewController.swift in Sources */,
@@ -1116,9 +1146,11 @@
 				631739C91BA93A1500242094 /* SexPickerViewController.swift in Sources */,
 				63ADF1EA1BCC1E6800374D11 /* NoonStartViewController.swift in Sources */,
 				63C08BAD1BCB33EA00AB3E2F /* NightFirstConfirmViewController.swift in Sources */,
+				634333FE1BFC1EBB00F9B121 /* ShowAttententRightViewController.swift in Sources */,
 				63C08B961BCB302F00AB3E2F /* PositiveAffect4ViewController.swift in Sources */,
 				63C08B7C1BCB302F00AB3E2F /* ExpectedEmotionalJobDemand4ViewController.swift in Sources */,
 				63C08B891BCB302F00AB3E2F /* NegativeAffect1ViewController.swift in Sources */,
+				6396B52D1BDED73700E851CF /* NightInitailViewController.swift in Sources */,
 				634C74641BD0C0240098D630 /* Award.swift in Sources */,
 				63C08B811BCB302F00AB3E2F /* ExpectedQuantativeJobDemand4ViewController.swift in Sources */,
 				631739CB1BA93EEF00242094 /* AgeViewController.swift in Sources */,

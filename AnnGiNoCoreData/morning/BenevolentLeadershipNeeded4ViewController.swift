@@ -16,7 +16,7 @@ class BenevolentLeadershipNeeded4ViewController: UIViewController {
     var questionare: Questionare!
     
     override func viewDidLoad() {
-        super.viewDidLoad(); self.view.backgroundColor = UIColor(patternImage: UIImage(named: "bg.jpg")!)
+        super.viewDidLoad(); self.view.backgroundColor = UIColor(patternImage: UIImage(named: "bg-morning.jpg")!)
         
         title = "早晨問卷 (19/20)"
         var backbutton = UIBarButtonItem(title: "19/20", style: UIBarButtonItemStyle.Done, target: nil, action: nil)

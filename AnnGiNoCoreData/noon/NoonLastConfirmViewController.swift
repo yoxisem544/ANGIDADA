@@ -13,7 +13,7 @@ class NoonLastConfirmViewController: UIViewController {
     var questionare: Questionare!
 
     override func viewDidLoad() {
-        super.viewDidLoad(); self.view.backgroundColor = UIColor(patternImage: UIImage(named: "bg.jpg")!)
+        super.viewDidLoad(); self.view.backgroundColor = UIColor(patternImage: UIImage(named: "bg-noon.jpg")!)
 
         // Do any additional setup after loading the view.
     }
@@ -25,6 +25,9 @@ class NoonLastConfirmViewController: UIViewController {
     
     @IBAction func confirmAndSaveToParse() {
         questionare.noonStamp = true
+        let formatter = NSDateFormatter()
+        formatter.dateFormat = "yyyy-MM-dd HH:mm:ss ZZZ"
+        questionare.noonTime = formatter.stringFromDate(NSDate())
         questionare.saveToParse({ () -> Void in
             print("save to parse ok noon")
             self.dismissViewControllerAnimated(true, completion: nil)

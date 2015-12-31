@@ -16,7 +16,7 @@ class NegativeAffect1ViewController: UIViewController {
     var questionare: Questionare!
     
     override func viewDidLoad() {
-        super.viewDidLoad(); self.view.backgroundColor = UIColor(patternImage: UIImage(named: "bg.jpg")!)
+        super.viewDidLoad(); self.view.backgroundColor = UIColor(patternImage: UIImage(named: "bg-night.jpg")!)
         
         title = "晚間問卷 (11/29)"
         var backbutton = UIBarButtonItem(title: "11/29", style: UIBarButtonItemStyle.Done, target: nil, action: nil)

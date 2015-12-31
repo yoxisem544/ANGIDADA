@@ -14,12 +14,16 @@ class NoonStartViewController: UIViewController {
     var isRetrieving: Bool = false
 
     override func viewDidLoad() {
-        super.viewDidLoad(); self.view.backgroundColor = UIColor(patternImage: UIImage(named: "bg.jpg")!)
+        super.viewDidLoad(); self.view.backgroundColor = UIColor(patternImage: UIImage(named: "bg-noon.jpg")!)
 
         // Do any additional setup after loading the view.
         questionare = Questionare()
     }
 
+    @IBAction func dismissClicked() {
+        dismissViewControllerAnimated(true, completion: nil)
+    }
+    
     override func didReceiveMemoryWarning() {
         super.didReceiveMemoryWarning()
         // Dispose of any resources that can be recreated.
