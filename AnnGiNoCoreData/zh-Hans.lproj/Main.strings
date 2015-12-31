@@ -1,0 +1,1236 @@
+
+/* Class = "UIButton"; normalTitle = "下一步"; ObjectID = "0Gw-Ve-dS5"; */
+"0Gw-Ve-dS5.normalTitle" = "下一步";
+
+/* Class = "UILabel"; text = "痛苦憂傷"; ObjectID = "0Ih-vw-c5g"; */
+"0Ih-vw-c5g.text" = "痛苦憂傷";
+
+/* Class = "UIButton"; normalTitle = "下一題"; ObjectID = "0M6-ov-DYe"; */
+"0M6-ov-DYe.normalTitle" = "下一題";
+
+/* Class = "UILabel"; text = "你的性別是?"; ObjectID = "0Tf-bU-PRv"; */
+"0Tf-bU-PRv.text" = "你的性別是?";
+
+/* Class = "UIButton"; normalTitle = "下一題"; ObjectID = "0fG-CY-Vtg"; */
+"0fG-CY-Vtg.normalTitle" = "下一題";
+
+/* Class = "UILabel"; text = "我直屬主管的工作表現是公司中其他人的楷模。"; ObjectID = "0h8-Fa-ptF"; */
+"0h8-Fa-ptF.text" = "我直屬主管的工作表現是公司中其他人的楷模。";
+
+/* Class = "UILabel"; text = "擔心害怕"; ObjectID = "106-gf-7Wh"; */
+"106-gf-7Wh.text" = "擔心害怕";
+
+/* Class = "UILabel"; text = "我確信自己具備完成工作所需的各種能力。"; ObjectID = "15B-mh-QyA"; */
+"15B-mh-QyA.text" = "我確信自己具備完成工作所需的各種能力。";
+
+/* Class = "UIButton"; normalTitle = "下一題"; ObjectID = "15z-6g-bGh"; */
+"15z-6g-bGh.normalTitle" = "下一題";
+
+/* Class = "UIButton"; normalTitle = "確認資料正確\n　並且上傳"; ObjectID = "1Bo-EB-pos"; */
+"1Bo-EB-pos.normalTitle" = "確認資料正確\n　並且上傳";
+
+/* Class = "UIButton"; normalTitle = "下一題"; ObjectID = "1DM-CO-QD6"; */
+"1DM-CO-QD6.normalTitle" = "下一題";
+
+/* Class = "UIButton"; normalTitle = "開始作答"; ObjectID = "1Ea-OP-IPH"; */
+"1Ea-OP-IPH.normalTitle" = "開始作答";
+
+/* Class = "UILabel"; text = "其他："; ObjectID = "1NZ-Ru-Esb"; */
+"1NZ-Ru-Esb.text" = "其他：";
+
+/* Class = "UIButton"; normalTitle = "下一題"; ObjectID = "1ZX-u5-7DJ"; */
+"1ZX-u5-7DJ.normalTitle" = "下一題";
+
+/* Class = "UIButton"; normalTitle = "開始作答"; ObjectID = "1i9-2c-v8P"; */
+"1i9-2c-v8P.normalTitle" = "開始作答";
+
+/* Class = "UIButton"; normalTitle = "確認上傳"; ObjectID = "1iC-ZK-OXj"; */
+"1iC-ZK-OXj.normalTitle" = "確認上傳";
+
+/* Class = "UIButton"; normalTitle = "下一題"; ObjectID = "1mt-4N-o6p"; */
+"1mt-4N-o6p.normalTitle" = "下一題";
+
+/* Class = "UILabel"; text = "我的直屬主管會關懷我私人的生活起居。"; ObjectID = "267-TH-K2F"; */
+"267-TH-K2F.text" = "我的直屬主管會關懷我私人的生活起居。";
+
+/* Class = "UIButton"; normalTitle = "下一題"; ObjectID = "2JT-uz-PtO"; */
+"2JT-uz-PtO.normalTitle" = "下一題";
+
+/* Class = "UILabel"; text = "我的直屬主管會嚴厲責備未能達成任務的部屬。"; ObjectID = "2JV-Fi-0Ej"; */
+"2JV-Fi-0Ej.text" = "我的直屬主管會嚴厲責備未能達成任務的部屬。";
+
+/* Class = "UILabel"; text = "感謝您的耐心填答，初始問卷部份以經結束。\n接下來，請在往後十個上半日的早上、下午、晚上進行每日工作經驗的取樣調查，每次填答僅需約2~3分鐘。"; ObjectID = "2gS-c7-eTI"; */
+"2gS-c7-eTI.text" = "感謝您的耐心填答，初始問卷部份以經結束。\n接下來，請在往後十個上半日的早上、下午、晚上進行每日工作經驗的取樣調查，每次填答僅需約2~3分鐘。";
+
+/* Class = "UIButton"; normalTitle = "下一題"; ObjectID = "2v5-MB-mwB"; */
+"2v5-MB-mwB.normalTitle" = "下一題";
+
+/* Class = "UITextView"; text = "Lorem ipsum dolor sit er elit lamet, consectetaur cillium adipisicing pecu, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum. Nam liber te conscient to factor tum poen legum odioque civiuda."; ObjectID = "3hq-B9-Rcm"; */
+"3hq-B9-Rcm.text" = "Lorem ipsum dolor sit er elit lamet, consectetaur cillium adipisicing pecu, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum. Nam liber te conscient to factor tum poen legum odioque civiuda.";
+
+/* Class = "UILabel"; text = "主管應負起責任，不該將重要任務交由部屬全權負責。"; ObjectID = "3wg-Fj-ctn"; */
+"3wg-Fj-ctn.text" = "主管應負起責任，不該將重要任務交由部屬全權負責。";
+
+/* Class = "UIButton"; normalTitle = "下一題"; ObjectID = "43A-ci-tRN"; */
+"43A-ci-tRN.normalTitle" = "下一題";
+
+/* Class = "UILabel"; text = "清楚傳達工作要求與指示，並訂定明確的任務完成時限。"; ObjectID = "48l-76-8XO"; */
+"48l-76-8XO.text" = "清楚傳達工作要求與指示，並訂定明確的任務完成時限。";
+
+/* Class = "UIButton"; normalTitle = "下一題"; ObjectID = "4Nk-YZ-O39"; */
+"4Nk-YZ-O39.normalTitle" = "下一題";
+
+/* Class = "UILabel"; text = "今天的工作令我感覺很不愉快。"; ObjectID = "4Ox-v2-5he"; */
+"4Ox-v2-5he.text" = "今天的工作令我感覺很不愉快。";
+
+/* Class = "UITextView"; text = "歡迎您參與本研究！本研究的主要目的是希望透過學術性的方式，了解職場員工與其直屬主管的互動經驗，以建立可實際增進單位效能的領導模式。\n\n在本研究中，共有：(1)初始調查、(2)每日經驗取樣、(3)事後調查等三階段。目前所進行的是初始調查階段，所需填答時間約為十分鐘。\n\n自下週起，將進入每日經驗取樣階段，共將持續兩週。每天的上午九點、下午兩點及下午六點共三個時段，本研究專屬應用程式將向您的智慧型裝置傳送問卷填寫提醒，您可直接點選進入問卷填答。三個時段的問卷皆可在約三分鐘內填答完畢。\n\n完成每日經驗取樣後，本研究專屬應用程式將再向您傳送事後調查問卷，所需填答時間約為三至五分鐘。\n\n與研究參與者權益維護相關的資訊請按此。（點選可看以下說明）\n\n我們完全尊重您的參與意願；如您在參與過程中，對任何問題感覺有疑慮，可拒絕回答該問題，或者自由決定終止參與本研究。在任何階段決定終止參與研究，都不會造成您的任何損失。\n\n本研究的所有參與人員將會確保資料的保密性。根據科技部相關規範，資料在本研究結案五年內，將妥善留存於受密碼保護的設備中；屆時除了本研究負責人與學術倫理審查單位之外，將無人能在研究執行完畢後重新取得您的資料。所有資料將在整體層次進行分析，不會針對您的個人資料單獨進行分析。在結案報告中，亦將不會出現任何能識別您身分的個人資料。\n\n在研究進行過程中，您將需要回答所設計問卷中的所有問題。這些問題都沒有所謂的正確答案，請您依照您的直覺、真實感受及當下的印象進行回答即可。您針對每一題所提供的答案，在分析階段都將無法直接與您個人進行連結，我們將會竭盡所能地確保匿名性與保密性。\n\n本研究將不會對您產生任何生理、心理或經濟方面的相關風險。您的參與純屬自願，所有資料都將匿名、保密處理，因此沒有任何對您造成損失的疑慮與風險。本研究的負責人為國立中山大學人力資源管理研究所王安智教授。如您有任何問題，歡迎透過電子郵件進行聯繫（acwang@mail.nsysu.edu.tw）。\n\n完成全部研究程序的參與者，我們將致贈500元的超商禮券做為酬謝。接下來請點選以下按鈕進入問卷，開始填答。\n"; ObjectID = "4e8-n6-ovD"; */
+"4e8-n6-ovD.text" = "歡迎您參與本研究！本研究的主要目的是希望透過學術性的方式，了解職場員工與其直屬主管的互動經驗，以建立可實際增進單位效能的領導模式。\n\n在本研究中，共有：(1)初始調查、(2)每日經驗取樣、(3)事後調查等三階段。目前所進行的是初始調查階段，所需填答時間約為十分鐘。\n\n自下週起，將進入每日經驗取樣階段，共將持續兩週。每天的上午九點、下午兩點及下午六點共三個時段，本研究專屬應用程式將向您的智慧型裝置傳送問卷填寫提醒，您可直接點選進入問卷填答。三個時段的問卷皆可在約三分鐘內填答完畢。\n\n完成每日經驗取樣後，本研究專屬應用程式將再向您傳送事後調查問卷，所需填答時間約為三至五分鐘。\n\n與研究參與者權益維護相關的資訊請按此。（點選可看以下說明）\n\n我們完全尊重您的參與意願；如您在參與過程中，對任何問題感覺有疑慮，可拒絕回答該問題，或者自由決定終止參與本研究。在任何階段決定終止參與研究，都不會造成您的任何損失。\n\n本研究的所有參與人員將會確保資料的保密性。根據科技部相關規範，資料在本研究結案五年內，將妥善留存於受密碼保護的設備中；屆時除了本研究負責人與學術倫理審查單位之外，將無人能在研究執行完畢後重新取得您的資料。所有資料將在整體層次進行分析，不會針對您的個人資料單獨進行分析。在結案報告中，亦將不會出現任何能識別您身分的個人資料。\n\n在研究進行過程中，您將需要回答所設計問卷中的所有問題。這些問題都沒有所謂的正確答案，請您依照您的直覺、真實感受及當下的印象進行回答即可。您針對每一題所提供的答案，在分析階段都將無法直接與您個人進行連結，我們將會竭盡所能地確保匿名性與保密性。\n\n本研究將不會對您產生任何生理、心理或經濟方面的相關風險。您的參與純屬自願，所有資料都將匿名、保密處理，因此沒有任何對您造成損失的疑慮與風險。本研究的負責人為國立中山大學人力資源管理研究所王安智教授。如您有任何問題，歡迎透過電子郵件進行聯繫（acwang@mail.nsysu.edu.tw）。\n\n完成全部研究程序的參與者，我們將致贈500元的超商禮券做為酬謝。接下來請點選以下按鈕進入問卷，開始填答。\n";
+
+/* Class = "UIButton"; normalTitle = "下一題"; ObjectID = "4ir-RB-MFh"; */
+"4ir-RB-MFh.normalTitle" = "下一題";
+
+/* Class = "UILabel"; text = "您目前所屬單位的性質是："; ObjectID = "4lz-pc-VYF"; */
+"4lz-pc-VYF.text" = "您目前所屬單位的性質是：";
+
+/* Class = "UILabel"; text = "問卷開放時間："; ObjectID = "4o5-x8-VFF"; */
+"4o5-x8-VFF.text" = "問卷開放時間：";
+
+/* Class = "UIButton"; normalTitle = "下一題"; ObjectID = "561-UT-zo5"; */
+"561-UT-zo5.normalTitle" = "下一題";
+
+/* Class = "UILabel"; text = "注意：若一天當中有期中一個時段未填答，當日辨識為無效並自動往後延長一天。"; ObjectID = "5AH-J9-2ea"; */
+"5AH-J9-2ea.text" = "注意：若一天當中有期中一個時段未填答，當日辨識為無效並自動往後延長一天。";
+
+/* Class = "UILabel"; text = "我與我的直屬主管的共事時間長度為："; ObjectID = "5RT-Ne-CbE"; */
+"5RT-Ne-CbE.text" = "我與我的直屬主管的共事時間長度為：";
+
+/* Class = "UIButton"; normalTitle = "下一題"; ObjectID = "5i1-KW-e3G"; */
+"5i1-KW-e3G.normalTitle" = "下一題";
+
+/* Class = "UIButton"; normalTitle = "下一題"; ObjectID = "5ri-9K-fd0"; */
+"5ri-9K-fd0.normalTitle" = "下一題";
+
+/* Class = "UILabel"; text = "您目前在公司的職級是："; ObjectID = "5uN-Ak-YDI"; */
+"5uN-Ak-YDI.text" = "您目前在公司的職級是：";
+
+/* Class = "UILabel"; text = "接下來請您設定下次上班的日期"; ObjectID = "5ve-t7-5gO"; */
+"5ve-t7-5gO.text" = "接下來請您設定下次上班的日期";
+
+/* Class = "UILabel"; text = "天後"; ObjectID = "6DS-eW-OPC"; */
+"6DS-eW-OPC.text" = "天後";
+
+/* Class = "UIButton"; normalTitle = "下一步"; ObjectID = "6a0-Jd-hZa"; */
+"6a0-Jd-hZa.normalTitle" = "下一步";
+
+/* Class = "UIButton"; normalTitle = "下一題"; ObjectID = "6ak-f7-f1K"; */
+"6ak-f7-f1K.normalTitle" = "下一題";
+
+/* Class = "UILabel"; text = "我常必須非常努力，才有可能完成工作任務。"; ObjectID = "6k3-8V-LDW"; */
+"6k3-8V-LDW.text" = "我常必須非常努力，才有可能完成工作任務。";
+
+/* Class = "UILabel"; text = "緊張不安"; ObjectID = "6z8-qw-oSU"; */
+"6z8-qw-oSU.text" = "緊張不安";
+
+/* Class = "UILabel"; text = "下班後，我的直屬主管會和我一起進行非關工作的社交活動，如用餐、玩樂。"; ObjectID = "73L-e2-kPZ"; */
+"73L-e2-kPZ.text" = "下班後，我的直屬主管會和我一起進行非關工作的社交活動，如用餐、玩樂。";
+
+/* Class = "UIButton"; normalTitle = "下一題"; ObjectID = "7K5-Qp-VXu"; */
+"7K5-Qp-VXu.normalTitle" = "下一題";
+
+/* Class = "UILabel"; text = "請設定您下次上班的日子，以方便我們做提醒"; ObjectID = "7US-1I-pn0"; */
+"7US-1I-pn0.text" = "請設定您下次上班的日子，以方便我們做提醒";
+
+/* Class = "UIButton"; normalTitle = "下一題"; ObjectID = "7Vu-Ss-ggA"; */
+"7Vu-Ss-ggA.normalTitle" = "下一題";
+
+/* Class = "UILabel"; text = "我願意犧牲自己以達成我直屬主管所設定的目標。"; ObjectID = "7ej-hx-5Ff"; */
+"7ej-hx-5Ff.text" = "我願意犧牲自己以達成我直屬主管所設定的目標。";
+
+/* Class = "UIButton"; normalTitle = "下一題"; ObjectID = "7jV-J7-yqL"; */
+"7jV-J7-yqL.normalTitle" = "下一題";
+
+/* Class = "UILabel"; text = "主管必須嚴格要求表現落後的部屬，才能警惕其他人更加認真。"; ObjectID = "7k3-Ez-hgm"; */
+"7k3-Ez-hgm.text" = "主管必須嚴格要求表現落後的部屬，才能警惕其他人更加認真。";
+
+/* Class = "UILabel"; text = "您好，在這邊可以重新設定您的下次上班日"; ObjectID = "7pL-ym-Zh8"; */
+"7pL-ym-Zh8.text" = "您好，在這邊可以重新設定您的下次上班日";
+
+/* Class = "UIButton"; normalTitle = "下一題"; ObjectID = "8H3-Vc-IuP"; */
+"8H3-Vc-IuP.normalTitle" = "下一題";
+
+/* Class = "UIButton"; normalTitle = "下一題"; ObjectID = "8TA-2y-RO0"; */
+"8TA-2y-RO0.normalTitle" = "下一題";
+
+/* Class = "UIButton"; normalTitle = "下一題"; ObjectID = "8VK-WG-OVX"; */
+"8VK-WG-OVX.normalTitle" = "下一題";
+
+/* Class = "UILabel"; text = "面對面進行互動。"; ObjectID = "8aw-90-Ran"; */
+"8aw-90-Ran.text" = "面對面進行互動。";
+
+/* Class = "UILabel"; text = "我今天工作中的每一分鐘都像是度日如年。"; ObjectID = "8hZ-P9-RHI"; */
+"8hZ-P9-RHI.text" = "我今天工作中的每一分鐘都像是度日如年。";
+
+/* Class = "UIButton"; normalTitle = "下一題"; ObjectID = "9Bh-fT-2kE"; */
+"9Bh-fT-2kE.normalTitle" = "下一題";
+
+/* Class = "UILabel"; text = "早晨問卷： 09:00 - 12:30\n午間問卷： 14:00 - 17:30\n晚間問卷： 18:00 - 21:30"; ObjectID = "9CN-7N-fWX"; */
+"9CN-7N-fWX.text" = "早晨問卷： 09:00 - 12:30\n午間問卷： 14:00 - 17:30\n晚間問卷： 18:00 - 21:30";
+
+/* Class = "UILabel"; text = "今天大多數的時間裡，我都對自己的工作充滿熱情。"; ObjectID = "9nA-SG-Flh"; */
+"9nA-SG-Flh.text" = "今天大多數的時間裡，我都對自己的工作充滿熱情。";
+
+/* Class = "UILabel"; text = "就算部屬達成預期目標，主管也應繼續指導、督促他，使他表現得更好。"; ObjectID = "9nL-xs-D5U"; */
+"9nL-xs-D5U.text" = "就算部屬達成預期目標，主管也應繼續指導、督促他，使他表現得更好。";
+
+/* Class = "UIButton"; normalTitle = "下一題"; ObjectID = "9ov-dB-aRO"; */
+"9ov-dB-aRO.normalTitle" = "下一題";
+
+/* Class = "UILabel"; text = "我工作中的每一分鐘都像是度日如年。"; ObjectID = "A7j-WS-uwS"; */
+"A7j-WS-uwS.text" = "我工作中的每一分鐘都像是度日如年。";
+
+/* Class = "UILabel"; text = "我會用比職責要求還多的努力來滿足我直屬主管的指示。"; ObjectID = "ABm-gM-hOn"; */
+"ABm-gM-hOn.text" = "我會用比職責要求還多的努力來滿足我直屬主管的指示。";
+
+/* Class = "UIButton"; normalTitle = "下一題"; ObjectID = "AGQ-fS-mE2"; */
+"AGQ-fS-mE2.normalTitle" = "下一題";
+
+/* Class = "UIButton"; normalTitle = "下一題"; ObjectID = "Ady-zF-HWN"; */
+"Ady-zF-HWN.normalTitle" = "下一題";
+
+/* Class = "UIButton"; normalTitle = "下一題"; ObjectID = "Ahx-rw-rqk"; */
+"Ahx-rw-rqk.normalTitle" = "下一題";
+
+/* Class = "UIButton"; normalTitle = "下一題"; ObjectID = "Aia-Bn-OaZ"; */
+"Aia-Bn-OaZ.normalTitle" = "下一題";
+
+/* Class = "UIButton"; normalTitle = "下一題"; ObjectID = "Aih-AX-5N1"; */
+"Aih-AX-5N1.normalTitle" = "下一題";
+
+/* Class = "UIButton"; normalTitle = "開始作答"; ObjectID = "Avd-Bg-zEF"; */
+"Avd-Bg-zEF.normalTitle" = "開始作答";
+
+/* Class = "UIButton"; normalTitle = "下一題"; ObjectID = "BRM-5E-pTF"; */
+"BRM-5E-pTF.normalTitle" = "下一題";
+
+/* Class = "UILabel"; text = "您所屬的公司產業性質為："; ObjectID = "BX4-0W-sbW"; */
+"BX4-0W-sbW.text" = "您所屬的公司產業性質為：";
+
+/* Class = "UIButton"; normalTitle = "下一步"; ObjectID = "BcU-FC-TlV"; */
+"BcU-FC-TlV.normalTitle" = "下一步";
+
+/* Class = "UIButton"; normalTitle = "下一題"; ObjectID = "Bdg-1e-4zR"; */
+"Bdg-1e-4zR.normalTitle" = "下一題";
+
+/* Class = "UILabel"; text = "使用內部簽核系統進行互動。"; ObjectID = "Bh0-sL-49Q"; */
+"Bh0-sL-49Q.text" = "使用內部簽核系統進行互動。";
+
+/* Class = "UIButton"; normalTitle = "下一題"; ObjectID = "BkV-4f-MyM"; */
+"BkV-4f-MyM.normalTitle" = "下一題";
+
+/* Class = "UILabel"; text = "聯絡方式："; ObjectID = "C58-al-d2p"; */
+"C58-al-d2p.text" = "聯絡方式：";
+
+/* Class = "UITabBarItem"; title = "版本"; ObjectID = "CXk-jY-mCe"; */
+"CXk-jY-mCe.title" = "版本";
+
+/* Class = "UIButton"; normalTitle = "下一題"; ObjectID = "Czp-3R-iNh"; */
+"Czp-3R-iNh.normalTitle" = "下一題";
+
+/* Class = "UILabel"; text = "個月"; ObjectID = "DAt-1o-nre"; */
+"DAt-1o-nre.text" = "個月";
+
+/* Class = "UILabel"; text = "目前設定的下次上班日："; ObjectID = "Dai-OP-Yy2"; */
+"Dai-OP-Yy2.text" = "目前設定的下次上班日：";
+
+/* Class = "UILabel"; text = "天後"; ObjectID = "Ddr-eg-N60"; */
+"Ddr-eg-N60.text" = "天後";
+
+/* Class = "UILabel"; text = "非填答時段"; ObjectID = "Dew-6v-7No"; */
+"Dew-6v-7No.text" = "非填答時段";
+
+/* Class = "UILabel"; text = "感謝您的耐心填寫，初始問卷部份已經結束\n\n接下來，請在往後十個上班日的早上、下午、晚上進行每日工作經驗的取樣調查，每次填答僅需2~3分鐘。\n\n請設定下次上班日期"; ObjectID = "Dl5-yP-DL5"; */
+"Dl5-yP-DL5.text" = "感謝您的耐心填寫，初始問卷部份已經結束\n\n接下來，請在往後十個上班日的早上、下午、晚上進行每日工作經驗的取樣調查，每次填答僅需2~3分鐘。\n\n請設定下次上班日期";
+
+/* Class = "UIButton"; normalTitle = "確認送出"; ObjectID = "Dmt-9O-msu"; */
+"Dmt-9O-msu.normalTitle" = "確認送出";
+
+/* Class = "UIButton"; normalTitle = "下一題"; ObjectID = "E5c-f5-P4p"; */
+"E5c-f5-P4p.normalTitle" = "下一題";
+
+/* Class = "UILabel"; text = "歲"; ObjectID = "ECE-nm-U0J"; */
+"ECE-nm-U0J.text" = "歲";
+
+/* Class = "UILabel"; text = "Label"; ObjectID = "EP0-PD-qGL"; */
+"EP0-PD-qGL.text" = "Label";
+
+/* Class = "UILabel"; text = "中山大學人力資源管理所\n王安智教授"; ObjectID = "ElV-CN-hZS"; */
+"ElV-CN-hZS.text" = "中山大學人力資源管理所\n王安智教授";
+
+/* Class = "UIButton"; normalTitle = "下一題"; ObjectID = "EmF-bD-HXw"; */
+"EmF-bD-HXw.normalTitle" = "下一題";
+
+/* Class = "UIButton"; normalTitle = "下一題"; ObjectID = "Evj-DD-mxw"; */
+"Evj-DD-mxw.normalTitle" = "下一題";
+
+/* Class = "UILabel"; text = "我今天可能會在工作中經歷使自己難受、生氣的情況。"; ObjectID = "ExI-Cz-ifu"; */
+"ExI-Cz-ifu.text" = "我今天可能會在工作中經歷使自己難受、生氣的情況。";
+
+/* Class = "UIButton"; normalTitle = "下一題"; ObjectID = "F4K-FF-4Jn"; */
+"F4K-FF-4Jn.normalTitle" = "下一題";
+
+/* Class = "UIButton"; normalTitle = "下一題"; ObjectID = "Fcc-Rq-GPb"; */
+"Fcc-Rq-GPb.normalTitle" = "下一題";
+
+/* Class = "UIButton"; normalTitle = "下一題"; ObjectID = "Fgc-iY-oKb"; */
+"Fgc-iY-oKb.normalTitle" = "下一題";
+
+/* Class = "UINavigationItem"; title = "第二部分"; ObjectID = "FjD-JG-oIa"; */
+"FjD-JG-oIa.title" = "第二部分";
+
+/* Class = "UILabel"; text = "本部分試想要瞭解您與您直屬主管之間的互動情況。首先請您回答以下幾個有關於您直屬主管的問題。"; ObjectID = "G0E-ae-Eez"; */
+"G0E-ae-Eez.text" = "本部分試想要瞭解您與您直屬主管之間的互動情況。首先請您回答以下幾個有關於您直屬主管的問題。";
+
+/* Class = "UILabel"; text = "我今天可能會在工作中遭遇使自己心情受影響的事。"; ObjectID = "G6a-TM-kDi"; */
+"G6a-TM-kDi.text" = "我今天可能會在工作中遭遇使自己心情受影響的事。";
+
+/* Class = "UILabel"; text = "你的學歷是?"; ObjectID = "GE9-wD-Usc"; */
+"GE9-wD-Usc.text" = "你的學歷是?";
+
+/* Class = "UIButton"; normalTitle = "開始作答"; ObjectID = "Gee-Eg-Fh0"; */
+"Gee-Eg-Fh0.normalTitle" = "開始作答";
+
+/* Class = "UILabel"; text = "肯定自我"; ObjectID = "H4F-Zl-5NJ"; */
+"H4F-Zl-5NJ.text" = "肯定自我";
+
+/* Class = "UITextView"; text = "Lorem ipsum dolor sit er elit lamet, consectetaur cillium adipisicing pecu, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum. Nam liber te conscient to factor tum poen legum odioque civiuda."; ObjectID = "HFW-Be-bLv"; */
+"HFW-Be-bLv.text" = "Lorem ipsum dolor sit er elit lamet, consectetaur cillium adipisicing pecu, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum. Nam liber te conscient to factor tum poen legum odioque civiuda.";
+
+/* Class = "UILabel"; text = "為完成工作任務，我今天必須同時滿足不同對象的要求。"; ObjectID = "HIw-l5-HQE"; */
+"HIw-l5-HQE.text" = "為完成工作任務，我今天必須同時滿足不同對象的要求。";
+
+/* Class = "UILabel"; text = "開發者資訊"; ObjectID = "HR7-Fe-kTT"; */
+"HR7-Fe-kTT.text" = "開發者資訊";
+
+/* Class = "UILabel"; text = "有罪惡感"; ObjectID = "Hkb-fj-ICN"; */
+"Hkb-fj-ICN.text" = "有罪惡感";
+
+/* Class = "UIButton"; normalTitle = "開始作答"; ObjectID = "Hmj-fW-slq"; */
+"Hmj-fW-slq.normalTitle" = "開始作答";
+
+/* Class = "UILabel"; text = "急躁易怒"; ObjectID = "IFI-Sw-Xf4"; */
+"IFI-Sw-Xf4.text" = "急躁易怒";
+
+/* Class = "UILabel"; text = "早晨問卷填答完成 確認上傳?"; ObjectID = "Iz1-fB-Sly"; */
+"Iz1-fB-Sly.text" = "早晨問卷填答完成 確認上傳?";
+
+/* Class = "UIButton"; normalTitle = "下一題"; ObjectID = "J9R-Fh-Zh2"; */
+"J9R-Fh-Zh2.normalTitle" = "下一題";
+
+/* Class = "UIButton"; normalTitle = "早上"; ObjectID = "JAU-dL-jJX"; */
+"JAU-dL-jJX.normalTitle" = "早上";
+
+/* Class = "UILabel"; text = "我的直屬主管會嚴格要求部屬，令人敬畏。"; ObjectID = "JNC-gD-NRX"; */
+"JNC-gD-NRX.text" = "我的直屬主管會嚴格要求部屬，令人敬畏。";
+
+/* Class = "UILabel"; text = "你的郵遞區號："; ObjectID = "JPc-qV-OZY"; */
+"JPc-qV-OZY.text" = "你的郵遞區號：";
+
+/* Class = "UILabel"; text = "acwang@mail.nsysu.edu.tw"; ObjectID = "Jep-Pb-xcW"; */
+"Jep-Pb-xcW.text" = "acwang@mail.nsysu.edu.tw";
+
+/* Class = "UIButton"; normalTitle = "下一題"; ObjectID = "Jh4-QL-N3D"; */
+"Jh4-QL-N3D.normalTitle" = "下一題";
+
+/* Class = "UINavigationItem"; title = "寄送禮券填答頁面"; ObjectID = "Jvn-VF-hqh"; */
+"Jvn-VF-hqh.title" = "寄送禮券填答頁面";
+
+/* Class = "UILabel"; text = "在工作以外的時間，我的直屬主管與我仍會互相聯絡、見面。"; ObjectID = "Jwy-Ka-sDL"; */
+"Jwy-Ka-sDL.text" = "在工作以外的時間，我的直屬主管與我仍會互相聯絡、見面。";
+
+/* Class = "UITabBarItem"; title = "個人"; ObjectID = "KIi-9u-N1H"; */
+"KIi-9u-N1H.title" = "個人";
+
+/* Class = "UILabel"; text = "接下來請您設定下次上班的日期"; ObjectID = "KIm-FK-opc"; */
+"KIm-FK-opc.text" = "接下來請您設定下次上班的日期";
+
+/* Class = "UILabel"; text = "我直屬主管的整體工作表現相當良好。"; ObjectID = "KKG-i8-no2"; */
+"KKG-i8-no2.text" = "我直屬主管的整體工作表現相當良好。";
+
+/* Class = "UIButton"; normalTitle = "設定上班時間"; ObjectID = "KLy-Gx-RHY"; */
+"KLy-Gx-RHY.normalTitle" = "設定上班時間";
+
+/* Class = "UIButton"; normalTitle = "下一題"; ObjectID = "KP1-TH-qih"; */
+"KP1-TH-qih.normalTitle" = "下一題";
+
+/* Class = "UIButton"; normalTitle = "下一題"; ObjectID = "KUo-1v-ieK"; */
+"KUo-1v-ieK.normalTitle" = "下一題";
+
+/* Class = "UILabel"; text = "對工作任務的內容與程序給予仔細的指示、嚴格要求。"; ObjectID = "Ka1-iu-xqX"; */
+"Ka1-iu-xqX.text" = "對工作任務的內容與程序給予仔細的指示、嚴格要求。";
+
+/* Class = "UILabel"; text = "我今天必須在工作中控制或展現情緒，會相當吃力。"; ObjectID = "Kdv-KR-Rlo"; */
+"Kdv-KR-Rlo.text" = "我今天必須在工作中控制或展現情緒，會相當吃力。";
+
+/* Class = "UILabel"; text = "我感覺自己從今天的工作中獲得真正的快樂。"; ObjectID = "Kn1-h0-tEp"; */
+"Kn1-h0-tEp.text" = "我感覺自己從今天的工作中獲得真正的快樂。";
+
+/* Class = "UIButton"; normalTitle = "下一題"; ObjectID = "KoP-iI-HlE"; */
+"KoP-iI-HlE.normalTitle" = "下一題";
+
+/* Class = "UILabel"; text = "部屬沒有反對主管決策的權力，必須絕對服從。"; ObjectID = "L2k-gc-gZO"; */
+"L2k-gc-gZO.text" = "部屬沒有反對主管決策的權力，必須絕對服從。";
+
+/* Class = "UIButton"; normalTitle = "下一題"; ObjectID = "L92-HB-HE0"; */
+"L92-HB-HE0.normalTitle" = "下一題";
+
+/* Class = "UIButton"; normalTitle = "離開"; ObjectID = "L9O-zN-RKH"; */
+"L9O-zN-RKH.normalTitle" = "離開";
+
+/* Class = "UILabel"; text = "感覺興奮"; ObjectID = "LI1-O8-jDt"; */
+"LI1-O8-jDt.text" = "感覺興奮";
+
+/* Class = "UILabel"; text = "我的直屬主管會明快處置違反他指示與規定的部屬。"; ObjectID = "LdO-t7-XcR"; */
+"LdO-t7-XcR.text" = "我的直屬主管會明快處置違反他指示與規定的部屬。";
+
+/* Class = "UILabel"; text = "您在目前公司的總服務年資為："; ObjectID = "LfO-cd-gCN"; */
+"LfO-cd-gCN.text" = "您在目前公司的總服務年資為：";
+
+/* Class = "UIButton"; normalTitle = "下一題"; ObjectID = "LyW-n9-HvV"; */
+"LyW-n9-HvV.normalTitle" = "下一題";
+
+/* Class = "UIButton"; normalTitle = "設定下次\n上班時間"; ObjectID = "MJo-pe-5nT"; */
+"MJo-pe-5nT.normalTitle" = "設定下次\n上班時間";
+
+/* Class = "UILabel"; text = "我的直屬主管採用嚴格的方法進行管理，確保任務達成。"; ObjectID = "Mp9-sl-UbL"; */
+"Mp9-sl-UbL.text" = "我的直屬主管採用嚴格的方法進行管理，確保任務達成。";
+
+/* Class = "UIButton"; normalTitle = "下一題"; ObjectID = "NS4-it-UPn"; */
+"NS4-it-UPn.normalTitle" = "下一題";
+
+/* Class = "UIButton"; normalTitle = "下一題"; ObjectID = "NTN-3m-WKf"; */
+"NTN-3m-WKf.normalTitle" = "下一題";
+
+/* Class = "UILabel"; text = "當我工作表現不佳的時候，積極了解真正的原因何在。"; ObjectID = "NdI-cx-xHR"; */
+"NdI-cx-xHR.text" = "當我工作表現不佳的時候，積極了解真正的原因何在。";
+
+/* Class = "UIButton"; normalTitle = "下一題"; ObjectID = "O6T-bw-cuH"; */
+"O6T-bw-cuH.normalTitle" = "下一題";
+
+/* Class = "UILabel"; text = "下次上班日為："; ObjectID = "OGA-Aw-4ih"; */
+"OGA-Aw-4ih.text" = "下次上班日為：";
+
+/* Class = "UILabel"; text = "部屬的表現或能力不如預期時，主管也不應降低原先設定的標準。"; ObjectID = "OVW-z9-xaJ"; */
+"OVW-z9-xaJ.text" = "部屬的表現或能力不如預期時，主管也不應降低原先設定的標準。";
+
+/* Class = "UILabel"; text = "EMAIL"; ObjectID = "OVz-TZ-NIY"; */
+"OVz-TZ-NIY.text" = "EMAIL";
+
+/* Class = "UILabel"; text = "對工作任務的內容與程序給予仔細的指示、嚴格要求。"; ObjectID = "OXP-t1-HUL"; */
+"OXP-t1-HUL.text" = "對工作任務的內容與程序給予仔細的指示、嚴格要求。";
+
+/* Class = "UIButton"; normalTitle = "下一題"; ObjectID = "OeT-wS-1F0"; */
+"OeT-wS-1F0.normalTitle" = "下一題";
+
+/* Class = "UIButton"; normalTitle = "確認上傳"; ObjectID = "P2W-IZ-bJ5"; */
+"P2W-IZ-bJ5.normalTitle" = "確認上傳";
+
+/* Class = "UIButton"; normalTitle = "下一題"; ObjectID = "PHb-UZ-TyV"; */
+"PHb-UZ-TyV.normalTitle" = "下一題";
+
+/* Class = "UILabel"; text = "嚴厲責備未能達成任務的部屬。"; ObjectID = "PPp-D4-RlG"; */
+"PPp-D4-RlG.text" = "嚴厲責備未能達成任務的部屬。";
+
+/* Class = "UILabel"; text = "主管應該要獨當一面，不該經常參考部屬的意見。"; ObjectID = "Pch-TL-SNQ"; */
+"Pch-TL-SNQ.text" = "主管應該要獨當一面，不該經常參考部屬的意見。";
+
+/* Class = "UILabel"; text = "其他："; ObjectID = "PdV-ER-hk8"; */
+"PdV-ER-hk8.text" = "其他：";
+
+/* Class = "UILabel"; text = "第二部分：本部分是想瞭解您對您直屬主管的行為期望。考量您今日將進行的工作任務，您希望您的直屬主管在今日與您互動時，能展現出怎樣的領導風格？請針對下列各敘述句，選擇最適當的程度選項。\n"; ObjectID = "Pim-Ed-Esp"; */
+"Pim-Ed-Esp.text" = "第二部分：本部分是想瞭解您對您直屬主管的行為期望。考量您今日將進行的工作任務，您希望您的直屬主管在今日與您互動時，能展現出怎樣的領導風格？請針對下列各敘述句，選擇最適當的程度選項。\n";
+
+/* Class = "UILabel"; text = "我常必須格外費心，才能圓滿達成工作任務。"; ObjectID = "Pko-tP-ZMH"; */
+"Pko-tP-ZMH.text" = "我常必須格外費心，才能圓滿達成工作任務。";
+
+/* Class = "UIButton"; normalTitle = "下一題"; ObjectID = "Pn9-Gz-cT7"; */
+"Pn9-Gz-cT7.normalTitle" = "下一題";
+
+/* Class = "UITextView"; text = "主管部屬互動經驗調查 – 初始調查\n\n歡迎您參與本研究！本研究的主要目的是希望透過學術性的方式，了解職場員工與其直屬主管的互動經驗，以建立可實際增進單位效能的領導模式。\n\n在本研究中，共有：(1)初始調查、(2)每日經驗取樣、(3)事後調查等三階段。目前所進行的是初始調查階段，所需填答時間約為十分鐘。\n\n自下週起，將進入每日經驗取樣階段，共將持續兩週。每天的上午九點、下午兩點及下午六點共三個時段，本研究專屬應用程式將向您的智慧型裝置傳送問卷填寫提醒，您可直接點選進入問卷填答。三個時段的問卷皆可在約三分鐘內填答完畢。\n\n完成每日經驗取樣後，本研究專屬應用程式將再向您傳送事後調查問卷，所需填答時間約為三至五分鐘。\n\n與研究參與者權益維護相關的資訊請按此。（點選可看以下說明）\n\n我們完全尊重您的參與意願；如您在參與過程中，對任何問題感覺有疑慮，可拒絕回答該問題，或者自由決定終止參與本研究。在任何階段決定終止參與研究，都不會造成您的任何損失。\n\n本研究的所有參與人員將會確保資料的保密性。根據科技部相關規範，資料在本研究結案五年內，將妥善留存於受密碼保護的設備中；屆時除了本研究負責人與學術倫理審查單位之外，將無人能在研究執行完畢後重新取得您的資料。所有資料將在整體層次進行分析，不會針對您的個人資料單獨進行分析。在結案報告中，亦將不會出現任何能識別您身分的個人資料。\n\n在研究進行過程中，您將需要回答所設計問卷中的所有問題。這些問題都沒有所謂的正確答案，請您依照您的直覺、真實感受及當下的印象進行回答即可。您針對每一題所提供的答案，在分析階段都將無法直接與您個人進行連結，我們將會竭盡所能地確保匿名性與保密性。\n\n本研究將不會對您產生任何生理、心理或經濟方面的相關風險。您的參與純屬自願，所有資料都將匿名、保密處理，因此沒有任何對您造成損失的疑慮與風險。本研究的負責人為國立中山大學人力資源管理研究所王安智教授。如您有任何問題，歡迎透過電子郵件進行聯繫（acwang@mail.nsysu.edu.tw）。\n\n完成全部研究程序的參與者，我們將致贈500元的超商禮券做為酬謝。接下來請點選以下按鈕進入問卷，開始填答。\n"; ObjectID = "Q5k-VP-SiQ"; */
+"Q5k-VP-SiQ.text" = "主管部屬互動經驗調查 – 初始調查\n\n歡迎您參與本研究！本研究的主要目的是希望透過學術性的方式，了解職場員工與其直屬主管的互動經驗，以建立可實際增進單位效能的領導模式。\n\n在本研究中，共有：(1)初始調查、(2)每日經驗取樣、(3)事後調查等三階段。目前所進行的是初始調查階段，所需填答時間約為十分鐘。\n\n自下週起，將進入每日經驗取樣階段，共將持續兩週。每天的上午九點、下午兩點及下午六點共三個時段，本研究專屬應用程式將向您的智慧型裝置傳送問卷填寫提醒，您可直接點選進入問卷填答。三個時段的問卷皆可在約三分鐘內填答完畢。\n\n完成每日經驗取樣後，本研究專屬應用程式將再向您傳送事後調查問卷，所需填答時間約為三至五分鐘。\n\n與研究參與者權益維護相關的資訊請按此。（點選可看以下說明）\n\n我們完全尊重您的參與意願；如您在參與過程中，對任何問題感覺有疑慮，可拒絕回答該問題，或者自由決定終止參與本研究。在任何階段決定終止參與研究，都不會造成您的任何損失。\n\n本研究的所有參與人員將會確保資料的保密性。根據科技部相關規範，資料在本研究結案五年內，將妥善留存於受密碼保護的設備中；屆時除了本研究負責人與學術倫理審查單位之外，將無人能在研究執行完畢後重新取得您的資料。所有資料將在整體層次進行分析，不會針對您的個人資料單獨進行分析。在結案報告中，亦將不會出現任何能識別您身分的個人資料。\n\n在研究進行過程中，您將需要回答所設計問卷中的所有問題。這些問題都沒有所謂的正確答案，請您依照您的直覺、真實感受及當下的印象進行回答即可。您針對每一題所提供的答案，在分析階段都將無法直接與您個人進行連結，我們將會竭盡所能地確保匿名性與保密性。\n\n本研究將不會對您產生任何生理、心理或經濟方面的相關風險。您的參與純屬自願，所有資料都將匿名、保密處理，因此沒有任何對您造成損失的疑慮與風險。本研究的負責人為國立中山大學人力資源管理研究所王安智教授。如您有任何問題，歡迎透過電子郵件進行聯繫（acwang@mail.nsysu.edu.tw）。\n\n完成全部研究程序的參與者，我們將致贈500元的超商禮券做為酬謝。接下來請點選以下按鈕進入問卷，開始填答。\n";
+
+/* Class = "UILabel"; text = "部屬的表現或能力不如預期時，主管應更嚴格地要求他，好使他成長。"; ObjectID = "Q9x-1f-3kO"; */
+"Q9x-1f-3kO.text" = "部屬的表現或能力不如預期時，主管應更嚴格地要求他，好使他成長。";
+
+/* Class = "UIButton"; normalTitle = "下一題"; ObjectID = "QAN-tE-u9J"; */
+"QAN-tE-u9J.normalTitle" = "下一題";
+
+/* Class = "UILabel"; text = "第一部分：本部分是想了解您在今天工作中的情緒狀態。在您今天一整天的工作過程中，您經歷以下情緒的程度有多高？請針對下列各情緒狀態詞，選擇最適當的程度選項。"; ObjectID = "QAZ-if-Ixc"; */
+"QAZ-if-Ixc.text" = "第一部分：本部分是想了解您在今天工作中的情緒狀態。在您今天一整天的工作過程中，您經歷以下情緒的程度有多高？請針對下列各情緒狀態詞，選擇最適當的程度選項。";
+
+/* Class = "UIButton"; normalTitle = "下一題"; ObjectID = "QKB-iI-pgX"; */
+"QKB-iI-pgX.normalTitle" = "下一題";
+
+/* Class = "UILabel"; text = "我今天在工作中，必須面對很難搞的接觸對象。"; ObjectID = "QWi-hQ-FK9"; */
+"QWi-hQ-FK9.text" = "我今天在工作中，必須面對很難搞的接觸對象。";
+
+/* Class = "UILabel"; text = "我對自己的工作成果相當滿意。"; ObjectID = "Qc8-28-LLi"; */
+"Qc8-28-LLi.text" = "我對自己的工作成果相當滿意。";
+
+/* Class = "UILabel"; text = "清楚傳達工作要求與指示，並訂定明確的任務完成時限。"; ObjectID = "RC7-4e-Kf9"; */
+"RC7-4e-Kf9.text" = "清楚傳達工作要求與指示，並訂定明確的任務完成時限。";
+
+/* Class = "UIButton"; normalTitle = "  檢視使 \n用者資訊"; ObjectID = "RRw-J8-6TL"; */
+"RRw-J8-6TL.normalTitle" = "  檢視使 \n用者資訊";
+
+/* Class = "UILabel"; text = "當我碰到難題時，即時給我鼓勵。"; ObjectID = "RTM-CY-7qC"; */
+"RTM-CY-7qC.text" = "當我碰到難題時，即時給我鼓勵。";
+
+/* Class = "UILabel"; text = "資料檢視及通知設定"; ObjectID = "RaP-Es-VK5"; */
+"RaP-Es-VK5.text" = "資料檢視及通知設定";
+
+/* Class = "UIButton"; normalTitle = "下一步"; ObjectID = "RkX-OP-nnc"; */
+"RkX-OP-nnc.normalTitle" = "下一步";
+
+/* Class = "UIButton"; normalTitle = "下一題"; ObjectID = "RoP-3X-xd0"; */
+"RoP-3X-xd0.normalTitle" = "下一題";
+
+/* Class = "UILabel"; text = "我的直屬主管會根據我個人的需要，來滿足我的要求。"; ObjectID = "S99-qa-Bp4"; */
+"S99-qa-Bp4.text" = "我的直屬主管會根據我個人的需要，來滿足我的要求。";
+
+/* Class = "UILabel"; text = "當我碰到難題時，即時給我鼓勵。"; ObjectID = "S9n-wh-a5W"; */
+"S9n-wh-a5W.text" = "當我碰到難題時，即時給我鼓勵。";
+
+/* Class = "UIButton"; normalTitle = "確認資料正確，並且上傳"; ObjectID = "SGL-W6-OJO"; */
+"SGL-W6-OJO.normalTitle" = "確認資料正確，並且上傳";
+
+/* Class = "UIButton"; normalTitle = "開始作答"; ObjectID = "SL1-zR-vln"; */
+"SL1-zR-vln.normalTitle" = "開始作答";
+
+/* Class = "UILabel"; text = "程式開發者："; ObjectID = "ScA-6r-gKq"; */
+"ScA-6r-gKq.text" = "程式開發者：";
+
+/* Class = "UIButton"; normalTitle = "確認資料無誤，進行第五部份"; ObjectID = "Scm-hQ-dpu"; */
+"Scm-hQ-dpu.normalTitle" = "確認資料無誤，進行第五部份";
+
+/* Class = "UIButton"; normalTitle = "下一題"; ObjectID = "SdH-cI-W3H"; */
+"SdH-cI-W3H.normalTitle" = "下一題";
+
+/* Class = "UIButton"; normalTitle = "下一題"; ObjectID = "Sj2-Cz-0oT"; */
+"Sj2-Cz-0oT.normalTitle" = "下一題";
+
+/* Class = "UILabel"; text = "每日經驗調查"; ObjectID = "Snv-rW-QBz"; */
+"Snv-rW-QBz.text" = "每日經驗調查";
+
+/* Class = "UILabel"; text = "心神不寧"; ObjectID = "TGn-Cv-CN3"; */
+"TGn-Cv-CN3.text" = "心神不寧";
+
+/* Class = "UILabel"; text = "我的直屬主管是："; ObjectID = "TYs-cW-2fD"; */
+"TYs-cW-2fD.text" = "我的直屬主管是：";
+
+/* Class = "UIButton"; normalTitle = "下一題"; ObjectID = "Taj-OK-E7f"; */
+"Taj-OK-E7f.normalTitle" = "下一題";
+
+/* Class = "UIButton"; normalTitle = "下一題"; ObjectID = "TdB-MT-nY1"; */
+"TdB-MT-nY1.normalTitle" = "下一題";
+
+/* Class = "UIButton"; normalTitle = "下一題"; ObjectID = "Tpu-kr-uhf"; */
+"Tpu-kr-uhf.normalTitle" = "下一題";
+
+/* Class = "UIButton"; normalTitle = "下一題"; ObjectID = "U9T-Xb-Vqf"; */
+"U9T-Xb-Vqf.normalTitle" = "下一題";
+
+/* Class = "UILabel"; text = "林立穎"; ObjectID = "UHh-mt-KJD"; */
+"UHh-mt-KJD.text" = "林立穎";
+
+/* Class = "UIButton"; normalTitle = "下一題"; ObjectID = "UI5-RF-xpL"; */
+"UI5-RF-xpL.normalTitle" = "下一題";
+
+/* Class = "UIButton"; normalTitle = "下一題"; ObjectID = "UMI-TC-hJS"; */
+"UMI-TC-hJS.normalTitle" = "下一題";
+
+/* Class = "UILabel"; text = "我常必須超時工作，才能如期完成工作任務。"; ObjectID = "URS-xg-STs"; */
+"URS-xg-STs.text" = "我常必須超時工作，才能如期完成工作任務。";
+
+/* Class = "UILabel"; text = "我已精通完成工作所需的相關技能。"; ObjectID = "Uhb-fB-eyj"; */
+"Uhb-fB-eyj.text" = "我已精通完成工作所需的相關技能。";
+
+/* Class = "UILabel"; text = "我會自願在職責範圍之外，對我直屬主管提供協助。"; ObjectID = "UpY-6l-cpR"; */
+"UpY-6l-cpR.text" = "我會自願在職責範圍之外，對我直屬主管提供協助。";
+
+/* Class = "UIButton"; normalTitle = "下一題"; ObjectID = "V0U-Vy-18f"; */
+"V0U-Vy-18f.normalTitle" = "下一題";
+
+/* Class = "UIButton"; normalTitle = "離開"; ObjectID = "V3p-eo-hTn"; */
+"V3p-eo-hTn.normalTitle" = "離開";
+
+/* Class = "UIButton"; normalTitle = "下一題"; ObjectID = "V5X-BN-ywl"; */
+"V5X-BN-ywl.normalTitle" = "下一題";
+
+/* Class = "UILabel"; text = "我今天在工作中，必須設法說服他人接受我的提議。"; ObjectID = "VBC-WQ-IHT"; */
+"VBC-WQ-IHT.text" = "我今天在工作中，必須設法說服他人接受我的提議。";
+
+/* Class = "UIButton"; normalTitle = "下一題"; ObjectID = "VDk-aP-pDT"; */
+"VDk-aP-pDT.normalTitle" = "下一題";
+
+/* Class = "UIButton"; normalTitle = "下一題"; ObjectID = "VVm-79-5T5"; */
+"VVm-79-5T5.normalTitle" = "下一題";
+
+/* Class = "UILabel"; text = "事後調查"; ObjectID = "Vey-fw-eZQ"; */
+"Vey-fw-eZQ.text" = "事後調查";
+
+/* Class = "UILabel"; text = "此份前導問卷只僅會填寫一次，煩請耐心作答，謝謝。"; ObjectID = "Vsl-vi-lOQ"; */
+"Vsl-vi-lOQ.text" = "此份前導問卷只僅會填寫一次，煩請耐心作答，謝謝。";
+
+/* Class = "UIButton"; normalTitle = "確認資料無誤，進行第六部份"; ObjectID = "Vtq-gD-hk6"; */
+"Vtq-gD-hk6.normalTitle" = "確認資料無誤，進行第六部份";
+
+/* Class = "UIButton"; normalTitle = "下一步"; ObjectID = "W7l-fI-fgu"; */
+"W7l-fI-fgu.normalTitle" = "下一步";
+
+/* Class = "UILabel"; text = "充滿活力"; ObjectID = "WM7-Yq-utf"; */
+"WM7-Yq-utf.text" = "充滿活力";
+
+/* Class = "UIButton"; normalTitle = "下一題"; ObjectID = "WPD-fI-CLi"; */
+"WPD-fI-CLi.normalTitle" = "下一題";
+
+/* Class = "UIButton"; normalTitle = "下一題"; ObjectID = "WSx-j9-wSQ"; */
+"WSx-j9-wSQ.normalTitle" = "下一題";
+
+/* Class = "UIButton"; normalTitle = "開始作答"; ObjectID = "Wgh-0w-ZJA"; */
+"Wgh-0w-ZJA.normalTitle" = "開始作答";
+
+/* Class = "UILabel"; text = "我常會在工作中經歷使自己難受、生氣的情況。"; ObjectID = "WkG-i4-2YO"; */
+"WkG-i4-2YO.text" = "我常會在工作中經歷使自己難受、生氣的情況。";
+
+/* Class = "UILabel"; text = "今天我必須格外費心，才能圓滿達成工作任務。"; ObjectID = "XAZ-0m-5Hn"; */
+"XAZ-0m-5Hn.text" = "今天我必須格外費心，才能圓滿達成工作任務。";
+
+/* Class = "UILabel"; text = "受到激勵"; ObjectID = "XBb-kA-QYd"; */
+"XBb-kA-QYd.text" = "受到激勵";
+
+/* Class = "UIButton"; normalTitle = "下一題"; ObjectID = "XWd-ry-32t"; */
+"XWd-ry-32t.normalTitle" = "下一題";
+
+/* Class = "UILabel"; text = "你的電子郵件："; ObjectID = "XYb-dq-y1G"; */
+"XYb-dq-y1G.text" = "你的電子郵件：";
+
+/* Class = "UILabel"; text = "yoxisem544@gmail.com"; ObjectID = "XaQ-Rp-IPT"; */
+"XaQ-Rp-IPT.text" = "yoxisem544@gmail.com";
+
+/* Class = "UIButton"; normalTitle = "開始作答"; ObjectID = "Xh7-Jg-bgu"; */
+"Xh7-Jg-bgu.normalTitle" = "開始作答";
+
+/* Class = "UIButton"; normalTitle = "開始作答"; ObjectID = "Y2l-wh-W9g"; */
+"Y2l-wh-W9g.normalTitle" = "開始作答";
+
+/* Class = "UILabel"; text = "下次上班為"; ObjectID = "YDA-jY-pVt"; */
+"YDA-jY-pVt.text" = "下次上班為";
+
+/* Class = "UILabel"; text = "今天我必須在短時間內，完成所交付的工作任務。"; ObjectID = "YUz-lg-PMo"; */
+"YUz-lg-PMo.text" = "今天我必須在短時間內，完成所交付的工作任務。";
+
+/* Class = "UILabel"; text = "與我的直屬主管一起工作時，他的要求與指示使人感受到很大的壓力。"; ObjectID = "YVa-1O-5vp"; */
+"YVa-1O-5vp.text" = "與我的直屬主管一起工作時，他的要求與指示使人感受到很大的壓力。";
+
+/* Class = "UILabel"; text = "主管部屬互動經驗調查  - 問卷說明"; ObjectID = "YWe-PY-tBo"; */
+"YWe-PY-tBo.text" = "主管部屬互動經驗調查  - 問卷說明";
+
+/* Class = "UILabel"; text = "使用電子郵件進行互動。"; ObjectID = "YWo-rT-01b"; */
+"YWo-rT-01b.text" = "使用電子郵件進行互動。";
+
+/* Class = "UIButton"; normalTitle = "下一題"; ObjectID = "Ycu-yp-Vs6"; */
+"Ycu-yp-Vs6.normalTitle" = "下一題";
+
+/* Class = "UIButton"; normalTitle = "離開"; ObjectID = "YkI-tC-JSf"; */
+"YkI-tC-JSf.normalTitle" = "離開";
+
+/* Class = "UIButton"; normalTitle = "下一題"; ObjectID = "Ykf-7x-S6K"; */
+"Ykf-7x-S6K.normalTitle" = "下一題";
+
+/* Class = "UIButton"; normalTitle = "下一題"; ObjectID = "YlJ-mM-Ld1"; */
+"YlJ-mM-Ld1.normalTitle" = "下一題";
+
+/* Class = "UIButton"; normalTitle = "下一題"; ObjectID = "You-R3-TZJ"; */
+"You-R3-TZJ.normalTitle" = "下一題";
+
+/* Class = "UITabBarItem"; title = "說明"; ObjectID = "Yrf-OM-bgB"; */
+"Yrf-OM-bgB.title" = "說明";
+
+/* Class = "UIButton"; normalTitle = "下一題"; ObjectID = "Yym-lz-eKX"; */
+"Yym-lz-eKX.normalTitle" = "下一題";
+
+/* Class = "UIButton"; normalTitle = "下一題"; ObjectID = "YzT-oK-y6s"; */
+"YzT-oK-y6s.normalTitle" = "下一題";
+
+/* Class = "UILabel"; text = "公司"; ObjectID = "Z2b-Fr-x1o"; */
+"Z2b-Fr-x1o.text" = "公司";
+
+/* Class = "UIButton"; normalTitle = "下一題"; ObjectID = "Z4M-g1-620"; */
+"Z4M-g1-620.normalTitle" = "下一題";
+
+/* Class = "UIButton"; normalTitle = "下一題"; ObjectID = "Z7A-Yn-utJ"; */
+"Z7A-Yn-utJ.normalTitle" = "下一題";
+
+/* Class = "UIButton"; normalTitle = "下一步"; ObjectID = "ZIy-sD-bNd"; */
+"ZIy-sD-bNd.normalTitle" = "下一步";
+
+/* Class = "UILabel"; text = "採用嚴格的方法進行管理，確保任務達成。"; ObjectID = "ZY3-81-gmh"; */
+"ZY3-81-gmh.text" = "採用嚴格的方法進行管理，確保任務達成。";
+
+/* Class = "UILabel"; text = "個人基本資料"; ObjectID = "Zxf-Kx-2oe"; */
+"Zxf-Kx-2oe.text" = "個人基本資料";
+
+/* Class = "UILabel"; text = "主管把部屬當成同輩朋友是有失身分的，應該盡量避免。"; ObjectID = "Zyf-CU-gUQ"; */
+"Zyf-CU-gUQ.text" = "主管把部屬當成同輩朋友是有失身分的，應該盡量避免。";
+
+/* Class = "UILabel"; text = "採用嚴格的方法進行管理，確保任務達成。"; ObjectID = "a25-0r-AOw"; */
+"a25-0r-AOw.text" = "採用嚴格的方法進行管理，確保任務達成。";
+
+/* Class = "UIButton"; normalTitle = "下一題"; ObjectID = "a4J-Gf-tLD"; */
+"a4J-Gf-tLD.normalTitle" = "下一題";
+
+/* Class = "UIButton"; normalTitle = "下一步"; ObjectID = "aL7-sz-oUB"; */
+"aL7-sz-oUB.normalTitle" = "下一步";
+
+/* Class = "UILabel"; text = "我願意無條件服從我直屬主管的指示。"; ObjectID = "aLB-C2-IoU"; */
+"aLB-C2-IoU.text" = "我願意無條件服從我直屬主管的指示。";
+
+/* Class = "UILabel"; text = "在工作中，我常必須設法說服他人接受我的提議。"; ObjectID = "aO5-Jj-AQz"; */
+"aO5-Jj-AQz.text" = "在工作中，我常必須設法說服他人接受我的提議。";
+
+/* Class = "UIButton"; normalTitle = "下一題"; ObjectID = "agk-Wr-KNu"; */
+"agk-Wr-KNu.normalTitle" = "下一題";
+
+/* Class = "UILabel"; text = "受到驚嚇"; ObjectID = "ahC-3f-Ib1"; */
+"ahC-3f-Ib1.text" = "受到驚嚇";
+
+/* Class = "UIButton"; normalTitle = "下一題"; ObjectID = "as0-4K-3xC"; */
+"as0-4K-3xC.normalTitle" = "下一題";
+
+/* Class = "UILabel"; text = "今天我必須非常努力，才有可能完成工作任務。"; ObjectID = "atg-9u-cL3"; */
+"atg-9u-cL3.text" = "今天我必須非常努力，才有可能完成工作任務。";
+
+/* Class = "UIButton"; normalTitle = "下一題"; ObjectID = "b2H-FX-lfa"; */
+"b2H-FX-lfa.normalTitle" = "下一題";
+
+/* Class = "UILabel"; text = "心生愧疚"; ObjectID = "bFc-VY-U1s"; */
+"bFc-VY-U1s.text" = "心生愧疚";
+
+/* Class = "UIButton"; normalTitle = "下一題"; ObjectID = "bIs-JM-5VE"; */
+"bIs-JM-5VE.normalTitle" = "下一題";
+
+/* Class = "UILabel"; text = "電話"; ObjectID = "bOb-ji-acf"; */
+"bOb-ji-acf.text" = "電話";
+
+/* Class = "UILabel"; text = "我的直屬主管在本單位直接管理："; ObjectID = "bSH-3d-1Xb"; */
+"bSH-3d-1Xb.text" = "我的直屬主管在本單位直接管理：";
+
+/* Class = "UIButton"; normalTitle = "下一題"; ObjectID = "bSz-81-mlg"; */
+"bSz-81-mlg.normalTitle" = "下一題";
+
+/* Class = "UILabel"; text = "Label"; ObjectID = "bex-Wh-X16"; */
+"bex-Wh-X16.text" = "Label";
+
+/* Class = "UIButton"; normalTitle = "下一題"; ObjectID = "buP-KM-wH4"; */
+"buP-KM-wH4.normalTitle" = "下一題";
+
+/* Class = "UILabel"; text = "本次問卷為今日第二次施測，主要想瞭解您的直屬主管今日截至目前為止，在與您互動時的實際表現。根據您今日與直屬主管的互動經驗，他是否實際展現出以下的領導風格？請針對下列各敘述句，選擇最適當的程度選項。\n"; ObjectID = "buu-8h-3bI"; */
+"buu-8h-3bI.text" = "本次問卷為今日第二次施測，主要想瞭解您的直屬主管今日截至目前為止，在與您互動時的實際表現。根據您今日與直屬主管的互動經驗，他是否實際展現出以下的領導風格？請針對下列各敘述句，選擇最適當的程度選項。\n";
+
+/* Class = "UIButton"; normalTitle = "下一題"; ObjectID = "c19-53-B2H"; */
+"c19-53-B2H.normalTitle" = "下一題";
+
+/* Class = "UIButton"; normalTitle = "下一題"; ObjectID = "cGo-eO-Ptr"; */
+"cGo-eO-Ptr.normalTitle" = "下一題";
+
+/* Class = "UILabel"; text = "部門"; ObjectID = "cNd-qg-7gC"; */
+"cNd-qg-7gC.text" = "部門";
+
+/* Class = "UILabel"; text = "年"; ObjectID = "cQJ-3Z-O9J"; */
+"cQJ-3Z-O9J.text" = "年";
+
+/* Class = "UILabel"; text = "我常必須在短時間內，完成所交付的工作任務。"; ObjectID = "cUt-lZ-CeJ"; */
+"cUt-lZ-CeJ.text" = "我常必須在短時間內，完成所交付的工作任務。";
+
+/* Class = "UILabel"; text = "根據我個人的需要，來滿足我的要求。"; ObjectID = "cbM-lq-Nj5"; */
+"cbM-lq-Nj5.text" = "根據我個人的需要，來滿足我的要求。";
+
+/* Class = "UILabel"; text = "第三部分：本部分是想瞭解您在今天工作中，與您直屬主管的互動。回顧您今天一整天的工作，您與您直屬主管的互動情形如何？請針對下列各敘述句，選擇最適當的程度選項。"; ObjectID = "cff-CV-2Ur"; */
+"cff-CV-2Ur.text" = "第三部分：本部分是想瞭解您在今天工作中，與您直屬主管的互動。回顧您今天一整天的工作，您與您直屬主管的互動情形如何？請針對下列各敘述句，選擇最適當的程度選項。";
+
+/* Class = "UIButton"; normalTitle = "下一題"; ObjectID = "cof-Cu-sg3"; */
+"cof-Cu-sg3.normalTitle" = "下一題";
+
+/* Class = "UILabel"; text = "第一部分：本部分是想了解您在今天工作中的情緒狀態。在您今天一整天的工作過程中，您經歷以下情緒的程度有多高？請針對下列各情緒狀態詞，選擇最適當的程度選項。"; ObjectID = "d24-4P-093"; */
+"d24-4P-093.text" = "第一部分：本部分是想了解您在今天工作中的情緒狀態。在您今天一整天的工作過程中，您經歷以下情緒的程度有多高？請針對下列各情緒狀態詞，選擇最適當的程度選項。";
+
+/* Class = "UILabel"; text = "我的直屬主管會嚴格要求部屬，令人敬畏。"; ObjectID = "dAB-Bi-gQ2"; */
+"dAB-Bi-gQ2.text" = "我的直屬主管會嚴格要求部屬，令人敬畏。";
+
+/* Class = "UIButton"; normalTitle = "重新設定"; ObjectID = "dGM-S2-OeF"; */
+"dGM-S2-OeF.normalTitle" = "重新設定";
+
+/* Class = "UIButton"; normalTitle = "下一題"; ObjectID = "dGN-hq-Qbl"; */
+"dGN-hq-Qbl.normalTitle" = "下一題";
+
+/* Class = "UIButton"; normalTitle = "下一題"; ObjectID = "dGV-Xh-UXo"; */
+"dGV-Xh-UXo.normalTitle" = "下一題";
+
+/* Class = "UIButton"; normalTitle = "下一題"; ObjectID = "dIA-Ax-NfG"; */
+"dIA-Ax-NfG.normalTitle" = "下一題";
+
+/* Class = "UIButton"; normalTitle = "下一題"; ObjectID = "daK-Mw-jD0"; */
+"daK-Mw-jD0.normalTitle" = "下一題";
+
+/* Class = "UILabel"; text = "根據我個人的需要，來滿足我的要求。"; ObjectID = "djy-2A-ozq"; */
+"djy-2A-ozq.text" = "根據我個人的需要，來滿足我的要求。";
+
+/* Class = "UIButton"; normalTitle = "開始作答"; ObjectID = "dnD-Vd-Pdy"; */
+"dnD-Vd-Pdy.normalTitle" = "開始作答";
+
+/* Class = "UIButton"; normalTitle = "下一題"; ObjectID = "eAV-Rr-gfW"; */
+"eAV-Rr-gfW.normalTitle" = "下一題";
+
+/* Class = "UIButton"; normalTitle = "下一題"; ObjectID = "eJu-tA-GeS"; */
+"eJu-tA-GeS.normalTitle" = "下一題";
+
+/* Class = "UILabel"; text = "明快處置違反他指示與規定的部屬。"; ObjectID = "ePF-sP-HUi"; */
+"ePF-sP-HUi.text" = "明快處置違反他指示與規定的部屬。";
+
+/* Class = "UIButton"; normalTitle = "下一題"; ObjectID = "eTW-oe-Pe7"; */
+"eTW-oe-Pe7.normalTitle" = "下一題";
+
+/* Class = "UIButton"; normalTitle = "下一題"; ObjectID = "ecF-aB-HBG"; */
+"ecF-aB-HBG.normalTitle" = "下一題";
+
+/* Class = "UILabel"; text = "你的行動電話："; ObjectID = "efN-bl-EFB"; */
+"efN-bl-EFB.text" = "你的行動電話：";
+
+/* Class = "UILabel"; text = "我直屬主管的工作表現總是能滿足公司對他的期待。"; ObjectID = "ehJ-p5-C1f"; */
+"ehJ-p5-C1f.text" = "我直屬主管的工作表現總是能滿足公司對他的期待。";
+
+/* Class = "UILabel"; text = "憤恨不平"; ObjectID = "eho-Jg-4jd"; */
+"eho-Jg-4jd.text" = "憤恨不平";
+
+/* Class = "UIButton"; normalTitle = "  設定下 \n次上班日"; ObjectID = "eiF-Gd-zcC"; */
+"eiF-Gd-zcC.normalTitle" = "  設定下 \n次上班日";
+
+/* Class = "UILabel"; text = "我的直屬主管相當熟識我的家庭成員，可以直接和他們溝通、聯繫。"; ObjectID = "fLY-hT-VwN"; */
+"fLY-hT-VwN.text" = "我的直屬主管相當熟識我的家庭成員，可以直接和他們溝通、聯繫。";
+
+/* Class = "UILabel"; text = "在今天的工作中，我試圖達成比我直屬主管所要求水準還要更好的表現。"; ObjectID = "fNn-m5-FVH"; */
+"fNn-m5-FVH.text" = "在今天的工作中，我試圖達成比我直屬主管所要求水準還要更好的表現。";
+
+/* Class = "UILabel"; text = "思路敏捷"; ObjectID = "fTO-ng-dcU"; */
+"fTO-ng-dcU.text" = "思路敏捷";
+
+/* Class = "UIButton"; normalTitle = "下一題"; ObjectID = "fWq-I5-KeU"; */
+"fWq-I5-KeU.normalTitle" = "下一題";
+
+/* Class = "UILabel"; text = "問卷進度"; ObjectID = "fhj-2J-NNp"; */
+"fhj-2J-NNp.text" = "問卷進度";
+
+/* Class = "UILabel"; text = "大多數時候，我都對自己的工作充滿熱情。"; ObjectID = "gEa-ET-BEq"; */
+"gEa-ET-BEq.text" = "大多數時候，我都對自己的工作充滿熱情。";
+
+/* Class = "UINavigationItem"; title = "初始問卷"; ObjectID = "gM1-PW-9AQ"; */
+"gM1-PW-9AQ.title" = "初始問卷";
+
+/* Class = "UILabel"; text = "關懷我私人的生活起居。"; ObjectID = "gN6-vE-xd8"; */
+"gN6-vE-xd8.text" = "關懷我私人的生活起居。";
+
+/* Class = "UILabel"; text = "就算部屬達成預期目標，主管也應繼續指導、督促他，使他表現得更好。"; ObjectID = "gYU-hK-CLD"; */
+"gYU-hK-CLD.text" = "就算部屬達成預期目標，主管也應繼續指導、督促他，使他表現得更好。";
+
+/* Class = "UILabel"; text = "全神貫注"; ObjectID = "gZf-yk-fWR"; */
+"gZf-yk-fWR.text" = "全神貫注";
+
+/* Class = "UIButton"; normalTitle = "下一題"; ObjectID = "gir-En-7ix"; */
+"gir-En-7ix.normalTitle" = "下一題";
+
+/* Class = "UILabel"; text = "在今天的工作中，我額外付出許多心力讓我直屬主管感到滿意。"; ObjectID = "h3E-34-Byj"; */
+"h3E-34-Byj.text" = "在今天的工作中，我額外付出許多心力讓我直屬主管感到滿意。";
+
+/* Class = "UILabel"; text = "Label"; ObjectID = "h5r-Q6-Otj"; */
+"h5r-Q6-Otj.text" = "Label";
+
+/* Class = "UILabel"; text = "我會額外付出許多心力讓我直屬主管感到滿意。"; ObjectID = "h7N-aH-TlD"; */
+"h7N-aH-TlD.text" = "我會額外付出許多心力讓我直屬主管感到滿意。";
+
+/* Class = "UIButton"; normalTitle = "下一題"; ObjectID = "hPl-ao-rcm"; */
+"hPl-ao-rcm.normalTitle" = "下一題";
+
+/* Class = "UILabel"; text = "嚴厲責備未能達成任務的部屬。"; ObjectID = "hZK-vL-BxL"; */
+"hZK-vL-BxL.text" = "嚴厲責備未能達成任務的部屬。";
+
+/* Class = "UIButton"; normalTitle = "研究參與者\n  權益維護"; ObjectID = "hcB-Ec-kTh"; */
+"hcB-Ec-kTh.normalTitle" = "研究參與者\n  權益維護";
+
+/* Class = "UITabBarItem"; title = "問卷"; ObjectID = "heo-Eb-xdT"; */
+"heo-Eb-xdT.title" = "問卷";
+
+/* Class = "UIButton"; normalTitle = "下一題"; ObjectID = "hfj-IQ-ye4"; */
+"hfj-IQ-ye4.normalTitle" = "下一題";
+
+/* Class = "UIButton"; normalTitle = "晚上"; ObjectID = "hli-gx-ED7"; */
+"hli-gx-ED7.normalTitle" = "晚上";
+
+/* Class = "UIButton"; normalTitle = "下一題"; ObjectID = "hnv-dJ-3R9"; */
+"hnv-dJ-3R9.normalTitle" = "下一題";
+
+/* Class = "UILabel"; text = "今天我必須超時工作，才能如期完成工作任務。"; ObjectID = "hyR-So-1m3"; */
+"hyR-So-1m3.text" = "今天我必須超時工作，才能如期完成工作任務。";
+
+/* Class = "UILabel"; text = "對於我在工作上所缺乏的能力，給予適當的教育與輔導。"; ObjectID = "i63-Pc-nuQ"; */
+"i63-Pc-nuQ.text" = "對於我在工作上所缺乏的能力，給予適當的教育與輔導。";
+
+/* Class = "UIButton"; normalTitle = "開始作答"; ObjectID = "iES-lg-jJG"; */
+"iES-lg-jJG.normalTitle" = "開始作答";
+
+/* Class = "UILabel"; text = "當我碰到難題時，我的直屬主管會即時給我鼓勵"; ObjectID = "iYK-me-Hvb"; */
+"iYK-me-Hvb.text" = "當我碰到難題時，我的直屬主管會即時給我鼓勵";
+
+/* Class = "UIButton"; normalTitle = "下一題"; ObjectID = "ijB-du-z3R"; */
+"ijB-du-z3R.normalTitle" = "下一題";
+
+/* Class = "UILabel"; text = "在今天的工作中，我用比職責要求還多的努力來滿足我直屬主管的指示。"; ObjectID = "j5P-2f-qmZ"; */
+"j5P-2f-qmZ.text" = "在今天的工作中，我用比職責要求還多的努力來滿足我直屬主管的指示。";
+
+/* Class = "UILabel"; text = "對於我在工作上所缺乏的能力，給予適當的教育與輔導。"; ObjectID = "jHg-Ob-9w5"; */
+"jHg-Ob-9w5.text" = "對於我在工作上所缺乏的能力，給予適當的教育與輔導。";
+
+/* Class = "UIButton"; normalTitle = "下一題"; ObjectID = "jLl-cy-fsL"; */
+"jLl-cy-fsL.normalTitle" = "下一題";
+
+/* Class = "UIButton"; normalTitle = "下一題"; ObjectID = "jVQ-mp-tL6"; */
+"jVQ-mp-tL6.normalTitle" = "下一題";
+
+/* Class = "UILabel"; text = "Label"; ObjectID = "jcM-7i-kEz"; */
+"jcM-7i-kEz.text" = "Label";
+
+/* Class = "UILabel"; text = "你的年齡是？"; ObjectID = "kfk-OX-yBy"; */
+"kfk-OX-yBy.text" = "你的年齡是？";
+
+/* Class = "UIButton"; normalTitle = "確定送出"; ObjectID = "km8-iO-YFq"; */
+"km8-iO-YFq.normalTitle" = "確定送出";
+
+/* Class = "UIButton"; normalTitle = "下一題"; ObjectID = "ko4-Lc-PQg"; */
+"ko4-Lc-PQg.normalTitle" = "下一題";
+
+/* Class = "UILabel"; text = "為感謝您對本研究的熱情支持，我們將致贈您500元的便利超商禮券做為酬謝。請在以下欄位中留下您的個人資訊，以便我們將禮券送達您手上。"; ObjectID = "krl-BT-H9q"; */
+"krl-BT-H9q.text" = "為感謝您對本研究的熱情支持，我們將致贈您500元的便利超商禮券做為酬謝。請在以下欄位中留下您的個人資訊，以便我們將禮券送達您手上。";
+
+/* Class = "UILabel"; text = "對於我在工作上所缺乏的能力，我的直屬主管會給予適當的教育與輔導。"; ObjectID = "l0m-vP-P7f"; */
+"l0m-vP-P7f.text" = "對於我在工作上所缺乏的能力，我的直屬主管會給予適當的教育與輔導。";
+
+/* Class = "UIButton"; normalTitle = "下一題"; ObjectID = "l7h-3J-1Ve"; */
+"l7h-3J-1Ve.normalTitle" = "下一題";
+
+/* Class = "UILabel"; text = "每日經驗取樣"; ObjectID = "l8k-SE-cei"; */
+"l8k-SE-cei.text" = "每日經驗取樣";
+
+/* Class = "UIButton"; normalTitle = "下一題"; ObjectID = "lXe-3d-rrS"; */
+"lXe-3d-rrS.normalTitle" = "下一題";
+
+/* Class = "UILabel"; text = "就算意見不同，我最後仍會全力支持我直屬主管做的決定。"; ObjectID = "lah-nB-vSJ"; */
+"lah-nB-vSJ.text" = "就算意見不同，我最後仍會全力支持我直屬主管做的決定。";
+
+/* Class = "UITextView"; text = "我們完全尊重您的參與意願；如您在參與過程中，對任何問題感覺有疑慮，可拒絕回答該問題，或者自由決定終止參與本研究。在任何階段決定終止參與研究，都不會造成您的任何損失。\n\n本研究的所有參與人員將會確保資料的保密性。根據科技部相關規範，資料在本研究結案五年內，將妥善留存於受密碼保護的設備中；屆時除了本研究負責人與學術倫理審查單位之外，將無人能在研究執行完畢後重新取得您的資料。所有資料將在整體層次進行分析，不會針對您的個人資料單獨進行分析。在結案報告中，亦將不會出現任何能識別您身分的個人資料。\n\n在研究進行過程中，您將需要回答所設計問卷中的所有問題。這些問題都沒有所謂的正確答案，請您依照您的直覺、真實感受及當下的印象進行回答即可。您針對每一題所提供的答案，在分析階段都將無法直接與您個人進行連結，我們將會竭盡所能地確保匿名性與保密性。\n\n本研究將不會對您產生任何生理、心理或經濟方面的相關風險。您的參與純屬自願，所有資料都將匿名、保密處理，因此沒有任何對您造成損失的疑慮與風險。本研究的負責人為國立中山大學人力資源管理研究所王安智教授。如您有任何問題，歡迎透過電子郵件進行聯繫（acwang@mail.nsysu.edu.tw）。"; ObjectID = "lgq-dN-Dhm"; */
+"lgq-dN-Dhm.text" = "我們完全尊重您的參與意願；如您在參與過程中，對任何問題感覺有疑慮，可拒絕回答該問題，或者自由決定終止參與本研究。在任何階段決定終止參與研究，都不會造成您的任何損失。\n\n本研究的所有參與人員將會確保資料的保密性。根據科技部相關規範，資料在本研究結案五年內，將妥善留存於受密碼保護的設備中；屆時除了本研究負責人與學術倫理審查單位之外，將無人能在研究執行完畢後重新取得您的資料。所有資料將在整體層次進行分析，不會針對您的個人資料單獨進行分析。在結案報告中，亦將不會出現任何能識別您身分的個人資料。\n\n在研究進行過程中，您將需要回答所設計問卷中的所有問題。這些問題都沒有所謂的正確答案，請您依照您的直覺、真實感受及當下的印象進行回答即可。您針對每一題所提供的答案，在分析階段都將無法直接與您個人進行連結，我們將會竭盡所能地確保匿名性與保密性。\n\n本研究將不會對您產生任何生理、心理或經濟方面的相關風險。您的參與純屬自願，所有資料都將匿名、保密處理，因此沒有任何對您造成損失的疑慮與風險。本研究的負責人為國立中山大學人力資源管理研究所王安智教授。如您有任何問題，歡迎透過電子郵件進行聯繫（acwang@mail.nsysu.edu.tw）。";
+
+/* Class = "UITextView"; text = "Lorem ipsum dolor sit er elit lamet, consectetaur cillium adipisicing pecu, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum. Nam liber te conscient to factor tum poen legum odioque civiuda."; ObjectID = "lzp-uQ-Hd1"; */
+"lzp-uQ-Hd1.text" = "Lorem ipsum dolor sit er elit lamet, consectetaur cillium adipisicing pecu, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum. Nam liber te conscient to factor tum poen legum odioque civiuda.";
+
+/* Class = "UIButton"; normalTitle = "下一題"; ObjectID = "m85-Rm-rQG"; */
+"m85-Rm-rQG.normalTitle" = "下一題";
+
+/* Class = "UIButton"; normalTitle = "下一題"; ObjectID = "mHY-om-Upj"; */
+"mHY-om-Upj.normalTitle" = "下一題";
+
+/* Class = "UIButton"; normalTitle = "下一題"; ObjectID = "mOJ-nM-yXK"; */
+"mOJ-nM-yXK.normalTitle" = "下一題";
+
+/* Class = "UIButton"; normalTitle = "下一題"; ObjectID = "mQe-hH-Qgs"; */
+"mQe-hH-Qgs.normalTitle" = "下一題";
+
+/* Class = "UILabel"; text = "注意：若一天當中有期中一個時段未填答，當天便視為無效並且自動往後延長一天"; ObjectID = "mcE-GT-wEf"; */
+"mcE-GT-wEf.text" = "注意：若一天當中有期中一個時段未填答，當天便視為無效並且自動往後延長一天";
+
+/* Class = "UILabel"; text = "我對自己今天的工作成果感覺相當滿意。"; ObjectID = "mh0-VP-w4V"; */
+"mh0-VP-w4V.text" = "我對自己今天的工作成果感覺相當滿意。";
+
+/* Class = "UIButton"; normalTitle = "下一題"; ObjectID = "mrO-Kn-Ubm"; */
+"mrO-Kn-Ubm.normalTitle" = "下一題";
+
+/* Class = "UILabel"; text = "我會試圖達成比我直屬主管所要求水準還要更好的表現。"; ObjectID = "n6h-hi-viV"; */
+"n6h-hi-viV.text" = "我會試圖達成比我直屬主管所要求水準還要更好的表現。";
+
+/* Class = "UILabel"; text = "主管基於職權為部屬做出重要決定，是理所當然的事情。"; ObjectID = "nCC-Ef-Cxo"; */
+"nCC-Ef-Cxo.text" = "主管基於職權為部屬做出重要決定，是理所當然的事情。";
+
+/* Class = "UIButton"; normalTitle = "下一題"; ObjectID = "nF7-bR-4il"; */
+"nF7-bR-4il.normalTitle" = "下一題";
+
+/* Class = "UILabel"; text = "我能從工作中獲得真正的快樂。"; ObjectID = "nLJ-gg-kfj"; */
+"nLJ-gg-kfj.text" = "我能從工作中獲得真正的快樂。";
+
+/* Class = "UILabel"; text = "在今天的工作中，我自願在職責範圍之外，對我直屬主管提供協助。"; ObjectID = "nMz-ye-ENc"; */
+"nMz-ye-ENc.text" = "在今天的工作中，我自願在職責範圍之外，對我直屬主管提供協助。";
+
+/* Class = "UIButton"; normalTitle = "開始作答"; ObjectID = "nQi-d8-Gld"; */
+"nQi-d8-Gld.normalTitle" = "開始作答";
+
+/* Class = "UIButton"; normalTitle = "下一題"; ObjectID = "nYm-uP-cbS"; */
+"nYm-uP-cbS.normalTitle" = "下一題";
+
+/* Class = "UILabel"; text = "當我工作表現不佳的時候，積極了解真正的原因何在。"; ObjectID = "nfp-84-Gz6"; */
+"nfp-84-Gz6.text" = "當我工作表現不佳的時候，積極了解真正的原因何在。";
+
+/* Class = "UILabel"; text = "我願意犧牲自己以維護我直屬主管的利益。"; ObjectID = "nwL-a6-NMa"; */
+"nwL-a6-NMa.text" = "我願意犧牲自己以維護我直屬主管的利益。";
+
+/* Class = "UIButton"; normalTitle = "開始作答"; ObjectID = "oC7-eO-337"; */
+"oC7-eO-337.normalTitle" = "開始作答";
+
+/* Class = "UILabel"; text = "充滿熱忱"; ObjectID = "oHS-j7-Iiz"; */
+"oHS-j7-Iiz.text" = "充滿熱忱";
+
+/* Class = "UILabel"; text = "本次問卷為今日第三次施測，主要想瞭解您在今天的工作中，有怎樣的情緒與感受。"; ObjectID = "oJE-JB-6IH"; */
+"oJE-JB-6IH.text" = "本次問卷為今日第三次施測，主要想瞭解您在今天的工作中，有怎樣的情緒與感受。";
+
+/* Class = "UILabel"; text = "就算部屬達成預期目標，主管也應繼續指導、督促他，使他表現得更好。"; ObjectID = "oM2-50-2Cf"; */
+"oM2-50-2Cf.text" = "就算部屬達成預期目標，主管也應繼續指導、督促他，使他表現得更好。";
+
+/* Class = "UIButton"; normalTitle = "下一題"; ObjectID = "oYx-id-020"; */
+"oYx-id-020.normalTitle" = "下一題";
+
+/* Class = "UILabel"; text = "姓名"; ObjectID = "ob7-va-1cr"; */
+"ob7-va-1cr.text" = "姓名";
+
+/* Class = "UIButton"; normalTitle = "下一題"; ObjectID = "obN-mi-NPe"; */
+"obN-mi-NPe.normalTitle" = "下一題";
+
+/* Class = "UIButton"; normalTitle = "下一步"; ObjectID = "ocO-Vh-oXj"; */
+"ocO-Vh-oXj.normalTitle" = "下一步";
+
+/* Class = "UIButton"; normalTitle = "下一題"; ObjectID = "oxw-3T-r8h"; */
+"oxw-3T-r8h.normalTitle" = "下一題";
+
+/* Class = "UITextView"; text = "Lorem ipsum dolor sit er elit lamet, consectetaur cillium adipisicing pecu, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum. Nam liber te conscient to factor tum poen legum odioque civiuda."; ObjectID = "p2V-2I-K7m"; */
+"p2V-2I-K7m.text" = "Lorem ipsum dolor sit er elit lamet, consectetaur cillium adipisicing pecu, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum. Nam liber te conscient to factor tum poen legum odioque civiuda.";
+
+/* Class = "UIButton"; normalTitle = "下一題"; ObjectID = "pLB-L0-ek9"; */
+"pLB-L0-ek9.normalTitle" = "下一題";
+
+/* Class = "UILabel"; text = "個月"; ObjectID = "pTv-TH-SYm"; */
+"pTv-TH-SYm.text" = "個月";
+
+/* Class = "UIButton"; normalTitle = "下一題"; ObjectID = "pXO-NJ-7cQ"; */
+"pXO-NJ-7cQ.normalTitle" = "下一題";
+
+/* Class = "UIButton"; normalTitle = "設定下次\n上班時間"; ObjectID = "pXb-8z-cg4"; */
+"pXb-8z-cg4.normalTitle" = "設定下次\n上班時間";
+
+/* Class = "UIButton"; normalTitle = "下一題"; ObjectID = "ppl-Fl-wLf"; */
+"ppl-Fl-wLf.normalTitle" = "下一題";
+
+/* Class = "UIButton"; normalTitle = "下一題"; ObjectID = "pqM-Fo-QjF"; */
+"pqM-Fo-QjF.normalTitle" = "下一題";
+
+/* Class = "UIButton"; normalTitle = "下一題"; ObjectID = "q0h-Cl-BJZ"; */
+"q0h-Cl-BJZ.normalTitle" = "下一題";
+
+/* Class = "UIButton"; normalTitle = "下一題"; ObjectID = "q60-cl-a2k"; */
+"q60-cl-a2k.normalTitle" = "下一題";
+
+/* Class = "UILabel"; text = "我對自己的完成工作的能力深具信心。"; ObjectID = "qIe-QK-3VR"; */
+"qIe-QK-3VR.text" = "我對自己的完成工作的能力深具信心。";
+
+/* Class = "UITextView"; text = "Lorem ipsum dolor sit er elit lamet, consectetaur cillium adipisicing pecu, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum. Nam liber te conscient to factor tum poen legum odioque civiuda."; ObjectID = "qNy-9Z-5rN"; */
+"qNy-9Z-5rN.text" = "Lorem ipsum dolor sit er elit lamet, consectetaur cillium adipisicing pecu, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum. Nam liber te conscient to factor tum poen legum odioque civiuda.";
+
+/* Class = "UILabel"; text = "主管有獨自做大多數決定的權力，不需經常徵詢部屬的意見。"; ObjectID = "qSv-br-LF9"; */
+"qSv-br-LF9.text" = "主管有獨自做大多數決定的權力，不需經常徵詢部屬的意見。";
+
+/* Class = "UIButton"; normalTitle = "下一步"; ObjectID = "qaJ-JD-cC5"; */
+"qaJ-JD-cC5.normalTitle" = "下一步";
+
+/* Class = "UILabel"; text = "感謝您的耐心填答，今天的問卷已經結束，請設定下次下班日以便我們提醒您填答問卷！"; ObjectID = "qfi-fW-OwW"; */
+"qfi-fW-OwW.text" = "感謝您的耐心填答，今天的問卷已經結束，請設定下次下班日以便我們提醒您填答問卷！";
+
+/* Class = "UILabel"; text = "你的郵寄地址："; ObjectID = "qnW-zG-9w0"; */
+"qnW-zG-9w0.text" = "你的郵寄地址：";
+
+/* Class = "UILabel"; text = "本次問卷為今日第一次施測，主要想瞭解您對今日工作的展望。"; ObjectID = "qzh-V7-7T6"; */
+"qzh-V7-7T6.text" = "本次問卷為今日第一次施測，主要想瞭解您對今日工作的展望。";
+
+/* Class = "UILabel"; text = "和其它同級主管相比，我直屬主管在工作上相當成功。"; ObjectID = "rBW-xi-zbq"; */
+"rBW-xi-zbq.text" = "和其它同級主管相比，我直屬主管在工作上相當成功。";
+
+/* Class = "UIButton"; normalTitle = "下一題"; ObjectID = "rLb-Bc-g6b"; */
+"rLb-Bc-g6b.normalTitle" = "下一題";
+
+/* Class = "UILabel"; text = "你的姓名："; ObjectID = "rOT-ad-Zgl"; */
+"rOT-ad-Zgl.text" = "你的姓名：";
+
+/* Class = "UIButton"; normalTitle = "下一步"; ObjectID = "rwe-P0-G3f"; */
+"rwe-P0-G3f.normalTitle" = "下一步";
+
+/* Class = "UIButton"; normalTitle = "下一題"; ObjectID = "s0v-3c-yIY"; */
+"s0v-3c-yIY.normalTitle" = "下一題";
+
+/* Class = "UILabel"; text = "請設定您下次上班的日子，以方便我們做提醒"; ObjectID = "s8s-EO-Owk"; */
+"s8s-EO-Owk.text" = "請設定您下次上班的日子，以方便我們做提醒";
+
+/* Class = "UIButton"; normalTitle = "下一題"; ObjectID = "sCz-JQ-fGd"; */
+"sCz-JQ-fGd.normalTitle" = "下一題";
+
+/* Class = "UIButton"; normalTitle = "下一題"; ObjectID = "sP9-nj-0de"; */
+"sP9-nj-0de.normalTitle" = "下一題";
+
+/* Class = "UILabel"; text = "我常必須在工作中控制或展現情緒，會相當吃力。"; ObjectID = "sWI-LZ-fe6"; */
+"sWI-LZ-fe6.text" = "我常必須在工作中控制或展現情緒，會相當吃力。";
+
+/* Class = "UIButton"; normalTitle = "下一步"; ObjectID = "sWT-z0-Cgb"; */
+"sWT-z0-Cgb.normalTitle" = "下一步";
+
+/* Class = "UIButton"; normalTitle = "確認資料正確，進行第二部份"; ObjectID = "sq6-Bc-bTk"; */
+"sq6-Bc-bTk.normalTitle" = "確認資料正確，進行第二部份";
+
+/* Class = "UIButton"; normalTitle = "下午"; ObjectID = "t8d-i9-Cnb"; */
+"t8d-i9-Cnb.normalTitle" = "下午";
+
+/* Class = "UILabel"; text = "使用者資訊"; ObjectID = "tEZ-Zb-Zd0"; */
+"tEZ-Zb-Zd0.text" = "使用者資訊";
+
+/* Class = "UILabel"; text = "意志堅決"; ObjectID = "tIN-EQ-ggX"; */
+"tIN-EQ-ggX.text" = "意志堅決";
+
+/* Class = "UITabBarItem"; title = "進度"; ObjectID = "tKo-Hf-TRF"; */
+"tKo-Hf-TRF.title" = "進度";
+
+/* Class = "UIButton"; normalTitle = "下一題"; ObjectID = "thC-Xg-NOn"; */
+"thC-Xg-NOn.normalTitle" = "下一題";
+
+/* Class = "UILabel"; text = "新奇有趣"; ObjectID = "tvI-Cp-lfz"; */
+"tvI-Cp-lfz.text" = "新奇有趣";
+
+/* Class = "UILabel"; text = "關懷我私人的生活起居。"; ObjectID = "u5Y-vV-NnW"; */
+"u5Y-vV-NnW.text" = "關懷我私人的生活起居。";
+
+/* Class = "UILabel"; text = "心煩意亂"; ObjectID = "u9G-NN-GKt"; */
+"u9G-NN-GKt.text" = "心煩意亂";
+
+/* Class = "UIButton"; normalTitle = "開始作答"; ObjectID = "uEr-Dh-hYd"; */
+"uEr-Dh-hYd.normalTitle" = "開始作答";
+
+/* Class = "UILabel"; text = "主管若不督促、鞭策表現不如預期的部屬，部屬是不可能成長的。"; ObjectID = "uJw-a3-ROb"; */
+"uJw-a3-ROb.text" = "主管若不督促、鞭策表現不如預期的部屬，部屬是不可能成長的。";
+
+/* Class = "UILabel"; text = "你的性別是?"; ObjectID = "uN0-uL-HqA"; */
+"uN0-uL-HqA.text" = "你的性別是?";
+
+/* Class = "UILabel"; text = "在電話中進行互動。"; ObjectID = "vAc-pC-HjQ"; */
+"vAc-pC-HjQ.text" = "在電話中進行互動。";
+
+/* Class = "UIButton"; normalTitle = "下一題"; ObjectID = "vGr-Fz-8sD"; */
+"vGr-Fz-8sD.normalTitle" = "下一題";
+
+/* Class = "UILabel"; text = "明快處置違反他指示與規定的部屬。"; ObjectID = "vHr-yz-F5v"; */
+"vHr-yz-F5v.text" = "明快處置違反他指示與規定的部屬。";
+
+/* Class = "UILabel"; text = "問卷開發者："; ObjectID = "vei-kA-0sh"; */
+"vei-kA-0sh.text" = "問卷開發者：";
+
+/* Class = "UILabel"; text = "使用即時通訊軟體進行互動。"; ObjectID = "vep-hT-vez"; */
+"vep-hT-vez.text" = "使用即時通訊軟體進行互動。";
+
+/* Class = "UILabel"; text = "以下，請根據您與您直屬主管過去的共事經驗，針對下列各敘述句，選擇最適當的程度選項。\n"; ObjectID = "vfY-rb-PC1"; */
+"vfY-rb-PC1.text" = "以下，請根據您與您直屬主管過去的共事經驗，針對下列各敘述句，選擇最適當的程度選項。\n";
+
+/* Class = "UIButton"; normalTitle = "下一題"; ObjectID = "w1b-tn-G1k"; */
+"w1b-tn-G1k.normalTitle" = "下一題";
+
+/* Class = "UILabel"; text = "工作令我感覺很不愉快。"; ObjectID = "w5I-VM-1VM"; */
+"w5I-VM-1VM.text" = "工作令我感覺很不愉快。";
+
+/* Class = "UILabel"; text = "注意：若一天當中有期中一個時段未填答，當日辨識為無效。"; ObjectID = "wIr-QN-nqR"; */
+"wIr-QN-nqR.text" = "注意：若一天當中有期中一個時段未填答，當日辨識為無效。";
+
+/* Class = "UILabel"; text = "年"; ObjectID = "we5-Uj-B8c"; */
+"we5-Uj-B8c.text" = "年";
+
+/* Class = "UILabel"; text = "當我工作表現不佳的時候，我的直屬主管會去了解真正的原因何在。"; ObjectID = "x68-Be-97V"; */
+"x68-Be-97V.text" = "當我工作表現不佳的時候，我的直屬主管會去了解真正的原因何在。";
+
+/* Class = "UILabel"; text = "目前時段可填答："; ObjectID = "x7M-qh-rJE"; */
+"x7M-qh-rJE.text" = "目前時段可填答：";
+
+/* Class = "UILabel"; text = "主管應該要展現出恨鐵不成鋼的態度，期待部屬有更佳的表現。"; ObjectID = "xAK-9B-THO"; */
+"xAK-9B-THO.text" = "主管應該要展現出恨鐵不成鋼的態度，期待部屬有更佳的表現。";
+
+/* Class = "UILabel"; text = "在工作中，我常必須面對很難搞的接觸對象。"; ObjectID = "xNu-Be-gVr"; */
+"xNu-Be-gVr.text" = "在工作中，我常必須面對很難搞的接觸對象。";
+
+/* Class = "UIButton"; normalTitle = "下一題"; ObjectID = "xYs-TX-zru"; */
+"xYs-TX-zru.normalTitle" = "下一題";
+
+/* Class = "UILabel"; text = "夜間問卷填答完成 確認上傳?"; ObjectID = "xin-XM-FMo"; */
+"xin-XM-FMo.text" = "夜間問卷填答完成 確認上傳?";
+
+/* Class = "UITextView"; text = "Lorem ipsum dolor sit er elit lamet, consectetaur cillium adipisicing pecu, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum. Nam liber te conscient to factor tum poen legum odioque civiuda."; ObjectID = "xoz-VJ-Kye"; */
+"xoz-VJ-Kye.text" = "Lorem ipsum dolor sit er elit lamet, consectetaur cillium adipisicing pecu, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum. Nam liber te conscient to factor tum poen legum odioque civiuda.";
+
+/* Class = "UILabel"; text = "主動積極"; ObjectID = "xzv-5T-fOW"; */
+"xzv-5T-fOW.text" = "主動積極";
+
+/* Class = "UIButton"; normalTitle = "下一題"; ObjectID = "yJn-VL-KJH"; */
+"yJn-VL-KJH.normalTitle" = "下一題";
+
+/* Class = "UIButton"; normalTitle = "下一題"; ObjectID = "yVH-d5-0HJ"; */
+"yVH-d5-0HJ.normalTitle" = "下一題";
+
+/* Class = "UILabel"; text = "我常會在工作中遭遇使自己心情受影響的事。"; ObjectID = "yb8-Uu-rXi"; */
+"yb8-Uu-rXi.text" = "我常會在工作中遭遇使自己心情受影響的事。";
+
+/* Class = "UILabel"; text = "人"; ObjectID = "yiE-Vz-OgX"; */
+"yiE-Vz-OgX.text" = "人";
+
+/* Class = "UILabel"; text = "為完成工作任務，我常必須同時滿足不同對象的要求。"; ObjectID = "ywB-cb-IeV"; */
+"ywB-cb-IeV.text" = "為完成工作任務，我常必須同時滿足不同對象的要求。";
+
+/* Class = "UIButton"; normalTitle = "下一題"; ObjectID = "z35-T8-eCD"; */
+"z35-T8-eCD.normalTitle" = "下一題";
+
+/* Class = "UIButton"; normalTitle = "下一題"; ObjectID = "z3q-d4-3dN"; */
+"z3q-d4-3dN.normalTitle" = "下一題";
+
+/* Class = "UIButton"; normalTitle = "確認資料無誤，進行第三部份"; ObjectID = "z5F-dL-dGI"; */
+"z5F-dL-dGI.normalTitle" = "確認資料無誤，進行第三部份";
+
+/* Class = "UILabel"; text = "聯絡方式："; ObjectID = "z8H-R3-1uR"; */
+"z8H-R3-1uR.text" = "聯絡方式：";
+
+/* Class = "UILabel"; text = "主管應展現出求好心切與嚴格督促的態度，以使部屬更加成長。"; ObjectID = "zEY-QF-Xl5"; */
+"zEY-QF-Xl5.text" = "主管應展現出求好心切與嚴格督促的態度，以使部屬更加成長。";
+
+/* Class = "UILabel"; text = "初始問卷"; ObjectID = "zEb-ph-U1C"; */
+"zEb-ph-U1C.text" = "初始問卷";
+
+/* Class = "UIButton"; normalTitle = "下一題"; ObjectID = "zN7-13-JQC"; */
+"zN7-13-JQC.normalTitle" = "下一題";
+
+/* Class = "UIButton"; normalTitle = "確認上傳"; ObjectID = "zOC-x4-s7q"; */
+"zOC-x4-s7q.normalTitle" = "確認上傳";
+
+/* Class = "UIButton"; normalTitle = "確認資料無誤，進行第四部份"; ObjectID = "zQW-M2-3bi"; */
+"zQW-M2-3bi.normalTitle" = "確認資料無誤，進行第四部份";
+
+/* Class = "UILabel"; text = "有需要時，我的直屬主管會請我協助處理他的私人事務。"; ObjectID = "zRf-xv-yPP"; */
+"zRf-xv-yPP.text" = "有需要時，我的直屬主管會請我協助處理他的私人事務。";
+
+/* Class = "UILabel"; text = "午間問卷填答完成 確認上傳?"; ObjectID = "zdi-L2-5Th"; */
+"zdi-L2-5Th.text" = "午間問卷填答完成 確認上傳?";
+
+/* Class = "UILabel"; text = "第二部分：本部分是想瞭解您在今天工作中的想法。在您今天一整天的工作之後，您目前感受如何？請針對下列各敘述句，選擇最適當的程度選項。"; ObjectID = "ztk-Ox-0f6"; */
+"ztk-Ox-0f6.text" = "第二部分：本部分是想瞭解您在今天工作中的想法。在您今天一整天的工作之後，您目前感受如何？請針對下列各敘述句，選擇最適當的程度選項。";

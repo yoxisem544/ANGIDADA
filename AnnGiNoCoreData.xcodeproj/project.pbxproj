@@ -289,6 +289,10 @@
 		636E0FD11BCC026800C65F0A /* MorningLoadQuestionareViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = MorningLoadQuestionareViewController.swift; sourceTree = "<group>"; };
 		6396B52A1BDED27E00E851CF /* MorningStartViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = MorningStartViewController.swift; path = ../noon/MorningStartViewController.swift; sourceTree = "<group>"; };
 		6396B52C1BDED73700E851CF /* NightInitailViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = NightInitailViewController.swift; sourceTree = "<group>"; };
+		639F4F491C34D88E0089B787 /* zh-Hant */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = "zh-Hant"; path = "zh-Hant.lproj/Main.strings"; sourceTree = "<group>"; };
+		639F4F4A1C34D88E0089B787 /* zh-Hant */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = "zh-Hant"; path = "zh-Hant.lproj/LaunchScreen.strings"; sourceTree = "<group>"; };
+		639F4F4B1C34D8D50089B787 /* zh-Hans */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = "zh-Hans"; path = "zh-Hans.lproj/Main.strings"; sourceTree = "<group>"; };
+		639F4F4C1C34D8D50089B787 /* zh-Hans */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = "zh-Hans"; path = "zh-Hans.lproj/LaunchScreen.strings"; sourceTree = "<group>"; };
 		63A870591BB1A75B00313716 /* StatusKeys.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = StatusKeys.swift; sourceTree = "<group>"; };
 		63A8705B1BB2926000313716 /* HowLongStayingInCompanyViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = HowLongStayingInCompanyViewController.swift; sourceTree = "<group>"; };
 		63A8705D1BB29B6500313716 /* FirstPartConfirmViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = FirstPartConfirmViewController.swift; sourceTree = "<group>"; };
@@ -1204,6 +1208,8 @@
 			isa = PBXVariantGroup;
 			children = (
 				63E61E8B1BA685CA009F50DA /* Base */,
+				639F4F491C34D88E0089B787 /* zh-Hant */,
+				639F4F4B1C34D8D50089B787 /* zh-Hans */,
 			);
 			name = Main.storyboard;
 			sourceTree = "<group>";
@@ -1212,6 +1218,8 @@
 			isa = PBXVariantGroup;
 			children = (
 				63E61E901BA685CA009F50DA /* Base */,
+				639F4F4A1C34D88E0089B787 /* zh-Hant */,
+				639F4F4C1C34D8D50089B787 /* zh-Hans */,
 			);
 			name = LaunchScreen.xib;
 			sourceTree = "<group>";
