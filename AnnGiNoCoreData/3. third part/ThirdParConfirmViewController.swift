@@ -17,10 +17,19 @@ class ThirdParConfirmViewController: UIViewController {
         super.viewDidLoad(); self.view.backgroundColor = UIColor(patternImage: UIImage(named: "bg.jpg")!)
         
         // Do any additional setup after loading the view.
-        title = "第三部份確認"
-        var backbutton = UIBarButtonItem(title: "第三部份確認", style: UIBarButtonItemStyle.Done, target: nil, action: nil)
+        title = "第三部份確認".localized
+        var backbutton = UIBarButtonItem(title: "第三部份確認".localized, style: UIBarButtonItemStyle.Done, target: nil, action: nil)
         self.navigationItem.backBarButtonItem = backbutton
-        resultTextView.text = "面對面進行互動。\n\(user.intensityOfSupervisorSubordinateInteractionQuestion1)\n\n使用電子郵件進行互動。\n\(user.intensityOfSupervisorSubordinateInteractionQuestion2)\n\n在電話中進行互動。\n\(user.intensityOfSupervisorSubordinateInteractionQuestion3)\n\n使用即時通訊軟體進行互動。\n\(user.intensityOfSupervisorSubordinateInteractionQuestion4)\n\n使用內部簽核系統進行互動。\n\(user.intensityOfSupervisorSubordinateInteractionQuestion5)"
+		resultTextView.text = "面對面進行互動。".localized
+		resultTextView.text = resultTextView.text + "\n\(user.intensityOfSupervisorSubordinateInteractionQuestion1)\n\n"
+		resultTextView.text = resultTextView.text + "使用電子郵件進行互動。".localized
+		resultTextView.text = resultTextView.text + "\n\(user.intensityOfSupervisorSubordinateInteractionQuestion2)\n\n"
+		resultTextView.text = resultTextView.text + "在電話中進行互動。".localized
+		resultTextView.text = resultTextView.text + "\n\(user.intensityOfSupervisorSubordinateInteractionQuestion3)\n\n"
+		resultTextView.text = resultTextView.text + "使用即時通訊軟體進行互動。".localized
+		resultTextView.text = resultTextView.text + "\n\(user.intensityOfSupervisorSubordinateInteractionQuestion4)\n\n"
+		resultTextView.text = resultTextView.text + "使用內部簽核系統進行互動。".localized
+		resultTextView.text = resultTextView.text + "\n\(user.intensityOfSupervisorSubordinateInteractionQuestion5)"
     }
     
     override func didReceiveMemoryWarning() {
