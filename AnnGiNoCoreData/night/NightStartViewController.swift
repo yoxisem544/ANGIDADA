@@ -34,7 +34,7 @@ class NightStartViewController: UIViewController {
             questionare.retrieveUnfinishedQuestionare({ (questionare) -> Void in
                 if self.questionare.retrieveUnfinishedQuestionareId() == nil {
                     //                    self.alertError("你今早有問卷沒有做到，請重新設定下次上班日！")
-                    self.alertError("你今早有問卷沒有做到，請重新設定下次上班日！", completion: { () -> Void in
+                    self.alertError("你今早有問卷沒有做到，請重新設定下次上班日！".localized, completion: { () -> Void in
                         self.dismissViewControllerAnimated(true, completion: nil)
                         self.isRetrieving = false
                     })
@@ -42,7 +42,7 @@ class NightStartViewController: UIViewController {
                     if let q = questionare {
                         self.questionare = q
                         if self.checkIfUserMissSomeOfTheQuestionare(q) {
-                            self.alertError("你今早有問卷沒有做到，請重新設定下次上班日！", completion: { () -> Void in
+                            self.alertError("你今早有問卷沒有做到，請重新設定下次上班日！".localized, completion: { () -> Void in
                                 self.isRetrieving = false
                                 self.dismissViewControllerAnimated(true, completion: nil)
                             })
@@ -53,7 +53,7 @@ class NightStartViewController: UIViewController {
                     } else {
                         self.isRetrieving = false
                         //                        self.alertError("你的網路有問題喔！")
-                        self.alertError("你的網路有問題喔！", completion: { () -> Void in
+                        self.alertError("你的網路有問題喔！".localized, completion: { () -> Void in
                             
                         })
                         print("fail to retrieve")
@@ -78,7 +78,7 @@ class NightStartViewController: UIViewController {
         var message = ""
         
         // check if lost a questionare
-        message = "你今早有問卷沒有做到，請重新設定下次上班日！"
+        message = "你今早有問卷沒有做到，請重新設定下次上班日！".localized
         //        // check if date is set
         //
         //        // check if today
@@ -88,8 +88,8 @@ class NightStartViewController: UIViewController {
         //        // check if need to set date
         //        message = "請重新設定下次上班日！"
         message = m
-        let alert = UIAlertController(title: "錯誤", message: message, preferredStyle: UIAlertControllerStyle.Alert)
-        let ok = UIAlertAction(title: "好", style: UIAlertActionStyle.Cancel, handler: { (action) -> Void in
+        let alert = UIAlertController(title: "錯誤".localized, message: message, preferredStyle: UIAlertControllerStyle.Alert)
+        let ok = UIAlertAction(title: "好".localized, style: UIAlertActionStyle.Cancel, handler: { (action) -> Void in
             completion()
         })
         alert.addAction(ok)

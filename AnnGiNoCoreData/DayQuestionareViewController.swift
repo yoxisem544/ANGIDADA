@@ -33,13 +33,13 @@ class DayQuestionareViewController: UIViewController {
     func updateStatusOfNotifyToUser() {
         let hi = checkWhichSurveyToDo()
         if hi == 0 {
-            canDoSurveyLabel.text = "非填答時段"
+            canDoSurveyLabel.text = "非填答時段".localized
         } else if hi == 1 {
-            canDoSurveyLabel.text = "早晨時段"
+            canDoSurveyLabel.text = "早晨時段".localized
         } else if hi == 2 {
-            canDoSurveyLabel.text = "午間時段"
+            canDoSurveyLabel.text = "午間時段".localized
         } else if hi == 3 {
-            canDoSurveyLabel.text = "晚間時段"
+            canDoSurveyLabel.text = "晚間時段".localized
         }
     }
     
@@ -216,8 +216,8 @@ class DayQuestionareViewController: UIViewController {
     func alertError(m: String, completion: () -> Void) {
         let message = m
         
-        let alert = UIAlertController(title: "錯誤", message: message, preferredStyle: UIAlertControllerStyle.Alert)
-        let ok = UIAlertAction(title: "好", style: UIAlertActionStyle.Cancel, handler: {(action) -> Void in
+        let alert = UIAlertController(title: "錯誤".localized, message: message, preferredStyle: UIAlertControllerStyle.Alert)
+        let ok = UIAlertAction(title: "好".localized, style: UIAlertActionStyle.Cancel, handler: {(action) -> Void in
             completion()
         })
         alert.addAction(ok)
@@ -230,18 +230,18 @@ class DayQuestionareViewController: UIViewController {
         var message = ""
         
         // check if lost a questionare
-        message = "你今天有問卷沒有做到，請重新設定下次上班日！"
+        message = "你今天有問卷沒有做到，請重新設定下次上班日！".localized
         // check if date is set
 
         // check if today
         if let date = UserSetting().nextWorkingDay {
-            message = "上班日為\(date)"
+            message = "上班日為".localized+"\(date)"
         }
         // check if need to set date
-        message = "非填答時段"
+        message = "非填答時段".localized
         
-        let alert = UIAlertController(title: "錯誤", message: message, preferredStyle: UIAlertControllerStyle.Alert)
-        let ok = UIAlertAction(title: "好", style: UIAlertActionStyle.Cancel, handler: nil)
+        let alert = UIAlertController(title: "錯誤".localized, message: message, preferredStyle: UIAlertControllerStyle.Alert)
+        let ok = UIAlertAction(title: "好".localized, style: UIAlertActionStyle.Cancel, handler: nil)
         alert.addAction(ok)
         dispatch_async(dispatch_get_main_queue()) { () -> Void in
             self.presentViewController(alert, animated: true, completion: nil)
@@ -266,7 +266,7 @@ class DayQuestionareViewController: UIViewController {
                 if checkIfThereIsAUnfinishedSurvey() {
                     print("alreay have do morning survey")
                     if checkIfTimeStampBetweenNowAndTimeStampAreTheSame() {
-                       alertError("你已經做過了！不用重複填寫喔！", completion: {})
+                       alertError("你已經做過了！不用重複填寫喔！".localized, completion: {})
                     } else {
                         pushSegueAndDoQuestionare(checkWhichSurveyToDo())
                     }
@@ -279,7 +279,7 @@ class DayQuestionareViewController: UIViewController {
                     pushSegueAndDoQuestionare(checkWhichSurveyToDo())
                 } else {
                     print("alreay have do morning survey")
-                    alertError("你早上或者下午有漏掉問卷喔！今天的已經作廢了！", completion: {})
+                    alertError("你早上或者下午有漏掉問卷喔！今天的已經作廢了！".localized, completion: {})
                 }
             }
 //            if checkIfUserIstryingToDoSurveyAgain() {

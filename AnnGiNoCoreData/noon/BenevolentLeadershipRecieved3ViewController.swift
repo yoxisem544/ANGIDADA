@@ -18,7 +18,7 @@ class BenevolentLeadershipRecieved3ViewController: UIViewController {
     override func viewDidLoad() {
         super.viewDidLoad(); self.view.backgroundColor = UIColor(patternImage: UIImage(named: "bg-noon.jpg")!)
         
-        title = "午間問卷 (8/10)"
+        title = "午間問卷".localized + " (8/10)"
         var backbutton = UIBarButtonItem(title: "8/10", style: UIBarButtonItemStyle.Done, target: nil, action: nil)
         self.navigationItem.backBarButtonItem = backbutton
         // Do any additional setup after loading the view.

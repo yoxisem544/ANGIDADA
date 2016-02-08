@@ -37,8 +37,8 @@ class ResetNotiDateViewController: UIViewController {
     }
     
     func showAlert(completion: () -> Void) {
-        let alert = UIAlertController(title: "小提示", message: "我們將於09:00、14:00、18:00提醒您填寫問卷", preferredStyle: UIAlertControllerStyle.Alert)
-        let ok = UIAlertAction(title: "好", style: UIAlertActionStyle.Cancel) { (UIAlertAction) -> Void in
+        let alert = UIAlertController(title: "小提示".localized, message: "我們將於09:00、14:00、18:00提醒您填寫問卷".localized, preferredStyle: UIAlertControllerStyle.Alert)
+        let ok = UIAlertAction(title: "好".localized, style: UIAlertActionStyle.Cancel) { (UIAlertAction) -> Void in
             completion()
         }
         alert.addAction(ok)

@@ -17,7 +17,7 @@ class FirstPartConfirmViewController: UIViewController {
         super.viewDidLoad(); self.view.backgroundColor = UIColor(patternImage: UIImage(named: "bg.jpg")!)
 
         // Do any additional setup after loading the view.
-        title = "第一部份總結"
+        title = "第一部份總結".localized
         
         var contentText = "您的性別是：\(user.sex)\n\n年齡：\(user.age)歲\n\n學歷：\(user.educationalBackground)\n\n總服務年資：\(user.serviceTimeLength)\n\n在公司中的職級：\(user.currentRank)\n\n所屬單位的性質：\(user.currentDepartmentProperty)\n\n所屬公司的產業性質：\(user.currentCompanyProperty)"
         resultLabel.text = contentText

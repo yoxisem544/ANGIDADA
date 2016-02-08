@@ -12,7 +12,7 @@ import Parse
 class NegativeAffect1ViewController: UIViewController {
     
     
-    let fearLevel = ["從未如此","很少如此","偶爾如此","有時如此","經常如此","總是如此"]
+    let fearLevel = ["從未如此".localized,"很少如此".localized,"偶爾如此".localized,"有時如此".localized,"經常如此".localized,"總是如此".localized]
     var questionare: Questionare!
     
     override func viewDidLoad() {

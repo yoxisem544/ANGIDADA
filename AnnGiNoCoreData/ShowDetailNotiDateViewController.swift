@@ -11,7 +11,7 @@ import UIKit
 class ShowDetailNotiDateViewController: UIViewController {
 
     @IBOutlet weak var contentLabel: UILabel!
-    let weekdayString = ["週日","週一","週二","週三","週四","週五","週六"]
+    let weekdayString = ["週日".localized,"週一".localized,"週二".localized,"週三".localized,"週四".localized,"週五".localized,"週六".localized]
     
     override func viewDidLoad() {
         super.viewDidLoad(); self.view.backgroundColor = UIColor(patternImage: UIImage(named: "bg.jpg")!)
@@ -43,9 +43,9 @@ class ShowDetailNotiDateViewController: UIViewController {
             
             let s = formatter.stringFromDate(nextWorkingDay!)
             print(comp.weekday)
-            contentLabel.text = "目前設定的下次上班日：" + s + "\((weekdayString[comp.weekday-1]))"
+            contentLabel.text = "目前設定的下次上班日：".localized + s + "\((weekdayString[comp.weekday-1]))"
         } else {
-            contentLabel.text = "目前設定的下次上班日：" + "尚未設定"
+            contentLabel.text = "目前設定的下次上班日：".localized + "尚未設定".localized
         }
     }
     override func didReceiveMemoryWarning() {

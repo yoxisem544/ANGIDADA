@@ -31,7 +31,7 @@ class QuestionareNotification {
         let localNotification = UILocalNotification()
         localNotification.timeZone = NSTimeZone.defaultTimeZone()
         localNotification.fireDate = dateToFire
-        localNotification.alertBody = "請填寫早上問卷！"
+        localNotification.alertBody = "請填寫早上問卷！".localized
         localNotification.soundName = "default"
         
         UIApplication.sharedApplication().scheduleLocalNotification(localNotification)
@@ -42,7 +42,7 @@ class QuestionareNotification {
         let localNotification2 = UILocalNotification()
         localNotification2.timeZone = NSTimeZone.defaultTimeZone()
         localNotification2.fireDate = dateToFire
-        localNotification2.alertBody = "請填寫中午問卷！"
+        localNotification2.alertBody = "請填寫中午問卷！".localized
         localNotification2.soundName = "default"
         UIApplication.sharedApplication().scheduleLocalNotification(localNotification2)
         
@@ -52,7 +52,7 @@ class QuestionareNotification {
         let localNotification3 = UILocalNotification()
         localNotification3.timeZone = NSTimeZone.defaultTimeZone()
         localNotification3.fireDate = dateToFire
-        localNotification3.alertBody = "請填寫晚上問卷！"
+        localNotification3.alertBody = "請填寫晚上問卷！".localized
         localNotification3.soundName = "default"
         UIApplication.sharedApplication().scheduleLocalNotification(localNotification3)
         
