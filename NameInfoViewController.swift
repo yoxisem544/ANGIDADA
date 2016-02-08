@@ -22,8 +22,8 @@ class NameInfoViewController: UIViewController {
         var tap = UITapGestureRecognizer(target: self, action: "tap")
         self.view.addGestureRecognizer(tap)
         contentTextField.delegate = self
-        title = "基本資料"
-        var backbutton = UIBarButtonItem(title: "返回", style: UIBarButtonItemStyle.Done, target: nil, action: nil)
+        title = "基本資料".localized
+        var backbutton = UIBarButtonItem(title: "返回".localized, style: UIBarButtonItemStyle.Done, target: nil, action: nil)
         self.navigationItem.backBarButtonItem = backbutton
     }
     

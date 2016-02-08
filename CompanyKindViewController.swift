@@ -11,14 +11,14 @@ import Parse
 
 class CompanyKindViewController: UIViewController {
 
-    let companyKind = ["高科技製造業", "傳統製造業", "金融服務業", "其他服務業", "其他，請填寫。"]
+    let companyKind = ["高科技製造業".localized, "傳統製造業".localized, "金融服務業".localized, "其他服務業".localized, "其他，請填寫。".localized]
     var user: PersonalInformation!
     
     @IBOutlet weak var other: UITextField!
     override func viewDidLoad() {
         super.viewDidLoad(); self.view.backgroundColor = UIColor(patternImage: UIImage(named: "bg.jpg")!)
         
-        title = "初始問卷 (7/72)"
+        title = "初始問卷".localized + " (7/72)"
         var backbutton = UIBarButtonItem(title: "7/72", style: UIBarButtonItemStyle.Done, target: nil, action: nil)
         self.navigationItem.backBarButtonItem = backbutton
         // Do any additional setup after loading the view.

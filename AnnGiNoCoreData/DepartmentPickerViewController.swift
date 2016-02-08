@@ -11,13 +11,13 @@ import Parse
 
 class DepartmentPickerViewController: UIViewController {
 
-    let department = ["研發", "行銷", "業務", "採購", "生產", "品管", "客服", "資訊", "財會", "人資", "總務", "公關", "法務", "其他，請填寫。"]
+    let department = ["研發".localized, "行銷".localized, "業務".localized, "採購".localized, "生產".localized, "品管".localized, "客服".localized, "資訊".localized, "財會".localized, "人資".localized, "總務".localized, "公關".localized, "法務".localized, "其他，請填寫。".localized]
     var user: PersonalInformation!
     
     override func viewDidLoad() {
         super.viewDidLoad(); self.view.backgroundColor = UIColor(patternImage: UIImage(named: "bg.jpg")!)
         
-        title = "初始問卷 (6/72)"
+        title = "初始問卷".localized + " (6/72)"
         var backbutton = UIBarButtonItem(title: "6/72", style: UIBarButtonItemStyle.Done, target: nil, action: nil)
         self.navigationItem.backBarButtonItem = backbutton
         // Do any additional setup after loading the view.

@@ -12,7 +12,7 @@ import Parse
 class AuthoritarianLeadershipNeeded2ViewController: UIViewController {
     
     
-    let fearLevel = ["非常不同意", "不同意", "有點不同意", "有點同意", "同意", "非常同意"]
+    let fearLevel = ["非常不同意".localized, "不同意".localized, "有點不同意".localized, "有點同意".localized, "同意".localized, "非常同意".localized]
     var questionare: Questionare!
     
     override func viewDidLoad() {

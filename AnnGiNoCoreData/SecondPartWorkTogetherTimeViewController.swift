@@ -18,7 +18,7 @@ class SecondPartWorkTogetherTimeViewController: UIViewController {
     override func viewDidLoad() {
         super.viewDidLoad(); self.view.backgroundColor = UIColor(patternImage: UIImage(named: "bg.jpg")!)
 
-        title = "初始問卷 (10/72)"
+        title = "初始問卷".localized + " (10/72)"
         var backbutton = UIBarButtonItem(title: "10/72", style: UIBarButtonItemStyle.Done, target: nil, action: nil)
         self.navigationItem.backBarButtonItem = backbutton
         // Do any additional setup after loading the view.
@@ -44,7 +44,7 @@ class SecondPartWorkTogetherTimeViewController: UIViewController {
                 }
             }
             // after check
-            user.timeSpentWithDirectManager = "\(year)年\(month)月"
+            user.timeSpentWithDirectManager = "\(year)"+"年".localized+"\(month)"+"月".localized
             // perform segue
             self.performSegueWithIdentifier("10 to middle of second part", sender: user)
         } else {

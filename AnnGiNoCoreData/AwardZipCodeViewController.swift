@@ -17,8 +17,8 @@ class AwardZipCodeViewController: UIViewController {
         super.viewDidLoad()
         self.view.backgroundColor = UIColor(patternImage: UIImage(named: "bg.jpg")!)
         
-        title = "郵遞區號"
-        var backbutton = UIBarButtonItem(title: "郵遞區號", style: UIBarButtonItemStyle.Done, target: nil, action: nil)
+        title = "郵遞區號".localized
+        var backbutton = UIBarButtonItem(title: "郵遞區號".localized, style: UIBarButtonItemStyle.Done, target: nil, action: nil)
         self.navigationItem.backBarButtonItem = backbutton
         
         contentTextField.delegate = self

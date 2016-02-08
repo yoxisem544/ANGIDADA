@@ -1,0 +1,13 @@
+/* 
+  Localizable.strings
+  AnnGiNoCoreData
+
+  Created by David on 2016/2/8.
+  Copyright © 2016年 David. All rights reserved.
+*/
+
+"初始問卷" = "初始问卷";
+"事後調查" = "事後调查";
+"每日經驗取樣" = "每日经验取样";
+"基本資料" = "基本资料";
+"返回" = "返回";

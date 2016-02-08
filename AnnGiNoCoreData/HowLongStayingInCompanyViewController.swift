@@ -22,14 +22,14 @@ class HowLongStayingInCompanyViewController: UIViewController {
         monthTextField.delegate = self
 
         // Do any additional setup after loading the view.
-        title = "初始問卷 (4/72)"
+        title = "初始問卷".localized + " (4/72)"
         var backbutton = UIBarButtonItem(title: "4/72", style: UIBarButtonItemStyle.Done, target: nil, action: nil)
         self.navigationItem.backBarButtonItem = backbutton
         yearTextField.becomeFirstResponder()
         
         var tap = UITapGestureRecognizer(target: self, action: "tap")
         self.view.addGestureRecognizer(tap)
-        user.serviceTimeLength = "0年0月"
+        user.serviceTimeLength = "0" + "年".localized + "0" + "月".localized
     }
     
     func tap() {
@@ -55,7 +55,7 @@ class HowLongStayingInCompanyViewController: UIViewController {
                 }
             }
             // after check
-            user.serviceTimeLength = "\(year)年\(month)月"
+            user.serviceTimeLength = "\(year)" + "年".localized + "\(month)" + "月".localized
             // perform segue
             self.performSegueWithIdentifier("4 to 5", sender: user)
         } else {
@@ -74,7 +74,7 @@ class HowLongStayingInCompanyViewController: UIViewController {
     }
 
     func alertError() {
-        var alert = UIAlertController(title: "輸入有誤", message: "", preferredStyle: UIAlertControllerStyle.Alert)
+        var alert = UIAlertController(title: "輸入有誤".localized, message: "", preferredStyle: UIAlertControllerStyle.Alert)
         var ok = UIAlertAction(title: "ok", style: UIAlertActionStyle.Cancel, handler: nil)
         alert.addAction(ok)
         self.presentViewController(alert, animated: true) { () -> Void in

@@ -10,13 +10,13 @@ import UIKit
 
 class EducationalBackgroundPickerViewController: UIViewController {
 
-    let educationBackground = ["高中職以下", "專科", "大學", "碩士", "博士"]
+    let educationBackground = ["高中職以下".localized, "專科".localized, "大學".localized, "碩士".localized, "博士".localized]
     var user: PersonalInformation!
     
     override func viewDidLoad() {
         super.viewDidLoad(); self.view.backgroundColor = UIColor(patternImage: UIImage(named: "bg.jpg")!)
         
-        title = "初始問卷 (3/72)"
+        title = "初始問卷".localized + " (3/72)"
         var backbutton = UIBarButtonItem(title: "3/72", style: UIBarButtonItemStyle.Done, target: nil, action: nil)
         self.navigationItem.backBarButtonItem = backbutton
         // Do any additional setup after loading the view.

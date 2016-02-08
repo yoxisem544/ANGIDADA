@@ -12,13 +12,13 @@ import Parse
 class EmotionalJobDemand2ViewController: UIViewController {
     
     
-    let fearLevel = ["非常不同意", "不同意", "有點不同意", "有點同意", "同意", "非常同意"]
+    let fearLevel = ["非常不同意".localized, "不同意".localized, "有點不同意".localized, "有點同意".localized, "同意".localized, "非常同意".localized]
     var user: PersonalInformation!
 
     override func viewDidLoad() {
         super.viewDidLoad(); self.view.backgroundColor = UIColor(patternImage: UIImage(named: "bg.jpg")!)
         
-        title = "初始問卷 (56/72)"
+        title = "初始問卷".localized + " (56/72)"
         var backbutton = UIBarButtonItem(title: "56/72", style: UIBarButtonItemStyle.Done, target: nil, action: nil)
         self.navigationItem.backBarButtonItem = backbutton
         // Do any additional setup after loading the view.

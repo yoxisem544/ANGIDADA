@@ -11,13 +11,13 @@ import Parse
 
 class CompanyLevelViewController: UIViewController {
 
-    let companyLevel = ["非主管職", "基層主管", "中階主管", "高階主管"]
+    let companyLevel = ["非主管職".localized, "基層主管".localized, "中階主管".localized, "高階主管".localized]
     var user: PersonalInformation!
     
     override func viewDidLoad() {
         super.viewDidLoad(); self.view.backgroundColor = UIColor(patternImage: UIImage(named: "bg.jpg")!)
         
-        title = "初始問卷 (5/72)"
+        title = "初始問卷".localized + " (5/72)"
         var backbutton = UIBarButtonItem(title: "5/72", style: UIBarButtonItemStyle.Done, target: nil, action: nil)
         self.navigationItem.backBarButtonItem = backbutton
         // Do any additional setup after loading the view.

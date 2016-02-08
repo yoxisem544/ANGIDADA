@@ -12,13 +12,13 @@ import Parse
 class Intensity5ViewController: UIViewController {
     
     
-    let fearLevel = ["從未如此", "很少如此", "偶爾如此", "有時如此", "經常如此", "總是如此"]
+    let fearLevel = ["從未如此".localized, "很少如此".localized, "偶爾如此".localized, "有時如此".localized, "經常如此".localized, "總是如此".localized]
     var user: PersonalInformation!
 
     override func viewDidLoad() {
         super.viewDidLoad(); self.view.backgroundColor = UIColor(patternImage: UIImage(named: "bg.jpg")!)
         
-        title = "初始問卷 (41/72)"
+        title = "初始問卷".localized + " (41/72)"
         var backbutton = UIBarButtonItem(title: "41/72", style: UIBarButtonItemStyle.Done, target: nil, action: nil)
         self.navigationItem.backBarButtonItem = backbutton
         // Do any additional setup after loading the view.

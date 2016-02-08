@@ -17,8 +17,8 @@ class AwardPhoneNumberViewController: UIViewController {
         super.viewDidLoad()
         self.view.backgroundColor = UIColor(patternImage: UIImage(named: "bg.jpg")!)
         
-        title = "手機"
-        var backbutton = UIBarButtonItem(title: "手機", style: UIBarButtonItemStyle.Done, target: nil, action: nil)
+        title = "手機".localized
+        var backbutton = UIBarButtonItem(title: "手機".localized, style: UIBarButtonItemStyle.Done, target: nil, action: nil)
         self.navigationItem.backBarButtonItem = backbutton
         
         contentTextField.delegate = self

@@ -11,18 +11,18 @@ import Parse
 
 class SexPickerViewController: UIViewController {
 
-    let sex = ["男性", "女性"]
+    let sex = ["男性".localized, "女性".localized]
     var user: PersonalInformation!
     override func viewDidLoad() {
         super.viewDidLoad(); self.view.backgroundColor = UIColor(patternImage: UIImage(named: "bg.jpg")!)
 
-        title = "初始問卷 (1/72)"
+        title = "初始問卷".localized + " (1/72)"
         var backbutton = UIBarButtonItem(title: "1/72", style: UIBarButtonItemStyle.Done, target: nil, action: nil)
         self.navigationItem.backBarButtonItem = backbutton
         // Do any additional setup after loading the view.
         sexPickerView.selectRow(0, inComponent: 0, animated: true)
 //        user = PersonalInformation()
-        user.sex = "男性"
+        user.sex = "男性".localized
         print("ajks\(user.userEMAIL)")
     }
     

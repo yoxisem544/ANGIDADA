@@ -12,6 +12,8 @@
 		630104FB1BC4DF0E008DBED5 /* ShowDetailNotiDateViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 630104FA1BC4DF0E008DBED5 /* ShowDetailNotiDateViewController.swift */; };
 		630104FD1BC4DF21008DBED5 /* ResetNotiDateViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 630104FC1BC4DF21008DBED5 /* ResetNotiDateViewController.swift */; };
 		630104FF1BC4DFAD008DBED5 /* UserSetting.swift in Sources */ = {isa = PBXBuildFile; fileRef = 630104FE1BC4DFAD008DBED5 /* UserSetting.swift */; };
+		630D8BBD1C68CE5D004240B8 /* StringExtension.swift in Sources */ = {isa = PBXBuildFile; fileRef = 630D8BBC1C68CE5D004240B8 /* StringExtension.swift */; };
+		630D8BC01C68D418004240B8 /* Localized.strings in Resources */ = {isa = PBXBuildFile; fileRef = 630D8BC21C68D418004240B8 /* Localized.strings */; };
 		631739C31BA9374100242094 /* InitialInformationViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 631739C21BA9374100242094 /* InitialInformationViewController.swift */; };
 		631739C51BA937CA00242094 /* HintOnceViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 631739C41BA937CA00242094 /* HintOnceViewController.swift */; };
 		631739C71BA938EF00242094 /* FirstPartStartViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 631739C61BA938EF00242094 /* FirstPartStartViewController.swift */; };
@@ -239,6 +241,10 @@
 		630104FA1BC4DF0E008DBED5 /* ShowDetailNotiDateViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ShowDetailNotiDateViewController.swift; sourceTree = "<group>"; };
 		630104FC1BC4DF21008DBED5 /* ResetNotiDateViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ResetNotiDateViewController.swift; sourceTree = "<group>"; };
 		630104FE1BC4DFAD008DBED5 /* UserSetting.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = UserSetting.swift; sourceTree = "<group>"; };
+		630D8BBC1C68CE5D004240B8 /* StringExtension.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = StringExtension.swift; sourceTree = "<group>"; };
+		630D8BC11C68D418004240B8 /* Base */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = Base; path = Base.lproj/Localized.strings; sourceTree = "<group>"; };
+		630D8BC41C68D423004240B8 /* zh-Hans */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = "zh-Hans"; path = "zh-Hans.lproj/Localized.strings"; sourceTree = "<group>"; };
+		630D8BC51C68D47E004240B8 /* zh-Hant */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = "zh-Hant"; path = "zh-Hant.lproj/Localized.strings"; sourceTree = "<group>"; };
 		631739C21BA9374100242094 /* InitialInformationViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = InitialInformationViewController.swift; sourceTree = "<group>"; };
 		631739C41BA937CA00242094 /* HintOnceViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = HintOnceViewController.swift; sourceTree = "<group>"; };
 		631739C61BA938EF00242094 /* FirstPartStartViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = FirstPartStartViewController.swift; sourceTree = "<group>"; };
@@ -773,11 +779,13 @@
 		63E61E781BA685CA009F50DA = {
 			isa = PBXGroup;
 			children = (
+				630D8BC21C68D418004240B8 /* Localized.strings */,
 				634333FD1BFC1EBB00F9B121 /* ShowAttententRightViewController.swift */,
 				634333F91BFC14C900F9B121 /* MorningBackgroundViewController.swift */,
 				634333FB1BFC14D700F9B121 /* NightBackgroundViewController.swift */,
 				63E61EC81BA6862A009F50DA /* libsqlite3.dylib */,
 				63E61EC61BA68621009F50DA /* libz.dylib */,
+				630D8BBC1C68CE5D004240B8 /* StringExtension.swift */,
 				63E61EC41BA68619009F50DA /* SystemConfiguration.framework */,
 				63E61EC21BA68612009F50DA /* StoreKit.framework */,
 				63E61EC01BA6860D009F50DA /* Security.framework */,
@@ -953,6 +961,8 @@
 			knownRegions = (
 				en,
 				Base,
+				"zh-Hant",
+				"zh-Hans",
 			);
 			mainGroup = 63E61E781BA685CA009F50DA;
 			productRefGroup = 63E61E821BA685CA009F50DA /* Products */;
@@ -972,6 +982,7 @@
 			files = (
 				635CD9FB1BBFF26300CFBE50 /* bg.jpg in Resources */,
 				634333F81BFC03CC00F9B121 /* bg-night.jpg in Resources */,
+				630D8BC01C68D418004240B8 /* Localized.strings in Resources */,
 				63E61E8C1BA685CA009F50DA /* Main.storyboard in Resources */,
 				63E61E911BA685CA009F50DA /* LaunchScreen.xib in Resources */,
 				63DC7EBB1BD00021002D9B5F /* cover.jpg in Resources */,
@@ -1073,6 +1084,7 @@
 				63A871381BB3FCE700313716 /* Competence3ViewController.swift in Sources */,
 				63C08B7A1BCB302F00AB3E2F /* ExpectedEmotionalJobDemand2ViewController.swift in Sources */,
 				63C08B821BCB302F00AB3E2F /* ExpectedQuantativeJobDemand5ViewController.swift in Sources */,
+				630D8BBD1C68CE5D004240B8 /* StringExtension.swift in Sources */,
 				63A871511BB3FCE700313716 /* PowerDistanceOrientation3ViewController.swift in Sources */,
 				631739C71BA938EF00242094 /* FirstPartStartViewController.swift in Sources */,
 				63C08BA11BCB302F00AB3E2F /* AuthoriarianLeadershipRecieved2ViewController.swift in Sources */,
@@ -1204,6 +1216,16 @@
 /* End PBXTargetDependency section */
 
 /* Begin PBXVariantGroup section */
+		630D8BC21C68D418004240B8 /* Localized.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				630D8BC11C68D418004240B8 /* Base */,
+				630D8BC41C68D423004240B8 /* zh-Hans */,
+				630D8BC51C68D47E004240B8 /* zh-Hant */,
+			);
+			name = Localized.strings;
+			sourceTree = "<group>";
+		};
 		63E61E8A1BA685CA009F50DA /* Main.storyboard */ = {
 			isa = PBXVariantGroup;
 			children = (

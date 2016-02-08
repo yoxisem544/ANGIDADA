@@ -17,8 +17,8 @@ class DepartmentInfoViewController: UIViewController {
     override func viewDidLoad() {
         super.viewDidLoad(); self.view.backgroundColor = UIColor(patternImage: UIImage(named: "bg.jpg")!)
         
-        title = "部門"
-        var backbutton = UIBarButtonItem(title: "部門", style: UIBarButtonItemStyle.Done, target: nil, action: nil)
+        title = "部門".localized
+        var backbutton = UIBarButtonItem(title: "部門".localized, style: UIBarButtonItemStyle.Done, target: nil, action: nil)
         self.navigationItem.backBarButtonItem = backbutton
         
         // Do any additional setup after loading the view.

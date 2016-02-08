@@ -11,13 +11,13 @@ import Parse
 
 class SecondPartBossSexPickerViewController: UIViewController {
 
-    let sex = ["男性", "女性"]
+    let sex = ["男性".localized, "女性".localized]
     var user: PersonalInformation!
     
     override func viewDidLoad() {
         super.viewDidLoad(); self.view.backgroundColor = UIColor(patternImage: UIImage(named: "bg.jpg")!)
         
-        title = "初始問卷 (8/72)"
+        title = "初始問卷".localized + " (8/72)"
         var backbutton = UIBarButtonItem(title: "8/72", style: UIBarButtonItemStyle.Done, target: nil, action: nil)
         self.navigationItem.backBarButtonItem = backbutton
         // Do any additional setup after loading the view.

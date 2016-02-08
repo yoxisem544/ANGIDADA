@@ -17,8 +17,8 @@ class CompanyInfoViewController: UIViewController {
     override func viewDidLoad() {
         super.viewDidLoad(); self.view.backgroundColor = UIColor(patternImage: UIImage(named: "bg.jpg")!)
         
-        title = "公司"
-        var backbutton = UIBarButtonItem(title: "公司", style: UIBarButtonItemStyle.Done, target: nil, action: nil)
+        title = "公司".localized
+        var backbutton = UIBarButtonItem(title: "公司".localized, style: UIBarButtonItemStyle.Done, target: nil, action: nil)
         self.navigationItem.backBarButtonItem = backbutton
         
         // Do any additional setup after loading the view.

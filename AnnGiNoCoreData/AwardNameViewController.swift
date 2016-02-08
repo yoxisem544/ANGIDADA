@@ -17,8 +17,8 @@ class AwardNameViewController: UIViewController {
         super.viewDidLoad()
         self.view.backgroundColor = UIColor(patternImage: UIImage(named: "bg.jpg")!)
         
-        title = "姓名"
-        var backbutton = UIBarButtonItem(title: "姓名", style: UIBarButtonItemStyle.Done, target: nil, action: nil)
+        title = "姓名".localized
+        var backbutton = UIBarButtonItem(title: "姓名".localized, style: UIBarButtonItemStyle.Done, target: nil, action: nil)
         self.navigationItem.backBarButtonItem = backbutton
         
         // init award

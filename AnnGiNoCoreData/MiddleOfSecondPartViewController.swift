@@ -16,8 +16,8 @@ class MiddleOfSecondPartViewController: UIViewController {
     override func viewDidLoad() {
         super.viewDidLoad(); self.view.backgroundColor = UIColor(patternImage: UIImage(named: "bg.jpg")!)
 
-        title = "說明"
-        var backbutton = UIBarButtonItem(title: "說明", style: UIBarButtonItemStyle.Done, target: nil, action: nil)
+        title = "說明".localized
+        var backbutton = UIBarButtonItem(title: "說明".localized, style: UIBarButtonItemStyle.Done, target: nil, action: nil)
         self.navigationItem.backBarButtonItem = backbutton
         // Do any additional setup after loading the view.
     }

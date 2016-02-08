@@ -26,14 +26,15 @@ class ProgressViewController: UIViewController {
     }
     
     func updateUI() {
+		print(NSLocalizedString("初始問卷", tableName: nil, bundle: NSBundle.mainBundle(), value: "", comment: ""))
         if UserSetting.hasUserFinishedFirstQuestionare() {
-            firstQuestionareProgressLabel.text = "初始問卷： 1/1"
+            firstQuestionareProgressLabel.text = "初始問卷".localized + "： 1/1"
         } else {
-            firstQuestionareProgressLabel.text = "初始問卷： 0/1"
+            firstQuestionareProgressLabel.text = "初始問卷".localized + "： 0/1"
         }
         
-        everydayProgressLabel.text = "每日經驗取樣： \(UserSetting.everydayQuestionareCount())/10"
-        finalQuestionareLabel.text = "事後調查： \(UserSetting.finalQuesionareCount())/1"
+        everydayProgressLabel.text = "每日經驗取樣".localized + "： \(UserSetting.everydayQuestionareCount())/10"
+        finalQuestionareLabel.text = "事後調查".localized + "： \(UserSetting.finalQuesionareCount())/1"
     }
 
     override func didReceiveMemoryWarning() {

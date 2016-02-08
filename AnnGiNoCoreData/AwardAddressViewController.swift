@@ -17,8 +17,8 @@ class AwardAddressViewController: UIViewController {
         super.viewDidLoad()
         self.view.backgroundColor = UIColor(patternImage: UIImage(named: "bg.jpg")!)
         
-        title = "地址"
-        var backbutton = UIBarButtonItem(title: "地址", style: UIBarButtonItemStyle.Done, target: nil, action: nil)
+        title = "地址".localized
+        var backbutton = UIBarButtonItem(title: "地址".localized, style: UIBarButtonItemStyle.Done, target: nil, action: nil)
         self.navigationItem.backBarButtonItem = backbutton
         
         contentTextField.delegate = self

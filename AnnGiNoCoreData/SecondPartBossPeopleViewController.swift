@@ -17,7 +17,7 @@ class SecondPartBossPeopleViewController: UIViewController {
     override func viewDidLoad() {
         super.viewDidLoad(); self.view.backgroundColor = UIColor(patternImage: UIImage(named: "bg.jpg")!)
 
-        title = "初始問卷 (9/72)"
+        title = "初始問卷".localized + " (9/72)"
         var backbutton = UIBarButtonItem(title: "9/72", style: UIBarButtonItemStyle.Done, target: nil, action: nil)
         self.navigationItem.backBarButtonItem = backbutton
         // Do any additional setup after loading the view.
@@ -36,7 +36,7 @@ class SecondPartBossPeopleViewController: UIViewController {
     }
     
     func alertError() {
-        var alert = UIAlertController(title: "輸入有誤", message: "", preferredStyle: UIAlertControllerStyle.Alert)
+        var alert = UIAlertController(title: "輸入有誤".localized, message: "", preferredStyle: UIAlertControllerStyle.Alert)
         var ok = UIAlertAction(title: "ok", style: UIAlertActionStyle.Cancel, handler: nil)
         alert.addAction(ok)
         self.presentViewController(alert, animated: true) { () -> Void in

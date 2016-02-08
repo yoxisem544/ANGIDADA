@@ -20,12 +20,12 @@ class PersonalInfoShowViewController: UIViewController {
         
         // Do any additional setup after loading the view.
         if let name = UserSetting.userName() {
-            nameLabel.text = "姓名：\(name)"
+            nameLabel.text = "姓名".localized + "：\(name)"
         } else {
-            nameLabel.text = "姓名："
+            nameLabel.text = "姓名".localized + "："
         }
-        emailLabel.text = "信箱：\(UserSetting.userEMAIL())"
-        phoneLabel.text = "電話：\(UserSetting.userPhone())"
+        emailLabel.text = "信箱".localized + "：\(UserSetting.userEMAIL())"
+        phoneLabel.text = "電話".localized + "：\(UserSetting.userPhone())"
     }
 
     override func didReceiveMemoryWarning() {

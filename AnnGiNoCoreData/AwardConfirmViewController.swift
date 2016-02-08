@@ -17,12 +17,12 @@ class AwardConfirmViewController: UIViewController {
         super.viewDidLoad()
         self.view.backgroundColor = UIColor(patternImage: UIImage(named: "bg.jpg")!)
         
-        title = "資料確認"
-        var backbutton = UIBarButtonItem(title: "資料確認", style: UIBarButtonItemStyle.Done, target: nil, action: nil)
+        title = "資料確認".localized
+        var backbutton = UIBarButtonItem(title: "資料確認".localized, style: UIBarButtonItemStyle.Done, target: nil, action: nil)
         self.navigationItem.backBarButtonItem = backbutton
         
         // Do any additional setup after loading the view.
-        resultTextView.text = "你的名字：\(award.name)\n\n你的公司：\(award.company)\n\n你的部門：\(award.department)\n\n你的電子信箱：\(award.email)\n\n你的郵遞區號：\(award.zipCode)\n\n你的地址：\(award.address)\n\n你的行動電話：\(award.phoneNumber)"
+        resultTextView.text = "你的名字".localized + "\(award.name)\n\n"+"你的公司".localized + "\(award.company)\n\n"+"你的部門".localized + "\(award.department)\n\n"+"你的電子信箱".localized + "\(award.email)\n\n"+"你的郵遞區號".localized + "\(award.zipCode)\n\n"+"你的地址".localized + "\(award.address)\n\n"+"你的行動電話".localized + "\(award.phoneNumber)"
     }
 
     override func didReceiveMemoryWarning() {
@@ -39,7 +39,7 @@ class AwardConfirmViewController: UIViewController {
                     self.dismissViewControllerAnimated(true, completion: nil)
                 })
             } else {
-                self.alertError("可能沒有網路連線歐！請確定手機有連線上網！", completion: {})
+                self.alertError("可能沒有網路連線歐！請確定手機有連線上網！".localized, completion: {})
             }
         }
     }
@@ -47,8 +47,8 @@ class AwardConfirmViewController: UIViewController {
     func alertError(m: String, completion: () -> Void) {
         let message = m
         
-        let alert = UIAlertController(title: "錯誤", message: message, preferredStyle: UIAlertControllerStyle.Alert)
-        let ok = UIAlertAction(title: "好", style: UIAlertActionStyle.Cancel, handler: {(action) -> Void in
+        let alert = UIAlertController(title: "錯誤".localized, message: message, preferredStyle: UIAlertControllerStyle.Alert)
+        let ok = UIAlertAction(title: "好".localized, style: UIAlertActionStyle.Cancel, handler: {(action) -> Void in
             completion()
         })
         alert.addAction(ok)
@@ -58,10 +58,10 @@ class AwardConfirmViewController: UIViewController {
     }
     
     func showSuccessful(completion: () -> Void) {
-        let message = "本研究至此全部結束，感謝您配合填答！我們將盡快將籌謝禮券送達您的手中。"
+        let message = "本研究至此全部結束，感謝您配合填答！我們將盡快將籌謝禮券送達您的手中。".localized
         
-        let alert = UIAlertController(title: "恭喜您", message: message, preferredStyle: UIAlertControllerStyle.Alert)
-        let ok = UIAlertAction(title: "好", style: UIAlertActionStyle.Cancel, handler: {(action) -> Void in
+        let alert = UIAlertController(title: "恭喜您".localized, message: message, preferredStyle: UIAlertControllerStyle.Alert)
+        let ok = UIAlertAction(title: "好".localized, style: UIAlertActionStyle.Cancel, handler: {(action) -> Void in
             completion()
         })
         alert.addAction(ok)
