@@ -18,8 +18,24 @@ class FirstPartConfirmViewController: UIViewController {
 
         // Do any additional setup after loading the view.
         title = "第一部份總結".localized
-        
-        var contentText = "您的性別是：\(user.sex)\n\n年齡：\(user.age)歲\n\n學歷：\(user.educationalBackground)\n\n總服務年資：\(user.serviceTimeLength)\n\n在公司中的職級：\(user.currentRank)\n\n所屬單位的性質：\(user.currentDepartmentProperty)\n\n所屬公司的產業性質：\(user.currentCompanyProperty)"
+
+		var contentText = "您的性別是：".localized
+		contentText += "\(user.sex)\n\n"
+		contentText += "年齡：".localized
+		contentText += "\(user.age)"
+		contentText += "歲".localized + "\n\n"
+		contentText += "學歷：".localized
+		contentText += "\(user.educationalBackground)\n\n"
+		contentText += "總服務年資：".localized
+		contentText += "\(user.serviceTimeLength)\n\n"
+		contentText += "在公司中的職級：".localized
+		contentText += "\(user.currentRank)\n\n"
+		contentText += "所屬單位的性質：".localized
+		contentText += "\(user.currentDepartmentProperty)\n\n"
+		contentText += "所屬公司的產業性質：".localized
+		contentText += "\(user.currentCompanyProperty)"
+	
+		
         resultLabel.text = contentText
     }
 
