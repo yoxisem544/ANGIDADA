@@ -161,7 +161,7 @@
                             </button>
                             <textView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" editable="NO" selectable="NO" translatesAutoresizingMaskIntoConstraints="NO" id="Q5k-VP-SiQ">
                                 <rect key="frame" x="0.0" y="64" width="600" height="445"/>
-                                <string key="text">主管部屬互動經驗調查 – 初始調查
+                                <mutableString key="text">hi主管部屬互動經驗調查 – 初始調查
 
 歡迎您參與本研究！本研究的主要目的是希望透過學術性的方式，了解職場員工與其直屬主管的互動經驗，以建立可實際增進單位效能的領導模式。
 
@@ -182,7 +182,7 @@
 本研究將不會對您產生任何生理、心理或經濟方面的相關風險。您的參與純屬自願，所有資料都將匿名、保密處理，因此沒有任何對您造成損失的疑慮與風險。本研究的負責人為國立中山大學人力資源管理研究所王安智教授。如您有任何問題，歡迎透過電子郵件進行聯繫（acwang@mail.nsysu.edu.tw）。
 
 完成全部研究程序的參與者，我們將致贈500元的超商禮券做為酬謝。接下來請點選以下按鈕進入問卷，開始填答。
-</string>
+</mutableString>
                                 <fontDescription key="fontDescription" type="system" pointSize="14"/>
                                 <textInputTraits key="textInputTraits" autocapitalizationType="sentences"/>
                             </textView>
