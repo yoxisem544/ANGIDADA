@@ -17,7 +17,7 @@ class FirstPartStartViewController: UIViewController {
         super.viewDidLoad(); self.view.backgroundColor = UIColor(patternImage: UIImage(named: "bg.jpg")!)
 
         // Do any additional setup after loading the view.
-        title = "第一部份"
+        title = "第一部份".localized
         
         
     }
