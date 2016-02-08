@@ -18,7 +18,7 @@ class SupervisorDirectedOCB3ViewController: UIViewController {
     override func viewDidLoad() {
         super.viewDidLoad(); self.view.backgroundColor = UIColor(patternImage: UIImage(named: "bg-night.jpg")!)
         
-        title = "晚間問卷 (28/29)"
+        title = "晚間問卷".localized + " (28/29)"
         var backbutton = UIBarButtonItem(title: "28/29", style: UIBarButtonItemStyle.Done, target: nil, action: nil)
         self.navigationItem.backBarButtonItem = backbutton
         // Do any additional setup after loading the view.

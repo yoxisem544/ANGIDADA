@@ -18,7 +18,7 @@ class NegativeAffect3ViewController: UIViewController {
     override func viewDidLoad() {
         super.viewDidLoad(); self.view.backgroundColor = UIColor(patternImage: UIImage(named: "bg-night.jpg")!)
         
-        title = "晚間問卷 (13/29)"
+        title = "晚間問卷".localized + " (13/29)"
         var backbutton = UIBarButtonItem(title: "13/29", style: UIBarButtonItemStyle.Done, target: nil, action: nil)
         self.navigationItem.backBarButtonItem = backbutton
         // Do any additional setup after loading the view.

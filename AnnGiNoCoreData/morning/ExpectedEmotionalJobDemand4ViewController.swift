@@ -18,7 +18,7 @@ class ExpectedEmotionalJobDemand4ViewController: UIViewController {
     override func viewDidLoad() {
         super.viewDidLoad(); self.view.backgroundColor = UIColor(patternImage: UIImage(named: "bg-morning.jpg")!)
         
-        title = "早晨問卷 (9/20)"
+        title = "早晨問卷".localized + " (9/20)"
         var backbutton = UIBarButtonItem(title: "9/20", style: UIBarButtonItemStyle.Done, target: nil, action: nil)
         self.navigationItem.backBarButtonItem = backbutton
         // Do any additional setup after loading the view.

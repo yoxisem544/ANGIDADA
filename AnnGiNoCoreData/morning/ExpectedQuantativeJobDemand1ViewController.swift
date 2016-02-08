@@ -24,7 +24,7 @@ class ExpectedQuantativeJobDemand1ViewController: UIViewController {
         print(questionare.createdAt)
         UserSetting.setQuestionareTimeStamp(questionare.createdAt)
         
-        title = "早晨問卷 (1/20)"
+        title = "早晨問卷".localized + " (1/20)"
         var backbutton = UIBarButtonItem(title: "1/20", style: UIBarButtonItemStyle.Done, target: nil, action: nil)
         self.navigationItem.backBarButtonItem = backbutton
         // Do any additional setup after loading the view.

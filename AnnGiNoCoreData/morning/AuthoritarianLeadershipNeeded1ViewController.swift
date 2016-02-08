@@ -18,7 +18,7 @@ class AuthoritarianLeadershipNeeded1ViewController: UIViewController {
     override func viewDidLoad() {
         super.viewDidLoad(); self.view.backgroundColor = UIColor(patternImage: UIImage(named: "bg-morning.jpg")!)
         
-        title = "早晨問卷 (11/20)"
+        title = "早晨問卷".localized + " (11/20)"
         var backbutton = UIBarButtonItem(title: "11/20", style: UIBarButtonItemStyle.Done, target: nil, action: nil)
         self.navigationItem.backBarButtonItem = backbutton
         // Do any additional setup after loading the view.
