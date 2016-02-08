@@ -9,11 +9,15 @@
 import UIKit
 
 class InitialInformationViewController: UIViewController {
+	
+	@IBOutlet weak var contentTextView: UITextView!
 
     override func viewDidLoad() {
         super.viewDidLoad(); self.view.backgroundColor = UIColor(patternImage: UIImage(named: "bg.jpg")!)
 
         // Do any additional setup after loading the view.
+		contentTextView.text = "InitialContentText".localized
+		contentTextView.font = UIFont.systemFontOfSize(16)
     }
 
     override func didReceiveMemoryWarning() {

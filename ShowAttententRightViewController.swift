@@ -10,11 +10,15 @@ import UIKit
 
 class ShowAttententRightViewController: UIViewController {
 
+	@IBOutlet weak var attententRightTextView: UITextView!
+	
     override func viewDidLoad() {
         super.viewDidLoad()
         self.view.backgroundColor = UIColor(patternImage: UIImage(named: "bg.jpg")!)
 
         // Do any additional setup after loading the view.
+		attententRightTextView.text = "attententRight".localized
+		attententRightTextView.font = UIFont.systemFontOfSize(16)
     }
     
     @IBAction func closeButtonClicked() {
