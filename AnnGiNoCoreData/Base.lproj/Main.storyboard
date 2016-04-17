@@ -6030,8 +6030,8 @@
                         <rect key="frame" x="0.0" y="0.0" width="600" height="600"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <subviews>
-                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="公司" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="Z2b-Fr-x1o">
-                                <rect key="frame" x="138" y="169" width="34" height="21"/>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="你的學號" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="Z2b-Fr-x1o">
+                                <rect key="frame" x="104" y="169" width="68" height="21"/>
                                 <fontDescription key="fontDescription" type="system" pointSize="17"/>
                                 <color key="textColor" red="0.0" green="0.0" blue="0.0" alpha="1" colorSpace="calibratedRGB"/>
                                 <nil key="highlightedColor"/>
@@ -6041,8 +6041,8 @@
                                 <fontDescription key="fontDescription" type="system" pointSize="14"/>
                                 <textInputTraits key="textInputTraits"/>
                             </textField>
-                            <button opaque="NO" contentMode="scaleToFill" misplaced="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="ZIy-sD-bNd">
-                                <rect key="frame" x="278" y="535" width="59" height="59"/>
+                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="ZIy-sD-bNd">
+                                <rect key="frame" x="271" y="521" width="59" height="59"/>
                                 <constraints>
                                     <constraint firstAttribute="width" constant="59" id="V8K-f1-21d"/>
                                     <constraint firstAttribute="height" constant="59" id="gvS-SF-QoP"/>
@@ -6052,6 +6052,7 @@
                                 </state>
                                 <connections>
                                     <action selector="nextClicked" destination="6Lz-KF-HeF" eventType="touchUpInside" id="Pno-Ws-trL"/>
+                                    <segue destination="7cs-ac-Dcf" kind="show" id="mvY-Pr-A1n"/>
                                 </connections>
                             </button>
                         </subviews>
@@ -6067,7 +6068,6 @@
                     </view>
                     <connections>
                         <outlet property="contentTextField" destination="OBf-cu-8Pf" id="52a-AC-bi4"/>
-                        <segue destination="knq-Kf-pCn" kind="show" identifier="next" id="eRi-TL-3KT"/>
                     </connections>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="TJY-h2-8vg" userLabel="First Responder" sceneMemberID="firstResponder"/>
@@ -10873,12 +10873,6 @@
                         <rect key="frame" x="0.0" y="0.0" width="600" height="600"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <subviews>
-                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="為感謝您對本研究的熱情支持，我們將致贈您500元的便利超商禮券做為酬謝。請在以下欄位中留下您的個人資訊，以便我們將禮券送達您手上。" textAlignment="natural" lineBreakMode="tailTruncation" numberOfLines="0" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="krl-BT-H9q">
-                                <rect key="frame" x="120" y="139" width="360" height="82"/>
-                                <fontDescription key="fontDescription" type="system" pointSize="17"/>
-                                <color key="textColor" red="0.0" green="0.0" blue="0.0" alpha="1" colorSpace="calibratedRGB"/>
-                                <nil key="highlightedColor"/>
-                            </label>
                             <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="6a0-Jd-hZa">
                                 <rect key="frame" x="271" y="521" width="59" height="59"/>
                                 <constraints>
@@ -10892,6 +10886,12 @@
                                     <segue destination="p94-Gr-7DT" kind="show" id="mpl-EP-e6W"/>
                                 </connections>
                             </button>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="為方便課程助理登錄成功完成填答的研究參與者，以確實核給課程實作參與分數，請在以下欄位中留下您的個人資訊" textAlignment="natural" lineBreakMode="tailTruncation" numberOfLines="0" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="krl-BT-H9q">
+                                <rect key="frame" x="120" y="150" width="360" height="61"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                                <color key="textColor" red="0.0" green="0.0" blue="0.0" alpha="1" colorSpace="calibratedRGB"/>
+                                <nil key="highlightedColor"/>
+                            </label>
                         </subviews>
                         <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
                         <constraints>
@@ -11444,5 +11444,6 @@
     </resources>
     <inferredMetricsTieBreakers>
         <segue reference="TxX-fy-vBP"/>
+        <segue reference="mvY-Pr-A1n"/>
     </inferredMetricsTieBreakers>
 </document>

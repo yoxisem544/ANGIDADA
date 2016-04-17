@@ -663,7 +663,7 @@
 "YzT-oK-y6s.normalTitle" = "下一題";
 
 /* Class = "UILabel"; text = "公司"; ObjectID = "Z2b-Fr-x1o"; */
-"Z2b-Fr-x1o.text" = "公司";
+"Z2b-Fr-x1o.text" = "你的學號";
 
 /* Class = "UIButton"; normalTitle = "下一題"; ObjectID = "Z4M-g1-620"; */
 "Z4M-g1-620.normalTitle" = "下一題";
@@ -918,7 +918,7 @@
 "ko4-Lc-PQg.normalTitle" = "下一題";
 
 /* Class = "UILabel"; text = "為感謝您對本研究的熱情支持，我們將致贈您500元的便利超商禮券做為酬謝。請在以下欄位中留下您的個人資訊，以便我們將禮券送達您手上。"; ObjectID = "krl-BT-H9q"; */
-"krl-BT-H9q.text" = "為感謝您對本研究的熱情支持，我們將致贈您500元的便利超商禮券做為酬謝。請在以下欄位中留下您的個人資訊，以便我們將禮券送達您手上。";
+"krl-BT-H9q.text" = "為方便課程助理登錄成功完成填答的研究參與者，以確實核給課程實作參與分數，請在以下欄位中留下您的個人資訊";
 
 /* Class = "UILabel"; text = "對於我在工作上所缺乏的能力，我的直屬主管會給予適當的教育與輔導。"; ObjectID = "l0m-vP-P7f"; */
 "l0m-vP-P7f.text" = "對於我在工作上所缺乏的能力，我的直屬主管會給予適當的教育與輔導。";
