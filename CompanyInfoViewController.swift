@@ -54,7 +54,7 @@ class CompanyInfoViewController: UIViewController {
         // Get the new view controller using segue.destinationViewController.
         // Pass the selected object to the new view controller.
         if segue.identifier == "next" {
-            let vc = segue.destinationViewController as! DepartmentInfoViewController
+            let vc = segue.destinationViewController as! AwardConfirmViewController
             vc.award = award
         }
     }

@@ -22,7 +22,8 @@ class AwardConfirmViewController: UIViewController {
         self.navigationItem.backBarButtonItem = backbutton
         
         // Do any additional setup after loading the view.
-        resultTextView.text = "你的名字".localized + "\(award.name)\n\n"+"你的公司".localized + "\(award.company)\n\n"+"你的部門".localized + "\(award.department)\n\n"+"你的電子信箱".localized + "\(award.email)\n\n"+"你的郵遞區號".localized + "\(award.zipCode)\n\n"+"你的地址".localized + "\(award.address)\n\n"+"你的行動電話".localized + "\(award.phoneNumber)"
+//        resultTextView.text = "你的名字".localized + "\(award.name)\n\n"+"你的公司".localized + "\(award.company)\n\n"+"你的部門".localized + "\(award.department)\n\n"+"你的電子信箱".localized + "\(award.email)\n\n"+"你的郵遞區號".localized + "\(award.zipCode)\n\n"+"你的地址".localized + "\(award.address)\n\n"+"你的行動電話".localized + "\(award.phoneNumber)"
+		resultTextView.text = "你的名字".localized + "\(award.name)\n\n"+"公司".localized + "\(award.company)\n\n"
     }
 
     override func didReceiveMemoryWarning() {
@@ -58,7 +59,7 @@ class AwardConfirmViewController: UIViewController {
     }
     
     func showSuccessful(completion: () -> Void) {
-        let message = "本研究至此全部結束，感謝您配合填答！我們將盡快將籌謝禮券送達您的手中。".localized
+        let message = "本研究至此全部結束，感謝您配合填答！".localized
         
         let alert = UIAlertController(title: "恭喜您".localized, message: message, preferredStyle: UIAlertControllerStyle.Alert)
         let ok = UIAlertAction(title: "好".localized, style: UIAlertActionStyle.Cancel, handler: {(action) -> Void in
