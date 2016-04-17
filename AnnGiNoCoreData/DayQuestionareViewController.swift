@@ -27,7 +27,7 @@ class DayQuestionareViewController: UIViewController {
         print(test.retrieveUnfinishedQuestionareId())
         print(UserSetting.everydayQuestionareCount())
         
-//        pushToAwardView()
+        pushToAwardView()
     }
     
     func updateStatusOfNotifyToUser() {
