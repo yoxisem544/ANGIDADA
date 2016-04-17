@@ -4956,7 +4956,7 @@
                         <subviews>
                             <textView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" editable="NO" textAlignment="natural" selectable="NO" translatesAutoresizingMaskIntoConstraints="NO" id="4e8-n6-ovD">
                                 <rect key="frame" x="20" y="69" width="560" height="474"/>
-                                <string key="text">歡迎您參與本研究！本研究的主要目的是希望透過學術性的方式，了解職場員工與其直屬主管的互動經驗，以建立可實際增進單位效能的領導模式。
+                                <mutableString key="text">歡迎您參與本研究！本研究的主要目的是希望透過學術性的方式，了解職場員工與其直屬主管的互動經驗，以建立可實際增進單位效能的領導模式。
 
 在本研究中，共有：(1)初始調查、(2)每日經驗取樣、(3)事後調查等三階段。目前所進行的是初始調查階段，所需填答時間約為十分鐘。
 
@@ -4972,10 +4972,10 @@
 
 在研究進行過程中，您將需要回答所設計問卷中的所有問題。這些問題都沒有所謂的正確答案，請您依照您的直覺、真實感受及當下的印象進行回答即可。您針對每一題所提供的答案，在分析階段都將無法直接與您個人進行連結，我們將會竭盡所能地確保匿名性與保密性。
 
-本研究將不會對您產生任何生理、心理或經濟方面的相關風險。您的參與純屬自願，所有資料都將匿名、保密處理，因此沒有任何對您造成損失的疑慮與風險。本研究的負責人為國立中山大學人力資源管理研究所王安智教授。如您有任何問題，歡迎透過電子郵件進行聯繫（acwang@mail.nsysu.edu.tw）。
+本研究將不會對您產生任何生理、心理或經濟方面的相關風險。您的參與純屬自願，所有資料都將匿名、保密處理，因此沒有任何對您造成損失的疑慮與風險。本研究的負責人為國立中山大學人力資源管理研究所李孟修教授。如您有任何問題，歡迎透過電子郵件進行聯繫（st873217@mail.nsysu.edu.tw）。
 
-完成全部研究程序的參與者，我們將致贈500元的超商禮券做為酬謝。接下來請點選以下按鈕進入問卷，開始填答。
-</string>
+完成全部研究程序的參與者，將能獲得104-2研究方法二課程由李孟修老師主授段落的實作參與分數。接下來請點選以下按鈕進入問卷，開始填答。
+</mutableString>
                                 <fontDescription key="fontDescription" type="system" pointSize="14"/>
                                 <textInputTraits key="textInputTraits" autocapitalizationType="sentences"/>
                             </textView>
@@ -6052,7 +6052,6 @@
                                 </state>
                                 <connections>
                                     <action selector="nextClicked" destination="6Lz-KF-HeF" eventType="touchUpInside" id="Pno-Ws-trL"/>
-                                    <segue destination="7cs-ac-Dcf" kind="show" id="mvY-Pr-A1n"/>
                                 </connections>
                             </button>
                         </subviews>
@@ -6068,6 +6067,7 @@
                     </view>
                     <connections>
                         <outlet property="contentTextField" destination="OBf-cu-8Pf" id="52a-AC-bi4"/>
+                        <segue destination="7cs-ac-Dcf" kind="show" identifier="next" id="2yP-US-ygw"/>
                     </connections>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="TJY-h2-8vg" userLabel="First Responder" sceneMemberID="firstResponder"/>
@@ -11444,6 +11444,6 @@
     </resources>
     <inferredMetricsTieBreakers>
         <segue reference="TxX-fy-vBP"/>
-        <segue reference="mvY-Pr-A1n"/>
+        <segue reference="2yP-US-ygw"/>
     </inferredMetricsTieBreakers>
 </document>
