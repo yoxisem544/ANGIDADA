@@ -108,18 +108,16 @@ class UserSetting {
         let count = ud.integerForKey(Key.everydayQuestionareCount)
         return count
     }
-    class func incrementEverydayQuestionareCount() {
-        let ud = NSUserDefaults.standardUserDefaults()
-        let count = ud.integerForKey(Key.everydayQuestionareCount)
-        ud.setInteger((count + 1), forKey: Key.everydayQuestionareCount)
-        ud.synchronize()
-    }
-    class func decrementEverydayQuestionareCount() {
-        let ud = NSUserDefaults.standardUserDefaults()
-        let count = ud.integerForKey(Key.everydayQuestionareCount)
-        ud.setInteger((count - 1), forKey: Key.everydayQuestionareCount)
-        ud.synchronize()
-    }
+	class func updateEverydayQuestionareCount(count: Int) {
+		let ud = NSUserDefaults.standardUserDefaults()
+		ud.setInteger(count, forKey: Key.everydayQuestionareCount)
+		ud.synchronize()
+		if count >= 10 {
+//			incrementAfterQuestionareCount()
+		} else {
+			clearAfterQuestionareCount()
+		}
+	}
     class func finalQuesionareCount() -> Int {
         let ud = NSUserDefaults.standardUserDefaults()
         return ud.integerForKey(Key.afterQuestionareCount)
@@ -138,7 +136,12 @@ class UserSetting {
         ud.setInteger(0, forKey: Key.afterQuestionareCount)
         ud.synchronize()
     }
-    
+	
+	class func afterQuestionareCount() -> Int {
+		let ud = NSUserDefaults.standardUserDefaults()
+		return ud.integerForKey(Key.afterQuestionareCount)
+	}
+	
     // MARK: - user information
     class func storeUserInformation(user: PersonalInformation) {
         let ud = NSUserDefaults.standardUserDefaults()

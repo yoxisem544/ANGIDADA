@@ -342,7 +342,7 @@
 "Jh4-QL-N3D.normalTitle" = "下一題";
 
 /* Class = "UINavigationItem"; title = "寄送禮券填答頁面"; ObjectID = "Jvn-VF-hqh"; */
-"Jvn-VF-hqh.title" = "寄送禮券填答頁面";
+"Jvn-VF-hqh.title" = "基本資料填答頁面";
 
 /* Class = "UILabel"; text = "在工作以外的時間，我的直屬主管與我仍會互相聯絡、見面。"; ObjectID = "Jwy-Ka-sDL"; */
 "Jwy-Ka-sDL.text" = "在工作以外的時間，我的直屬主管與我仍會互相聯絡、見面。";

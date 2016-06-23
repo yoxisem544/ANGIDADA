@@ -327,13 +327,30 @@ class DayQuestionareViewController: UIViewController {
     }
     
     func checkIfUserHas10Questionare() {
-        if UserSetting.everydayQuestionareCount() >= 10 {
-            // yes
-            if !UserSetting.hasUserAlreadyGetTheAward() {
-                // can get the award
-                pushToAwardView()
-            }
-        }
+		var questionare = Questionare()
+		questionare.retrieveAllQuestionare { (questionare) in
+			if let questionare = questionare {
+				print(questionare.count)
+				UserSetting.updateEverydayQuestionareCount(questionare.count)
+				Award().retrieveAward({ (count) in
+					if questionare.count >= 10 && count == 0 {
+						self.pushToAwardView()
+					} else if questionare.count >= 10 && count == 1 {
+						// complete
+						self.canDoSurveyLabel.text = "恭喜你完成問卷了"
+					} else {
+						UserSetting.clearAfterQuestionareCount()
+					}
+				})
+			}
+		}
+//        if UserSetting.everydayQuestionareCount() >= 10 {
+//            // yes
+//            if !UserSetting.hasUserAlreadyGetTheAward() {
+//                // can get the award
+//                pushToAwardView()
+//            }
+//        }
     }
     
     func pushToAwardView() {

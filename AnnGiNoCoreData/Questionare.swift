@@ -181,7 +181,6 @@ public class Questionare : PFObject, PFSubclassing {
         let ud = NSUserDefaults.standardUserDefaults()
         ud.removeObjectForKey(KeyOfQuestionare.tempOfQuestionareId)
         ud.synchronize()
-        UserSetting.incrementEverydayQuestionareCount()
     }
     
     struct KeyOfQuestionare {
@@ -232,8 +231,32 @@ public class Questionare : PFObject, PFSubclassing {
             completion(questionare: nil)
         }
     }
-    
-    
+	func retrieveAllQuestionare(completion: (questionare: [Questionare]?) -> Void) {
+		let query = PFQuery(className: self.parseClassName)
+		if let uuid = UserSetting.userUUID() {
+			query.whereKey("userUUID", equalTo: uuid)
+			query.findObjectsInBackgroundWithBlock({ (objects, error) -> Void in
+				if error == nil {
+					if let objects = objects as? [Questionare] {
+						print(objects.count)
+						let newobjects = objects.filter({ (q: Questionare) -> Bool in
+							return q.nightStamp
+						})
+						print(newobjects.count)
+						completion(questionare: newobjects)
+					} else {
+						completion(questionare: nil)
+					}
+				} else {
+					completion(questionare: nil)
+				}
+			})
+		} else {
+			completion(questionare: nil)
+		}
+	}
+
+	
     // MARK: - initializer
     override public class func initialize() {
         struct Static {

@@ -32,11 +32,36 @@ class NightLastConfirmViewController: UIViewController {
             print("ok to parse night")
 //            self.dismissViewControllerAnimated(true, completion: nil)
             self.questionare.completeQuestionare()
-            self.performSegueWithIdentifier("next", sender: nil)
+			self.showAlert()
             }) { () -> Void in
                 print("fail to save to parse night")
+				self.showFailAlert()
         }
     }
+	
+	func showAlert() {
+		let alert = UIAlertController(title: "成功", message: "已確認成功上傳晚間問卷到資料庫，請記得下次填答時間", preferredStyle: .Alert)
+		let ok = UIAlertAction(title: "好", style: .Default) { (_) in
+			dispatch_async(dispatch_get_main_queue()) {
+				self.performSegueWithIdentifier("next", sender: nil)
+			}
+		}
+		alert.addAction(ok)
+		dispatch_async(dispatch_get_main_queue()) {
+			self.presentViewController(alert, animated: true, completion: nil)
+		}
+	}
+	
+	func showFailAlert() {
+		let alert = UIAlertController(title: "上傳失敗", message: "請重新確認上傳", preferredStyle: .Alert)
+		let ok = UIAlertAction(title: "好", style: .Default) { (_) in
+			
+		}
+		alert.addAction(ok)
+		dispatch_async(dispatch_get_main_queue()) {
+			self.presentViewController(alert, animated: true, completion: nil)
+		}
+	}
     
 //    func presentMainScreen() {
 //        let storyboard = UIStoryboard(name: "Main", bundle: nil)

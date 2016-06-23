@@ -31,12 +31,37 @@ class MorningLastConfirmViewController: UIViewController {
             // ok
             print("save to parse! \(self.questionare.objectId)")
             UserSetting.setQuestionareTimeStamp(NSDate())
-            self.dismissViewControllerAnimated(true, completion: nil)
+            self.showAlert()
             }, failure: { () -> Void in
                 // fail
                 print("fail to save to parse! \(self.questionare.objectId)")
+				self.showFailAlert()
         })
     }
+	
+	func showAlert() {
+		let alert = UIAlertController(title: "成功", message: "已確認成功上傳上午問卷到資料庫，請記得下次填答時間", preferredStyle: .Alert)
+		let ok = UIAlertAction(title: "好", style: .Default) { (_) in
+			dispatch_async(dispatch_get_main_queue()) {
+				self.dismissViewControllerAnimated(true, completion: nil)
+			}
+		}
+		alert.addAction(ok)
+		dispatch_async(dispatch_get_main_queue()) { 
+			self.presentViewController(alert, animated: true, completion: nil)
+		}
+	}
+	
+	func showFailAlert() {
+		let alert = UIAlertController(title: "上傳失敗", message: "請重新確認上傳", preferredStyle: .Alert)
+		let ok = UIAlertAction(title: "好", style: .Default) { (_) in
+			
+		}
+		alert.addAction(ok)
+		dispatch_async(dispatch_get_main_queue()) {
+			self.presentViewController(alert, animated: true, completion: nil)
+		}
+	}
 
     /*
     // MARK: - Navigation

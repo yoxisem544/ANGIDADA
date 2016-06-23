@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8" standalone="no"?>
-<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="10116" systemVersion="15E65" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES">
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="10117" systemVersion="15F34" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES">
     <dependencies>
         <deployment identifier="iOS"/>
         <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="10085"/>
@@ -164,7 +164,7 @@
                             </button>
                             <textView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" editable="NO" selectable="NO" translatesAutoresizingMaskIntoConstraints="NO" id="Q5k-VP-SiQ">
                                 <rect key="frame" x="0.0" y="64" width="600" height="445"/>
-                                <mutableString key="text">主管部屬互動經驗調查 – 初始調查
+                                <string key="text">主管部屬互動經驗調查 – 初始調查
 　
 歡迎您參與本研究！本研究的主要目的是希望透過學術性的方式，了解職場員工與其直屬主管的互動經驗，以建立可實際增進單位效能的領導模式。
 　
@@ -184,7 +184,8 @@
 　
 本研究將不會對您產生任何生理、心理或經濟方面的相關風險。您的參與純屬自願，所有資料都將匿名、保密處理，因此沒有任何對您造成損失的疑慮與風險。本研究的負責人為國立中山大學人力資源管理研究所李孟修教授。如您有任何問題，歡迎透過電子郵件進行聯繫（st873217@mail.nsysu.edu.tw）。
 　
-完成全部研究程序的參與者，將能獲得104-2研究方法二課程由李孟修老師主授段落的實作參與分數。接下來請點選以下按鈕進入問卷，開始填答。</mutableString>
+完成全部研究程序的參與者，將能獲得104-2研究方法二課程由李孟修老師主授段落
+的實作參與分數。接下來請點選以下按鈕進入問卷，開始填答。</string>
                                 <fontDescription key="fontDescription" type="system" pointSize="14"/>
                                 <textInputTraits key="textInputTraits" autocapitalizationType="sentences"/>
                             </textView>
@@ -4956,7 +4957,7 @@
                         <subviews>
                             <textView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" editable="NO" textAlignment="natural" selectable="NO" translatesAutoresizingMaskIntoConstraints="NO" id="4e8-n6-ovD">
                                 <rect key="frame" x="20" y="69" width="560" height="474"/>
-                                <mutableString key="text">歡迎您參與本研究！本研究的主要目的是希望透過學術性的方式，了解職場員工與其直屬主管的互動經驗，以建立可實際增進單位效能的領導模式。
+                                <string key="text">歡迎您參與本研究！本研究的主要目的是希望透過學術性的方式，了解職場員工與其直屬主管的互動經驗，以建立可實際增進單位效能的領導模式。
 
 在本研究中，共有：(1)初始調查、(2)每日經驗取樣、(3)事後調查等三階段。目前所進行的是初始調查階段，所需填答時間約為十分鐘。
 
@@ -4975,7 +4976,7 @@
 本研究將不會對您產生任何生理、心理或經濟方面的相關風險。您的參與純屬自願，所有資料都將匿名、保密處理，因此沒有任何對您造成損失的疑慮與風險。本研究的負責人為國立中山大學人力資源管理研究所李孟修教授。如您有任何問題，歡迎透過電子郵件進行聯繫（st873217@mail.nsysu.edu.tw）。
 
 完成全部研究程序的參與者，將能獲得104-2研究方法二課程由李孟修老師主授段落的實作參與分數。接下來請點選以下按鈕進入問卷，開始填答。
-</mutableString>
+</string>
                                 <fontDescription key="fontDescription" type="system" pointSize="14"/>
                                 <textInputTraits key="textInputTraits" autocapitalizationType="sentences"/>
                             </textView>
@@ -11431,6 +11432,1043 @@
                 <placeholder placeholderIdentifier="IBFirstResponder" id="gCt-e4-jz8" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>
             <point key="canvasLocation" x="4984" y="19095"/>
+        </scene>
+        <!--View Controller-->
+        <scene sceneID="evU-4J-q9I">
+            <objects>
+                <viewController id="yBE-8e-KBa" sceneMemberID="viewController">
+                    <layoutGuides>
+                        <viewControllerLayoutGuide type="top" id="1Ps-oC-XqL"/>
+                        <viewControllerLayoutGuide type="bottom" id="Id9-YW-ZRc"/>
+                    </layoutGuides>
+                    <view key="view" contentMode="scaleToFill" id="HNl-zL-E9n">
+                        <rect key="frame" x="0.0" y="0.0" width="600" height="600"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" misplaced="YES" text="我能自在地向我的直屬主管分享自己的想法、感受和希望。" lineBreakMode="tailTruncation" numberOfLines="0" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="Wrs-1v-Rcw">
+                                <rect key="frame" x="150" y="190" width="300" height="20"/>
+                                <constraints>
+                                    <constraint firstAttribute="width" constant="300" id="ud5-q2-CAT"/>
+                                </constraints>
+                                <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                                <color key="textColor" red="0.0" green="0.0" blue="0.0" alpha="1" colorSpace="calibratedRGB"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                            <pickerView contentMode="scaleToFill" misplaced="YES" translatesAutoresizingMaskIntoConstraints="NO" id="9Hd-zi-z6V">
+                                <rect key="frame" x="0.0" y="228" width="600" height="162"/>
+                                <connections>
+                                    <outlet property="dataSource" destination="yBE-8e-KBa" id="Ndl-AY-0Rp"/>
+                                    <outlet property="delegate" destination="yBE-8e-KBa" id="ICI-yj-7wb"/>
+                                </connections>
+                            </pickerView>
+                            <button opaque="NO" contentMode="scaleToFill" misplaced="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="zkf-zi-UHF">
+                                <rect key="frame" x="278" y="535" width="59" height="59"/>
+                                <constraints>
+                                    <constraint firstAttribute="height" constant="59" id="GR7-jv-1TY"/>
+                                    <constraint firstAttribute="width" constant="59" id="k2I-1z-pdS"/>
+                                </constraints>
+                                <state key="normal" title="下一題" backgroundImage="Button">
+                                    <color key="titleColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                                    <color key="titleShadowColor" white="0.5" alpha="1" colorSpace="calibratedWhite"/>
+                                </state>
+                                <connections>
+                                    <action selector="nextClicked:" destination="yBE-8e-KBa" eventType="touchUpInside" id="NAq-he-WZ9"/>
+                                </connections>
+                            </button>
+                        </subviews>
+                        <constraints>
+                            <constraint firstItem="9Hd-zi-z6V" firstAttribute="leading" secondItem="HNl-zL-E9n" secondAttribute="leadingMargin" constant="-16" id="CxE-vk-vEz"/>
+                            <constraint firstItem="9Hd-zi-z6V" firstAttribute="top" secondItem="Wrs-1v-Rcw" secondAttribute="bottom" constant="8" id="lAG-j5-J2p"/>
+                            <constraint firstItem="Id9-YW-ZRc" firstAttribute="top" secondItem="zkf-zi-UHF" secondAttribute="bottom" constant="20" id="lDG-tu-ACr"/>
+                            <constraint firstAttribute="centerX" secondItem="zkf-zi-UHF" secondAttribute="centerX" id="mQ4-Cp-Du7"/>
+                            <constraint firstAttribute="centerX" secondItem="Wrs-1v-Rcw" secondAttribute="centerX" id="mZP-Ul-TlF"/>
+                            <constraint firstAttribute="centerY" secondItem="Wrs-1v-Rcw" secondAttribute="centerY" multiplier="1.5" id="n3z-Ya-2rK"/>
+                            <constraint firstAttribute="trailingMargin" secondItem="9Hd-zi-z6V" secondAttribute="trailing" constant="-16" id="z4q-yp-XeW"/>
+                        </constraints>
+                    </view>
+                    <connections>
+                        <outlet property="fearLevelPickerView" destination="9Hd-zi-z6V" id="fWk-Tj-xYM"/>
+                    </connections>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="OPC-L7-5QX" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="420" y="20681"/>
+        </scene>
+        <!--View Controller-->
+        <scene sceneID="rRj-qe-Exo">
+            <objects>
+                <viewController id="Fuo-d2-m9n" sceneMemberID="viewController">
+                    <layoutGuides>
+                        <viewControllerLayoutGuide type="top" id="iKi-V5-t12"/>
+                        <viewControllerLayoutGuide type="bottom" id="hzc-G0-ni0"/>
+                    </layoutGuides>
+                    <view key="view" contentMode="scaleToFill" id="MhT-2q-mCS">
+                        <rect key="frame" x="0.0" y="0.0" width="600" height="600"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" misplaced="YES" text="我能自在地告訴我的直屬主管自己在工作上所遇到的困難，也知道他一定會認真傾聽。" lineBreakMode="tailTruncation" numberOfLines="0" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="1KC-xS-RXl">
+                                <rect key="frame" x="150" y="190" width="300" height="21"/>
+                                <constraints>
+                                    <constraint firstAttribute="width" constant="300" id="Rzc-Bn-KPc"/>
+                                </constraints>
+                                <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                                <color key="textColor" red="0.0" green="0.0" blue="0.0" alpha="1" colorSpace="calibratedRGB"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                            <pickerView contentMode="scaleToFill" misplaced="YES" translatesAutoresizingMaskIntoConstraints="NO" id="vCM-sH-U4u">
+                                <rect key="frame" x="0.0" y="228" width="600" height="162"/>
+                                <connections>
+                                    <outlet property="dataSource" destination="Fuo-d2-m9n" id="LTp-hb-UiO"/>
+                                    <outlet property="delegate" destination="Fuo-d2-m9n" id="Fcp-al-L5u"/>
+                                </connections>
+                            </pickerView>
+                            <button opaque="NO" contentMode="scaleToFill" misplaced="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="UFg-Tj-BAF">
+                                <rect key="frame" x="278" y="535" width="59" height="59"/>
+                                <constraints>
+                                    <constraint firstAttribute="height" constant="59" id="BdL-DG-S8H"/>
+                                    <constraint firstAttribute="width" constant="59" id="Z7R-gE-g7W"/>
+                                </constraints>
+                                <state key="normal" title="下一題" backgroundImage="Button">
+                                    <color key="titleColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                                    <color key="titleShadowColor" white="0.5" alpha="1" colorSpace="calibratedWhite"/>
+                                </state>
+                                <connections>
+                                    <action selector="nextClicked:" destination="Fuo-d2-m9n" eventType="touchUpInside" id="FIJ-jT-21v"/>
+                                </connections>
+                            </button>
+                        </subviews>
+                        <constraints>
+                            <constraint firstAttribute="centerY" secondItem="1KC-xS-RXl" secondAttribute="centerY" multiplier="1.5" id="20s-wl-f5G"/>
+                            <constraint firstAttribute="centerX" secondItem="1KC-xS-RXl" secondAttribute="centerX" id="577-HJ-1N8"/>
+                            <constraint firstAttribute="centerX" secondItem="UFg-Tj-BAF" secondAttribute="centerX" id="Tz7-rX-1Aa"/>
+                            <constraint firstAttribute="trailingMargin" secondItem="vCM-sH-U4u" secondAttribute="trailing" constant="-16" id="WOy-r9-Aog"/>
+                            <constraint firstItem="vCM-sH-U4u" firstAttribute="leading" secondItem="MhT-2q-mCS" secondAttribute="leadingMargin" constant="-16" id="ZcQ-nx-KV4"/>
+                            <constraint firstItem="vCM-sH-U4u" firstAttribute="top" secondItem="1KC-xS-RXl" secondAttribute="bottom" constant="8" id="ZlA-83-IIf"/>
+                            <constraint firstItem="hzc-G0-ni0" firstAttribute="top" secondItem="UFg-Tj-BAF" secondAttribute="bottom" constant="20" id="jDD-Bi-oi5"/>
+                        </constraints>
+                    </view>
+                    <connections>
+                        <outlet property="fearLevelPickerView" destination="vCM-sH-U4u" id="N0G-Tt-Mw8"/>
+                    </connections>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="kwT-wv-C19" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="1142" y="20681"/>
+        </scene>
+        <!--View Controller-->
+        <scene sceneID="rP9-uJ-xc1">
+            <objects>
+                <viewController id="0sI-bc-9XM" sceneMemberID="viewController">
+                    <layoutGuides>
+                        <viewControllerLayoutGuide type="top" id="Iwv-5T-hiv"/>
+                        <viewControllerLayoutGuide type="bottom" id="Tou-JG-1zW"/>
+                    </layoutGuides>
+                    <view key="view" contentMode="scaleToFill" id="kdn-sm-sbL">
+                        <rect key="frame" x="0.0" y="0.0" width="600" height="600"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" misplaced="YES" text="若我告訴我的直屬主管自己目前所遭遇的問題，他一定會給我溫暖且有建設性的回應。" lineBreakMode="tailTruncation" numberOfLines="0" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="WIF-ua-6AB">
+                                <rect key="frame" x="150" y="190" width="300" height="20"/>
+                                <constraints>
+                                    <constraint firstAttribute="width" constant="300" id="2Bn-e3-dHG"/>
+                                </constraints>
+                                <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                                <color key="textColor" red="0.0" green="0.0" blue="0.0" alpha="1" colorSpace="calibratedRGB"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                            <pickerView contentMode="scaleToFill" misplaced="YES" translatesAutoresizingMaskIntoConstraints="NO" id="j2J-1y-pBe">
+                                <rect key="frame" x="0.0" y="228" width="600" height="162"/>
+                                <connections>
+                                    <outlet property="dataSource" destination="0sI-bc-9XM" id="Z4p-Lw-alI"/>
+                                    <outlet property="delegate" destination="0sI-bc-9XM" id="Jo6-4E-fBm"/>
+                                </connections>
+                            </pickerView>
+                            <button opaque="NO" contentMode="scaleToFill" misplaced="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="WQa-ow-Luy">
+                                <rect key="frame" x="278" y="535" width="59" height="59"/>
+                                <constraints>
+                                    <constraint firstAttribute="width" constant="59" id="2Vc-Vh-XRe"/>
+                                    <constraint firstAttribute="height" constant="59" id="eoA-cR-46t"/>
+                                </constraints>
+                                <state key="normal" title="下一題" backgroundImage="Button">
+                                    <color key="titleColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                                    <color key="titleShadowColor" white="0.5" alpha="1" colorSpace="calibratedWhite"/>
+                                </state>
+                                <connections>
+                                    <action selector="nextClicked:" destination="0sI-bc-9XM" eventType="touchUpInside" id="CWu-Lb-jPL"/>
+                                </connections>
+                            </button>
+                        </subviews>
+                        <constraints>
+                            <constraint firstItem="Tou-JG-1zW" firstAttribute="top" secondItem="WQa-ow-Luy" secondAttribute="bottom" constant="20" id="EKM-nK-DLh"/>
+                            <constraint firstItem="j2J-1y-pBe" firstAttribute="leading" secondItem="kdn-sm-sbL" secondAttribute="leadingMargin" constant="-16" id="abc-P0-J9M"/>
+                            <constraint firstAttribute="centerX" secondItem="WQa-ow-Luy" secondAttribute="centerX" id="iNr-TZ-g6k"/>
+                            <constraint firstItem="j2J-1y-pBe" firstAttribute="top" secondItem="WIF-ua-6AB" secondAttribute="bottom" constant="8" id="iY4-Uk-8w5"/>
+                            <constraint firstAttribute="centerY" secondItem="WIF-ua-6AB" secondAttribute="centerY" multiplier="1.5" id="je6-TD-2Sj"/>
+                            <constraint firstAttribute="centerX" secondItem="WIF-ua-6AB" secondAttribute="centerX" id="vlK-i3-oWe"/>
+                            <constraint firstAttribute="trailingMargin" secondItem="j2J-1y-pBe" secondAttribute="trailing" constant="-16" id="z42-Zq-C8t"/>
+                        </constraints>
+                    </view>
+                    <connections>
+                        <outlet property="fearLevelPickerView" destination="j2J-1y-pBe" id="8dO-Ev-KzD"/>
+                    </connections>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="3Cx-LL-ny3" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="1893" y="20681"/>
+        </scene>
+        <!--View Controller-->
+        <scene sceneID="cJQ-Ke-LVC">
+            <objects>
+                <viewController id="Qc2-Fz-z11" sceneMemberID="viewController">
+                    <layoutGuides>
+                        <viewControllerLayoutGuide type="top" id="xkG-Er-v7w"/>
+                        <viewControllerLayoutGuide type="bottom" id="cgw-2J-IgT"/>
+                    </layoutGuides>
+                    <view key="view" contentMode="scaleToFill" id="gP3-Mj-Yej">
+                        <rect key="frame" x="0.0" y="0.0" width="600" height="600"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" misplaced="YES" text="不論是工作或生活，我的直屬主管都像家長一樣地關心、要求我。" lineBreakMode="tailTruncation" numberOfLines="0" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="QWY-ae-dud">
+                                <rect key="frame" x="150" y="190" width="300" height="20"/>
+                                <constraints>
+                                    <constraint firstAttribute="width" constant="300" id="xQA-Wa-fjM"/>
+                                </constraints>
+                                <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                                <color key="textColor" red="0.0" green="0.0" blue="0.0" alpha="1" colorSpace="calibratedRGB"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                            <pickerView contentMode="scaleToFill" misplaced="YES" translatesAutoresizingMaskIntoConstraints="NO" id="OKN-V4-alX">
+                                <rect key="frame" x="0.0" y="228" width="600" height="162"/>
+                                <connections>
+                                    <outlet property="dataSource" destination="Qc2-Fz-z11" id="GVa-N4-pMn"/>
+                                    <outlet property="delegate" destination="Qc2-Fz-z11" id="uqG-TY-svZ"/>
+                                </connections>
+                            </pickerView>
+                            <button opaque="NO" contentMode="scaleToFill" misplaced="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="p3s-BB-keE">
+                                <rect key="frame" x="278" y="535" width="59" height="59"/>
+                                <constraints>
+                                    <constraint firstAttribute="height" constant="59" id="6TC-uw-NIu"/>
+                                    <constraint firstAttribute="width" constant="59" id="mmG-1Q-PY6"/>
+                                </constraints>
+                                <state key="normal" title="下一題" backgroundImage="Button">
+                                    <color key="titleColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                                    <color key="titleShadowColor" white="0.5" alpha="1" colorSpace="calibratedWhite"/>
+                                </state>
+                                <connections>
+                                    <action selector="nextClicked:" destination="Qc2-Fz-z11" eventType="touchUpInside" id="aCC-ux-NhH"/>
+                                </connections>
+                            </button>
+                        </subviews>
+                        <constraints>
+                            <constraint firstAttribute="centerY" secondItem="QWY-ae-dud" secondAttribute="centerY" multiplier="1.5" id="NHf-9C-R5c"/>
+                            <constraint firstAttribute="trailingMargin" secondItem="OKN-V4-alX" secondAttribute="trailing" constant="-16" id="NRg-s3-lSX"/>
+                            <constraint firstAttribute="centerX" secondItem="QWY-ae-dud" secondAttribute="centerX" id="ei9-bf-wtI"/>
+                            <constraint firstItem="OKN-V4-alX" firstAttribute="leading" secondItem="gP3-Mj-Yej" secondAttribute="leadingMargin" constant="-16" id="ldw-DS-SQM"/>
+                            <constraint firstItem="cgw-2J-IgT" firstAttribute="top" secondItem="p3s-BB-keE" secondAttribute="bottom" constant="20" id="sMI-29-7we"/>
+                            <constraint firstAttribute="centerX" secondItem="p3s-BB-keE" secondAttribute="centerX" id="wf6-Mr-eaB"/>
+                            <constraint firstItem="OKN-V4-alX" firstAttribute="top" secondItem="QWY-ae-dud" secondAttribute="bottom" constant="8" id="yuK-Hr-OQA"/>
+                        </constraints>
+                    </view>
+                    <connections>
+                        <outlet property="fearLevelPickerView" destination="OKN-V4-alX" id="R4L-LZ-xid"/>
+                    </connections>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="fVR-dU-3fW" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="420" y="21413"/>
+        </scene>
+        <!--View Controller-->
+        <scene sceneID="z4S-WS-T9M">
+            <objects>
+                <viewController id="iIO-f6-cU3" sceneMemberID="viewController">
+                    <layoutGuides>
+                        <viewControllerLayoutGuide type="top" id="tbO-4u-xbf"/>
+                        <viewControllerLayoutGuide type="bottom" id="Jci-67-TFC"/>
+                    </layoutGuides>
+                    <view key="view" contentMode="scaleToFill" id="S4Y-Nq-px9">
+                        <rect key="frame" x="0.0" y="0.0" width="600" height="600"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" misplaced="YES" text="我的直屬主管就像是我的家長，我有責任要回報他的教誨與照顧。" lineBreakMode="tailTruncation" numberOfLines="0" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="1Ek-ES-IKA">
+                                <rect key="frame" x="150" y="190" width="300" height="20"/>
+                                <constraints>
+                                    <constraint firstAttribute="width" constant="300" id="td5-gv-Bvj"/>
+                                </constraints>
+                                <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                                <color key="textColor" red="0.0" green="0.0" blue="0.0" alpha="1" colorSpace="calibratedRGB"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                            <pickerView contentMode="scaleToFill" misplaced="YES" translatesAutoresizingMaskIntoConstraints="NO" id="C3W-fO-jEZ">
+                                <rect key="frame" x="0.0" y="228" width="600" height="162"/>
+                                <connections>
+                                    <outlet property="dataSource" destination="iIO-f6-cU3" id="hiR-N7-snb"/>
+                                    <outlet property="delegate" destination="iIO-f6-cU3" id="ScO-3A-Xim"/>
+                                </connections>
+                            </pickerView>
+                            <button opaque="NO" contentMode="scaleToFill" misplaced="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="MLA-PW-40m">
+                                <rect key="frame" x="278" y="535" width="59" height="59"/>
+                                <constraints>
+                                    <constraint firstAttribute="width" constant="59" id="4ai-c1-cZb"/>
+                                    <constraint firstAttribute="height" constant="59" id="S1y-qE-Kd1"/>
+                                </constraints>
+                                <state key="normal" title="下一題" backgroundImage="Button">
+                                    <color key="titleColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                                    <color key="titleShadowColor" white="0.5" alpha="1" colorSpace="calibratedWhite"/>
+                                </state>
+                                <connections>
+                                    <action selector="nextClicked:" destination="iIO-f6-cU3" eventType="touchUpInside" id="bdI-7p-wb0"/>
+                                </connections>
+                            </button>
+                        </subviews>
+                        <constraints>
+                            <constraint firstAttribute="centerX" secondItem="1Ek-ES-IKA" secondAttribute="centerX" id="04g-u0-ojx"/>
+                            <constraint firstItem="Jci-67-TFC" firstAttribute="top" secondItem="MLA-PW-40m" secondAttribute="bottom" constant="20" id="3eb-JP-YxW"/>
+                            <constraint firstAttribute="trailingMargin" secondItem="C3W-fO-jEZ" secondAttribute="trailing" constant="-16" id="Mnb-nr-7md"/>
+                            <constraint firstItem="C3W-fO-jEZ" firstAttribute="leading" secondItem="S4Y-Nq-px9" secondAttribute="leadingMargin" constant="-16" id="ZOc-QU-0go"/>
+                            <constraint firstItem="C3W-fO-jEZ" firstAttribute="top" secondItem="1Ek-ES-IKA" secondAttribute="bottom" constant="8" id="aRh-IG-4QX"/>
+                            <constraint firstAttribute="centerY" secondItem="1Ek-ES-IKA" secondAttribute="centerY" multiplier="1.5" id="mZ9-k1-e2R"/>
+                            <constraint firstAttribute="centerX" secondItem="MLA-PW-40m" secondAttribute="centerX" id="myL-mp-WNR"/>
+                        </constraints>
+                    </view>
+                    <connections>
+                        <outlet property="fearLevelPickerView" destination="C3W-fO-jEZ" id="fEr-oL-SZa"/>
+                    </connections>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="yMq-1X-au2" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="1142" y="21413"/>
+        </scene>
+        <!--View Controller-->
+        <scene sceneID="QwU-hU-c9i">
+            <objects>
+                <viewController id="2PC-Tw-VwC" sceneMemberID="viewController">
+                    <layoutGuides>
+                        <viewControllerLayoutGuide type="top" id="Fd1-4x-SYO"/>
+                        <viewControllerLayoutGuide type="bottom" id="TSQ-Q7-fyv"/>
+                    </layoutGuides>
+                    <view key="view" contentMode="scaleToFill" id="07k-Ot-RvE">
+                        <rect key="frame" x="0.0" y="0.0" width="600" height="600"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" misplaced="YES" text="我的直屬主管和我之間的關係就如同家長與子女一樣。" lineBreakMode="tailTruncation" numberOfLines="0" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="39Y-Tw-D6D">
+                                <rect key="frame" x="150" y="190" width="300" height="20"/>
+                                <constraints>
+                                    <constraint firstAttribute="width" constant="300" id="ZlK-rl-qDs"/>
+                                </constraints>
+                                <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                                <color key="textColor" red="0.0" green="0.0" blue="0.0" alpha="1" colorSpace="calibratedRGB"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                            <pickerView contentMode="scaleToFill" misplaced="YES" translatesAutoresizingMaskIntoConstraints="NO" id="Vpa-Hp-3tR">
+                                <rect key="frame" x="0.0" y="228" width="600" height="162"/>
+                                <connections>
+                                    <outlet property="dataSource" destination="2PC-Tw-VwC" id="Ohw-rg-DVv"/>
+                                    <outlet property="delegate" destination="2PC-Tw-VwC" id="oLy-29-sI2"/>
+                                </connections>
+                            </pickerView>
+                            <button opaque="NO" contentMode="scaleToFill" misplaced="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="xZP-ZI-gw1">
+                                <rect key="frame" x="278" y="535" width="59" height="59"/>
+                                <constraints>
+                                    <constraint firstAttribute="width" constant="59" id="8JU-iP-ExU"/>
+                                    <constraint firstAttribute="height" constant="59" id="LFB-SB-vW5"/>
+                                </constraints>
+                                <state key="normal" title="下一題" backgroundImage="Button">
+                                    <color key="titleColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                                    <color key="titleShadowColor" white="0.5" alpha="1" colorSpace="calibratedWhite"/>
+                                </state>
+                                <connections>
+                                    <action selector="nextClicked:" destination="2PC-Tw-VwC" eventType="touchUpInside" id="dhX-yF-bmw"/>
+                                </connections>
+                            </button>
+                        </subviews>
+                        <constraints>
+                            <constraint firstItem="TSQ-Q7-fyv" firstAttribute="top" secondItem="xZP-ZI-gw1" secondAttribute="bottom" constant="20" id="51J-bx-Vb1"/>
+                            <constraint firstAttribute="centerX" secondItem="39Y-Tw-D6D" secondAttribute="centerX" id="8BQ-IH-Nch"/>
+                            <constraint firstAttribute="trailingMargin" secondItem="Vpa-Hp-3tR" secondAttribute="trailing" constant="-16" id="NcW-jJ-fAH"/>
+                            <constraint firstItem="Vpa-Hp-3tR" firstAttribute="top" secondItem="39Y-Tw-D6D" secondAttribute="bottom" constant="8" id="RbP-lk-VvZ"/>
+                            <constraint firstAttribute="centerY" secondItem="39Y-Tw-D6D" secondAttribute="centerY" multiplier="1.5" id="hx6-Kt-xsC"/>
+                            <constraint firstItem="Vpa-Hp-3tR" firstAttribute="leading" secondItem="07k-Ot-RvE" secondAttribute="leadingMargin" constant="-16" id="on6-dd-urU"/>
+                            <constraint firstAttribute="centerX" secondItem="xZP-ZI-gw1" secondAttribute="centerX" id="rrm-Fc-Ewt"/>
+                        </constraints>
+                    </view>
+                    <connections>
+                        <outlet property="fearLevelPickerView" destination="Vpa-Hp-3tR" id="c7i-Td-g4U"/>
+                    </connections>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="pqe-Y3-nPk" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="1893" y="21413"/>
+        </scene>
+        <!--View Controller-->
+        <scene sceneID="6dI-0Q-HWJ">
+            <objects>
+                <viewController id="xIx-QI-RBm" sceneMemberID="viewController">
+                    <layoutGuides>
+                        <viewControllerLayoutGuide type="top" id="O4E-wj-QA0"/>
+                        <viewControllerLayoutGuide type="bottom" id="0vd-MN-eDQ"/>
+                    </layoutGuides>
+                    <view key="view" contentMode="scaleToFill" id="9c5-1R-WB6">
+                        <rect key="frame" x="0.0" y="0.0" width="600" height="600"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" misplaced="YES" text="我的直屬主管把我的單位營造成一個家，而他就像是撐起這個家的大家長。" lineBreakMode="tailTruncation" numberOfLines="0" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="4z8-Ra-siP">
+                                <rect key="frame" x="150" y="190" width="300" height="20"/>
+                                <constraints>
+                                    <constraint firstAttribute="width" constant="300" id="Lao-eh-n4H"/>
+                                </constraints>
+                                <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                                <color key="textColor" red="0.0" green="0.0" blue="0.0" alpha="1" colorSpace="calibratedRGB"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                            <pickerView contentMode="scaleToFill" misplaced="YES" translatesAutoresizingMaskIntoConstraints="NO" id="nzL-x6-OKc">
+                                <rect key="frame" x="0.0" y="228" width="600" height="162"/>
+                                <connections>
+                                    <outlet property="dataSource" destination="xIx-QI-RBm" id="mYR-Gq-IeI"/>
+                                    <outlet property="delegate" destination="xIx-QI-RBm" id="0QU-RP-kjg"/>
+                                </connections>
+                            </pickerView>
+                            <button opaque="NO" contentMode="scaleToFill" misplaced="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="aCA-1Q-iZP">
+                                <rect key="frame" x="278" y="535" width="59" height="59"/>
+                                <constraints>
+                                    <constraint firstAttribute="width" constant="59" id="1V8-n7-J1N"/>
+                                    <constraint firstAttribute="height" constant="59" id="KOD-gK-yC6"/>
+                                </constraints>
+                                <state key="normal" title="下一題" backgroundImage="Button">
+                                    <color key="titleColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                                    <color key="titleShadowColor" white="0.5" alpha="1" colorSpace="calibratedWhite"/>
+                                </state>
+                                <connections>
+                                    <action selector="nextClicked:" destination="xIx-QI-RBm" eventType="touchUpInside" id="oZi-2a-90H"/>
+                                </connections>
+                            </button>
+                        </subviews>
+                        <constraints>
+                            <constraint firstAttribute="trailingMargin" secondItem="nzL-x6-OKc" secondAttribute="trailing" constant="-16" id="A79-7v-Idv"/>
+                            <constraint firstAttribute="centerX" secondItem="aCA-1Q-iZP" secondAttribute="centerX" id="G84-2e-WVV"/>
+                            <constraint firstAttribute="centerX" secondItem="4z8-Ra-siP" secondAttribute="centerX" id="XW8-Tf-mjR"/>
+                            <constraint firstItem="nzL-x6-OKc" firstAttribute="leading" secondItem="9c5-1R-WB6" secondAttribute="leadingMargin" constant="-16" id="d5N-cb-8Z0"/>
+                            <constraint firstAttribute="centerY" secondItem="4z8-Ra-siP" secondAttribute="centerY" multiplier="1.5" id="nn9-yy-gfB"/>
+                            <constraint firstItem="0vd-MN-eDQ" firstAttribute="top" secondItem="aCA-1Q-iZP" secondAttribute="bottom" constant="20" id="t9X-Kz-sqJ"/>
+                            <constraint firstItem="nzL-x6-OKc" firstAttribute="top" secondItem="4z8-Ra-siP" secondAttribute="bottom" constant="8" id="xUF-oa-9pa"/>
+                        </constraints>
+                    </view>
+                    <connections>
+                        <outlet property="fearLevelPickerView" destination="nzL-x6-OKc" id="faa-3D-kJT"/>
+                    </connections>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="SrK-a9-fqk" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="2590" y="21413"/>
+        </scene>
+        <!--View Controller-->
+        <scene sceneID="7yv-WJ-NNj">
+            <objects>
+                <viewController id="rOI-Y6-4iX" sceneMemberID="viewController">
+                    <layoutGuides>
+                        <viewControllerLayoutGuide type="top" id="IuN-H0-UFR"/>
+                        <viewControllerLayoutGuide type="bottom" id="Kvx-EM-Xvh"/>
+                    </layoutGuides>
+                    <view key="view" contentMode="scaleToFill" id="dcK-PT-nJQ">
+                        <rect key="frame" x="0.0" y="0.0" width="600" height="600"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" misplaced="YES" text="我的直屬主管就像是家長一般地盡責，值得我敬重與服從。" lineBreakMode="tailTruncation" numberOfLines="0" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="lzQ-5l-xQ0">
+                                <rect key="frame" x="150" y="190" width="300" height="20"/>
+                                <constraints>
+                                    <constraint firstAttribute="width" constant="300" id="8r7-VD-vlU"/>
+                                </constraints>
+                                <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                                <color key="textColor" red="0.0" green="0.0" blue="0.0" alpha="1" colorSpace="calibratedRGB"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                            <pickerView contentMode="scaleToFill" misplaced="YES" translatesAutoresizingMaskIntoConstraints="NO" id="sI8-Z2-NXx">
+                                <rect key="frame" x="0.0" y="228" width="600" height="162"/>
+                                <connections>
+                                    <outlet property="dataSource" destination="rOI-Y6-4iX" id="pCd-SD-FFf"/>
+                                    <outlet property="delegate" destination="rOI-Y6-4iX" id="uJr-bZ-mMR"/>
+                                </connections>
+                            </pickerView>
+                            <button opaque="NO" contentMode="scaleToFill" misplaced="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="VqS-RY-cgJ">
+                                <rect key="frame" x="278" y="535" width="59" height="59"/>
+                                <constraints>
+                                    <constraint firstAttribute="width" constant="59" id="7UZ-U4-RgJ"/>
+                                    <constraint firstAttribute="height" constant="59" id="j3v-t8-jTe"/>
+                                </constraints>
+                                <state key="normal" title="下一題" backgroundImage="Button">
+                                    <color key="titleColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                                    <color key="titleShadowColor" white="0.5" alpha="1" colorSpace="calibratedWhite"/>
+                                </state>
+                                <connections>
+                                    <action selector="nextClicked:" destination="rOI-Y6-4iX" eventType="touchUpInside" id="LZf-5j-t3Y"/>
+                                </connections>
+                            </button>
+                        </subviews>
+                        <constraints>
+                            <constraint firstItem="sI8-Z2-NXx" firstAttribute="leading" secondItem="dcK-PT-nJQ" secondAttribute="leadingMargin" constant="-16" id="2Wb-1Z-Xo9"/>
+                            <constraint firstAttribute="trailingMargin" secondItem="sI8-Z2-NXx" secondAttribute="trailing" constant="-16" id="8SJ-ED-e6x"/>
+                            <constraint firstAttribute="centerX" secondItem="VqS-RY-cgJ" secondAttribute="centerX" id="Hml-Wc-nGe"/>
+                            <constraint firstItem="Kvx-EM-Xvh" firstAttribute="top" secondItem="VqS-RY-cgJ" secondAttribute="bottom" constant="20" id="YJc-Xv-PGz"/>
+                            <constraint firstAttribute="centerY" secondItem="lzQ-5l-xQ0" secondAttribute="centerY" multiplier="1.5" id="ZqY-gC-zfx"/>
+                            <constraint firstAttribute="centerX" secondItem="lzQ-5l-xQ0" secondAttribute="centerX" id="ddP-Hl-sZS"/>
+                            <constraint firstItem="sI8-Z2-NXx" firstAttribute="top" secondItem="lzQ-5l-xQ0" secondAttribute="bottom" constant="8" id="x0h-h9-BIH"/>
+                        </constraints>
+                    </view>
+                    <connections>
+                        <outlet property="fearLevelPickerView" destination="sI8-Z2-NXx" id="r9Z-Gy-oUp"/>
+                    </connections>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="13U-qd-1FR" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="3312" y="21413"/>
+        </scene>
+        <!--View Controller-->
+        <scene sceneID="VUL-pr-0ty">
+            <objects>
+                <viewController id="yQv-TA-nEl" sceneMemberID="viewController">
+                    <layoutGuides>
+                        <viewControllerLayoutGuide type="top" id="n6G-rx-T0L"/>
+                        <viewControllerLayoutGuide type="bottom" id="8Bm-U5-ron"/>
+                    </layoutGuides>
+                    <view key="view" contentMode="scaleToFill" id="pfx-ZS-8Ky">
+                        <rect key="frame" x="0.0" y="0.0" width="600" height="600"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" misplaced="YES" text="不論是管教或提攜，都表現出我的直屬主管希望我成長、變得更好的用心。" lineBreakMode="tailTruncation" numberOfLines="0" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="BXz-c3-Dws">
+                                <rect key="frame" x="150" y="190" width="300" height="20"/>
+                                <constraints>
+                                    <constraint firstAttribute="width" constant="300" id="Mhl-yn-1Qv"/>
+                                </constraints>
+                                <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                                <color key="textColor" red="0.0" green="0.0" blue="0.0" alpha="1" colorSpace="calibratedRGB"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                            <pickerView contentMode="scaleToFill" misplaced="YES" translatesAutoresizingMaskIntoConstraints="NO" id="G1e-yY-mNF">
+                                <rect key="frame" x="0.0" y="228" width="600" height="162"/>
+                                <connections>
+                                    <outlet property="dataSource" destination="yQv-TA-nEl" id="XXu-md-Ckm"/>
+                                    <outlet property="delegate" destination="yQv-TA-nEl" id="Ch5-mi-yfK"/>
+                                </connections>
+                            </pickerView>
+                            <button opaque="NO" contentMode="scaleToFill" misplaced="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="aCD-ru-Y3D">
+                                <rect key="frame" x="278" y="535" width="59" height="59"/>
+                                <constraints>
+                                    <constraint firstAttribute="height" constant="59" id="F5H-WS-Dyd"/>
+                                    <constraint firstAttribute="width" constant="59" id="WzS-8X-d1S"/>
+                                </constraints>
+                                <state key="normal" title="下一題" backgroundImage="Button">
+                                    <color key="titleColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                                    <color key="titleShadowColor" white="0.5" alpha="1" colorSpace="calibratedWhite"/>
+                                </state>
+                                <connections>
+                                    <action selector="nextClicked:" destination="yQv-TA-nEl" eventType="touchUpInside" id="Tgn-DZ-va2"/>
+                                </connections>
+                            </button>
+                        </subviews>
+                        <constraints>
+                            <constraint firstItem="G1e-yY-mNF" firstAttribute="leading" secondItem="pfx-ZS-8Ky" secondAttribute="leadingMargin" constant="-16" id="3XU-bj-egx"/>
+                            <constraint firstItem="G1e-yY-mNF" firstAttribute="top" secondItem="BXz-c3-Dws" secondAttribute="bottom" constant="8" id="Gu1-wJ-Mrv"/>
+                            <constraint firstItem="8Bm-U5-ron" firstAttribute="top" secondItem="aCD-ru-Y3D" secondAttribute="bottom" constant="20" id="HZN-Pq-P0O"/>
+                            <constraint firstAttribute="trailingMargin" secondItem="G1e-yY-mNF" secondAttribute="trailing" constant="-16" id="Jnc-wZ-wB6"/>
+                            <constraint firstAttribute="centerX" secondItem="aCD-ru-Y3D" secondAttribute="centerX" id="WSM-AE-6Na"/>
+                            <constraint firstAttribute="centerX" secondItem="BXz-c3-Dws" secondAttribute="centerX" id="wUI-Q5-VsD"/>
+                            <constraint firstAttribute="centerY" secondItem="BXz-c3-Dws" secondAttribute="centerY" multiplier="1.5" id="ytb-cs-noj"/>
+                        </constraints>
+                    </view>
+                    <connections>
+                        <outlet property="fearLevelPickerView" destination="G1e-yY-mNF" id="lC1-Dl-2eX"/>
+                    </connections>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="fdr-pN-JUW" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="4063" y="21413"/>
+        </scene>
+        <!--View Controller-->
+        <scene sceneID="Ajd-LC-bu8">
+            <objects>
+                <viewController id="w2O-F9-QJ7" sceneMemberID="viewController">
+                    <layoutGuides>
+                        <viewControllerLayoutGuide type="top" id="zjp-hn-PsG"/>
+                        <viewControllerLayoutGuide type="bottom" id="0o5-uZ-cRZ"/>
+                    </layoutGuides>
+                    <view key="view" contentMode="scaleToFill" id="cnr-cD-7vf">
+                        <rect key="frame" x="0.0" y="0.0" width="600" height="600"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" misplaced="YES" text="我清楚知道我直屬主管是否滿意我的工作表現。" lineBreakMode="tailTruncation" numberOfLines="0" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="5m2-7M-Cgq">
+                                <rect key="frame" x="150" y="190" width="300" height="20"/>
+                                <constraints>
+                                    <constraint firstAttribute="width" constant="300" id="FC9-RK-c1f"/>
+                                </constraints>
+                                <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                                <color key="textColor" red="0.0" green="0.0" blue="0.0" alpha="1" colorSpace="calibratedRGB"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                            <pickerView contentMode="scaleToFill" misplaced="YES" translatesAutoresizingMaskIntoConstraints="NO" id="qau-zt-R5B">
+                                <rect key="frame" x="0.0" y="228" width="600" height="162"/>
+                                <connections>
+                                    <outlet property="dataSource" destination="w2O-F9-QJ7" id="Etg-Ay-nOO"/>
+                                    <outlet property="delegate" destination="w2O-F9-QJ7" id="DhT-aN-wGh"/>
+                                </connections>
+                            </pickerView>
+                            <button opaque="NO" contentMode="scaleToFill" misplaced="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="Pc0-Fh-SY2">
+                                <rect key="frame" x="278" y="535" width="59" height="59"/>
+                                <constraints>
+                                    <constraint firstAttribute="width" constant="59" id="vcb-f4-FaV"/>
+                                    <constraint firstAttribute="height" constant="59" id="zOP-XJ-ytA"/>
+                                </constraints>
+                                <state key="normal" title="下一題" backgroundImage="Button">
+                                    <color key="titleColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                                    <color key="titleShadowColor" white="0.5" alpha="1" colorSpace="calibratedWhite"/>
+                                </state>
+                                <connections>
+                                    <action selector="nextClicked:" destination="w2O-F9-QJ7" eventType="touchUpInside" id="BQp-ZF-869"/>
+                                </connections>
+                            </button>
+                        </subviews>
+                        <constraints>
+                            <constraint firstAttribute="trailingMargin" secondItem="qau-zt-R5B" secondAttribute="trailing" constant="-16" id="8kJ-Qz-sAd"/>
+                            <constraint firstItem="qau-zt-R5B" firstAttribute="top" secondItem="5m2-7M-Cgq" secondAttribute="bottom" constant="8" id="OkH-e2-czg"/>
+                            <constraint firstItem="0o5-uZ-cRZ" firstAttribute="top" secondItem="Pc0-Fh-SY2" secondAttribute="bottom" constant="20" id="Pq2-1F-89l"/>
+                            <constraint firstItem="qau-zt-R5B" firstAttribute="leading" secondItem="cnr-cD-7vf" secondAttribute="leadingMargin" constant="-16" id="cUm-US-nGI"/>
+                            <constraint firstAttribute="centerX" secondItem="5m2-7M-Cgq" secondAttribute="centerX" id="kTR-zg-yBQ"/>
+                            <constraint firstAttribute="centerY" secondItem="5m2-7M-Cgq" secondAttribute="centerY" multiplier="1.5" id="maU-WB-OWu"/>
+                            <constraint firstAttribute="centerX" secondItem="Pc0-Fh-SY2" secondAttribute="centerX" id="xoj-ep-Sse"/>
+                        </constraints>
+                    </view>
+                    <connections>
+                        <outlet property="fearLevelPickerView" destination="qau-zt-R5B" id="ULl-ge-Bbc"/>
+                    </connections>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="KN7-Ou-DU6" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="420" y="22081"/>
+        </scene>
+        <!--View Controller-->
+        <scene sceneID="qhg-38-94Q">
+            <objects>
+                <viewController id="PBl-lR-PYO" sceneMemberID="viewController">
+                    <layoutGuides>
+                        <viewControllerLayoutGuide type="top" id="MZV-X4-aRs"/>
+                        <viewControllerLayoutGuide type="bottom" id="8hd-s9-V4U"/>
+                    </layoutGuides>
+                    <view key="view" contentMode="scaleToFill" id="HNI-Pb-hsU">
+                        <rect key="frame" x="0.0" y="0.0" width="600" height="600"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" misplaced="YES" text="我的直屬主管非常了解我在工作上遇到的問題與需要。" lineBreakMode="tailTruncation" numberOfLines="0" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="8rZ-5Y-ohK">
+                                <rect key="frame" x="150" y="190" width="300" height="20"/>
+                                <constraints>
+                                    <constraint firstAttribute="width" constant="300" id="hL3-H1-Zo1"/>
+                                </constraints>
+                                <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                                <color key="textColor" red="0.0" green="0.0" blue="0.0" alpha="1" colorSpace="calibratedRGB"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                            <pickerView contentMode="scaleToFill" misplaced="YES" translatesAutoresizingMaskIntoConstraints="NO" id="mzJ-dZ-G5b">
+                                <rect key="frame" x="0.0" y="228" width="600" height="162"/>
+                                <connections>
+                                    <outlet property="dataSource" destination="PBl-lR-PYO" id="wo8-V2-IM9"/>
+                                    <outlet property="delegate" destination="PBl-lR-PYO" id="Tqt-Ae-FYx"/>
+                                </connections>
+                            </pickerView>
+                            <button opaque="NO" contentMode="scaleToFill" misplaced="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="eWk-uX-V0s">
+                                <rect key="frame" x="278" y="535" width="59" height="59"/>
+                                <constraints>
+                                    <constraint firstAttribute="height" constant="59" id="j4F-mv-8xL"/>
+                                    <constraint firstAttribute="width" constant="59" id="yID-VI-hEj"/>
+                                </constraints>
+                                <state key="normal" title="下一題" backgroundImage="Button">
+                                    <color key="titleColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                                    <color key="titleShadowColor" white="0.5" alpha="1" colorSpace="calibratedWhite"/>
+                                </state>
+                                <connections>
+                                    <action selector="nextClicked:" destination="PBl-lR-PYO" eventType="touchUpInside" id="hWD-VP-KGc"/>
+                                </connections>
+                            </button>
+                        </subviews>
+                        <constraints>
+                            <constraint firstAttribute="trailingMargin" secondItem="mzJ-dZ-G5b" secondAttribute="trailing" constant="-16" id="9lw-qh-axd"/>
+                            <constraint firstAttribute="centerX" secondItem="8rZ-5Y-ohK" secondAttribute="centerX" id="LuQ-sl-98o"/>
+                            <constraint firstAttribute="centerX" secondItem="eWk-uX-V0s" secondAttribute="centerX" id="T1e-Jd-ICA"/>
+                            <constraint firstItem="mzJ-dZ-G5b" firstAttribute="top" secondItem="8rZ-5Y-ohK" secondAttribute="bottom" constant="8" id="VPE-Xw-TsO"/>
+                            <constraint firstAttribute="centerY" secondItem="8rZ-5Y-ohK" secondAttribute="centerY" multiplier="1.5" id="Yk2-IZ-JsH"/>
+                            <constraint firstItem="mzJ-dZ-G5b" firstAttribute="leading" secondItem="HNI-Pb-hsU" secondAttribute="leadingMargin" constant="-16" id="d7O-EK-UAz"/>
+                            <constraint firstItem="8hd-s9-V4U" firstAttribute="top" secondItem="eWk-uX-V0s" secondAttribute="bottom" constant="20" id="hxO-Qc-tSd"/>
+                        </constraints>
+                    </view>
+                    <connections>
+                        <outlet property="fearLevelPickerView" destination="mzJ-dZ-G5b" id="WAt-cq-iWH"/>
+                    </connections>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="pkY-YZ-98d" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="1142" y="22081"/>
+        </scene>
+        <!--View Controller-->
+        <scene sceneID="Ote-on-C0d">
+            <objects>
+                <viewController id="bo7-na-b4b" sceneMemberID="viewController">
+                    <layoutGuides>
+                        <viewControllerLayoutGuide type="top" id="2KJ-LW-CjT"/>
+                        <viewControllerLayoutGuide type="bottom" id="UhK-tC-dTG"/>
+                    </layoutGuides>
+                    <view key="view" contentMode="scaleToFill" id="Izx-Ll-Kwk">
+                        <rect key="frame" x="0.0" y="0.0" width="600" height="600"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" misplaced="YES" text="我的直屬主管非常了解我的工作潛力。" lineBreakMode="tailTruncation" numberOfLines="0" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="3lU-7h-1hA">
+                                <rect key="frame" x="150" y="190" width="300" height="20"/>
+                                <constraints>
+                                    <constraint firstAttribute="width" constant="300" id="sBG-u1-pe4"/>
+                                </constraints>
+                                <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                                <color key="textColor" red="0.0" green="0.0" blue="0.0" alpha="1" colorSpace="calibratedRGB"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                            <pickerView contentMode="scaleToFill" misplaced="YES" translatesAutoresizingMaskIntoConstraints="NO" id="aMg-Zs-Vcl">
+                                <rect key="frame" x="0.0" y="228" width="600" height="162"/>
+                                <connections>
+                                    <outlet property="dataSource" destination="bo7-na-b4b" id="rog-rE-pqx"/>
+                                    <outlet property="delegate" destination="bo7-na-b4b" id="iRX-zK-b4B"/>
+                                </connections>
+                            </pickerView>
+                            <button opaque="NO" contentMode="scaleToFill" misplaced="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="fqt-fk-OVA">
+                                <rect key="frame" x="278" y="535" width="59" height="59"/>
+                                <constraints>
+                                    <constraint firstAttribute="height" constant="59" id="bhd-c0-2in"/>
+                                    <constraint firstAttribute="width" constant="59" id="gWM-pJ-OYp"/>
+                                </constraints>
+                                <state key="normal" title="下一題" backgroundImage="Button">
+                                    <color key="titleColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                                    <color key="titleShadowColor" white="0.5" alpha="1" colorSpace="calibratedWhite"/>
+                                </state>
+                                <connections>
+                                    <action selector="nextClicked:" destination="bo7-na-b4b" eventType="touchUpInside" id="Nbz-BV-Wdo"/>
+                                </connections>
+                            </button>
+                        </subviews>
+                        <constraints>
+                            <constraint firstAttribute="centerX" secondItem="fqt-fk-OVA" secondAttribute="centerX" id="Uba-y4-ei4"/>
+                            <constraint firstAttribute="centerX" secondItem="3lU-7h-1hA" secondAttribute="centerX" id="XqB-DI-ILF"/>
+                            <constraint firstAttribute="trailingMargin" secondItem="aMg-Zs-Vcl" secondAttribute="trailing" constant="-16" id="YeT-NG-ajL"/>
+                            <constraint firstItem="aMg-Zs-Vcl" firstAttribute="top" secondItem="3lU-7h-1hA" secondAttribute="bottom" constant="8" id="c5P-3p-Hzk"/>
+                            <constraint firstItem="aMg-Zs-Vcl" firstAttribute="leading" secondItem="Izx-Ll-Kwk" secondAttribute="leadingMargin" constant="-16" id="mZM-jB-0Im"/>
+                            <constraint firstItem="UhK-tC-dTG" firstAttribute="top" secondItem="fqt-fk-OVA" secondAttribute="bottom" constant="20" id="sui-sU-Xi5"/>
+                            <constraint firstAttribute="centerY" secondItem="3lU-7h-1hA" secondAttribute="centerY" multiplier="1.5" id="wHO-Uz-cVJ"/>
+                        </constraints>
+                    </view>
+                    <connections>
+                        <outlet property="fearLevelPickerView" destination="aMg-Zs-Vcl" id="Ghd-b6-Ss0"/>
+                    </connections>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="bQc-Si-BDL" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="1893" y="22081"/>
+        </scene>
+        <!--View Controller-->
+        <scene sceneID="sjK-M6-gkE">
+            <objects>
+                <viewController id="Jpf-cx-dDe" sceneMemberID="viewController">
+                    <layoutGuides>
+                        <viewControllerLayoutGuide type="top" id="5Ht-sz-KDS"/>
+                        <viewControllerLayoutGuide type="bottom" id="dRF-5K-0YT"/>
+                    </layoutGuides>
+                    <view key="view" contentMode="scaleToFill" id="hq7-Xa-zMl">
+                        <rect key="frame" x="0.0" y="0.0" width="600" height="600"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" misplaced="YES" text="不論職權高低，我的直屬主管非常願意協助我解決工作上的問題。" lineBreakMode="tailTruncation" numberOfLines="0" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="46m-TR-tGt">
+                                <rect key="frame" x="150" y="190" width="300" height="20"/>
+                                <constraints>
+                                    <constraint firstAttribute="width" constant="300" id="JBi-ZM-XCX"/>
+                                </constraints>
+                                <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                                <color key="textColor" red="0.0" green="0.0" blue="0.0" alpha="1" colorSpace="calibratedRGB"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                            <pickerView contentMode="scaleToFill" misplaced="YES" translatesAutoresizingMaskIntoConstraints="NO" id="OWa-30-mH9">
+                                <rect key="frame" x="0.0" y="228" width="600" height="162"/>
+                                <connections>
+                                    <outlet property="dataSource" destination="Jpf-cx-dDe" id="7Eh-1l-uRq"/>
+                                    <outlet property="delegate" destination="Jpf-cx-dDe" id="RoW-1q-Nu2"/>
+                                </connections>
+                            </pickerView>
+                            <button opaque="NO" contentMode="scaleToFill" misplaced="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="eG7-Rc-bY3">
+                                <rect key="frame" x="278" y="535" width="59" height="59"/>
+                                <constraints>
+                                    <constraint firstAttribute="height" constant="59" id="5TL-ch-LCS"/>
+                                    <constraint firstAttribute="width" constant="59" id="n72-oa-VKK"/>
+                                </constraints>
+                                <state key="normal" title="下一題" backgroundImage="Button">
+                                    <color key="titleColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                                    <color key="titleShadowColor" white="0.5" alpha="1" colorSpace="calibratedWhite"/>
+                                </state>
+                                <connections>
+                                    <action selector="nextClicked:" destination="Jpf-cx-dDe" eventType="touchUpInside" id="ssD-jG-Dkc"/>
+                                </connections>
+                            </button>
+                        </subviews>
+                        <constraints>
+                            <constraint firstAttribute="centerY" secondItem="46m-TR-tGt" secondAttribute="centerY" multiplier="1.5" id="FtW-o3-G2v"/>
+                            <constraint firstAttribute="centerX" secondItem="eG7-Rc-bY3" secondAttribute="centerX" id="Hm8-q1-V1a"/>
+                            <constraint firstAttribute="centerX" secondItem="46m-TR-tGt" secondAttribute="centerX" id="Qeh-wR-IXQ"/>
+                            <constraint firstItem="OWa-30-mH9" firstAttribute="leading" secondItem="hq7-Xa-zMl" secondAttribute="leadingMargin" constant="-16" id="R9N-RU-ANX"/>
+                            <constraint firstItem="dRF-5K-0YT" firstAttribute="top" secondItem="eG7-Rc-bY3" secondAttribute="bottom" constant="20" id="Sqc-ok-Ase"/>
+                            <constraint firstAttribute="trailingMargin" secondItem="OWa-30-mH9" secondAttribute="trailing" constant="-16" id="abj-Ff-wL2"/>
+                            <constraint firstItem="OWa-30-mH9" firstAttribute="top" secondItem="46m-TR-tGt" secondAttribute="bottom" constant="8" id="ftz-nr-DNo"/>
+                        </constraints>
+                    </view>
+                    <connections>
+                        <outlet property="fearLevelPickerView" destination="OWa-30-mH9" id="y5u-rq-zgy"/>
+                    </connections>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="uRN-6L-7f5" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="2590" y="22081"/>
+        </scene>
+        <!--View Controller-->
+        <scene sceneID="PZU-e1-dyc">
+            <objects>
+                <viewController id="7Xm-Sb-9AK" sceneMemberID="viewController">
+                    <layoutGuides>
+                        <viewControllerLayoutGuide type="top" id="pqV-Eg-62P"/>
+                        <viewControllerLayoutGuide type="bottom" id="zuj-lo-Pbv"/>
+                    </layoutGuides>
+                    <view key="view" contentMode="scaleToFill" id="cEq-fa-TtB">
+                        <rect key="frame" x="0.0" y="0.0" width="600" height="600"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" misplaced="YES" text="不論職權高低，我的直屬主管非常願意犧牲個人利益來幫助我擺脫工作困境。" lineBreakMode="tailTruncation" numberOfLines="0" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="ccs-bO-V9h">
+                                <rect key="frame" x="150" y="190" width="300" height="20"/>
+                                <constraints>
+                                    <constraint firstAttribute="width" constant="300" id="IGx-f4-HcN"/>
+                                </constraints>
+                                <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                                <color key="textColor" red="0.0" green="0.0" blue="0.0" alpha="1" colorSpace="calibratedRGB"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                            <pickerView contentMode="scaleToFill" misplaced="YES" translatesAutoresizingMaskIntoConstraints="NO" id="bpQ-Jm-SUD">
+                                <rect key="frame" x="0.0" y="228" width="600" height="162"/>
+                                <connections>
+                                    <outlet property="dataSource" destination="7Xm-Sb-9AK" id="wio-ua-gqL"/>
+                                    <outlet property="delegate" destination="7Xm-Sb-9AK" id="u3q-2i-JAX"/>
+                                </connections>
+                            </pickerView>
+                            <button opaque="NO" contentMode="scaleToFill" misplaced="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="2v7-qC-OqT">
+                                <rect key="frame" x="278" y="535" width="59" height="59"/>
+                                <constraints>
+                                    <constraint firstAttribute="height" constant="59" id="bHv-yy-5D8"/>
+                                    <constraint firstAttribute="width" constant="59" id="ekV-Dd-ar4"/>
+                                </constraints>
+                                <state key="normal" title="下一題" backgroundImage="Button">
+                                    <color key="titleColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                                    <color key="titleShadowColor" white="0.5" alpha="1" colorSpace="calibratedWhite"/>
+                                </state>
+                                <connections>
+                                    <action selector="nextClicked:" destination="7Xm-Sb-9AK" eventType="touchUpInside" id="5Lb-l2-Lu9"/>
+                                </connections>
+                            </button>
+                        </subviews>
+                        <constraints>
+                            <constraint firstAttribute="centerY" secondItem="ccs-bO-V9h" secondAttribute="centerY" multiplier="1.5" id="4j1-xn-RR7"/>
+                            <constraint firstAttribute="centerX" secondItem="2v7-qC-OqT" secondAttribute="centerX" id="6bD-Lo-Qdv"/>
+                            <constraint firstItem="bpQ-Jm-SUD" firstAttribute="top" secondItem="ccs-bO-V9h" secondAttribute="bottom" constant="8" id="GGW-Ew-ZOZ"/>
+                            <constraint firstItem="bpQ-Jm-SUD" firstAttribute="leading" secondItem="cEq-fa-TtB" secondAttribute="leadingMargin" constant="-16" id="KJ8-mh-eXS"/>
+                            <constraint firstAttribute="trailingMargin" secondItem="bpQ-Jm-SUD" secondAttribute="trailing" constant="-16" id="XdW-4e-eRA"/>
+                            <constraint firstAttribute="centerX" secondItem="ccs-bO-V9h" secondAttribute="centerX" id="jdo-IH-X5S"/>
+                            <constraint firstItem="zuj-lo-Pbv" firstAttribute="top" secondItem="2v7-qC-OqT" secondAttribute="bottom" constant="20" id="zYU-EZ-5hO"/>
+                        </constraints>
+                    </view>
+                    <connections>
+                        <outlet property="fearLevelPickerView" destination="bpQ-Jm-SUD" id="C38-P9-pgS"/>
+                    </connections>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="kLd-V5-t5U" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="3313" y="22089"/>
+        </scene>
+        <!--View Controller-->
+        <scene sceneID="riO-Js-UTP">
+            <objects>
+                <viewController id="Wmt-Hu-X5E" sceneMemberID="viewController">
+                    <layoutGuides>
+                        <viewControllerLayoutGuide type="top" id="FXa-TM-eTd"/>
+                        <viewControllerLayoutGuide type="bottom" id="cKk-R9-wT6"/>
+                    </layoutGuides>
+                    <view key="view" contentMode="scaleToFill" id="Uep-Oc-c0Y">
+                        <rect key="frame" x="0.0" y="0.0" width="600" height="600"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" misplaced="YES" text="我信任我的直屬主管，即使他不在場，我也會支持、辯護他的決策。" lineBreakMode="tailTruncation" numberOfLines="0" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="bzk-Uz-iiu">
+                                <rect key="frame" x="150" y="190" width="300" height="20"/>
+                                <constraints>
+                                    <constraint firstAttribute="width" constant="300" id="fsE-US-WAq"/>
+                                </constraints>
+                                <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                                <color key="textColor" red="0.0" green="0.0" blue="0.0" alpha="1" colorSpace="calibratedRGB"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                            <pickerView contentMode="scaleToFill" misplaced="YES" translatesAutoresizingMaskIntoConstraints="NO" id="1sv-yU-ZFX">
+                                <rect key="frame" x="0.0" y="228" width="600" height="162"/>
+                                <connections>
+                                    <outlet property="dataSource" destination="Wmt-Hu-X5E" id="aRL-ZJ-SKG"/>
+                                    <outlet property="delegate" destination="Wmt-Hu-X5E" id="Nlk-ip-bqv"/>
+                                </connections>
+                            </pickerView>
+                            <button opaque="NO" contentMode="scaleToFill" misplaced="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="Vz9-cW-y6Q">
+                                <rect key="frame" x="278" y="535" width="59" height="59"/>
+                                <constraints>
+                                    <constraint firstAttribute="width" constant="59" id="iLd-ng-rBy"/>
+                                    <constraint firstAttribute="height" constant="59" id="rKO-eo-5Ub"/>
+                                </constraints>
+                                <state key="normal" title="下一題" backgroundImage="Button">
+                                    <color key="titleColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                                    <color key="titleShadowColor" white="0.5" alpha="1" colorSpace="calibratedWhite"/>
+                                </state>
+                                <connections>
+                                    <action selector="nextClicked:" destination="Wmt-Hu-X5E" eventType="touchUpInside" id="vni-Lx-vPV"/>
+                                </connections>
+                            </button>
+                        </subviews>
+                        <constraints>
+                            <constraint firstItem="cKk-R9-wT6" firstAttribute="top" secondItem="Vz9-cW-y6Q" secondAttribute="bottom" constant="20" id="6Vt-pL-5y5"/>
+                            <constraint firstItem="1sv-yU-ZFX" firstAttribute="top" secondItem="bzk-Uz-iiu" secondAttribute="bottom" constant="8" id="7Aq-Gz-M3z"/>
+                            <constraint firstAttribute="centerY" secondItem="bzk-Uz-iiu" secondAttribute="centerY" multiplier="1.5" id="HrN-3q-58R"/>
+                            <constraint firstAttribute="centerX" secondItem="Vz9-cW-y6Q" secondAttribute="centerX" id="UnN-0R-8DG"/>
+                            <constraint firstItem="1sv-yU-ZFX" firstAttribute="leading" secondItem="Uep-Oc-c0Y" secondAttribute="leadingMargin" constant="-16" id="eHe-8x-6Xt"/>
+                            <constraint firstAttribute="trailingMargin" secondItem="1sv-yU-ZFX" secondAttribute="trailing" constant="-16" id="lUm-VM-bhl"/>
+                            <constraint firstAttribute="centerX" secondItem="bzk-Uz-iiu" secondAttribute="centerX" id="uRO-8i-69Z"/>
+                        </constraints>
+                    </view>
+                    <connections>
+                        <outlet property="fearLevelPickerView" destination="1sv-yU-ZFX" id="3CR-Nk-Fuc"/>
+                    </connections>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="cjv-w7-RgR" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="4035" y="22089"/>
+        </scene>
+        <!--View Controller-->
+        <scene sceneID="WOY-o7-Arw">
+            <objects>
+                <viewController id="isq-HZ-93X" sceneMemberID="viewController">
+                    <layoutGuides>
+                        <viewControllerLayoutGuide type="top" id="DhL-aD-NmE"/>
+                        <viewControllerLayoutGuide type="bottom" id="hB6-me-LAh"/>
+                    </layoutGuides>
+                    <view key="view" contentMode="scaleToFill" id="Xa1-TN-oct">
+                        <rect key="frame" x="0.0" y="0.0" width="600" height="600"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" misplaced="YES" text="我和我直屬主管之間具有良好的工作關係。" lineBreakMode="tailTruncation" numberOfLines="0" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="0Mr-VW-WOD">
+                                <rect key="frame" x="150" y="190" width="300" height="20"/>
+                                <constraints>
+                                    <constraint firstAttribute="width" constant="300" id="bBl-La-6vY"/>
+                                </constraints>
+                                <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                                <color key="textColor" red="0.0" green="0.0" blue="0.0" alpha="1" colorSpace="calibratedRGB"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                            <pickerView contentMode="scaleToFill" misplaced="YES" translatesAutoresizingMaskIntoConstraints="NO" id="Rpn-GH-bDO">
+                                <rect key="frame" x="0.0" y="228" width="600" height="162"/>
+                                <connections>
+                                    <outlet property="dataSource" destination="isq-HZ-93X" id="Gx0-Oz-4go"/>
+                                    <outlet property="delegate" destination="isq-HZ-93X" id="6ho-m0-R2N"/>
+                                </connections>
+                            </pickerView>
+                            <button opaque="NO" contentMode="scaleToFill" misplaced="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="tDY-vS-UbY">
+                                <rect key="frame" x="278" y="535" width="59" height="59"/>
+                                <constraints>
+                                    <constraint firstAttribute="width" constant="59" id="s75-Oa-LHS"/>
+                                    <constraint firstAttribute="height" constant="59" id="wXh-ls-XoN"/>
+                                </constraints>
+                                <state key="normal" title="下一題" backgroundImage="Button">
+                                    <color key="titleColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                                    <color key="titleShadowColor" white="0.5" alpha="1" colorSpace="calibratedWhite"/>
+                                </state>
+                                <connections>
+                                    <action selector="nextClicked:" destination="isq-HZ-93X" eventType="touchUpInside" id="Er2-dh-XQ9"/>
+                                </connections>
+                            </button>
+                        </subviews>
+                        <constraints>
+                            <constraint firstItem="hB6-me-LAh" firstAttribute="top" secondItem="tDY-vS-UbY" secondAttribute="bottom" constant="20" id="25o-hG-QVN"/>
+                            <constraint firstAttribute="centerY" secondItem="0Mr-VW-WOD" secondAttribute="centerY" multiplier="1.5" id="5VF-K4-ZvZ"/>
+                            <constraint firstAttribute="trailingMargin" secondItem="Rpn-GH-bDO" secondAttribute="trailing" constant="-16" id="62i-Ku-eHQ"/>
+                            <constraint firstAttribute="centerX" secondItem="tDY-vS-UbY" secondAttribute="centerX" id="Mjy-zM-tGm"/>
+                            <constraint firstItem="Rpn-GH-bDO" firstAttribute="top" secondItem="0Mr-VW-WOD" secondAttribute="bottom" constant="8" id="Uqb-Oa-ftM"/>
+                            <constraint firstAttribute="centerX" secondItem="0Mr-VW-WOD" secondAttribute="centerX" id="aZC-hV-Q0Z"/>
+                            <constraint firstItem="Rpn-GH-bDO" firstAttribute="leading" secondItem="Xa1-TN-oct" secondAttribute="leadingMargin" constant="-16" id="n5V-Dv-4lv"/>
+                        </constraints>
+                    </view>
+                    <connections>
+                        <outlet property="fearLevelPickerView" destination="Rpn-GH-bDO" id="Jts-Ug-af9"/>
+                    </connections>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="gLu-qu-qnt" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="4786" y="22089"/>
+        </scene>
+        <!--View Controller-->
+        <scene sceneID="Y2E-Zc-0qt">
+            <objects>
+                <viewController id="zDv-sC-8FB" sceneMemberID="viewController">
+                    <layoutGuides>
+                        <viewControllerLayoutGuide type="top" id="6YD-An-hqA"/>
+                        <viewControllerLayoutGuide type="bottom" id="GUW-4z-xYQ"/>
+                    </layoutGuides>
+                    <view key="view" contentMode="scaleToFill" id="1Dm-v4-c2v">
+                        <rect key="frame" x="0.0" y="0.0" width="600" height="600"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" misplaced="YES" text="新奇有趣" lineBreakMode="tailTruncation" numberOfLines="0" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="Lef-gd-fje">
+                                <rect key="frame" x="150" y="190" width="300" height="20"/>
+                                <constraints>
+                                    <constraint firstAttribute="width" constant="300" id="agR-mF-hC7"/>
+                                </constraints>
+                                <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                                <color key="textColor" red="0.0" green="0.0" blue="0.0" alpha="1" colorSpace="calibratedRGB"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                            <pickerView contentMode="scaleToFill" misplaced="YES" translatesAutoresizingMaskIntoConstraints="NO" id="y7O-AQ-RUB">
+                                <rect key="frame" x="0.0" y="228" width="600" height="162"/>
+                                <connections>
+                                    <outlet property="dataSource" destination="zDv-sC-8FB" id="2ZN-Uw-Jpj"/>
+                                    <outlet property="delegate" destination="zDv-sC-8FB" id="h62-sS-AHC"/>
+                                </connections>
+                            </pickerView>
+                            <button opaque="NO" contentMode="scaleToFill" misplaced="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="sUF-Nz-yzk">
+                                <rect key="frame" x="278" y="535" width="59" height="59"/>
+                                <constraints>
+                                    <constraint firstAttribute="height" constant="59" id="3OP-d3-ksx"/>
+                                    <constraint firstAttribute="width" constant="59" id="ZgL-c8-8dA"/>
+                                </constraints>
+                                <state key="normal" title="下一題" backgroundImage="Button">
+                                    <color key="titleColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                                    <color key="titleShadowColor" white="0.5" alpha="1" colorSpace="calibratedWhite"/>
+                                </state>
+                                <connections>
+                                    <action selector="nextClicked:" destination="zDv-sC-8FB" eventType="touchUpInside" id="sMo-sQ-8SI"/>
+                                </connections>
+                            </button>
+                        </subviews>
+                        <constraints>
+                            <constraint firstItem="GUW-4z-xYQ" firstAttribute="top" secondItem="sUF-Nz-yzk" secondAttribute="bottom" constant="20" id="3hS-Yf-RqH"/>
+                            <constraint firstItem="y7O-AQ-RUB" firstAttribute="top" secondItem="Lef-gd-fje" secondAttribute="bottom" constant="8" id="Itk-Ru-RcC"/>
+                            <constraint firstItem="y7O-AQ-RUB" firstAttribute="leading" secondItem="1Dm-v4-c2v" secondAttribute="leadingMargin" constant="-16" id="LQM-z7-6Yy"/>
+                            <constraint firstAttribute="trailingMargin" secondItem="y7O-AQ-RUB" secondAttribute="trailing" constant="-16" id="Wx7-Jp-ozu"/>
+                            <constraint firstAttribute="centerY" secondItem="Lef-gd-fje" secondAttribute="centerY" multiplier="1.5" id="elL-hq-2nW"/>
+                            <constraint firstAttribute="centerX" secondItem="sUF-Nz-yzk" secondAttribute="centerX" id="pH1-y8-Bd2"/>
+                            <constraint firstAttribute="centerX" secondItem="Lef-gd-fje" secondAttribute="centerX" id="yQl-wh-Hf5"/>
+                        </constraints>
+                    </view>
+                    <connections>
+                        <outlet property="fearLevelPickerView" destination="y7O-AQ-RUB" id="wCP-QO-kQw"/>
+                    </connections>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="H97-j5-vBr" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="5483" y="22089"/>
         </scene>
     </scenes>
     <resources>

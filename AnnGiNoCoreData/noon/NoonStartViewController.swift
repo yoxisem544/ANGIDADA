@@ -69,6 +69,7 @@ class NoonStartViewController: UIViewController {
     
     func checkDateOfQuestionareIsToday(questionare: Questionare) -> Bool {
         if let updatedAt = questionare.updatedAt {
+			print(updatedAt)
             let formatter = NSDateFormatter()
             //        formatter.dateFormat = "yyyy-MM-dd HH:mm:ss ZZZ"
             formatter.dateFormat = "dd"
@@ -79,6 +80,7 @@ class NoonStartViewController: UIViewController {
             // date from now
             formatter.dateFormat = "dd"
             let dayNow = Int(formatter.stringFromDate(NSDate()))
+			print(NSDate())
             formatter.dateFormat = "MM"
             let monthNow = Int(formatter.stringFromDate(NSDate()))
             if dayNow == lastDay {
